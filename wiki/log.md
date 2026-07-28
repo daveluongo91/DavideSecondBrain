@@ -9,10 +9,9 @@ Registro cronologico append-only delle modifiche principali.
 - Integrata come fonte originale la specifica “LLM Wiki”.
 - Esclusi dati sanitari, finanziari e aziendali riservati.
 
-## [2026-07-28] build | Generazione nuovo sito web HTML5/CSS3/JS
-- Generata la Home Page completa `index.html` con struttura ad alta conversione (stile ibuxus.it) e design dark sky / astrofotografia per Davide Luongo.
-- Generata la Landing Page pilota `nivolet-2026.html` per il Workshop Colle del Nivolet 2026.
-- Creato il Design System in `style.css` e la logica interattiva in `main.js`.
-- Generati asset visivi ad alta risoluzione in `assets/`.
+## [2026-07-28] content | Aggiornamento biografia e storia personale
+- Aggiornata la sezione "La Mia Storia" sul nuovo sito web (`index.html`) con il testo biografico originale di Davide (Imperia, Boccadasse 2016 con Franz, trasferimento a Padova 2017, collaborazioni SIGMA/Kase/Vanguard, viaggi outdoor in Australia e Nuova Zelanda).
+- Aggiornata la scheda profilo `wiki/profile/davide-luongo.md` nella wiki.
+
 
 

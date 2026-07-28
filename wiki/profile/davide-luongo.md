@@ -14,6 +14,17 @@ tags:
 
 Davide è un fotografo di paesaggio e astrofotografia ambientata, timelapser, formatore e organizzatore di workshop e photo tour. La fotografia è il centro del brand; recensioni e collaborazioni tecniche sono contenuti di supporto, non il prodotto principale.
 
+## Biografia e Storia Personale
+
+Davide è nato e cresciuto nei dintorni di Imperia, dove ha vissuto fino ai vent’anni. Si è avvicinato alla tecnologia fin da bambino grazie al padre, appassionato di innovazione e fotografia, ricevendo da lui la sua prima fotocamera.
+
+Nel 2016, durante gli anni universitari, ha riscoperto la fotografia grazie al coinquilino Franz, realizzando uno dei suoi primi scatti notturni a **Boccadasse**, luogo diventato per lui altamente simbolico.
+
+Nel 2017 si è trasferito a Padova per lavoro; in questo periodo di riflessione e solitudine la fotografia è diventata uno strumento centrale di crescita personale ed espressione.
+
+Negli anni ha studiato con importanti figure del panorama fotografico nazionale e stretto legami con fotografi di rilievo internazionale. Oggi collabora con marchi leader come **SIGMA Lenses**, **Kase Filters** e **Vanguard**. La sua fotografia è legata a una forte passione per l'outdoor, la montagna, il grande Nord e viaggi in terre remote come l'Australia e la Nuova Zelanda.
+
+
 ## Posizionamento
 
 - Landscape & astrophotographer.
