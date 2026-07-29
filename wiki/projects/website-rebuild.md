@@ -19,6 +19,7 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
 ## Risultato ottenuto (`Sito_Dave`)
 
 - **Landing Page Principale (`index.html`)**:
+  - **Palette Colori Aziendali LAB(20,0,-20)**: Palette scura basata su tonalità slate midnight (`#17324D`), abbinata ad accenti cyan, sky blue e aurora purple derivati dai post social.
   - **Hero Section**: Badge animato ("HIKE • SHOOT • PRINT • REPEAT"), titolo con testo sfumato cyan/purple, statistiche chiave (15+ workshop, 100% assistenza, SIGMA Ambassador, Fine Art).
   - **Ticker Partner**: Nastro in evidenza per SIGMA Italia, Vanguard World, Kase Filters, RCE Foto, Star Adventurer.
   - **Griglia Workshop & Photo Tour**: Filtri dinamici per categoria (Astrofotografia, Montagna, Mare & Scogliere) via JavaScript (`main.js`).
@@ -26,8 +27,13 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
   - **Behind the Shot Showcase**: Analisi dello scatto "La Via Lattea sul Lago Serrù" al Nivolet con scheda EXIF interattiva.
   - **Sezione Biografia ("Chi Sono")**: Storia personale completa di Davide (Imperia, Boccadasse 2016, Padova 2017, collaborazioni brand e viaggi outdoor).
   - **Modal Form Prenotazioni**: Modale interattivo per la richiesta informazioni e iscrizioni con argomento precompilato.
+- **Nuova Pagina Vetrina Gear & Attrezzatura (`gear.html`)**:
+  - Pagina dedicata per la presentazione dell'attrezzatura utilizzata (8 articoli principali).
+  - **Sezione Ambassador & Affiliati**: Schede micro-articolo con badge Ambassador (SIGMA, Vanguard) e badge Link Affiliato / Codice Sconto (Nomad Move Shoot Move).
+  - **Product Showcase**: Immagini dedicate generate ad alta definizione per ogni prodotto (`assets/gear_*.png`), pillole di specifiche tecniche e box codice sconto interattivo con copia negli appunti (`MSM5DAVE`).
+  - **Filtri Categoria Dinamici**: Filtri per Ottiche SIGMA, Treppiedi & Zaini Vanguard, Astro & Tracker.
 - **Landing Page Workshop Nivolet 2026 (`nivolet-2026.html`)**: Pagina verticale dedicata al workshop Colle del Nivolet con Loris Ferrini, programma dettagliato 2 giorni / 1 notte, prezzo, inclusioni e FAQ.
-- **Design System & Stili (`style.css`)**: Fogli di stile Vanilla CSS con palette HSL scura, effetti glassmorphism, accent cyan/purple e responsive layout.
+- **Design System & Stili (`style.css`)**: Fogli di stile Vanilla CSS con palette LAB(20,0,-20) scura, effetti glassmorphism, accent cyan/purple e responsive layout per la griglia Gear.
 
 ## Prossime azioni mantenimento
 
