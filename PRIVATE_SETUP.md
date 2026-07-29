@@ -27,5 +27,9 @@ Puoi aprire entrambe le cartelle come vault separati. Evita symlink verso materi
 - dati sanitari;
 - conti, debiti, redditi e contratti;
 - informazioni interne aziendali;
-- email private non autorizzate;
-- dettagli personali di clienti e partecipanti.
+## Ripristino Ambiente & Permessi Antigravity
+
+Per reinstallare e ripristinare il sistema **Antigravity AI** su una nuova macchina con tutti i permessi, eseguibili di sistema (Python Siril, Git Desktop) e collegamenti di workspace, consulta la scheda dedicata:
+
+- 📄 [`wiki/workflows/antigravity-setup-and-permissions.md`](wiki/workflows/antigravity-setup-and-permissions.md)
+

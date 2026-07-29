@@ -21,6 +21,10 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornato `wiki/gear/lenses.md` con la scheda dell'ottica SIGMA 20mm F1.4 DG DN Art.
 - Rigenerato l'indice (`wiki/index.md`) ed eseguito il lint senza errori.
 
+## [2026-07-29] docs / backup | Registro Permessi, Skill e Ripristino Ambiente Antigravity
+- Creato `wiki/workflows/antigravity-setup-and-permissions.md` contenente il registro completo dei permessi concessi (disco `D:\`, comandi PowerShell/Git/Python), percorsi eseguibili, comandi backend e script per il ripristino istantaneo su nuova macchina.
+- Aggiornato `PRIVATE_SETUP.md` con il collegamento rapido alla documentazione di ripristino.
+
 ## [2026-07-29] feature | Architettura Backend & Admin CMS (`server.py`, `admin.html`)
 - Sviluppato il server backend REST API (`server.py`) su porta 3000 con gestione persistence del database dati `data/content.json`.
 - Implementato il motore di upload ed elaborazione immagini con preservazione del profilo colore **sRGB** e generazione automatica dei formati **WebP** e **JPEG** per il web.

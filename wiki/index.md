@@ -45,6 +45,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 
 ## Workflow
 
+- [Antigravity Setup, Permessi e Ripristino Ambiente](workflows/antigravity-setup-and-permissions.md) — Guida completa per il ripristino dell'ambiente Antigravity, permessi concessi, eseguibili di sistema e configurazione su nuove macchine. _(active)_
 - [Ingestione fonti](workflows/source-ingestion.md) — Procedura per trasformare una nuova fonte in conoscenza collegata. _(active)_
 - [Lancio workshop](workflows/workshop-launch.md) — Processo replicabile per progettare, vendere e chiudere un workshop fotografico. _(active)_
 - [Pipeline contenuti](workflows/content-pipeline.md) — Processo dal concept alla pubblicazione e all'apprendimento editoriale. _(active)_
