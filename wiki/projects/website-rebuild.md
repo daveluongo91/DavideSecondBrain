@@ -32,6 +32,11 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
   - **Sezione Ambassador & Affiliati**: Schede micro-articolo con badge Ambassador (SIGMA, Vanguard) e badge Link Affiliato / Codice Sconto (Nomad Move Shoot Move).
   - **Product Showcase**: Immagini dedicate generate ad alta definizione per ogni prodotto (`assets/gear_*.png`), pillole di specifiche tecniche e box codice sconto interattivo con copia negli appunti (`MSM5DAVE`).
   - **Filtri Categoria Dinamici**: Filtri per Ottiche SIGMA, Treppiedi & Zaini Vanguard, Astro & Tracker.
+- **Nuova Pagina Blog & Pubblicazioni (`blog.html`)**:
+  - Sezione articolata e divisa nelle due macrocategorie richieste:
+    - **✍️ Scrivo per Me**: Articoli del blog personale di Davide (es. guida alla pianificazione notturna al Nivolet, post-produzione e stampa Fine Art).
+    - **📰 Scrivo per gli Altri**: Raccolta ed elenco di tutti gli articoli e test pubblicati su blog terzi (SIGMA Italia Blog, Vanguard World, RCE Foto Magazine, Kase Filters) con link diretti e badge editore.
+  - **Preview in Home Page**: Sezione vetrina integrata su `index.html` prima della bio con i 3 articoli in evidenza.
 - **Landing Page Workshop Nivolet 2026 (`nivolet-2026.html`)**: Pagina verticale dedicata al workshop Colle del Nivolet con Loris Ferrini, programma dettagliato 2 giorni / 1 notte, prezzo, inclusioni e FAQ.
 - **Design System & Stili (`style.css`)**: Fogli di stile Vanilla CSS con palette LAB(20,0,-20) scura, effetti glassmorphism, accent cyan/purple e responsive layout per la griglia Gear.
 
