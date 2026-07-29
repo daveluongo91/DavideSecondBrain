@@ -21,6 +21,12 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornato `wiki/gear/lenses.md` con la scheda dell'ottica SIGMA 20mm F1.4 DG DN Art.
 - Rigenerato l'indice (`wiki/index.md`) ed eseguito il lint senza errori.
 
+## [2026-07-29] feature | Architettura Backend & Admin CMS (`server.py`, `admin.html`)
+- Sviluppato il server backend REST API (`server.py`) su porta 3000 con gestione persistence del database dati `data/content.json`.
+- Implementato il motore di upload ed elaborazione immagini con preservazione del profilo colore **sRGB** e generazione automatica dei formati **WebP** e **JPEG** per il web.
+- Creata la dashboard di amministrazione **Admin CMS** su `/admin` per l'editing in tempo reale dei testi del sito (Hero, Biografia, Workshop, Gear, Blog) e il caricamento con drag-and-drop delle foto.
+- Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 ## [2026-07-29] feature | Creazione sezione Blog & Pubblicazioni (blog.html)
 - Creata la pagina `blog.html` con la suddivisione tra **✍️ Scrivo per Me** (blog personale di Davide) e **📰 Scrivo per gli Altri** (raccolta link ad articoli scritte su portali/brand terzi come SIGMA Italia, Vanguard World, RCE Foto, Kase Filters).
 - Inserito il primo articolo test originale *"Pianificare la Via Lattea in Quota: Guida al Tracciamento Stellare al Nivolet"*.

@@ -37,8 +37,10 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
     - **✍️ Scrivo per Me**: Articoli del blog personale di Davide (es. guida alla pianificazione notturna al Nivolet, post-produzione e stampa Fine Art).
     - **📰 Scrivo per gli Altri**: Raccolta ed elenco di tutti gli articoli e test pubblicati su blog terzi (SIGMA Italia Blog, Vanguard World, RCE Foto Magazine, Kase Filters) con link diretti e badge editore.
   - **Preview in Home Page**: Sezione vetrina integrata su `index.html` prima della bio con i 3 articoli in evidenza.
-- **Landing Page Workshop Nivolet 2026 (`nivolet-2026.html`)**: Pagina verticale dedicata al workshop Colle del Nivolet con Loris Ferrini, programma dettagliato 2 giorni / 1 notte, prezzo, inclusioni e FAQ.
-- **Design System & Stili (`style.css`)**: Fogli di stile Vanilla CSS con palette LAB(20,0,-20) scura, effetti glassmorphism, accent cyan/purple e responsive layout per la griglia Gear.
+- **Architettura Backend & Admin CMS (`server.py`, `admin.html`, `data/content.json`)**:
+  - **Server REST API (`http://localhost:3000`)**: Gestione persistence contenuti in formato JSON e gestione delle rotte amministrative per la modifica dinamica dei testi.
+  - **Motore Elaborazione Foto sRGB & WebP**: Caricamento immagini a risoluzione originale con ridimensionamento automatico, conservazione esplicita del profilo colore **sRGB** e generazione parallela delle varianti **WebP** e **JPEG**.
+  - **Admin CMS Dashboard (`/admin`)**: Pannello di amministrazione in stile scuro con editor per Hero, Biografia, Workshop (gestione posti ed etichette stato), Gear e Blog, più dropzone drag-and-drop per l'upload media.
 
 ## Prossime azioni mantenimento
 
