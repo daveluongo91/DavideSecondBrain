@@ -19,11 +19,19 @@ I workshop sul campo, i viaggi fotografici e le mentorship One-to-One costituisc
 
 Esperienze fotografiche gestite in piccoli gruppi o sessioni individuali, basate su tre pilastri: studio della luce, pianificazione con strumenti dedicati (es. PhotoPills) e affiancamento costante sul campo e in post-produzione.
 
-## Catalogo Workshop & Photo Tour (`Sito_Dave`)
+## Catalogo Workshop & Viaggi (`Sito_Dave`)
 
-1. **[Nivolet 2026](../projects/nivolet-2026.md)** (8-9 Agosto 2026): Workshop di astrofotografia a 2.500m di quota al Colle del Nivolet (Gran Paradiso) co-hosted con Loris Ferrini. Ultimi 2 posti attivi sul sito.
-2. **Workshop Cinque Terre & Costa Ligure** (Ottobre 2026): 3 Giorni dedicati a lunga esposizione, paesaggio marino, gestione maree e filtri ND/GND Kase.
-3. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (Maggio 2027): 5 Giorni / 4 Notti tra faraglioni e cieli notturni in Riserva Starlight UNESCO (iscrizione lista d'attesa).
+L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici** (Estero), disposti in ordine cronologico dalla data attuale:
+
+### 🇮🇹 Workshop Nazionali
+1. **[Nivolet 2026](../projects/nivolet-2026.md)** (8-9 Agosto 2026): Astrofotografia a 2.500m al Colle del Nivolet (Gran Paradiso) co-hosted con Loris Ferrini. *Ultimi 2 posti*.
+2. **Workshop Cinque Terre & Costa Ligure** (16-18 Ottobre 2026): Lunga esposizione, paesaggio marino e filtri ND/GND Kase.
+3. **Workshop Val d'Orcia & Colline Toscane** (14-17 Novembre 2026): Luce d'autunno, nebbie mattutine e quinte di cipressi.
+
+### ✈️ Viaggi Fotografici (Estero)
+4. **Photo Tour Lisbona & Costa dell'Atlantico** (12-15 Marzo 2027): Scogliere di Cabo da Roca, fari atlantici e paesaggio urbano.
+5. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (21-25 Maggio 2027): Faraglioni, fari e cieli bui in Riserva Starlight UNESCO (*Lista d'Attesa*).
+6. **Photo Tour Madeira** (18-24 Giugno 2027): Foresta fiabesca di Fanal, albe sopra le nubi a Pico do Arieiro e notti stellate sull'Oceano.
 
 ## Formazione & Mentorship One-to-One
 
