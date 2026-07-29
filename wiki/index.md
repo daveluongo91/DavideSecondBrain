@@ -19,14 +19,14 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Content e personal brand](areas/content-and-personal-brand.md) — Strategia editoriale che collega autorevolezza, intrattenimento e conversione. _(active)_
 - [Fotografia](areas/photography.md) — Area permanente dedicata alla pratica fotografica e all'astrofotografia ambientata. _(active)_
 - [Partnership](areas/partnerships.md) — Area dedicata a collaborazioni, ambassador program e contenuti sponsorizzati. _(active)_
-- [Workshop e photo tour](areas/workshops-and-photo-tours.md) — Area che raccoglie offerta, progettazione e apprendimento dei viaggi fotografici. _(active)_
+- [Workshop e photo tour](areas/workshops-and-photo-tours.md) — Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One. _(active)_
 
 ## Progetti
 
 - [Lancio YouTube](projects/youtube-launch.md) — Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica. _(active)_
-- [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo experience a Minorca dedicata a paesaggio, cieli bui e Via Lattea. _(planned)_
-- [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet con Loris Ferrini. _(active)_
-- [Ricostruzione sito web](projects/website-rebuild.md) — Rifacimento del sito con struttura nuova e migrazione controllata dal sito WordPress esistente. _(active)_
+- [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca (Maggio 2027, 5 giorni / 4 notti). Anteprima 2027 sul sito web con iscrizione alla lista d'attesa. _(planned)_
+- [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet con Loris Ferrini. Landing page attiva su nivolet-2026.html (Ultimi 2 posti). _(active)_
+- [Ricostruzione sito web](projects/website-rebuild.md) — Realizzazione del nuovo sito web statico (Sito_Dave) ad alte prestazioni, con design system moderno, filtri dinamici e landing orientate alla conversione. _(completed)_
 - [Second Brain](projects/second-brain.md) — Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM. _(active)_
 
 ## Attrezzatura

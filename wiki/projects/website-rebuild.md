@@ -1,9 +1,9 @@
 ---
 title: Ricostruzione sito web
 type: project
-status: active
-updated: 2026-07-28
-summary: Rifacimento del sito con struttura nuova e migrazione controllata dal sito WordPress esistente.
+status: completed
+updated: 2026-07-29
+summary: Realizzazione del nuovo sito web statico (Sito_Dave) ad alte prestazioni, con design system moderno, filtri dinamici e landing orientate alla conversione.
 tags:
   - website
   - conversion
@@ -14,38 +14,29 @@ tags:
 
 ## Obiettivo
 
-Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, mantenendo il sito attuale operativo fino alla migrazione.
+Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
-## Strategia considerata
+## Risultato ottenuto (`Sito_Dave`)
 
-- Conservare la struttura esistente come versione `old`.
-- Sviluppare la nuova struttura separatamente come versione `new`.
-- Usare GitHub come sorgente del nuovo codice.
-- Migrare soltanto quando tutte le pagine sono pronte e testate.
+- **Landing Page Principale (`index.html`)**:
+  - **Hero Section**: Badge animato ("HIKE • SHOOT • PRINT • REPEAT"), titolo con testo sfumato cyan/purple, statistiche chiave (15+ workshop, 100% assistenza, SIGMA Ambassador, Fine Art).
+  - **Ticker Partner**: Nastro in evidenza per SIGMA Italia, Vanguard World, Kase Filters, RCE Foto, Star Adventurer.
+  - **Griglia Workshop & Photo Tour**: Filtri dinamici per categoria (Astrofotografia, Montagna, Mare & Scogliere) via JavaScript (`main.js`).
+  - **Sezione Formazione & Mentorship 1-to-1**: 3 corsi dedicati (Astrofotografia sul campo, Post-Produzione avanzata Lightroom/Photoshop, Dal RAW alla stampa Fine Art).
+  - **Behind the Shot Showcase**: Analisi dello scatto "La Via Lattea sul Lago Serrù" al Nivolet con scheda EXIF interattiva.
+  - **Sezione Biografia ("Chi Sono")**: Storia personale completa di Davide (Imperia, Boccadasse 2016, Padova 2017, collaborazioni brand e viaggi outdoor).
+  - **Modal Form Prenotazioni**: Modale interattivo per la richiesta informazioni e iscrizioni con argomento precompilato.
+- **Landing Page Workshop Nivolet 2026 (`nivolet-2026.html`)**: Pagina verticale dedicata al workshop Colle del Nivolet con Loris Ferrini, programma dettagliato 2 giorni / 1 notte, prezzo, inclusioni e FAQ.
+- **Design System & Stili (`style.css`)**: Fogli di stile Vanilla CSS con palette HSL scura, effetti glassmorphism, accent cyan/purple e responsive layout.
 
-## Principio informativo
+## Prossime azioni mantenimento
 
-Il sito avrà un numero limitato di pagine. È quindi preferibile una ricostruzione pulita rispetto a una lunga stratificazione di modifiche sul tema esistente.
-
-## Priorità UX
-
-- capire immediatamente cosa offre Davide;
-- trovare workshop e photo tour;
-- vedere prove di competenza attraverso immagini e contenuti;
-- ridurre distrazioni;
-- avere CTA chiare e specifiche;
-- mantenere velocità e semplicità di manutenzione.
-
-## Prossime azioni
-
-- Definire sitemap finale.
-- Stabilire stack e modalità di deploy.
-- Separare contenuti, componenti e asset.
-- Costruire una landing pilota.
-- Testare conversione e mobile.
-- Preparare piano redirect e backup prima dello switch.
+- Aggiornamento periodico della disponibilità dei posti per i workshop (es. Nivolet 2026).
+- Integrazione delle nuove date di workshop quando disponibili (es. Cinque Terre, Minorca 2027).
 
 ## Collegamenti
 
 - [Content e personal brand](../areas/content-and-personal-brand.md)
-- [Strategia social](../knowledge/social-strategy.md)
+- [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
+- [Davide Luongo](../profile/davide-luongo.md)
+

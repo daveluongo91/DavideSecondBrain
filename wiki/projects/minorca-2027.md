@@ -2,10 +2,10 @@
 title: Minorca Photo Experience 2027
 type: project
 status: planned
-updated: 2026-07-28
-start: 2027-05-29
-end: 2027-06-03
-summary: Photo experience a Minorca dedicata a paesaggio, cieli bui e Via Lattea.
+updated: 2026-07-29
+start: 2027-05-01
+end: 2027-05-31
+summary: Photo tour a Minorca (Maggio 2027, 5 giorni / 4 notti). Anteprima 2027 sul sito web con iscrizione alla lista d'attesa.
 tags:
   - minorca
   - photo-tour
@@ -19,51 +19,30 @@ tags:
 
 > L'isola che tutti conoscono. Il cielo che quasi nessuno ha mai visto.
 
-Un viaggio di sei giorni costruito attorno alla luce: albe, tramonti, coste, fari e notti sotto uno dei cieli più bui d'Europa. Non una semplice vacanza e non un classico workshop.
+Un viaggio fotografico tra i faraglioni e le scogliere incontaminate di Minorca, riserva della biosfera UNESCO e Starlight Reserve per l'osservazione del cielo notturno.
 
-## Date
+## Stato & Pubblicazione sul Sito Web
 
-29 maggio–3 giugno 2027.
+- **Presentazione sul Sito**: Card "Anteprima 2027" presente nella griglia Workshop & Photo Tour in `index.html`.
+- **Durata**: 5 Giorni / 4 Notti (Maggio 2027).
+- **CTA Attiva**: Modale di iscrizione alla lista d'attesa precompilato ("Interesse Minorca 2027").
+- **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
 
-## Team
+## Posizionamento Narrativo & Pilastri
 
-- Davide Luongo
-- [Loris Ferrini](../people/loris-ferrini.md)
+- Contrasto tra l'immaginario comune delle Baleari (movida e spiagge affollate) e una Minorca notturna, ventosa, remota e protetta dai vincoli Starlight.
+- Paesaggio costiero con faraglioni e fari storici (es. Cavalleria, Favàritx).
+- Astrofotografia di qualità con basso inquinamento luminoso marino.
 
-## Posizionamento narrativo
+## Prossime Azioni
 
-Contrasto tra l'immaginario comune delle Baleari — spiagge, aperitivi e movida — e una Minorca più silenziosa, ventosa, remota e notturna.
-
-## Pilastri del prodotto
-
-- fotografia di paesaggio;
-- astrofotografia ambientata;
-- ritmo fotografico, non turistico;
-- location scelte per luce e cielo;
-- accompagnamento sul campo;
-- esperienza di gruppo.
-
-## Asset da sviluppare
-
-- landing page completa;
-- teaser video;
-- reel manifesto;
-- carosello “Perché Minorca?”;
-- FAQ logistiche;
-- programma giorno per giorno;
-- condizioni di prenotazione;
-- raccolta lead o lista d'attesa.
-
-## Prossime azioni
-
-- Bloccare programma e logistica.
-- Definire prezzo, caparra e numero partecipanti.
-- Selezionare immagini hero.
-- Chiudere la landing page.
-- Preparare il primo ciclo di lancio.
+- Raccolta iscrizioni in lista d'attesa tramite il modulo del sito web.
+- Definizione date esatte, itinerario, alloggi e partnership operative.
+- Apertura ufficiale delle iscrizioni e lancio della landing page dedicata.
 
 ## Collegamenti
 
+- [Ricostruzione sito web](website-rebuild.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Astrofotografia](../knowledge/astrophotography.md)
-- [Content e personal brand](../areas/content-and-personal-brand.md)
+

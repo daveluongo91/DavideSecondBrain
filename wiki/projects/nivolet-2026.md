@@ -2,10 +2,10 @@
 title: Nivolet 2026
 type: project
 status: active
-updated: 2026-07-28
+updated: 2026-07-29
 start: 2026-08-08
 end: 2026-08-09
-summary: Workshop fotografico al Colle del Nivolet con Loris Ferrini.
+summary: Workshop fotografico al Colle del Nivolet con Loris Ferrini. Landing page attiva su nivolet-2026.html (Ultimi 2 posti).
 tags:
   - workshop
   - nivolet
@@ -16,37 +16,36 @@ tags:
 
 ## Obiettivo
 
-Realizzare un workshop fotografico al Colle del Nivolet l'8 e 9 agosto 2026, con esperienza sul campo, pernottamento e comunicazione orientata alla prenotazione.
+Realizzare un workshop fotografico al Colle del Nivolet (Gran Paradiso, 2.500m) l'8 e 9 agosto 2026, con esperienza sul campo di astrofotografia ambientata, pernottamento e supporto didattico continuo.
 
-## Elementi noti
+## Stato & Pubblicazione sul Sito Web
 
-- Co-host: [Loris Ferrini](../people/loris-ferrini.md).
-- Pernottamento incluso con colazione e cena.
-- Landing page dedicata sul sito.
-- Reel promozionale breve, pensato per feed, contenuto pinnato e stories con CTA cliccabile.
-- Promozione ripetuta nelle stories.
+- **Landing Page Pubblicata**: [nivolet-2026.html](../../../Sito_Dave/nivolet-2026.html) (collegata direttamente alla card in home page su `index.html`).
+- **Disponibilità**: Ultimi 2 posti disponibili (badge in evidenza sul sito).
+- **Quota & Logistica**: €290 a partecipante. Inclusi pernottamento e cena al Rifugio Savoia (Colle del Nivolet), colazione e assistenza didattica.
+- **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
 
-## Prossimo risultato osservabile
+## Dettagli Didattici & Programma
 
-Partecipanti informati, logistica confermata e comunicazione finale completata.
+- **Sabato 8 Agosto**:
+  - Ore 14:30: Ritrovo al Colle del Nivolet (Rifugio Savoia).
+  - Ore 15:30: Briefing teorico su composizione paesaggistica, PhotoPills e tracciatori stellari.
+  - Ore 18:00: Sessione tramonto sui Laghi del Nivolet (Lago Serrù / Lago Agnel).
+  - Ore 20:30: Cena al rifugio.
+  - Ore 22:30: Sessione notturna astrofotografia & Via Lattea sotto il cielo di quota.
+- **Domenica 9 Agosto**:
+  - Ore 05:30: Alba in quota e blue hour.
+  - Ore 08:30: Colazione e sessione di revisione scatti e introduzione al workflow di post-produzione (stacking cielo, blending, riduzione rumore).
 
-## Prossime azioni
+## Prossimi Passi
 
-- Verificare accessi, varchi, orari e prenotazioni necessarie.
-- Aggiornare disponibilità posti sulla landing.
-- Preparare messaggio logistico ai partecipanti.
-- Definire piano meteo e alternativa.
-- Preparare shot list per il materiale promozionale futuro.
-- Archiviare metriche del reel e delle stories.
-
-## Rischi
-
-- meteo instabile;
-- accessi regolamentati;
-- comunicazione troppo focalizzata sulla location e poco sul valore didattico;
-- dipendenza da un solo asset promozionale.
+- Gestione richieste e ultime 2 iscrizioni via modale sito / email.
+- Invio guida logistica e consigli su abbigliamento di montagna / attrezzatura consigliata ai partecipanti.
+- Monitoraggio condizioni meteo in prossimità della data.
 
 ## Collegamenti
 
+- [Ricostruzione sito web](website-rebuild.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Workflow di lancio](../workflows/workshop-launch.md)
+

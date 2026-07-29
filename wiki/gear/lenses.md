@@ -2,7 +2,7 @@
 title: Obiettivi
 type: entity
 status: active
-updated: 2026-07-28
+updated: 2026-07-29
 summary: Obiettivi principali e loro ruolo creativo o tecnico.
 tags:
   - gear
@@ -14,12 +14,14 @@ tags:
 ## Sony E / sistema principale
 
 - Sigma 14 mm F1.4 DG DN Art — riferimento per astrofotografia ambientata.
+- Sigma 20 mm F1.4 DG DN Art — ottica d'eccellenza per astro & grandangolo luminoso (utilizzata nello scatto "La Via Lattea sul Lago Serrù").
 - Sigma 28–45 mm F1.8 DG DN Art — flessibilità luminosa e cielo a focali meno estreme.
 - Sigma 24–70 mm F2.8 Art — zoom standard.
 - Sigma 100–400 mm — paesaggio compresso e dettagli.
 - Sigma 35 mm F1.4 Art Mk II — focale narrativa e contenuti YouTube.
 - Brightin Star 24 mm F1.8 — test e progetti specifici.
 - Viltrox 35 mm F1.2 — test e utilizzi luminosi.
+
 
 ## L-mount / Sigma fp L
 
