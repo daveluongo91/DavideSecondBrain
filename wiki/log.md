@@ -49,15 +49,15 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Ripristino 13 Pubblicazioni Ufficiali (Vanguard, SIGMA, UniversoFoto) & Carosello 3D
-- Eliminata la pagina temporanea `blog/test-sigma-14mm-art.html` ed effettuata la pulizia degli asset non ufficiali.
-- Popolata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) ed il file `data/content.json` con esattamente i **13 articoli ufficiali** da `davideluongo.it/pubblicazioni/`:
-  - **🎒 Vanguard World (4 Articoli)**: LBP-50S, VEO Active 53KG Low Cost, VEO SELECT 39RBM, VEO Active All Weather.
-  - **📷 SIGMA Italia (1 Articolo)**: Davide Luongo Ambassador Profile.
-  - **📸 UniversoFoto (8 Articoli)**: Tenerife Astrofotografia & Day, Madeira (Cosa Portare, Lunga Esposizione, Appunti), Friuli 2025, Nivolet 2025, Cinque Terre 2025.
-- Applicate le **thumbnail ufficiali originali**, le **anteprime di testo esatte**, i **filtri dinamici per editore** ed il **carosello 3D rotante**.
-- Impostata l'apertura automatica di ciascun link in una **nuova scheda del browser (`target="_blank" rel="noopener noreferrer"`)**.
+## [2026-07-31] feature | Organizzazione Esplicita 13 Pubblicazioni in 3 Sezioni Editore
+- Riorganizzata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) in **3 sezioni esplicite**, mostrando tutti i **13 articoli ufficiali**:
+  1. **🎒 Vanguard World (4 Articoli)**: LBP-50S, VEO Active 53KG Low Cost, VEO SELECT 39RBM, VEO Active All Weather (con link ufficiali a `vanguardworld.it`).
+  2. **📷 SIGMA Italia (1 Articolo)**: Davide Luongo Ambassador Profile (con link ufficiale a `sigma-italia.it`).
+  3. **📸 UniversoFoto (8 Articoli)**: Astrofotografia & Day Tenerife, Madeira (Cosa Portare, Lunga Esposizione, Appunti), Friuli 2025, Nivolet 2025, Cinque Terre 2025 (con link ufficiali a `universofoto.it`).
+- Ciascuna scheda contiene la **thumbnail originale esatta**, l'**anteprima di testo integrale** ed il pulsante per **aprire l'articolo in una nuova scheda del browser (`target="_blank" rel="noopener noreferrer"`)**.
+- Effettuata la pulizia completa di articoli o asset generati.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
