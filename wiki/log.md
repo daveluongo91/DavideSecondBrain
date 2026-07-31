@@ -49,9 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] update | Aggiornamento offerta Workshop 2026 e Viaggi 2027
-- Aggiornate le schede dell'area `wiki/areas/workshops-and-photo-tours.md` con i 4 workshop attivi 2026 (Friuli, Cascate Appennino, Canfaito, Foreste Casentinesi) e l'esclusione di Nivolet (iscrizioni chiuse) e Alpi & Dolomiti.
-- Impostati i 4 Viaggi 2027 (Lapponia a Gennaio, Minorca a Maggio, Azzorre a Luglio, Islanda ad Ottobre).
-- Aggiornata la dashboard `wiki/dashboards/now.md` con le nuove priorità del sito web e del catalogo offerta.
-- Sincronizzato con il sito web `Sito_Dave` ed eseguito commit + push su GitHub.
+## [2026-07-31] feature | Ristrutturazione sezione Workshop con caroselli 3D rotanti
+- Ristrutturata la sezione `#workshops` del sito web (`index.html`) nello stesso stile interattivo 3D rotante della sezione articoli (`blog.html`).
+- Creata la sottosezione **🇮🇹 Workshop 2026** con carosello 3D di 6 eventi (Friuli, Cascate Appennino, Canfaito, Foreste Casentinesi, Cinque Terre, Val d'Orcia).
+- Creata la sottosezione **✈️ Viaggi Fotografici 2027** con carosello 3D dei 4 viaggi (Lapponia, Minorca, Azzorre, Islanda).
+- Inserito il banner dinamico **🛠️ Workshop Nazionali 2027** con etichetta `COMING SOON` e form di avviso.
+- Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
