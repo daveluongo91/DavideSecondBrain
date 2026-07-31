@@ -49,10 +49,13 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Foto Ufficiale SIGMA 14mm Ruotata 90° CW per Sezione Gear
-- Processata l'immagine ufficiale inviata da Davide del **SIGMA 14mm f/1.4 Art**.
-- Applicata la rotazione di 90° in senso orario (90° CW) orientando l'ottica in verticale con la baionetta verso il basso e la lente frontale in alto.
-- Aggiornato ed inviato il commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+## [2026-07-31] feature | Ripristino & Evidenza Link Articoli Partner (SIGMA, Vanguard, UniversoFoto & RCE Foto)
+- Aggiornato il carosello della sezione Blog ([blog/blog.html](file:///L:/Sito_Dave/blog/blog.html)) integrando tutte le schede ed i collegamenti diretti agli articoli esterni pubblicati su:
+  - 📷 **SIGMA Italia Official** (`https://www.sigma-foto.it/`)
+  - 🎒 **Vanguard World Official** (`https://www.vanguardworld.it/`)
+  - 📸 **UniversoFoto & RCE Foto Magazine** (`https://www.universofoto.it/` / `https://www.rcefoto.it/`)
+- Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
