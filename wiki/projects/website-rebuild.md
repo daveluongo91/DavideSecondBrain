@@ -54,6 +54,11 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
     - Saldo: 100% rimborso a 30gg; 50% rimborso a 15gg.
     - Caparra: 100% full refund della caparra a 15gg.
   - **Pulsanti di Contatto Affiancati**: "Prenota Ora", "Richiedi Info Email (`info@davideluongo.it`)" e "Chatta su WhatsApp (`+39 373 5096237`)".
+  - **Modale Popup Richiesta Info (`#info-modal-overlay`)**:
+    - Popup interattivo che si apre al clic su "Richiedi Info via Email".
+    - Campi obbligatori: Nome, Cognome, Email e Messaggio.
+    - Campo facoltativo: **Numero di Telefono** con nota: *"ℹ️ Il telefono è facoltativo: inseriscilo solo se preferisci un contatto rapido via WhatsApp."*
+    - Invio diretto ed archiviazione su `info@davideluongo.it`.
   - **Pagina di Ringraziamento (`thank-you.html`)**: Conferma immediata iscrizione con riepilogo dati.
   - **Report Excel (.csv UTF-8 BOM) & Invio Automatico Email**:
     - Generazione file Excel partecipanti per il Cutoff.
