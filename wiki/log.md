@@ -49,14 +49,13 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Aggiornamento Didascalie Foto e Frase Introduzione SIGMA
-- Aggiornate le didascalie delle foto in [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html):
-  - **Foto 1 (Verticale Notturna)**: `🌌 Castelluccio di Norcia`
-  - **Foto 2 (Lago Serrù)**: Mantenuta `Cielo inseguito al Lago Serrù (File estremamente puliti a bassi ISO)`.
-  - **Foto 3 (Diurna con Fiori Gialli)**: `☀️ Val d'Orcia` (solo location, senza EXIF).
-- Aggiunta ed ottimizzata grammaticalmente la frase finale nell'**Introduzione**:
-  *"SIGMA ha inoltre avuto un ruolo cruciale nel mio percorso di crescita professionale: mi hanno guidato costantemente nello sviluppo sui canali social, dandomi tantissimi spunti, idee e soprattutto tantissime occasioni sul campo."*
+## [2026-07-31] fix | Pulizia Didascalie Foto Articolo SIGMA 14mm
+- Rimosso il testo esplicativo ridondante *(File estremamente puliti a bassi ISO)* lasciando per tutte le fotografie la sola indicazione pulita ed elegante della location:
+  - `🌌 Castelluccio di Norcia`
+  - `🌌 Lago Serrù`
+  - `☀️ Val d'Orcia`
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
