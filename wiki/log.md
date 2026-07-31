@@ -49,19 +49,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Impaginazione Articolo PDF "Sigma 14mm F1.4 DG DN Art"
-- Impaginato integralmente ed in perfetto rispetto del testo PDF l'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html):
-  - **Titolo**: *Sigma 14mm F1.4 DG DN Art - L'obiettivo che ha cambiato il mio modo di fotografare*.
-  - **Inserimento Immagini Prodotto Ufficiali**:
-    - `sigma_14_f1-4dn_01.jpg`: Ritratto dell'obiettivo nel capitolo *Perché proprio lui?*.
-    - `sigma_14_f1-4dn_02.jpg`: Campione diurno nel capitolo *Prestazioni diurne*.
-    - `sigma_14_f1-4dn_03.jpg`: Vista collare tipo teleobiettivo / Arca Swiss integrata nel capitolo *Pregi e compromessi*.
-  - **Gallerie & Tabelle**:
-    - Tabelle comparative per l'Angolo di Campo (14mm / 16mm / 20mm) e Griglia Pro / Contro.
-    - Galleria scatti notturni (Via Lattea Gran Paradiso e Lago Serrù).
-    - Citazione finale in evidenza: `Hike. Shoot. Print. Repeat.`
-- Integrata la nuova scheda articolo nella sezione SIGMA in [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html).
+## [2026-07-31] fix | Sostituzione Immagine 2 Via Lattea Ambientata
+- Sostituita l'**Immagine 2 (Via Lattea ambientata)** nell'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) con la foto notturna dell'arco della Via Lattea a 14mm (`assets/blog_sigma_14mm_milkyway_arch.jpg`).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
