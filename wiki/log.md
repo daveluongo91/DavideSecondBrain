@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-07-31] maintenance | Aggiornamento conservativo e provenienza LLM
+- Verificata l'assenza di materiale inequivocabilmente relativo al lavoro aziendale da dipendente; nessun contenuto esistente è stato eliminato.
+- Preservati integralmente documentazione fotografica, workflow e contenuti relativi al sito web.
+- Aggiunto `wiki/provenance/llm-provenance.md` come registro centrale e non invasivo della provenienza ChatGPT, Antigravity, Kimi e Codex.
+- Aggiunto `wiki/reports/conservative-update-2026-07-31.md` con riepilogo e verifiche.
+
 ## [2026-07-28] setup | Creazione repository
 - Creata l'architettura `raw / wiki / schema`.
 - Aggiunte pagine iniziali per profilo, aree, progetti, attrezzatura, conoscenza e workflow.
@@ -58,7 +64,6 @@ Registro cronologico append-only delle modifiche principali.
   - L'immagine dell'obiettivo è cliccabile e reindirizza direttamente all'articolo recensione [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html).
   - Inserito il testo esplicativo riassuntivo (massimo 10 righe) dedotto dal PDF.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
-
 
 
 

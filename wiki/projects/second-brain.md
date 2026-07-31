@@ -52,3 +52,8 @@ Struttura iniziale creata e popolata con le aree creative e professionali princi
 ## Fonte concettuale
 
 [LLM Wiki](../../raw/sources/llm-wiki.md)
+
+## Tracciabilità
+
+- [Provenienza LLM dei contenuti](../provenance/llm-provenance.md)
+- [Report aggiornamento conservativo 2026-07-31](../reports/conservative-update-2026-07-31.md)
