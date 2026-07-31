@@ -14,10 +14,9 @@ tags:
 ## Focus principale
 
 1. Consolidare il [Second Brain](../projects/second-brain.md) su GitHub.
-2. Preparare e promuovere il [Workshop Nivolet 2026](../projects/nivolet-2026.md).
-3. Sviluppare il [Photo tour Minorca 2027](../projects/minorca-2027.md).
-4. Costruire il [canale YouTube](../projects/youtube-launch.md) senza trasformarlo in una copia di Instagram.
-5. Ripensare il [sito web](../projects/website-rebuild.md) con focus sulla conversione verso workshop e corsi.
+2. Promuovere i 4 Workshop 2026 attivi: Friuli (Settembre), Cascate Appennino (Ottobre), Faggeta di Canfaito (Ottobre), Foreste Casentinesi (Novembre).
+3. Sviluppare le schede per i 4 Viaggi 2027 (Lapponia a Gennaio, Minorca a Maggio, Azzorre a Luglio, Islanda ad Ottobre) con le agenzie partner.
+4. Mantenere aggiornato il [sito web `Sito_Dave`](../projects/website-rebuild.md) con le landing page dedicate ed i form di iscrizione.
 
 ## Prossime azioni trasversali
 

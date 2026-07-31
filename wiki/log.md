@@ -48,3 +48,10 @@ Registro cronologico append-only delle modifiche principali.
 - Creata la nuova pagina `gear.html` con vetrina dei prodotti (SIGMA 14mm f/1.4 Art, SIGMA 24-70mm f/2.8 Art, SIGMA 100-400mm OS, Move Shoot Move Nomad Star Tracker, Vanguard Alta Pro 3VL 264CT, Vanguard LBP-50S, Vanguard VEO Active 53KG e 46KG).
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
+
+## [2026-07-31] update | Aggiornamento offerta Workshop 2026 e Viaggi 2027
+- Aggiornate le schede dell'area `wiki/areas/workshops-and-photo-tours.md` con i 4 workshop attivi 2026 (Friuli, Cascate Appennino, Canfaito, Foreste Casentinesi) e l'esclusione di Nivolet (iscrizioni chiuse) e Alpi & Dolomiti.
+- Impostati i 4 Viaggi 2027 (Lapponia a Gennaio, Minorca a Maggio, Azzorre a Luglio, Islanda ad Ottobre).
+- Aggiornata la dashboard `wiki/dashboards/now.md` con le nuove priorità del sito web e del catalogo offerta.
+- Sincronizzato con il sito web `Sito_Dave` ed eseguito commit + push su GitHub.
+
