@@ -49,13 +49,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Risoluzione Rotte URL, Categorizzazione Blog & Apertura Link Esterni in Nuova Scheda
-- Risolti tutti i collegamenti e percorsi relativi tra le cartelle macro-aree (`blog/`, `gear/`, `workshops_2026/`, `viaggi_2027/`).
-- Integrata la gestione delle rotte trasversali (`/blog`, `/pubblicazioni`, `/gear`) in `server.py` per garantire risposta 200 OK su qualsiasi indirizzo.
-- Riorganizzata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) esattamente nelle 2 macro-categorie:
-  - 📰 **Scrivo per gli Altri (Pubblicazioni Portali Terzi)**: SIGMA Italia, Vanguard World, UniversoFoto & RCE Foto, Kase Filters (con attributo `target="_blank" rel="noopener noreferrer"` per apertura in nuova scheda).
-  - ✍️ **Scrivo per Me (Blog Personale)**: Articoli interni ed approfondimenti sul campo.
+## [2026-07-31] feature | Ripristino Esatto Pagina Pubblicazioni (Stessi Articoli, Thumbnail & Link Nuova Scheda)
+- Ricostruita la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) estraendo gli articoli ufficiali, le thumbnail originali ed i testi di anteprima da `davideluongo.it/pubblicazioni/`.
+- Suddivisi gli articoli nelle 2 macro-categorie:
+  - 📰 **Scrivo per gli Altri (Pubblicazioni Portali Terzi)**: Vanguard LBP-50S, VEO Active 53KG, VEO SELECT 39RBM, Vanguard All Weather, SIGMA Ambassador Profile, UniversoFoto & RCE Foto.
+  - ✍️ **Scrivo per Me (Diario Fotografico & Blog Personale)**: Tenerife (Il giorno che non finisce mai & Astrofotografia), Madeira (Appunti di viaggio, Lunga esposizione & Cosa portare), SIGMA 14mm f/1.4 Art Test sul Campo.
+- Applicata l'apertura in nuova scheda (`target="_blank" rel="noopener noreferrer"`) su tutti i collegamenti esterni.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
