@@ -37,14 +37,28 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
     - **✍️ Scrivo per Me**: Articoli del blog personale di Davide (es. guida alla pianificazione notturna al Nivolet, post-produzione e stampa Fine Art).
     - **📰 Scrivo per gli Altri**: Raccolta ed elenco di tutti gli articoli e test pubblicati su blog terzi (SIGMA Italia Blog, Vanguard World, RCE Foto Magazine, Kase Filters) con link diretti e badge editore.
   - **Preview in Home Page**: Sezione vetrina integrata su `index.html` prima della bio con i 3 articoli in evidenza.
-- **Admin CMS Dashboard Stile Elementor (`/admin`)**:
-  - **Navigatore ad Albero (`.tree-sidebar`)**: Struttura ad albero espandibile a sinistra per ogni pagina del sito (`Home Page`, `Friuli 2026`, `Cascate Appennino`, `Canfaito`, `Foreste Casentinesi`, `Gear`, `Blog`).
-  - **Ispettore Proprietà & Sezioni (`.editor-main`)**: Pannello di destra per la modifica istantanea dei contenuti in stile Elementor.
-  - **🤖 Agente AI SEO Automotivo (`run_ai_seo_agent`)**: Motore intelligente che si attiva automaticamente ad ogni creazione/modifica di Workshop, Viaggio, Articolo Blog o prodotto Gear. Rigenera in automatico:
-    - **Tag Title & Meta Description**: Calibrati sui 150-160 caratteri ideali per il posizionamento Google SERP.
-    - **Open Graph Tags**: `<meta property="og:title">`, `og:description`, `og:image` per la condivisione social.
-    - **Markup Schema JSON-LD (Structured Data)**: Snippet di dati strutturati (`EducationEvent`, `Product`, `BlogPosting`) conformi agli standard Schema.org per i Rich Snippets di Google.
-  - **Gestore Foto sRGB Auto-Scaling**: Caricamento drag-and-drop per pagina con ridimensionamento automatico (>5MB / >2048px) e preservazione al 100% dello spazio colore sRGB.
+- **Struttura Repository Organizzata per Macro-Aree**:
+  - `workshops_2026/`: Landing page dedicate ai workshop nazionai (`friuli-2026.html`, `cascate-appennino-2026.html`, `canfaito-2026.html`, `foreste-casentinesi-2026.html`).
+  - `viaggi_2027/`: Schede e landing viaggi esteri.
+  - `gear/`: Pagina gear ed attrezzatura (`gear.html`).
+  - `blog/`: Pagina articoli e diario fotografico (`blog.html`).
+  - `data/`: Database JSON (`content.json`, `participants.json`, report ed export).
+- **Sistema di Prenotazione Operativo Workshop & PayPal Business**:
+  - **Counter Urgenza FOMO (-20%)**: Gestione posti totali (8 posti max) con algoritmo di visualizzazione sottrattiva del 20% per stimolare le iscrizioni urgenti.
+  - **Punto di Cutoff (15 Giorni Prima)**: Chiusura automatica iscrizioni a 15 giorni dall'evento.
+  - **Form Iscrizione Partecipanti**: Nome, Cognome, Email e Telefono obbligatorio con nota esplicativa per la creazione del gruppo WhatsApp.
+  - **Doppia Formula di Pagamento**:
+    - **Caparra Confirmatoria (€50)** (saldo in loco).
+    - **Saldo Totale (€290)** (con opzione 3 rate senza interessi PayPal).
+  - **Politiche di Annullamento & Full Refund**:
+    - Saldo: 100% rimborso a 30gg; 50% rimborso a 15gg.
+    - Caparra: 100% full refund della caparra a 15gg.
+  - **Pulsanti di Contatto Affiancati**: "Prenota Ora", "Richiedi Info Email (`info@davideluongo.it`)" e "Chatta su WhatsApp (`+39 373 5096237`)".
+  - **Pagina di Ringraziamento (`thank-you.html`)**: Conferma immediata iscrizione con riepilogo dati.
+  - **Report Excel (.csv UTF-8 BOM) & Invio Automatico Email**:
+    - Generazione file Excel partecipanti per il Cutoff.
+    - Download diretto in qualsiasi momento dal pannello Admin (`/admin`).
+    - Invio automatico ed on-demand via email a `info@davideluongo.com`.
 
 ## Prossime azioni mantenimento
 

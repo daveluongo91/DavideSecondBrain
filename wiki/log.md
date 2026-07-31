@@ -49,13 +49,18 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Implementazione Agente AI SEO Automotivo & Schema JSON-LD
-- Sviluppato l'Agente AI SEO (`run_ai_seo_agent`) nel server backend (`server.py`) che genera e rigenera automaticamente ad ogni salvataggio o creazione:
-  - **Tag Title** e **Meta Description** ottimizzati per le ricerche su Google SERP.
-  - **Meta Open Graph** per la condivisione social.
-  - **Markup Dati Strutturati JSON-LD Schema.org** (`EducationEvent`, `Product`, `BlogPosting`) per abilitare i Rich Snippets di Google sulle schede evento, gear ed articoli.
-- Integrato il pulsante `✨ Ottimizza SEO con IA` nella barra strumenti di `/admin`.
+## [2026-07-31] feature | Sistema Prenotazioni Workshop, PayPal Business, Report Excel & Riorganizzazione Folder
+- Riorganizzata la struttura del repository `Sito_Dave` in cartelle macro-aree (`workshops_2026/`, `viaggi_2027/`, `gear/`, `blog/`, `data/`).
+- Sviluppato il sistema di prenotazione operativo esclusivo per i **Workshop 2026** (8 posti max):
+  - **Counter Urgenza Autolimentato (-20%)**: Visualizzazione sottrazione 20% sui posti per stimolare l'urgenza (es. 8 posti reali ➔ 6 posti mostrati).
+  - **Data di Cutoff**: Gestione cutoff a 15 giorni dall'evento.
+  - **Checkout PayPal Business**: Form con Nome, Cognome, Email e Telefono obbligatorio (con nota per gruppo WhatsApp) e scelta della formula: Caparra €50 (saldo in loco) oppure Saldo Totale (€290 con opzione 3 rate PayPal).
+  - **Politiche Annullamento**: Esplicitate le politiche 30gg 100% refund / 15gg 50% refund (saldo) e 15gg 100% refund (caparra).
+  - **Pulsanti di Contatto Affiancati**: Bottone "Prenota Ora", "Richiedi Info Email (`info@davideluongo.it`)" e "Chatta su WhatsApp (`+39 373 5096237`)".
+  - **Pagina di Ringraziamento (`thank-you.html`)**: Riepilogo dinamico iscrizione e nota per il gruppo WhatsApp.
+  - **Report Excel Cutoff & Email Delivery**: Generazione report Excel partecipanti, download istantaneo in Admin CMS ed invio automatico / on-demand via mail a `info@davideluongo.com`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
