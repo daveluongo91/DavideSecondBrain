@@ -39,7 +39,11 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
   - **Preview in Home Page**: Sezione vetrina integrata su `index.html` prima della bio con i 3 articoli in evidenza.
 - **Admin CMS Dashboard Stile Elementor (`/admin`)**:
   - **Navigatore ad Albero (`.tree-sidebar`)**: Struttura ad albero espandibile a sinistra per ogni pagina del sito (`Home Page`, `Friuli 2026`, `Cascate Appennino`, `Canfaito`, `Foreste Casentinesi`, `Gear`, `Blog`).
-  - **Ispettore Proprietà & Sezioni (`.editor-main`)**: Pannello di destra che mostra direttamente le sezioni selezionate dall'albero (Hero, Entità Workshop, Entità Viaggi 2027, Biografia, Asset di pagina) per la modifica istantanea dei contenuti in stile Elementor.
+  - **Ispettore Proprietà & Sezioni (`.editor-main`)**: Pannello di destra per la modifica istantanea dei contenuti in stile Elementor.
+  - **🤖 Agente AI SEO Automotivo (`run_ai_seo_agent`)**: Motore intelligente che si attiva automaticamente ad ogni creazione/modifica di Workshop, Viaggio, Articolo Blog o prodotto Gear. Rigenera in automatico:
+    - **Tag Title & Meta Description**: Calibrati sui 150-160 caratteri ideali per il posizionamento Google SERP.
+    - **Open Graph Tags**: `<meta property="og:title">`, `og:description`, `og:image` per la condivisione social.
+    - **Markup Schema JSON-LD (Structured Data)**: Snippet di dati strutturati (`EducationEvent`, `Product`, `BlogPosting`) conformi agli standard Schema.org per i Rich Snippets di Google.
   - **Gestore Foto sRGB Auto-Scaling**: Caricamento drag-and-drop per pagina con ridimensionamento automatico (>5MB / >2048px) e preservazione al 100% dello spazio colore sRGB.
 
 ## Prossime azioni mantenimento

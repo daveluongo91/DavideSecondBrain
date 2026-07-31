@@ -49,10 +49,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Sviluppo Navigatore ad Albero stile Elementor in Admin CMS
-- Sviluppata l'interfaccia a 2 colonne in `/admin` con Navigatore ad Albero (`.tree-sidebar`) a sinistra e Ispettore Sezioni (`.editor-main`) a destra.
-- Organizzate tutte le pagine (`Home Page`, `Friuli 2026`, `Cascate Appennino`, `Canfaito`, `Foreste Casentinesi`, `Gear`, `Blog`) in nodi espandibili con sottosezioni (Titolo, Hero, Entità, Asset).
+## [2026-07-31] feature | Implementazione Agente AI SEO Automotivo & Schema JSON-LD
+- Sviluppato l'Agente AI SEO (`run_ai_seo_agent`) nel server backend (`server.py`) che genera e rigenera automaticamente ad ogni salvataggio o creazione:
+  - **Tag Title** e **Meta Description** ottimizzati per le ricerche su Google SERP.
+  - **Meta Open Graph** per la condivisione social.
+  - **Markup Dati Strutturati JSON-LD Schema.org** (`EducationEvent`, `Product`, `BlogPosting`) per abilitare i Rich Snippets di Google sulle schede evento, gear ed articoli.
+- Integrato il pulsante `✨ Ottimizza SEO con IA` nella barra strumenti di `/admin`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
