@@ -49,7 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] clean | Rimozione pagina nivolet-2026.html per iscrizioni chiuse
-- Eliminato il file `nivolet-2026.html` dalla cartella `workshops_2026` poiché le iscrizioni all'evento sono chiuse ed il workshop non fa più parte della vetrina attiva.
+## [2026-07-31] feature | Foto Verticale SIGMA 14mm, Didascalia 10 Righe & Articolo Completo Blog
+- Sostituita l'immagine orizzontale del **SIGMA 14mm f/1.4 Art** nella vetrina Gear con una foto verticale ad alta risoluzione (`assets/gear_sigma_14mm_vertical.jpg`).
+- Inserita una didascalia approfondita di ~10 righe estratta dall'articolo ufficiale.
+- Applicata la micro-animazione CSS di ingrandimento dell'obiettivo in hover (`transform: scale(1.09)`).
+- Creata la pagina articolo completa [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) con galleria scatti ad alta quota (Gran Paradiso e Lago Serrù).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
