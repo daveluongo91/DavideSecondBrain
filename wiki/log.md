@@ -49,12 +49,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Ripristino & Evidenza Link Articoli Partner (SIGMA, Vanguard, UniversoFoto & RCE Foto)
-- Aggiornato il carosello della sezione Blog ([blog/blog.html](file:///L:/Sito_Dave/blog/blog.html)) integrando tutte le schede ed i collegamenti diretti agli articoli esterni pubblicati su:
-  - 📷 **SIGMA Italia Official** (`https://www.sigma-foto.it/`)
-  - 🎒 **Vanguard World Official** (`https://www.vanguardworld.it/`)
-  - 📸 **UniversoFoto & RCE Foto Magazine** (`https://www.universofoto.it/` / `https://www.rcefoto.it/`)
+## [2026-07-31] fix | Risoluzione Rotte URL, Categorizzazione Blog & Apertura Link Esterni in Nuova Scheda
+- Risolti tutti i collegamenti e percorsi relativi tra le cartelle macro-aree (`blog/`, `gear/`, `workshops_2026/`, `viaggi_2027/`).
+- Integrata la gestione delle rotte trasversali (`/blog`, `/pubblicazioni`, `/gear`) in `server.py` per garantire risposta 200 OK su qualsiasi indirizzo.
+- Riorganizzata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) esattamente nelle 2 macro-categorie:
+  - 📰 **Scrivo per gli Altri (Pubblicazioni Portali Terzi)**: SIGMA Italia, Vanguard World, UniversoFoto & RCE Foto, Kase Filters (con attributo `target="_blank" rel="noopener noreferrer"` per apertura in nuova scheda).
+  - ✍️ **Scrivo per Me (Blog Personale)**: Articoli interni ed approfondimenti sul campo.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
