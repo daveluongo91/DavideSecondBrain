@@ -49,11 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Sezione "🤓 Le mie fotochiacchierate" con Scritta Neon Rosa Flickering "COMING SOON"
-- Aggiunta in alto alla pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) la nuova sezione **🤓 Le mie fotochiacchierate**.
-- Implementato l'effetto estetico cyberpunk con box in vetro scuro, bordi sfumati al magenta-rosa ed un'insegna al neon rosa flickering **"COMING SOON"** con animazione CSS `@keyframes neonFlicker`.
-- Mantenuti i caroselli 3D per Vanguard World (4 articoli), SIGMA Italia (1 articolo) ed UniversoFoto (8 articoli).
+## [2026-07-31] fix | Aggiornamento Titolo Hero Pagina Pubblicazioni
+- Rimosso il paragrafo esplicativo nella hero ed aggiornato il titolo principale in **"Le mie fotochiacchierate e gli articoli ufficiali"** in [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html).
+- Mantenuta intatta la nuova sezione **🤓 Le mie fotochiacchierate** con l'insegna neon rosa flickering **COMING SOON** ed i caroselli 3D rotanti per Vanguard, SIGMA ed UniversoFoto.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
