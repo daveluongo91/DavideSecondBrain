@@ -49,14 +49,15 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Organizzazione Esplicita 13 Pubblicazioni in 3 Sezioni Editore
-- Riorganizzata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) in **3 sezioni esplicite**, mostrando tutti i **13 articoli ufficiali**:
-  1. **🎒 Vanguard World (4 Articoli)**: LBP-50S, VEO Active 53KG Low Cost, VEO SELECT 39RBM, VEO Active All Weather (con link ufficiali a `vanguardworld.it`).
-  2. **📷 SIGMA Italia (1 Articolo)**: Davide Luongo Ambassador Profile (con link ufficiale a `sigma-italia.it`).
-  3. **📸 UniversoFoto (8 Articoli)**: Astrofotografia & Day Tenerife, Madeira (Cosa Portare, Lunga Esposizione, Appunti), Friuli 2025, Nivolet 2025, Cinque Terre 2025 (con link ufficiali a `universofoto.it`).
-- Ciascuna scheda contiene la **thumbnail originale esatta**, l'**anteprima di testo integrale** ed il pulsante per **aprire l'articolo in una nuova scheda del browser (`target="_blank" rel="noopener noreferrer"`)**.
-- Effettuata la pulizia completa di articoli o asset generati.
+## [2026-07-31] feature | Menu Rotanti 3D Dedicati per Editore (Vanguard 4, SIGMA 1, UniversoFoto 8)
+- Trasformata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) integrando **menu rotanti 3D (Caroselli 3D)** trasversali per ciascun editore:
+  1. **🎒 Vanguard World (Carosello 3D - 4 Articoli)**: Scheda centrale in evidenza (`is-active`), schede laterali ridimensionate (`is-previous` / `is-next`) e pulsanti freccia `←` / `→` attivi per scorrere tra le 4 pubblicazioni ufficiali.
+  2. **📷 SIGMA Italia (1 Articolo)**: Scheda in evidenza con il profilo Ambassador ufficiale.
+  3. **📸 UniversoFoto (Carosello 3D - 8 Articoli)**: Scheda centrale in evidenza, schede laterali ridimensionate e pulsanti freccia `←` / `→` per scorrere tra gli 8 articoli tecnici di Tenerife, Madeira, Friuli, Nivolet e Cinque Terre.
+- Aggiornato [blog.js](file:///L:/Sito_Dave/blog.js) per gestire il controllo nativo da tastiera, click o passaggio del mouse su qualsiasi carosello 3D della pagina.
+- Impostata l'apertura automatica in una **nuova scheda del browser (`target="_blank" rel="noopener noreferrer"`)** per tutti gli 13 articoli esterni.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
