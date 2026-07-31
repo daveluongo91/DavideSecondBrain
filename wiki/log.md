@@ -49,10 +49,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Inserimento Foto Reale Utente "Via Lattea Ambientata"
-- Inserita la foto notturna originale caricata direttamente dall'utente per **Immagine 2 (Via Lattea ambientata con macchinario agricolo)** nell'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) (`assets/blog_sigma_14mm_milkyway_real.jpg`).
-- Registrata l'autorizzazione di accesso permanente ai repository `Sito_Dave` e `Davide_SecondBrain`.
+## [2026-07-31] fix | Aggiornamento Link Ufficiale Prodotto SIGMA 14mm
+- Aggiornato il link del pulsante *"Visita la Pagina Ufficiale Sigma Italia"* in [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) puntandolo alla scheda prodotto specifica: `https://www.sigma-italia.it/products/art-14mm-f1-4-dg`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
