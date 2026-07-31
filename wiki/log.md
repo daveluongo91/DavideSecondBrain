@@ -49,9 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Sostituzione Immagine 2 Via Lattea Ambientata
-- Sostituita l'**Immagine 2 (Via Lattea ambientata)** nell'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) con la foto notturna dell'arco della Via Lattea a 14mm (`assets/blog_sigma_14mm_milkyway_arch.jpg`).
+## [2026-07-31] fix | Inserimento Foto Reale Utente "Via Lattea Ambientata"
+- Inserita la foto notturna originale caricata direttamente dall'utente per **Immagine 2 (Via Lattea ambientata con macchinario agricolo)** nell'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) (`assets/blog_sigma_14mm_milkyway_real.jpg`).
+- Registrata l'autorizzazione di accesso permanente ai repository `Sito_Dave` e `Davide_SecondBrain`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
