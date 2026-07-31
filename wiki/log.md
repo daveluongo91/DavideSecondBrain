@@ -49,9 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Sostituzione Foto Galleria Notturna con Foto Verticale Reale
-- Sostituita la foto della galleria *"Stelle puntiformi e coma controllato ai bordi a f/1.4"* al capitolo **Prestazioni notturne** in [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html) con la foto verticale originale dell'utente (`assets/blog_sigma_14mm_milkyway_real.jpg`).
+## [2026-07-31] fix | Sostituzione Foto Lago Serrù con A7R00083-Edit.jpg
+- Prelevata la fotografia originale `C:\Users\fango\Downloads\A7R00083-Edit.jpg` e creata la versione ottimizzata per il web (`assets/blog_sigma_14mm_serru_lake_real.jpg`).
+- Sostituito il secondo tassello della galleria *"Cielo inseguito al Lago Serrù"* al capitolo **Prestazioni notturne** nell'articolo [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
