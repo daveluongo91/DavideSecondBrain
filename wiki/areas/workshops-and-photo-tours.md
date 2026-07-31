@@ -24,14 +24,12 @@ Esperienze fotografiche gestite in piccoli gruppi o sessioni individuali, basate
 L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici** (Estero), disposti in ordine cronologico dalla data attuale:
 
 ### 🇮🇹 Workshop Nazionali 2026 (Attivi)
-1. **Workshop Friuli** (25-27 Settembre 2026): Fiume Tagliamento, Laghi di Fusine e sessioni notturne di astrofotografia (*Iscrizioni Aperte*).
-2. **Workshop Cascate dell'Appennino** (9-11 Ottobre 2026): Lunga esposizione su corsi d'acqua e cascate con filtri ND/GND Kase (*Iscrizioni Aperte*).
-3. **Workshop Faggeta di Canfaito** (23-25 Ottobre 2026): Il foliage autunnale tra i faggi secolari e le nebbie della riserva marchigiana (*Iscrizioni Aperte*).
-4. **Workshop Foreste Casentinesi** (6-8 Novembre 2026): Immersione nel picco del foliage tra i boschi sacri e i corsi d'acqua (*Iscrizioni Aperte*).
-5. **Workshop Cinque Terre & Costa Ligure** (16-18 Ottobre 2026): Lunga esposizione, paesaggio marino e scogliere (*Iscrizioni Aperte*).
-6. **Workshop Val d'Orcia** (14-17 Novembre 2026): Luce d'autunno, nebbie mattutine e quinte di cipressi (*Iscrizioni Aperte*).
+1. **Workshop Friuli** (10-11 Ottobre 2026): Fiume Tagliamento, Laghi di Fusine e sessioni notturne di astrofotografia (*Iscrizioni Aperte*).
+2. **Workshop Cascate dell'Appennino** (24-25 Ottobre 2026): Lunga esposizione su corsi d'acqua e cascate con filtri ND/GND Kase (*Iscrizioni Aperte*).
+3. **Workshop Faggeta di Canfaito** (7-8 Novembre 2026): Il foliage autunnale tra i faggi secolari e le nebbie della riserva marchigiana (*Iscrizioni Aperte*).
+4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): Immersione nel picco del foliage tra i boschi sacri e i corsi d'acqua (*Iscrizioni Aperte*).
 
-*(Nota: Le iscrizioni per il Colle del Nivolet sono chiuse, il workshop Alpi & Dolomiti non verrà svolto).*
+*(Nota: Le iscrizioni per il Colle del Nivolet sono chiuse; Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi).*
 
 ### ✈️ Viaggi Fotografici 2027 (Anteprima)
 1. **Photo Tour Lapponia** (Gennaio 2027): Caccia all'Aurora Boreale e paesaggi innevati artici.

@@ -49,11 +49,15 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Ristrutturazione sezione Workshop con caroselli 3D rotanti
-- Ristrutturata la sezione `#workshops` del sito web (`index.html`) nello stesso stile interattivo 3D rotante della sezione articoli (`blog.html`).
-- Creata la sottosezione **🇮🇹 Workshop 2026** con carosello 3D di 6 eventi (Friuli, Cascate Appennino, Canfaito, Foreste Casentinesi, Cinque Terre, Val d'Orcia).
-- Creata la sottosezione **✈️ Viaggi Fotografici 2027** con carosello 3D dei 4 viaggi (Lapponia, Minorca, Azzorre, Islanda).
-- Inserito il banner dinamico **🛠️ Workshop Nazionali 2027** con etichetta `COMING SOON` e form di avviso.
+## [2026-07-31] update | Correzione date ufficiali Workshop 2026 e rimozione Cinque Terre e Val d'Orcia
+- Rimosse le schede ed i workshop *Cinque Terre* e *Val d'Orcia* da `content.json`, `index.html` e dalle note della wiki.
+- Aggiornate le date ufficiali per i 4 workshop attivi 2026:
+  - **Friuli**: 10 - 11 Ottobre 2026
+  - **Cascate dell'Appennino**: 24 - 25 Ottobre 2026
+  - **Faggeta di Canfaito**: 7 - 8 Novembre 2026
+  - **Foreste Casentinesi**: 28 - 29 Novembre 2026
+- Aggiornate le landing page dedicate (`friuli-2026.html`, `cascate-appennino-2026.html`, `canfaito-2026.html`, `foreste-casentinesi-2026.html`).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
