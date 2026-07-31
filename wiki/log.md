@@ -49,12 +49,16 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Pulizia Didascalie Foto Articolo SIGMA 14mm
-- Rimosso il testo esplicativo ridondante *(File estremamente puliti a bassi ISO)* lasciando per tutte le fotografie la sola indicazione pulita ed elegante della location:
-  - `🌌 Castelluccio di Norcia`
-  - `🌌 Lago Serrù`
-  - `☀️ Val d'Orcia`
+## [2026-07-31] feature | Riorganizzazione Pagina Gear & Ottimizzazione Immagini (<= 5MB / 2048px)
+- Eseguito lo scan ed ottimizzazione di tutte le immagini del sito imponendo lato lungo massimo **2048px** e dimensione file **< 5MB**.
+- Riorganizzata la pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html):
+  - Badge Hero aggiornato in **"📷 IL KIT UFFICIALE"**.
+  - Creata la prima sezione **Obiettivi** con griglia responsiva a **4 entità per riga**.
+  - Inserito l'obiettivo **Sigma 14mm F1.4 DG DN Art (Ambassador)** in verticale scontornato con baionetta verso il basso (`assets/gear_sigma_14mm_vertical.png`).
+  - L'immagine dell'obiettivo è cliccabile e reindirizza direttamente all'articolo recensione [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html).
+  - Inserito il testo esplicativo riassuntivo (massimo 10 righe) dedotto dal PDF.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
