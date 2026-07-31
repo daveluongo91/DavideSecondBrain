@@ -49,11 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Potenziamento Backend CMS, Auto-scaling sRGB & Generatore Entità
-- Sviluppato l'auto-scaling per foto >5MB o >2048px lato lungo con preservazione al 100% dello spazio colore **sRGB** senza alterazioni cromatiche.
-- Implementata la gestione degli asset e dei testi suddivisi per pagina (Home, Workshop, Viaggi 2027, Gear, Blog) con filtri in Admin CMS.
-- Sviluppato il generatore dinamico di entità ed HTML landing page da Backend per Workshop, Viaggi, Articoli e Gear.
+## [2026-07-31] feature | Sviluppo Navigatore ad Albero stile Elementor in Admin CMS
+- Sviluppata l'interfaccia a 2 colonne in `/admin` con Navigatore ad Albero (`.tree-sidebar`) a sinistra e Ispettore Sezioni (`.editor-main`) a destra.
+- Organizzate tutte le pagine (`Home Page`, `Friuli 2026`, `Cascate Appennino`, `Canfaito`, `Foreste Casentinesi`, `Gear`, `Blog`) in nodi espandibili con sottosezioni (Titolo, Hero, Entità, Asset).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 

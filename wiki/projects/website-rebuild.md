@@ -37,11 +37,10 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
     - **✍️ Scrivo per Me**: Articoli del blog personale di Davide (es. guida alla pianificazione notturna al Nivolet, post-produzione e stampa Fine Art).
     - **📰 Scrivo per gli Altri**: Raccolta ed elenco di tutti gli articoli e test pubblicati su blog terzi (SIGMA Italia Blog, Vanguard World, RCE Foto Magazine, Kase Filters) con link diretti e badge editore.
   - **Preview in Home Page**: Sezione vetrina integrata su `index.html` prima della bio con i 3 articoli in evidenza.
-- **Architettura Backend & Admin CMS (`server.py`, `admin.html`, `admin.js`, `data/content.json`)**:
-  - **Server REST API (`http://localhost:3000`)**: Gestione persistence contenuti in formato JSON e gestione delle rotte amministrative per la modifica dinamica dei testi per pagina.
-  - **Motore Elaborazione Foto sRGB & Auto-scaling (>5MB o >2048px)**: Ridimensionamento automatico ad alta fedeltà (Lanczos) per file superiori a 5MB o con lato lungo >2048px, preservazione del profilo colore **sRGB** senza alterazioni e generazione parallela delle varianti **WebP** e **JPEG**.
-  - **Gestione Asset & Testi Suddivisi per Pagina**: Tagging degli asset caricati per specifica pagina (Home, Workshop, Viaggi 2027, Gear, Blog) e filtri di ricerca in Admin.
-  - **Generatore Dinamico Entità & Landing Page**: Modali in Admin per creare direttamente nuovi Workshop, Viaggi 2027, Articoli Blog e prodotti Gear. Quando viene creato un nuovo Workshop o Viaggio, il backend genera automaticamente la relativa pagina HTML landing su misura (`slug.html`).
+- **Admin CMS Dashboard Stile Elementor (`/admin`)**:
+  - **Navigatore ad Albero (`.tree-sidebar`)**: Struttura ad albero espandibile a sinistra per ogni pagina del sito (`Home Page`, `Friuli 2026`, `Cascate Appennino`, `Canfaito`, `Foreste Casentinesi`, `Gear`, `Blog`).
+  - **Ispettore Proprietà & Sezioni (`.editor-main`)**: Pannello di destra che mostra direttamente le sezioni selezionate dall'albero (Hero, Entità Workshop, Entità Viaggi 2027, Biografia, Asset di pagina) per la modifica istantanea dei contenuti in stile Elementor.
+  - **Gestore Foto sRGB Auto-Scaling**: Caricamento drag-and-drop per pagina con ridimensionamento automatico (>5MB / >2048px) e preservazione al 100% dello spazio colore sRGB.
 
 ## Prossime azioni mantenimento
 
