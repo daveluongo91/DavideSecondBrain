@@ -55,15 +55,17 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Riorganizzazione Pagina Gear & Ottimizzazione Immagini (<= 5MB / 2048px)
-- Eseguito lo scan ed ottimizzazione di tutte le immagini del sito imponendo lato lungo massimo **2048px** e dimensione file **< 5MB**.
-- Riorganizzata la pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html):
-  - Badge Hero aggiornato in **"📷 IL KIT UFFICIALE"**.
-  - Creata la prima sezione **Obiettivi** con griglia responsiva a **4 entità per riga**.
-  - Inserito l'obiettivo **Sigma 14mm F1.4 DG DN Art (Ambassador)** in verticale scontornato con baionetta verso il basso (`assets/gear_sigma_14mm_vertical.png`).
-  - L'immagine dell'obiettivo è cliccabile e reindirizza direttamente all'articolo recensione [blog/test-sigma-14mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-14mm-art.html).
-  - Inserito il testo esplicativo riassuntivo (massimo 10 righe) dedotto dal PDF.
+## [2026-07-31] feature | Impaginazione Articolo "Sigma 24-70mm F2.8 Art II" & Integrazione Gear
+- Creato ed impaginato l'articolo recensione dello zoom tuttofare [blog/test-sigma-24-70mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-24-70mm-art.html) seguendo l'identica scaletta del 14mm:
+  - **Introduzione**: Riconoscimenti e testo d'impatto sul ruolo cruciale di SIGMA nella crescita professionale e social.
+  - **Perché proprio lui?**: Analisi del 24-70mm F2.8 Art II come ottica tuttofare insostituibile.
+  - **Perché un 24-70mm?**: Tabella comparativa delle focali (24mm / 35mm / 50mm / 70mm).
+  - **Perché si compra un 24-70mm F2.8?**: Autofocus HLA, apertura costante f/2.8, ghiera diaframmi fisica e pulsante diretto al sito ufficiale Sigma Italia (`https://www.sigma-italia.it/products/art-24-70mm-f2-8-dg-dn-ii?_pos=29&_fid=2f140596d&_ss=c`).
+  - **Prestazioni Diurne, Notturne, Diffrazione, Pregi & Compromessi (Pro/Contro)** e citazione finale `Hike. Shoot. Print. Repeat.`
+- Integrata la lente nella pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) nella scheda 2 con immagine in verticale scontornata e baionetta verso il basso (`assets/gear_sigma_2470_vertical.png`), collegata all'articolo.
+- Aggiunta la scheda articolo nella sezione SIGMA Italia della pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
