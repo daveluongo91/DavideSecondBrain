@@ -49,7 +49,7 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Attivazione Spedizione Reale Email tramite Aruba SMTP (smtps.aruba.it)
-- Salvate le credenziali Aruba SMTP in `data/smtp_config.json` (protetto da `.gitignore`).
-- Eseguito test di invio reale con esito positivo: l'email di test è stata recapitata con successo alla casella `info@davideluongo.it`.
+## [2026-07-31] clean | Rimozione pagina nivolet-2026.html per iscrizioni chiuse
+- Eliminato il file `nivolet-2026.html` dalla cartella `workshops_2026` poiché le iscrizioni all'evento sono chiuse ed il workshop non fa più parte della vetrina attiva.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
