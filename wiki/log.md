@@ -49,10 +49,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] fix | Event Delegation Globale & Modale Ringraziamento Richiesta Info
-- Implementata la cattura eventi globale (`setupGlobalClickDelegation`) su `main.js` per garantire l'apertura istantanea della modale di richiesta info su qualsiasi link o pulsante del sito.
-- Creata la modale di ringraziamento dedicata (`#thankyou-info-overlay`) con avviso di conferma invio alla casella `info@davideluongo.it` e scorciatoia per il client di posta.
+## [2026-07-31] fix | Semplificazione Finestra Ringraziamento Richiesta Info (Pulsante Chiudi Unico)
+- Modificata la finestra di popup di ringraziamento (`showThankYouInfoModal`) rimuovendo il pulsante secondario mailto.
+- Mantenuto il solo ed unico pulsante **Chiudi** per un'esperienza utente pulita ed immediata dopo l'invio dell'email a `info@davideluongo.it`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
