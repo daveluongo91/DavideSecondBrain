@@ -49,14 +49,12 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-07-31] feature | Menu Rotanti 3D Dedicati per Editore (Vanguard 4, SIGMA 1, UniversoFoto 8)
-- Trasformata la pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) integrando **menu rotanti 3D (Caroselli 3D)** trasversali per ciascun editore:
-  1. **🎒 Vanguard World (Carosello 3D - 4 Articoli)**: Scheda centrale in evidenza (`is-active`), schede laterali ridimensionate (`is-previous` / `is-next`) e pulsanti freccia `←` / `→` attivi per scorrere tra le 4 pubblicazioni ufficiali.
-  2. **📷 SIGMA Italia (1 Articolo)**: Scheda in evidenza con il profilo Ambassador ufficiale.
-  3. **📸 UniversoFoto (Carosello 3D - 8 Articoli)**: Scheda centrale in evidenza, schede laterali ridimensionate e pulsanti freccia `←` / `→` per scorrere tra gli 8 articoli tecnici di Tenerife, Madeira, Friuli, Nivolet e Cinque Terre.
-- Aggiornato [blog.js](file:///L:/Sito_Dave/blog.js) per gestire il controllo nativo da tastiera, click o passaggio del mouse su qualsiasi carosello 3D della pagina.
-- Impostata l'apertura automatica in una **nuova scheda del browser (`target="_blank" rel="noopener noreferrer"`)** per tutti gli 13 articoli esterni.
+## [2026-07-31] feature | Sezione "🤓 Le mie fotochiacchierate" con Scritta Neon Rosa Flickering "COMING SOON"
+- Aggiunta in alto alla pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) la nuova sezione **🤓 Le mie fotochiacchierate**.
+- Implementato l'effetto estetico cyberpunk con box in vetro scuro, bordi sfumati al magenta-rosa ed un'insegna al neon rosa flickering **"COMING SOON"** con animazione CSS `@keyframes neonFlicker`.
+- Mantenuti i caroselli 3D per Vanguard World (4 articoli), SIGMA Italia (1 articolo) ed UniversoFoto (8 articoli).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
