@@ -55,9 +55,16 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Perfezionamento Bio Loris Ferrini (Team)
-- **Sezione Team ([index.html](file:///L:/Sito_Dave/index.html))**: Aggiunta la dicitura in chiusura della biografia di Loris Ferrini per invitare gli utenti a cliccare sull'avatar per prenotare una sessione diretta con lui su `https://lorisferriniastrofoto.it/`.
+## [2026-08-04] feature | Toggle Multilingua ITA/ENG, Visibilità Video Hero & Aggiornamento SitoDaveTest.html
+- **Toggle Multilingua (ITA / UK+USA)**: Inserito nella barra di navigazione superiore il selettore di lingua con **due bandiere interattive**:
+  - Bandiera Italiana 🇮🇹 (opaca ed attiva per impostazione predefinita).
+  - Bandiera UK/USA 🇬🇧/🇺🇸 con taglio diagonale personalizzato SVG.
+  - Al click, il sito viene tradotto istantaneamente in Inglese salvando la preferenza in `localStorage`.
+- **Aumento Visibilità Video Background Hero**: Incrementata la luminosità del timelapse notturno in background (`brightness(0.78) contrast(1.15)`) e ridotta la scurezza dei gradienti per far risaltare il cielo stellato ed il movimento delle nubi.
+- **Ottimizzazione Mobile, Tablet & Desktop**: Rifiniti i breakpoint responsive per smartphone (320px-600px), tablet (768px-992px) e desktop (1920px+).
+- **Aggiornamento File Standalone Test ([SitoDaveTest.html](file:///L:/Sito_Dave/Test/SitoDaveTest.html))**: Rigenerato il file di test standalone includendo tutti gli asset, i percorsi immagini `../assets/`, gli stili CSS ed il nuovo motore multilingua.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
