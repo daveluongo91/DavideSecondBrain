@@ -55,13 +55,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Carosello Recensioni Google Auto-scorrevole & Modali Partner
-- **Carosello Recensioni Google Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Sostituite le pillole statistiche con un carosello auto-scorrevole (ogni 4 secondi) di recensioni verificate con avatar del recensore, valutazione a 5 stelle ⭐, prima riga con troncatura a 3 righe (`...`) e link diretto alle recensioni Google (`https://share.google/cxLf6DH2ZKHvENaJ0`).
-- **Fascia Partner Interattiva**:
-  1. **SIGMA Italia Ambassador**: Collegamento diretto al blog ufficiale `https://blog.sigma-foto.it/`.
-  2. **Vanguard Ambassador**: Apertura Popup Modal con il codice sconto `DAVIPRO2026`, pulsante di copia in 1-click e redirect a `https://www.vanguardworld.it/`.
-  3. **RCE Foto Partner**: Apertura Popup Modal con il codice sconto `LUONGO5`, pulsante di copia in 1-click e redirect a `https://www.rcefoto.com/`.
+## [2026-08-04] feature | Integrazione Recensioni Google Reali & Cleanup Fascia Partner
+- **Recensioni Google Autentiche ([index.html](file:///L:/Sito_Dave/index.html))**: Popolate tutte le card del carosello Hero e della sezione `#recensioni` con le recensioni Google 100% reali ed autentiche rilasciate dai tuoi clienti su Google Business (Giada Berni, Luca S, Dillia Pissarello, Stefano Marchetti, Francesco D'Ambra, Federica Castana, Giada De Lazzaro).
+- **Cleanup Fascia Partner**: Rimosse le voci *Kase Filters* e *Move Shoot Move*. La barra ora contiene esclusivamente i 3 elementi concordati:
+  1. `📷 SIGMA Italia Ambassador ↗` (blog ufficiale).
+  2. `🎒 Vanguard Ambassador (Codice Sconto DAVIPRO2026)`.
+  3. `🛍️ RCE Foto Partner (Codice Sconto LUONGO5)`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
