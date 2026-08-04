@@ -55,12 +55,20 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Conversione Sezione SIGMA Italia in Carosello 3D Interattivo
-- Trasformata la sezione **SIGMA Italia** nella pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html) da griglia statica in un **Carosello 3D Interattivo** uniforme a *Vanguard World* ed *UniversoFoto*:
-  - Aggiunto l'attributo `data-carousel` gestito da `blog.js`.
-  - Integrata la barra di controllo superiore con contatore dinamico delle slide (`1 / 6`) e pulsanti freccia `←` e `→`.
-  - Inserite le 6 slide 3D per: *14mm F1.4 Art*, *24-70mm F2.8 Art II*, *28-45mm F1.8 Art*, *28-105mm F2.8 Art*, *15mm F1.4 Fisheye Art* ed il profilo *Ambassador SIGMA Italia*.
+## [2026-08-04] feature | Pulizia Obiettivi & Riorganizzazione Sezione Vanguard nel Gear
+- **Pulizia Sezione Obiettivi ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Rimossi gli obiettivi *Sigma 100-400mm Contemporary* e *Sigma 14-24mm F2.8 Art* come da indicazione visiva dell'utente, mantenendo attive solo le 4 lenti del corredo principale.
+- **Riorganizzazione Sezione Vanguard ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Ripulita integralmente la sezione ed integrati esclusivamente gli 8 prodotti ufficiali richiesti:
+  1. *VEO Active 53KG* (con link all'articolo ufficiale Vanguard World)
+  2. *VEO Active 46KG* (commento sintetico ispirato al sito ufficiale)
+  3. *Cavalletto Alta Pro 3VL 264 CT* (commento sintetico ispirato al sito ufficiale)
+  4. *Testa PH-38S* (commento sintetico ispirato al sito ufficiale)
+  5. *Testa LBP-50S* (con link all'articolo ufficiale Vanguard World)
+  6. *VEO BIB F22* (commento sintetico ispirato al sito ufficiale)
+  7. *VEO BIB T18* (commento sintetico ispirato al sito ufficiale)
+  8. *VEO BIB T25* (commento sintetico ispirato al sito ufficiale)
+- **Asset Grafici**: Generate ed aggiornate tutte le immagini in formato PNG scontornato ad alta definizione in `assets/gear_vanguard_*.png`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
