@@ -55,19 +55,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Pulizia Obiettivi & Riorganizzazione Sezione Vanguard nel Gear
-- **Pulizia Sezione Obiettivi ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Rimossi gli obiettivi *Sigma 100-400mm Contemporary* e *Sigma 14-24mm F2.8 Art* come da indicazione visiva dell'utente, mantenendo attive solo le 4 lenti del corredo principale.
-- **Riorganizzazione Sezione Vanguard ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Ripulita integralmente la sezione ed integrati esclusivamente gli 8 prodotti ufficiali richiesti:
-  1. *VEO Active 53KG* (con link all'articolo ufficiale Vanguard World)
-  2. *VEO Active 46KG* (commento sintetico ispirato al sito ufficiale)
-  3. *Cavalletto Alta Pro 3VL 264 CT* (commento sintetico ispirato al sito ufficiale)
-  4. *Testa PH-38S* (commento sintetico ispirato al sito ufficiale)
-  5. *Testa LBP-50S* (con link all'articolo ufficiale Vanguard World)
-  6. *VEO BIB F22* (commento sintetico ispirato al sito ufficiale)
-  7. *VEO BIB T18* (commento sintetico ispirato al sito ufficiale)
-  8. *VEO BIB T25* (commento sintetico ispirato al sito ufficiale)
-- **Asset Grafici**: Generate ed aggiornate tutte le immagini in formato PNG scontornato ad alta definizione in `assets/gear_vanguard_*.png`.
+## [2026-08-04] feature | Integrazione Sezione SIRUI nella Pagina Gear
+- **Integrazione Sezione SIRUI ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Creata la nuova sezione per i supporti ed i treppiedi SIRUI in partnership con *UniversoFoto Firenze*:
+  1. **Sirui Landscape L-324F (Testa KS-40)**: Treppiede in carbonio a 4 sezioni senza colonna centrale. Integrati il link di acquisto su UniversoFoto Firenze e la card per il codice sconto extra 5% **`DL5`**.
+  2. **Sirui Testa Video Fluida VH-10**: Testa panoramica fluida a smorzamento idraulico. Integrati il link di acquisto su UniversoFoto Firenze e la card per il codice sconto extra 5% **`DL5`**.
+  3. **Sirui Testa a Sfera A10-R**: Testa a sfera compatta da viaggio. Integrata la descrizione sintetica *(senza link ed senza codice sconto, come da indicazioni dell'utente)*.
+- **Asset Grafici**: Generate ed aggiunte le immagini PNG scontornate in `assets/gear_sirui_*.png`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
