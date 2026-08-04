@@ -55,10 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Aggiornamento Link Ufficiale SIGMA Italia Ambassador
-- **Fascia Partner ([index.html](file:///L:/Sito_Dave/index.html))**: Collegato il pulsante **`📷 SIGMA Italia Ambassador ↗`** all'articolo dedicato sulla community ufficiale di SIGMA Italia:
-  `https://www.sigma-italia.it/blogs/la-nostra-community/davide-luongo`
+## [2026-08-04] refactor | Rimozione Sezione Recensioni Duplicata
+- **Clean-up Homepage ([index.html](file:///L:/Sito_Dave/index.html))**: Eliminato completamente il blocco inferiore `#recensioni` ("Cosa Dicono i Partecipanti") poiché ridondante rispetto al Carosello Google Reviews dinamico ed auto-scorrevole posizionato subito sotto l'Hero.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
