@@ -55,13 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Sezione Team: "🤝 L'UNIONE FA LA FORZA! Vi Presento il Team"
-- **Sezione Team ([index.html](file:///L:/Sito_Dave/index.html))**: Sostituita la vecchia sezione Formazione con la nuova sezione dedicata ai 4 membri del team:
-  1. **Loris Ferrini (aka *Signore Oscuro*)**: Didattica ed elaborazione digitale profonda del cielo notturno (con link diretto a `https://lorisferriniastrofoto.it/`).
-  2. **Manuel Linari (aka *Lino*)**: Mago della logistica, cene pazzesche, supporto Canon e spirito romagnolo.
-  3. **Elia Marcon (aka *L'Ingegnere*)**: Special Projects, outdoor e passione per i motori.
-  4. **Luca Sensoli (aka *Birky*)**: Video Maker ufficiale, foto/video eventi e food photography (con link diretto a `https://www.lucasensoli.com/`).
+## [2026-08-04] feature | Perfezionamento Bio Loris Ferrini (Team)
+- **Sezione Team ([index.html](file:///L:/Sito_Dave/index.html))**: Aggiunta la dicitura in chiusura della biografia di Loris Ferrini per invitare gli utenti a cliccare sull'avatar per prenotare una sessione diretta con lui su `https://lorisferriniastrofoto.it/`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
