@@ -55,13 +55,16 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Nuova Sezione Homepage: "Other Projects"
-- **Sezione Other Projects ([index.html](file:///L:/Sito_Dave/index.html))**: Inserita in fondo alla Homepage (prima del footer) una nuova sezione a 3 schede styled come i workshop:
-  1. **⏱️ Timelapsing**: *"Io ho una passione smodata per i timelapse: siano essi motion-controlled, statici o hyperlapse! Entra qui per conoscere il mio lavoro, la mia attrezzatura e, perché no, il mio approccio."*
-  2. **💍 Wedding**: *"Bellissima la fotografia di paesaggio: tecnica, faticosa... però dai, immortalare anche il vostro giorno più importante ha un fascino unico! Entra per vedere i miei lavori di matrimonio."*
-  3. **✈️ Travel & Hospitality**: *"Ho scoperto che mi diverte un sacco immortalare i luoghi che mi hanno ospitato durante i miei viaggi! Entra per vedere le strutture e i resort che hanno deciso di darmi una chance e collaborare con me."*
-- Ogni scheda contiene un bottone di contatto diretto collegato al form di richiesta informazioni generiche (`open-info-modal`).
+## [2026-08-04] feature | Nuova Landing Page Esperienziale: "Workshop Friuli: Laghi e Cascate"
+- **Landing Page ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**:
+  - **Titolo H1**: *Workshop Friuli: Laghi e Cascate* (10 – 11 Ottobre 2026).
+  - **Slogan Concettuale**: `🌊 SEGUENDO IL CORSO DELL'ACQUA • Dove ogni sorgente racconta una fotografia diversa.`
+  - **Sottotitolo**: *"Due giorni immersi nella natura in una zona d'Italia poco conosciuta: tra le rocce della Carnia esploreremo cascate e laghi dove a tratti sembrerà di stare in Canada."*
+  - **Scheda Logistica**: Quota €350 (Caparra €50 / Saldo €300 con opzione 3 rate PayPal).
+  - **Sezioni Esperienziali**: *Dove l'acqua nasce dalla montagna*, *Perché proprio il Friuli?*, *Le 4 Location del Weekend* (Fontanon di Goriuda, Lago del Predil, Laghi di Fusine, Alba a Zelenci), *Cosa Imparerai*, *Attrezzatura Consigliata* (con nota sull'opportunità astrofotografica fuori programma) e *Politiche di Annullamento & Trasparenza Rimborso*.
+- **Homepage ([index.html](file:///L:/Sito_Dave/index.html))**: Sincronizzata la card del Friuli con il nuovo titolo, date, prezzo e descrizione.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
