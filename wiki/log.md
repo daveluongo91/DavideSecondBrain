@@ -55,11 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Integrazione Vanguard VEO Select 39RBM BK & Titoli Ambassador
-- **Integrazione Nuovo Prodotto ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Aggiunto lo zaino **Vanguard VEO Select 39RBM BK (Ambassador)** con foto scontornata ad alta definizione `assets/gear_vanguard_veo_select_39rbm.png`.
-- **Dicitura Ambassador**: Estesa la dicitura `(Ambassador)` a tutti e 9 i prodotti della sezione Vanguard World.
-- **Pulsanti di Collegamento**: Impostati i link diretti agli articoli ufficiali pubblicati su Vanguard World per *VEO Active 53KG* e *Testa LBP-50S*, e collegati tutti gli altri 7 prodotti al portale ufficiale `https://www.vanguardworld.it/`.
+## [2026-08-04] feature | Aggiornamento Immagine Scontornata Vanguard VEO BIB F22
+- **Aggiornamento Asset**: Sostituita l'immagine in `assets/gear_vanguard_veo_bib_f22.png` con la foto ad alta risoluzione fornita dall'utente, processata con sfondo trasparente ed allineamento perfetto.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 ## [2026-08-04] feature | Aggiornamento Immagini Scontornate Vanguard VEO BIB T18 e VEO BIB T25
