@@ -55,15 +55,13 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Nuova Landing Page Esperienziale: "Workshop Friuli: Laghi e Cascate"
-- **Landing Page ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**:
-  - **Titolo H1**: *Workshop Friuli: Laghi e Cascate* (10 – 11 Ottobre 2026).
-  - **Slogan Concettuale**: `🌊 SEGUENDO IL CORSO DELL'ACQUA • Dove ogni sorgente racconta una fotografia diversa.`
-  - **Sottotitolo**: *"Due giorni immersi nella natura in una zona d'Italia poco conosciuta: tra le rocce della Carnia esploreremo cascate e laghi dove a tratti sembrerà di stare in Canada."*
-  - **Scheda Logistica**: Quota €350 (Caparra €50 / Saldo €300 con opzione 3 rate PayPal).
-  - **Sezioni Esperienziali**: *Dove l'acqua nasce dalla montagna*, *Perché proprio il Friuli?*, *Le 4 Location del Weekend* (Fontanon di Goriuda, Lago del Predil, Laghi di Fusine, Alba a Zelenci), *Cosa Imparerai*, *Attrezzatura Consigliata* (con nota sull'opportunità astrofotografica fuori programma) e *Politiche di Annullamento & Trasparenza Rimborso*.
-- **Homepage ([index.html](file:///L:/Sito_Dave/index.html))**: Sincronizzata la card del Friuli con il nuovo titolo, date, prezzo e descrizione.
+## [2026-08-04] feature | Perfezionamento Landing Friuli: Spot Dichiarati & Attrezzatura
+- **Workshop Friuli ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**:
+  - Rimosso il *Lago del Predil* dalle location dichiarate in landing (sarà tenuto come spot a sorpresa da scoprire direttamente sul campo con i partecipanti).
+  - Spot dichiarati in evidenza: **Fontanon di Goriuda**, **Laghi di Fusine** e **Alba a Zelenci (Slovenia)**.
+  - **Aggiornamento Attrezzatura Consigliata**: Inseriti **Teleobiettivo** (consigliato per isolare quinte montuose e dettagli), **Scatto remoto / Trigger esterno** (per la stabilità nelle lunghe esposizioni) ed **Abbigliamento con cambio completo di scorta sempre in auto** (essendo costantemente a contatto stretto con l'acqua).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
