@@ -55,12 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Perfezionamento Landing Friuli: Spot Dichiarati & Attrezzatura
-- **Workshop Friuli ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**:
-  - Rimosso il *Lago del Predil* dalle location dichiarate in landing (sarà tenuto come spot a sorpresa da scoprire direttamente sul campo con i partecipanti).
-  - Spot dichiarati in evidenza: **Fontanon di Goriuda**, **Laghi di Fusine** e **Alba a Zelenci (Slovenia)**.
-  - **Aggiornamento Attrezzatura Consigliata**: Inseriti **Teleobiettivo** (consigliato per isolare quinte montuose e dettagli), **Scatto remoto / Trigger esterno** (per la stabilità nelle lunghe esposizioni) ed **Abbigliamento con cambio completo di scorta sempre in auto** (essendo costantemente a contatto stretto con l'acqua).
+## [2026-08-04] fix | Rifinitura Copywriting Box "Cosa Imparerai" (Friuli)
+- **Workshop Friuli ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**: Corretta la dicitura nel box di evidenziazione finale in *"imparare un metodo che potrai applicare in qualsiasi tua uscita fotografica futura"* (rimossa la ridondanza "metodico").
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
