@@ -55,16 +55,17 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Impaginazione Articolo "Sigma 28-45mm F1.8 Art" & Integrazione Gear
-- Creato ed impaginato l'articolo recensione dello zoom rivoluzionario f/1.8 [blog/test-sigma-28-45mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-28-45mm-art.html) seguendo l'identica scaletta del 14mm:
-  - **Focus sui due concetti chiave**: 1) *Range focale atipico ma affascinante (28-45mm)*; 2) *Qualità senza compromessi: uno zoom che equivale a 3 ottiche prime (28mm, 35mm, 45mm) f/1.8 fusi insieme*.
-  - **Introduzione**: Riconoscimenti e testo d'impatto sul ruolo di SIGMA nella crescita professionale e social.
-  - **Perché un 28-45mm F1.8?**: Tabella comparativa delle focali prime sostituite.
-  - **Perché si compra un 28-45mm F1.8?**: Meccanismo ad escursione interna, sfocato tridimensionale a f/1.8 e link diretto alla pagina ufficiale Sigma Italia (`https://www.sigma-italia.it/products/art-28-45mm-f1-8-dg-dn`).
-  - **Prestazioni Diurne, Notturne (Astrofotografia a f/1.8 per la Via Lattea), Diffrazione, Pregi & Compromessi (Pro/Contro)** e citazione finale `Hike. Shoot. Print. Repeat.`
-- Integrata la lente nella pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) nella sezione **Obiettivi** con immagine in verticale scontornata e baionetta verso il basso (`assets/gear_sigma_2845_vertical.png`), collegata all'articolo.
+## [2026-08-04] feature | Impaginazione Articolo "Sigma 28-105mm F2.8 Art" & Integrazione Gear
+- Creato ed impaginato l'articolo recensione [blog/test-sigma-28-105mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-28-105mm-art.html) seguendo l'identica scaletta del 14mm:
+  - **Focus sul grande dilemma storico del fotografo**: *Luce o range focale? (24-105mm f/4 vs 24-70mm f/2.8)*.
+  - **Analisi del campo 28mm vs 24mm**: Negli eventi e cerimonie non pesa affatto ed è un'arma imbattibile a 105mm f/2.8; nel paesaggio puro (landscape) i 4mm grandangolari mancanti contano, motivo per cui nel paesaggio si dà comunque la precedenza al **Sigma 24-70mm F2.8 Art II** (anche per peso ed ingombri nei trekking).
+  - **Introduzione**: Riconoscimenti e testo sul ruolo di SIGMA nella crescita professionale e social.
+  - **Link Pagina Ufficiale**: `https://www.sigma-italia.it/products/art-28-105mm-f2-8-dg-dn`.
+  - **Prestazioni Diurne, Notturne, Diffrazione, Pregi & Compromessi (Pro/Contro)** e citazione finale `Hike. Shoot. Print. Repeat.`
+- Integrata la lente nella pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) nella sezione **Obiettivi** con immagine in verticale scontornata e baionetta verso il basso (`assets/gear_sigma_28105_vertical.png`), collegata all'articolo.
 - Aggiunta la scheda articolo nella sezione SIGMA Italia della pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
