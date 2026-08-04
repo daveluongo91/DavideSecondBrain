@@ -55,10 +55,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Aggiornamento Etichetta Bottone CTA Hero
-- **Copywriting Bottone ([index.html](file:///L:/Sito_Dave/index.html))**: Aggiornato il testo del primo pulsante principale nell'Hero section:
-  > **`Scegli la tua prossima avventura`**
+## [2026-08-04] feature | Carosello Recensioni Google Auto-scorrevole & Modali Partner
+- **Carosello Recensioni Google Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Sostituite le pillole statistiche con un carosello auto-scorrevole (ogni 4 secondi) di recensioni verificate con avatar del recensore, valutazione a 5 stelle ⭐, prima riga con troncatura a 3 righe (`...`) e link diretto alle recensioni Google (`https://share.google/cxLf6DH2ZKHvENaJ0`).
+- **Fascia Partner Interattiva**:
+  1. **SIGMA Italia Ambassador**: Collegamento diretto al blog ufficiale `https://blog.sigma-foto.it/`.
+  2. **Vanguard Ambassador**: Apertura Popup Modal con il codice sconto `DAVIPRO2026`, pulsante di copia in 1-click e redirect a `https://www.vanguardworld.it/`.
+  3. **RCE Foto Partner**: Apertura Popup Modal con il codice sconto `LUONGO5`, pulsante di copia in 1-click e redirect a `https://www.rcefoto.com/`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
