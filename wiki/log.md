@@ -55,9 +55,13 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Link Articolo Ufficiale Vanguard VEO Select 39RBM BK
-- **Aggiornamento Link**: Collegato lo zaino **Vanguard VEO Select 39RBM BK (Ambassador)** in [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) al suo articolo ufficiale su Vanguard World: `https://www.vanguardworld.it/blogs/articoli/alla-scoperta-dello-zaino-veo-select-39rbm-bk`.
+## [2026-08-04] feature | Aggiornamento Immagini Scontornate Prodotti SIRUI
+- **Aggiornamento Asset Grafici**: Sostituite le immagini in `assets/gear_sirui_*.png` con le foto ad alta risoluzione caricate dall'utente, processate con sfondo trasparente ed allineamento perfetto:
+  1. *Cavalletto Sirui Landscape L-324F* (`assets/gear_sirui_l324s.png`)
+  2. *Testa Video Fluida Sirui VH-10* (`assets/gear_sirui_vh10.png`)
+  3. *Testa a Sfera Sirui A-10R* (`assets/gear_sirui_a10r.png`)
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
