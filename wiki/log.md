@@ -55,12 +55,12 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Alimentazione Blog, Modale Chiedimi Info & Badge Astronomik Coming Soon
-- **Alimentazione Articoli Homepage ([index.html](file:///L:/Sito_Dave/index.html))**: Popolate le 3 card delle pubblicazioni direttamente dalle categorie della pagina blog (SIGMA Italia Blog, Vanguard World Official ed UniversoFoto Magazine).
-- **Modale Chiedimi Informazioni**: Aggiornato il pulsante della barra di navigazione in **`Chiedimi Informazioni`** collegato al form generico con i soli tre campi essenziali: **Nome e Cognome**, **Indirizzo Email** e **Messaggio / Richiesta**.
-- **Filtri Astronomik ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Sostituiti i pulsanti delle schede *Astronomik Ha 12nm XT* e *Astronomik CLS* con il badge **`COMING SOON`** senza link ed eliminate le dipendenze/pagine HTML correlate (`test-astronomik-ha-12nm.html` e `test-astronomik-cls.html`).
-- **Ottimizzazione Backend CMS**: Allineato l'Admin Dashboard Elementor (`admin.html`) con la struttura visuale speculare del frontend (Intro, Informazioni principali, Asset Hero, Foto 1, Foto 2...).
+## [2026-08-04] feature | Aggiornamento Footer: Rimozione Kase & Inserimento Telefono
+- **Footer Website ([index.html](file:///L:/Sito_Dave/index.html))**:
+  - Rimosso *Kase Filters* dall'elenco dei partner tecnologici nei footer del sito.
+  - Aggiunto il numero di telefono **`Tel / WhatsApp: +39 373 5096237`** con link diretto a `https://wa.me/393735096237` posizionato subito sotto l'indirizzo email `info@davideluongo.it`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
