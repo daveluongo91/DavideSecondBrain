@@ -55,13 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Incrocio Link Prodotto Move Shoot Move con Parametro Affiliato ?aff=448
-- **Incrocio Link & Affiliazione Move Shoot Move ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Collegati i singoli link specifici dei prodotti Move Shoot Move con l'estensione del codice affiliato `?aff=448`:
-  1. *MSM Nomad Tracker*: `https://www.moveshootmove.com/it/collections/msm-nomad/products/msm-rotator-for-star-tracking-time-lapse-panorama-photography?aff=448`
-  2. *Maschera di Bahtinov MSM*: `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator/products/msm-star-focus-filter?aff=448`
-  3. *Testa V-Mount Alyn Wallace*: `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator/products/z-v-platform-designed-with-alyn-wallace-preorder?aff=448`
-- **Aggiornamento Asset Grafici**: Sostituite le immagini scontornate con le 3 foto originali ad alta risoluzione fornite dall'utente per Nomad, V-Mount e Maschera di Bahtinov (`assets/gear_msm_*.png`).
+## [2026-08-04] feature | Link Articolo Ufficiale Vanguard VEO Select 39RBM BK
+- **Aggiornamento Link**: Collegato lo zaino **Vanguard VEO Select 39RBM BK (Ambassador)** in [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) al suo articolo ufficiale su Vanguard World: `https://www.vanguardworld.it/blogs/articoli/alla-scoperta-dello-zaino-veo-select-39rbm-bk`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
