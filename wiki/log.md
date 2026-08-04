@@ -55,13 +55,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Integrazione Recensioni Google Reali & Cleanup Fascia Partner
-- **Recensioni Google Autentiche ([index.html](file:///L:/Sito_Dave/index.html))**: Popolate tutte le card del carosello Hero e della sezione `#recensioni` con le recensioni Google 100% reali ed autentiche rilasciate dai tuoi clienti su Google Business (Giada Berni, Luca S, Dillia Pissarello, Stefano Marchetti, Francesco D'Ambra, Federica Castana, Giada De Lazzaro).
-- **Cleanup Fascia Partner**: Rimosse le voci *Kase Filters* e *Move Shoot Move*. La barra ora contiene esclusivamente i 3 elementi concordati:
-  1. `📷 SIGMA Italia Ambassador ↗` (blog ufficiale).
-  2. `🎒 Vanguard Ambassador (Codice Sconto DAVIPRO2026)`.
-  3. `🛍️ RCE Foto Partner (Codice Sconto LUONGO5)`.
+## [2026-08-04] feature | Aggiornamento Link Ufficiale SIGMA Italia Ambassador
+- **Fascia Partner ([index.html](file:///L:/Sito_Dave/index.html))**: Collegato il pulsante **`📷 SIGMA Italia Ambassador ↗`** all'articolo dedicato sulla community ufficiale di SIGMA Italia:
+  `https://www.sigma-italia.it/blogs/la-nostra-community/davide-luongo`
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
