@@ -55,17 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Integrazione Sezioni Move Shoot Move, MAVEN Filters ed Astronomik nel Gear
-- **Sezione Move Shoot Move ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Aggiornati i 3 prodotti ufficiali con link affiliato riservato `https://www.moveshootmove.com?aff=448`:
-  1. *Move Shoot Move Nomad Tracker*
-  2. *Maschera di Bahtinov MSM*
-  3. *Testa V-Mount Alyn Wallace Signature*
-- **Sezione MAVEN Filters ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Inserita la scheda del sistema magnetico con link affiliato `https://mavenfilters.com/aff/17/` e creato l'articolo recensione nativo [blog/test-maven-magnetic-filters.html](file:///L:/Sito_Dave/blog/test-maven-magnetic-filters.html).
-- **Sezione Astronomik ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Inseriti i filtri astronomici con link ai prodotti ufficiali su *Astronomik.com* e creati i 2 articoli recensione nativi:
-  1. *Astronomik Ha 12nm XT* -> [blog/test-astronomik-ha-12nm.html](file:///L:/Sito_Dave/blog/test-astronomik-ha-12nm.html)
-  2. *Astronomik CLS (City Light Suppression)* -> [blog/test-astronomik-cls.html](file:///L:/Sito_Dave/blog/test-astronomik-cls.html)
-- **Consulenza Brand**: Fornito parere tecnico favorevole sull'inserimento futuro dei brand **H&Y Filters** e **Brightinstar**.
+## [2026-08-04] feature | Aggiornamento Immagine Scontornata Cavalletto Vanguard Alta Pro 3VL 264 CT
+- **Aggiornamento Asset**: Sostituita l'immagine in `assets/gear_vanguard_alta_pro_3vl_264ct.png` con l'immagine ad alta risoluzione fornita dall'utente, processata con sfondo trasparente (scontornata) mantenendo l'orientamento originale senza alcuna rotazione.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
