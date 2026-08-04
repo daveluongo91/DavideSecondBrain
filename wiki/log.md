@@ -55,12 +55,12 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Aggiornamento Immagini Scontornate Prodotti SIRUI
-- **Aggiornamento Asset Grafici**: Sostituite le immagini in `assets/gear_sirui_*.png` con le foto ad alta risoluzione caricate dall'utente, processate con sfondo trasparente ed allineamento perfetto:
-  1. *Cavalletto Sirui Landscape L-324F* (`assets/gear_sirui_l324s.png`)
-  2. *Testa Video Fluida Sirui VH-10* (`assets/gear_sirui_vh10.png`)
-  3. *Testa a Sfera Sirui A-10R* (`assets/gear_sirui_a10r.png`)
+## [2026-08-04] feature | Video Hero Background, Cleanup Asset & P.IVA 03024030185
+- **Video Background Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Sostituita l'immagine statica nella Hero con il video timelapse 4K `Bruararfoss_Timelapse_4K.mp4` ottimizzato per il web in 1080p MP4 H.264 (da 75MB ridotto a 1.8MB) con riproduzione fluida in `autoplay`, `loop`, `muted`, `playsinline` e `poster` di fallback.
+- **Inserimento P.IVA nei Footer**: Aggiunta la dicitura **`P.IVA 03024030185`** nel footer di tutte le 16 pagine HTML del sito web.
+- **Cleanup Asset Inutilizzati**: Eliminati 16 file multimediali e duplicati inutilizzati nella cartella `assets/`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
