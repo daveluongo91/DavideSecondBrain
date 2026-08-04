@@ -55,11 +55,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Video Hero Background, Cleanup Asset & P.IVA 03024030185
-- **Video Background Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Sostituita l'immagine statica nella Hero con il video timelapse 4K `Bruararfoss_Timelapse_4K.mp4` ottimizzato per il web in 1080p MP4 H.264 (da 75MB ridotto a 1.8MB) con riproduzione fluida in `autoplay`, `loop`, `muted`, `playsinline` e `poster` di fallback.
-- **Inserimento P.IVA nei Footer**: Aggiunta la dicitura **`P.IVA 03024030185`** nel footer di tutte le 16 pagine HTML del sito web.
-- **Cleanup Asset Inutilizzati**: Eliminati 16 file multimediali e duplicati inutilizzati nella cartella `assets/`.
+## [2026-08-04] feature | Integrazione Recensioni Google 5.0 ⭐ & Trustindex (Opzione A)
+- **Barra Hero Stats ([index.html](file:///L:/Sito_Dave/index.html))**: Inserita la pillola **`5.0 ★ Recensioni Google`** accanto alle metriche di `15+ Workshop`, `SIGMA Ambassador` e `100% Assistenza sul Campo`.
+- **Sezione Dedicata Recensioni & Testimonianze**: Inserito il blocco `Cosa Dicono i Partecipanti` collocato dopo la sezione dei Workshop 2026:
+  - Banner di valutazione sintetico **5.0/5 ★ Eccellente su Google Business**.
+  - Integrazione dello script auto-alimentato di **Trustindex.io** (`https://cdn.trustindex.io/loader.js?ver=1`).
+  - Card di fallback in stile glassmorphism con stelle dorate, nome recensore, workshop/corso seguito ed icona di verifica Google.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
