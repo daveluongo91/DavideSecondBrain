@@ -55,15 +55,14 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Toggle Multilingua ITA/ENG, Visibilità Video Hero & Aggiornamento SitoDaveTest.html
-- **Toggle Multilingua (ITA / UK+USA)**: Inserito nella barra di navigazione superiore il selettore di lingua con **due bandiere interattive**:
-  - Bandiera Italiana 🇮🇹 (opaca ed attiva per impostazione predefinita).
-  - Bandiera UK/USA 🇬🇧/🇺🇸 con taglio diagonale personalizzato SVG.
-  - Al click, il sito viene tradotto istantaneamente in Inglese salvando la preferenza in `localStorage`.
-- **Aumento Visibilità Video Background Hero**: Incrementata la luminosità del timelapse notturno in background (`brightness(0.78) contrast(1.15)`) e ridotta la scurezza dei gradienti per far risaltare il cielo stellato ed il movimento delle nubi.
-- **Ottimizzazione Mobile, Tablet & Desktop**: Rifiniti i breakpoint responsive per smartphone (320px-600px), tablet (768px-992px) e desktop (1920px+).
-- **Aggiornamento File Standalone Test ([SitoDaveTest.html](file:///L:/Sito_Dave/Test/SitoDaveTest.html))**: Rigenerato il file di test standalone includendo tutti gli asset, i percorsi immagini `../assets/`, gli stili CSS ed il nuovo motore multilingua.
+## [2026-08-04] feature | Nuova Sezione Homepage: "Other Projects"
+- **Sezione Other Projects ([index.html](file:///L:/Sito_Dave/index.html))**: Inserita in fondo alla Homepage (prima del footer) una nuova sezione a 3 schede styled come i workshop:
+  1. **⏱️ Timelapsing**: *"Io ho una passione smodata per i timelapse: siano essi motion-controlled, statici o hyperlapse! Entra qui per conoscere il mio lavoro, la mia attrezzatura e, perché no, il mio approccio."*
+  2. **💍 Wedding**: *"Bellissima la fotografia di paesaggio: tecnica, faticosa... però dai, immortalare anche il vostro giorno più importante ha un fascino unico! Entra per vedere i miei lavori di matrimonio."*
+  3. **✈️ Travel & Hospitality**: *"Ho scoperto che mi diverte un sacco immortalare i luoghi che mi hanno ospitato durante i miei viaggi! Entra per vedere le strutture e i resort che hanno deciso di darmi una chance e collaborare con me."*
+- Ogni scheda contiene un bottone di contatto diretto collegato al form di richiesta informazioni generiche (`open-info-modal`).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
