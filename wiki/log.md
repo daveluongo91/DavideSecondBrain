@@ -55,10 +55,11 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Aggiornamento Claim H1 Homepage Hero
-- **Copywriting Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Aggiornato il titolo principale H1 con il nuovo claim formativo e trasversale (valido sia per paesaggistica diurna che notturna):
-  > **`Impara a leggere la luce dove sembra non esserci`**
+## [2026-08-04] feature | Perfezionamento Claim H1 Homepage Hero
+- **Copywriting Hero ([index.html](file:///L:/Sito_Dave/index.html))**: Perfezionato l'H1 principale integrando l'avverbio rafforzativo:
+  > **`Impara a leggere la luce anche dove sembra non esserci`**
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
