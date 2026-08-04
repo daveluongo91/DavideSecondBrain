@@ -55,10 +55,10 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Aggiornamento Immagine Scontornata & Titolo Vanguard Testa VEO PH-38S
-- **Aggiornamento Titolo & Asset**: Sostituita l'immagine in `assets/gear_vanguard_ph_38s.png` con la foto ad alta risoluzione fornita dall'utente, scontornata con sfondo trasparente.
-- **Rinominazione**: Aggiornato il titolo della scheda in [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) aggiungendo il prefisso `VEO`: **Vanguard Testa VEO PH-38S**.
+## [2026-08-04] feature | Aggiornamento Immagine Scontornata Zaino Vanguard VEO Active 46KG
+- **Aggiornamento Asset**: Sostituita l'immagine in `assets/gear_vanguard_veo_active_46kg.png` con la foto ad alta risoluzione fornita dall'utente, processata con sfondo trasparente ed allineamento perfetto.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
