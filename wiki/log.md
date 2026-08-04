@@ -55,16 +55,18 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Impaginazione Articolo "Sigma 28-105mm F2.8 Art" & Integrazione Gear
-- Creato ed impaginato l'articolo recensione [blog/test-sigma-28-105mm-art.html](file:///L:/Sito_Dave/blog/test-sigma-28-105mm-art.html) seguendo l'identica scaletta del 14mm:
-  - **Focus sul grande dilemma storico del fotografo**: *Luce o range focale? (24-105mm f/4 vs 24-70mm f/2.8)*.
-  - **Analisi del campo 28mm vs 24mm**: Negli eventi e cerimonie non pesa affatto ed è un'arma imbattibile a 105mm f/2.8; nel paesaggio puro (landscape) i 4mm grandangolari mancanti contano, motivo per cui nel paesaggio si dà comunque la precedenza al **Sigma 24-70mm F2.8 Art II** (anche per peso ed ingombri nei trekking).
-  - **Introduzione**: Riconoscimenti e testo sul ruolo di SIGMA nella crescita professionale e social.
-  - **Link Pagina Ufficiale**: `https://www.sigma-italia.it/products/art-28-105mm-f2-8-dg-dn`.
-  - **Prestazioni Diurne, Notturne, Diffrazione, Pregi & Compromessi (Pro/Contro)** e citazione finale `Hike. Shoot. Print. Repeat.`
-- Integrata la lente nella pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) nella sezione **Obiettivi** con immagine in verticale scontornata e baionetta verso il basso (`assets/gear_sigma_28105_vertical.png`), collegata all'articolo.
+## [2026-08-04] feature | Impaginazione Articolo "Sigma 15mm F1.4 Fisheye Art" & Correzione Kit Gear
+- **Correzione Pagina Gear**: Rimosso il *Sigma 28-105mm F2.8 Art* dalla pagina [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) poiché non fa parte del kit attivo di Davide (mantenendo la sua recensione attiva nel blog).
+- **Integrazione Fisheye nel Gear**: Inserita la scheda del **Sigma 15mm F1.4 DG DN Art Fisheye (Ambassador)** in [gear/gear.html](file:///L:/Sito_Dave/gear/gear.html) con immagine in verticale scontornata e baionetta orientata verso il basso (`assets/gear_sigma_15mm_fisheye_vertical.png`), collegata all'articolo.
+- **Impaginazione Articolo Nativ**: Creato ed impaginato l'articolo recensione [blog/test-sigma-15mm-fisheye-art.html](file:///L:/Sito_Dave/blog/test-sigma-15mm-fisheye-art.html) seguendo l'identica scaletta del 14mm:
+  - **Introduzione**: Riconoscimenti e testo sul ruolo di SIGMA nella crescita professionale.
+  - **Perché un 15mm Fisheye F1.4?**: Confronto tra ottica fisheye 180° e super grandangolari rettilinei (14mm / 20mm).
+  - **Funzionalità Astrofotografiche**: Lens Heater Retainer (scanalatura per fascia anticondensa), blocco MFL (Manual Focus Lock), portafiltri posteriore per gelatine e collare Arca Swiss integrato.
+  - **Link Pagina Ufficiale**: `https://www.sigma-italia.it/products/art-15mm-f1-4-dg-dn-fisheye`.
+  - **Prestazioni Diurne, Notturne (Astrofotografia a 180° a f/1.4), Diffrazione, Pregi & Compromessi (Pro/Contro)** e quote finale `Hike. Shoot. Print. Repeat.`
 - Aggiunta la scheda articolo nella sezione SIGMA Italia della pagina [blog/blog.html](file:///L:/Sito_Dave/blog/blog.html).
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
