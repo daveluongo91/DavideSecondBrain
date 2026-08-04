@@ -55,13 +55,12 @@ Registro cronologico append-only delle modifiche principali.
 - Integrati badge Ambassador, badge Link Affiliato, micro-articoli dedicati, specifiche tecniche e box interattivo per la copia del codice sconto (`MSM5DAVE`).
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
-## [2026-08-04] feature | Integrazione Sezione SIRUI nella Pagina Gear
-- **Integrazione Sezione SIRUI ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Creata la nuova sezione per i supporti ed i treppiedi SIRUI in partnership con *UniversoFoto Firenze*:
-  1. **Sirui Landscape L-324F (Testa KS-40)**: Treppiede in carbonio a 4 sezioni senza colonna centrale. Integrati il link di acquisto su UniversoFoto Firenze e la card per il codice sconto extra 5% **`DL5`**.
-  2. **Sirui Testa Video Fluida VH-10**: Testa panoramica fluida a smorzamento idraulico. Integrati il link di acquisto su UniversoFoto Firenze e la card per il codice sconto extra 5% **`DL5`**.
-  3. **Sirui Testa a Sfera A10-R**: Testa a sfera compatta da viaggio. Integrata la descrizione sintetica *(senza link ed senza codice sconto, come da indicazioni dell'utente)*.
-- **Asset Grafici**: Generate ed aggiunte le immagini PNG scontornate in `assets/gear_sirui_*.png`.
+## [2026-08-04] feature | Banner Unico Vanguard World con Codice Sconto DAVIPRO2026
+- **Integrazione Banner Promo Vanguard ([gear/gear.html](file:///L:/Sito_Dave/gear/gear.html))**: Inserito un banner visivo d'impatto con effetto neon/glassmorphism all'inizio della sezione Vanguard World:
+  - Codice Sconto Riservato: **`DAVIPRO2026`**
+  - Pulsante diretto allo Store Ufficiale Italiano: `https://www.vanguardworld.it/`.
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
+
 
 
 
