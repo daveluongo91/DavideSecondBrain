@@ -2,8 +2,8 @@
 title: Davide Luongo
 type: profile
 status: active
-updated: 2026-07-28
-summary: Profilo professionale, posizionamento e principi creativi di Davide.
+updated: 2026-08-05
+summary: Profilo professionale, identità, posizionamento e principi creativi di Davide.
 tags:
   - davide
   - profile
@@ -33,6 +33,17 @@ Negli anni ha studiato con importanti figure del panorama fotografico nazionale 
 - Test sul campo e recensioni come prova di competenza e porta d'ingresso editoriale.
 - Collaborazioni storiche con [Sigma Italia](../organizations/sigma-italia.md), [Vanguard](../organizations/vanguard.md) e [RCE Foto](../organizations/rce-foto.md).
 
+## Identità formativa
+
+I materiali SIS e la Bussola analizzati il 5 agosto 2026 chiariscono un elemento coerente con il profilo: Davide non mira a far replicare le proprie immagini, ma a rendere comprensibili le decisioni e accompagnare ogni persona nello sviluppo della propria visione.
+
+- **Promessa di lavoro:** rendere semplice ciò che sembra impossibile.
+- **Metodo:** ragionamento, preparazione, pratica, confronto e spiegazione delle scelte.
+- **Trasformazione:** dalla confusione alla serenità e all'autonomia sul campo.
+- **Esperienza:** workshop e viaggi uniscono apprendimento, luoghi, gruppo e momenti reali.
+
+“La fotografia non è difficile. È stata spiegata male” resta una proposta da testare; “Non ti insegno a copiare le mie fotografie. Ti insegno a costruire le tue” sintetizza il principio formativo.
+
 ## Principi creativi
 
 - Il cielo deve essere protagonista senza annullare il paesaggio.
@@ -61,3 +72,5 @@ Costruire un archivio che renda più semplice:
 - [Content e personal brand](../areas/content-and-personal-brand.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Partnership](../areas/partnerships.md)
+- [Identità di brand e Metodo SIS](../knowledge/brand-identity-metodo-sis.md)
+- [Strategia Instagram orientata alla conversione](../knowledge/instagram-conversion-strategy.md)

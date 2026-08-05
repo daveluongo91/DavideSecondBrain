@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-05] ingest / strategy | Instagram, Metodo SIS e Bussola
+- Integrata in forma conservativa la conversazione “Analisi profilo Instagram” e il playbook PDF “Sistema Dave — Strategia di Brand e Marketing”.
+- Sintetizzati i punti verificabili ripresi da dispense SIS, esercizi e PDF finale “Bussola”; gli allegati originali non sono stati copiati perché non disponibili nel repository.
+- Create `wiki/knowledge/brand-identity-metodo-sis.md` e `wiki/knowledge/instagram-conversion-strategy.md`.
+- Aggiornate le pagine di profilo, content/personal brand, strategia social e domande aperte senza rimuovere contenuti esistenti.
+- Conservato Reach / Trust / Conversion e reso più identitario con semplicità, serenità, autonomia, esperienza e sviluppo della visione personale.
+- Registrate come ipotesi da validare metriche prive di definizione completa, target e claim non ancora approvati.
+
 ## [2026-07-31] maintenance | Aggiornamento conservativo e provenienza LLM
 - Verificata l'assenza di materiale inequivocabilmente relativo al lavoro aziendale da dipendente; nessun contenuto esistente è stato eliminato.
 - Preservati integralmente documentazione fotografica, workflow e contenuti relativi al sito web.
@@ -84,7 +92,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-04] feature | Aggiornamento Immagini Scontornate Vanguard VEO BIB T18 e VEO BIB T25
 - **Aggiornamento Asset**: Sostituite le immagini in `assets/gear_vanguard_veo_bib_t18.png` e `assets/gear_vanguard_veo_bib_t25.png` con le foto ad alta risoluzione fornite dall'utente, processate con sfondo trasparente ed allineamento perfetto.
-
 
 
 

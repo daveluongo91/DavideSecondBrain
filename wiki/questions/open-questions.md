@@ -2,7 +2,7 @@
 title: Domande aperte
 type: question
 status: active
-updated: 2026-07-28
+updated: 2026-08-05
 summary: Questioni non ancora risolte che possono guidare ricerca e decisioni.
 tags:
   - questions
@@ -16,6 +16,10 @@ tags:
 - Quali contenuti generano realmente richieste per workshop e corsi?
 - Dove si interrompe il percorso tra Instagram e prenotazione?
 - Quale prova sociale riduce maggiormente l'incertezza?
+
+- Qual è la definizione esatta dell'“unfollow rate” dell'81% nel report Not Just Analytics del 5 agosto?
+- Quale formulazione identitaria converte meglio senza promettere troppo?
+- Quale piattaforma newsletter, modello di consenso e sequenza iniziale sono adatti al lancio?
 
 ## Sito
 

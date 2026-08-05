@@ -12,11 +12,11 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 
 ## Profilo
 
-- [Davide Luongo](profile/davide-luongo.md) — Profilo professionale, posizionamento e principi creativi di Davide. _(active)_
+- [Davide Luongo](profile/davide-luongo.md) — Profilo professionale, identità, posizionamento e principi creativi di Davide. _(active)_
 
 ## Aree
 
-- [Content e personal brand](areas/content-and-personal-brand.md) — Strategia editoriale che collega autorevolezza, intrattenimento e conversione. _(active)_
+- [Content e personal brand](areas/content-and-personal-brand.md) — Strategia editoriale identitaria che collega scoperta, fiducia, esperienza e conversione. _(active)_
 - [Fotografia](areas/photography.md) — Area permanente dedicata alla pratica fotografica e all'astrofotografia ambientata. _(active)_
 - [Partnership](areas/partnerships.md) — Area dedicata a collaborazioni, ambassador program e contenuti sponsorizzati. _(active)_
 - [Workshop e photo tour](areas/workshops-and-photo-tours.md) — Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One. _(active)_
@@ -41,7 +41,9 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 
 - [Astrofotografia ambientata](knowledge/astrophotography.md) — Principi e conoscenze operative per integrare cielo notturno e paesaggio. _(active)_
 - [Fotografia di paesaggio](knowledge/landscape-photography.md) — Principi creativi e operativi della fotografia di paesaggio di Davide. _(active)_
-- [Strategia social](knowledge/social-strategy.md) — Modello per distinguere distribuzione, autorevolezza e conversione nei contenuti social. _(active)_
+- [Identità di brand e Metodo SIS](knowledge/brand-identity-metodo-sis.md) — Identità, promessa, tono e posizionamento emersi dagli esercizi SIS e dalla Bussola. _(active)_
+- [Strategia Instagram orientata alla conversione](knowledge/instagram-conversion-strategy.md) — Strategia identitaria per trasformare attenzione e fiducia in richieste per workshop e viaggi. _(active)_
+- [Strategia social](knowledge/social-strategy.md) — Modello per collegare distribuzione, autorevolezza e conversione a una promessa identitaria comune. _(active)_
 
 ## Workflow
 

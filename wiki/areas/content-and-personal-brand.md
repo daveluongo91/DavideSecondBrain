@@ -2,8 +2,8 @@
 title: Content e personal brand
 type: area
 status: active
-updated: 2026-07-28
-summary: Strategia editoriale che collega autorevolezza, intrattenimento e conversione.
+updated: 2026-08-05
+summary: Strategia editoriale identitaria che collega scoperta, fiducia, esperienza e conversione.
 tags:
   - content
   - personal-brand
@@ -35,6 +35,14 @@ Tre livelli:
 
 Ogni contenuto dovrebbe avere un ruolo dominante, evitando di chiedergli di fare tutto insieme.
 
+## Evoluzione identitaria del 5 agosto
+
+Il modello a tre livelli resta valido. I materiali SIS e la Bussola aggiungono il criterio comune: Davide non comunica soltanto tecnica, ma un metodo che rende comprensibili le scelte, riduce l'ansia e aiuta le persone a costruire una fotografia propria.
+
+Cinque territori editoriali rendono operativo il principio senza sostituire i formati esistenti: democratizzare la fotografia; vivere ciò che si insegna; rendere protagoniste le persone; esprimere un punto di vista motivato; mostrare gli strumenti nel contesto d'uso.
+
+Instagram genera scoperta, desiderio e fiducia; newsletter e sito accompagnano la decisione; workshop e viaggi mantengono la promessa e alimentano ritorno e passaparola.
+
 ## Formati ricorrenti
 
 - Ti racconto una foto.
@@ -47,6 +55,8 @@ Ogni contenuto dovrebbe avere un ruolo dominante, evitando di chiedergli di fare
 ## Collegamenti
 
 - [Strategia social](../knowledge/social-strategy.md)
+- [Identità di brand e Metodo SIS](../knowledge/brand-identity-metodo-sis.md)
+- [Strategia Instagram orientata alla conversione](../knowledge/instagram-conversion-strategy.md)
 - [Pipeline contenuti](../workflows/content-pipeline.md)
 - [Lancio YouTube](../projects/youtube-launch.md)
 - [Ricostruzione sito](../projects/website-rebuild.md)
