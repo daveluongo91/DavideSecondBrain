@@ -2,7 +2,7 @@
 title: Adesso
 type: dashboard
 status: active
-updated: 2026-07-28
+updated: 2026-08-10
 summary: Le priorità correnti e le prossime azioni del sistema.
 tags:
   - dashboard
@@ -13,10 +13,10 @@ tags:
 
 ## Focus principale
 
-1. Consolidare il [Second Brain](../projects/second-brain.md) su GitHub.
-2. Promuovere i 4 Workshop 2026 attivi: Friuli (10-11 Ottobre), Cascate Appennino (24-25 Ottobre), Faggeta di Canfaito (7-8 Novembre), Foreste Casentinesi (28-29 Novembre).
+1. Mantenere il [Second Brain](../projects/second-brain.md) allineato ai repository e portare la revisione approvata su `main`.
+2. Promuovere i 4 Workshop 2026 attivi, con priorità al Friuli (10-11 Ottobre; 3 posti mostrati disponibili), seguito da Cascate Appennino, Faggeta di Canfaito e Foreste Casentinesi.
 3. Sviluppare le schede per i 4 Viaggi 2027 (Lapponia a Gennaio, Minorca a Maggio, Azzorre a Luglio, Islanda ad Ottobre) con le agenzie partner.
-4. Mantenere aggiornato il [sito web `Sito_Dave`](../projects/website-rebuild.md) con le landing page dedicate ed i form di iscrizione.
+4. Stabilizzare il [sito web `Sito_Dave`](../projects/website-rebuild.md): correggere `main.js`, verificare email/PayPal e consolidare backend e pannello CMS.
 
 ## Prossime azioni trasversali
 

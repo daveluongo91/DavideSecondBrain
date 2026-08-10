@@ -2,7 +2,7 @@
 title: Progetti
 type: dashboard
 status: active
-updated: 2026-07-28
+updated: 2026-08-10
 summary: Vista sintetica dei progetti attivi e pianificati.
 tags:
   - dashboard
@@ -15,10 +15,10 @@ tags:
 
 | Progetto | Stato | Prossimo risultato |
 |---|---|---|
-| [Second Brain](../projects/second-brain.md) | Attivo | Repository operativo su GitHub |
+| [Second Brain](../projects/second-brain.md) | Attivo | Revisione allineata ai repository e integrazione del branch di lavoro in `main` |
 | [Nivolet 2026](../projects/nivolet-2026.md) | Attivo | Ultimo ciclo promozionale e gestione partecipanti |
 | [YouTube](../projects/youtube-launch.md) | Attivo | Pubblicazione e apprendimento dai primi video |
-| [Sito web](../projects/website-rebuild.md) | Attivo | Architettura nuova separata dal sito legacy |
+| [Sito web](../projects/website-rebuild.md) | Attivo | Frontend, backend/CMS, email e PayPal verificati come sistema unico |
 
 ## Pianificati
 

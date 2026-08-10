@@ -3,7 +3,7 @@ title: Second Brain
 type: project
 status: active
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-10
 summary: Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM.
 tags:
   - second-brain
@@ -32,15 +32,18 @@ Un repository GitHub che:
 
 ## Stato
 
-Struttura iniziale creata e popolata con le aree creative e professionali principali.
+Repository pubblico operativo su GitHub e popolato con aree creative, professionali, progetti, workflow e registri di provenienza. Il branch di lavoro `chore/conservative-llm-provenance` contiene gli aggiornamenti successivi a `main` e deve essere mantenuto allineato con lo stato reale dei progetti.
+
+Al 10 agosto 2026 è stata eseguita una revisione di attualità rispetto a `SitoDave`: sono stati corretti stato del progetto web, dettagli del workshop Friuli, priorità correnti e registro delle modifiche.
 
 ## Prossime azioni
 
-- Caricare il repository su GitHub.
 - Aprirlo come vault Obsidian.
 - Ingerire progressivamente brief, script, landing page e documenti importanti.
 - Definire quali fonti restano private in un vault separato.
-- Fare un primo lint editoriale dopo dieci nuove fonti.
+- Eseguire una revisione settimanale di progetti, prezzi, date e prossime azioni.
+- Integrare il branch di lavoro in `main` quando la revisione è approvata.
+- Fare un lint editoriale dopo ogni aggiornamento strutturale.
 
 ## Criteri di successo
 

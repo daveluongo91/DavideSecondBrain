@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-07-29
+updated: 2026-08-10
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -24,7 +24,7 @@ Esperienze fotografiche gestite in piccoli gruppi o sessioni individuali, basate
 L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici** (Estero), disposti in ordine cronologico dalla data attuale:
 
 ### 🇮🇹 Workshop Nazionali 2026 (Attivi)
-1. **Workshop Friuli** (10-11 Ottobre 2026): Fiume Tagliamento, Laghi di Fusine e sessioni notturne di astrofotografia (*Iscrizioni Aperte*).
+1. **Workshop Friuli — Laghi e Cascate** (10-11 Ottobre 2026): Fontanon di Goriuda, Laghi di Fusine e alba alle sorgenti di Zelenci; quota €350, caparra €50, massimo 8 partecipanti e 3 posti mostrati come disponibili. Non è prevista una sessione notturna ufficiale; l'astrofotografia resta un'opportunità fuori programma se meteo e gruppo lo consentono (*Iscrizioni aperte*).
 2. **Workshop Cascate dell'Appennino** (24-25 Ottobre 2026): Lunga esposizione su corsi d'acqua e cascate con filtri ND/GND Kase (*Iscrizioni Aperte*).
 3. **Workshop Faggeta di Canfaito** (7-8 Novembre 2026): Il foliage autunnale tra i faggi secolari e le nebbie della riserva marchigiana (*Iscrizioni Aperte*).
 4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): Immersione nel picco del foliage tra i boschi sacri e i corsi d'acqua (*Iscrizioni Aperte*).
@@ -53,4 +53,4 @@ Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 - [Minorca 2027](../projects/minorca-2027.md)
 - [Ricostruzione sito web](../projects/website-rebuild.md)
 - [Workflow di lancio workshop](../workflows/workshop-launch.md)
-
+- Landing pubblica: `https://www.davideluongo.it/Friuli_2026/`

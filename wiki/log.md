@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-10] maintenance | Allineamento Second Brain con SitoDave e produzione Friuli
+- Verificato `SitoDave/main` al commit `825ac18` e confrontato lo stato della wiki con il repository e la pagina pubblica `Friuli_2026`.
+- Aggiornato il progetto sito da `completed` ad `active` per riflettere backend FastAPI, CMS, coupon, report, email e flussi PayPal ancora in consolidamento.
+- Corretti quota, caparra, location e programma del Workshop Friuli; rimossa l'indicazione obsoleta di una sessione notturna ufficiale.
+- Registrata la correzione del modulo informazioni: errore SMTP backend risolto con fallback sul mailer locale e test end-to-end HTTP 200.
+- Aggiornati dashboard, prossime azioni e stato operativo del Second Brain.
+- Nessuna credenziale, password, database o informazione privata è stata trasferita nella wiki pubblicabile.
+
 ## [2026-08-05] ingest / strategy | Instagram, Metodo SIS e Bussola
 - Integrata in forma conservativa la conversazione “Analisi profilo Instagram” e il playbook PDF “Sistema Dave — Strategia di Brand e Marketing”.
 - Sintetizzati i punti verificabili ripresi da dispense SIS, esercizi e PDF finale “Bussola”; gli allegati originali non sono stati copiati perché non disponibili nel repository.
@@ -64,7 +72,7 @@ Registro cronologico append-only delle modifiche principali.
 - Generate ed inserite immagini ad alta qualità per tutti i prodotti in `assets/gear_*.png`.
 
 ## [2026-08-04] fix | Rifinitura Copywriting Box "Cosa Imparerai" (Friuli)
-- **Workshop Friuli ([friuli-2026.html](file:///L:/Sito_Dave/workshops_2026/friuli-2026.html))**: Corretta la dicitura nel box di evidenziazione finale in *"imparare un metodo che potrai applicare in qualsiasi tua uscita fotografica futura"* (rimossa la ridondanza "metodico").
+- **Workshop Friuli (`SitoDave/workshops_2026/friuli-2026.html`)**: Corretta la dicitura nel box di evidenziazione finale in *"imparare un metodo che potrai applicare in qualsiasi tua uscita fotografica futura"* (rimossa la ridondanza "metodico").
 - Sincronizzati e pushati i commit su GitHub (`SitoDave` e `DavideSecondBrain`).
 
 
@@ -92,8 +100,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-04] feature | Aggiornamento Immagini Scontornate Vanguard VEO BIB T18 e VEO BIB T25
 - **Aggiornamento Asset**: Sostituite le immagini in `assets/gear_vanguard_veo_bib_t18.png` e `assets/gear_vanguard_veo_bib_t25.png` con le foto ad alta risoluzione fornite dall'utente, processate con sfondo trasparente ed allineamento perfetto.
-
-
 
 
 

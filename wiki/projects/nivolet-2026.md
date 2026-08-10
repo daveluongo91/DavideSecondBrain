@@ -20,7 +20,7 @@ Realizzare un workshop fotografico al Colle del Nivolet (Gran Paradiso, 2.500m) 
 
 ## Stato & Pubblicazione sul Sito Web
 
-- **Landing Page Pubblicata**: [nivolet-2026.html](../../../Sito_Dave/nivolet-2026.html) (collegata direttamente alla card in home page su `index.html`).
+- **Landing page nel repository sito**: `SitoDave/nivolet-2026.html` (collegata direttamente alla card in home page su `index.html`).
 - **Disponibilità**: Ultimi 2 posti disponibili (badge in evidenza sul sito).
 - **Quota & Logistica**: €290 a partecipante. Inclusi pernottamento e cena al Rifugio Savoia (Colle del Nivolet), colazione e assistenza didattica.
 - **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
@@ -48,4 +48,3 @@ Realizzare un workshop fotografico al Colle del Nivolet (Gran Paradiso, 2.500m) 
 - [Ricostruzione sito web](website-rebuild.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Workflow di lancio](../workflows/workshop-launch.md)
-

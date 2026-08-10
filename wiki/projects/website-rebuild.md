@@ -1,9 +1,9 @@
 ---
 title: Ricostruzione sito web
 type: project
-status: completed
-updated: 2026-07-29
-summary: Realizzazione del nuovo sito web statico (Sito_Dave) ad alte prestazioni, con design system moderno, filtri dinamici e landing orientate alla conversione.
+status: active
+updated: 2026-08-10
+summary: Evoluzione di SitoDave da sito statico a piattaforma con CMS, backend, pagamenti e landing autonome per i workshop.
 tags:
   - website
   - conversion
@@ -15,6 +15,22 @@ tags:
 ## Obiettivo
 
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
+
+## Stato corrente (10 agosto 2026)
+
+Il progetto non è più da considerare concluso: la base statica è stata estesa con un backend applicativo, un pannello CMS e flussi commerciali ancora in consolidamento.
+
+- Il branch `main` di `SitoDave` è aggiornato al commit `825ac18` (`feat: integra backend CMS e prelancio Friuli 2026`).
+- Sono presenti un backend Python/FastAPI, modelli dati, middleware di sicurezza, gestione contenuti, coupon, partecipanti, report e servizi email.
+- La landing autonoma pubblica `https://www.davideluongo.it/Friuli_2026/` mantiene PayPal separato dai moduli di contatto.
+- Il modulo informazioni della landing Friuli è stato verificato end-to-end il 10 agosto 2026: il guasto era nel trasporto SMTP del backend ed è stato corretto con fallback sul mailer locale dell'hosting.
+- Il checkout Friuli propone caparra da €50 oppure saldo totale da €350; la disponibilità mostrata è di 3 posti.
+- Credenziali, database, backup, ambienti virtuali e file `private/` restano esclusi dal repository pubblico.
+- `main.js` locale richiede revisione prima di un nuovo commit, perché contiene markup HTML grezzo e non supera il controllo sintattico JavaScript.
+
+### Prossimo risultato osservabile
+
+Allineare il frontend principale con il backend pubblicato, correggere `main.js` e completare una verifica regressiva di prenotazione, PayPal, email e pannello amministrativo.
 
 ## Risultato ottenuto (`Sito_Dave`)
 
@@ -49,7 +65,7 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
   - **Form Iscrizione Partecipanti**: Nome, Cognome, Email e Telefono obbligatorio con nota esplicativa per la creazione del gruppo WhatsApp.
   - **Doppia Formula di Pagamento**:
     - **Caparra Confirmatoria (€50)** (saldo in loco).
-    - **Saldo Totale (€290)** (con opzione 3 rate senza interessi PayPal).
+    - **Saldo Totale Friuli (€350)** (con eventuale opzione PayPal in 3 rate, se disponibile per il cliente).
   - **Politiche di Annullamento & Full Refund**:
     - Saldo: 100% rimborso a 30gg; 50% rimborso a 15gg.
     - Caparra: 100% full refund della caparra a 15gg.
@@ -58,21 +74,22 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
     - Popup interattivo che si apre al clic su "Richiedi Info via Email".
     - Campi obbligatori: Nome, Cognome, Email e Messaggio.
     - Campo facoltativo: **Numero di Telefono** con nota: *"ℹ️ Il telefono è facoltativo: inseriscilo solo se preferisci un contatto rapido via WhatsApp."*
-    - Invio diretto ed archiviazione su `info@davideluongo.it`.
+    - Invio diretto a `info@davideluongo.it`, con trasporto server-side e nessuna credenziale esposta nel client.
   - **Pagina di Ringraziamento (`thank-you.html`)**: Conferma immediata iscrizione con riepilogo dati.
   - **Report Excel (.csv UTF-8 BOM) & Invio Automatico Email**:
     - Generazione file Excel partecipanti per il Cutoff.
     - Download diretto in qualsiasi momento dal pannello Admin (`/admin`).
-    - Invio automatico ed on-demand via email a `info@davideluongo.com`.
+    - Invio automatico ed on-demand via email a `info@davideluongo.it`.
 
 ## Prossime azioni mantenimento
 
-- Aggiornamento periodico della disponibilità dei posti per i workshop (es. Nivolet 2026).
-- Integrazione delle nuove date di workshop quando disponibili (es. Cinque Terre, Minorca 2027).
+- Correggere e validare `main.js` prima di includerlo nel prossimo commit.
+- Verificare periodicamente disponibilità posti, form informazioni, notifiche e checkout PayPal.
+- Consolidare la configurazione di produzione del backend senza versionare segreti.
+- Integrare le nuove date di workshop e photo tour quando confermate.
 
 ## Collegamenti
 
 - [Content e personal brand](../areas/content-and-personal-brand.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Davide Luongo](../profile/davide-luongo.md)
-
