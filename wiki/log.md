@@ -2,6 +2,17 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-14] feature | Integrazione PayPal Sandbox e unificazione branch Second Brain
+
+- **SitoDave commit `4aa6eb5`** (`feat(paypal): integra prenotazioni e pagamenti PayPal Sandbox`):
+  - Implementato modal di prenotazione multi-step con PayPal JS SDK: l'utente sceglie tra caparra €50 (saldo in loco) o saldo completo €350 con eventuale "Paga in 3 rate" gestito da PayPal.
+  - Backend: endpoint `/api/create-paypal-order`, `/api/capture-paypal-order`, `/api/validate-coupon`, `/api/bookings`, `/api/save-coupons`, `/api/mark-balance-paid` tutti testati e funzionanti in Sandbox.
+  - Coupon: `DAVEPRO10` (−10%, validato €315 su €350) e `EARLYBIRD50` (prezzo fisso €300) con preview live nel modal.
+  - Admin panel aggiornato: tab Prenotazioni con stato pagamenti, PayPal IDs, pulsante "Segna Saldo Pagato"; editor coupon con campi separati `percentage`/`fixedPrice`, limite utilizzi e descrizione.
+  - `.gitignore` aggiornato: esclude `private/`, `backend/.venv/`, `data/bookings.json`, credenziali.
+- **Unificazione Second Brain**: il branch `chore/conservative-llm-provenance` (41 commit) è stato mergiato in `main` con fast-forward. Entrambi i repository GitHub (`SitoDave` e `DavideSecondBrain`) sono stati pushati e allineati.
+- Nessuna credenziale, password, ID sandbox o informazione privata è stata inclusa nel commit o nella wiki.
+
 ## [2026-08-10] maintenance | Allineamento Second Brain con SitoDave e produzione Friuli
 - Verificato `SitoDave/main` al commit `825ac18` e confrontato lo stato della wiki con il repository e la pagina pubblica `Friuli_2026`.
 - Aggiornato il progetto sito da `completed` ad `active` per riflettere backend FastAPI, CMS, coupon, report, email e flussi PayPal ancora in consolidamento.
@@ -9,6 +20,7 @@ Registro cronologico append-only delle modifiche principali.
 - Registrata la correzione del modulo informazioni: errore SMTP backend risolto con fallback sul mailer locale e test end-to-end HTTP 200.
 - Aggiornati dashboard, prossime azioni e stato operativo del Second Brain.
 - Nessuna credenziale, password, database o informazione privata è stata trasferita nella wiki pubblicabile.
+
 
 ## [2026-08-05] ingest / strategy | Instagram, Metodo SIS e Bussola
 - Integrata in forma conservativa la conversazione “Analisi profilo Instagram” e il playbook PDF “Sistema Dave — Strategia di Brand e Marketing”.

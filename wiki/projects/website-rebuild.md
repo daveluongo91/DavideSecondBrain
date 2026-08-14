@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-10
+updated: 2026-08-14
 summary: Evoluzione di SitoDave da sito statico a piattaforma con CMS, backend, pagamenti e landing autonome per i workshop.
 tags:
   - website
@@ -16,21 +16,18 @@ tags:
 
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
-## Stato corrente (10 agosto 2026)
+## Stato corrente (14 agosto 2026)
 
-Il progetto non è più da considerare concluso: la base statica è stata estesa con un backend applicativo, un pannello CMS e flussi commerciali ancora in consolidamento.
+L'integrazione PayPal Sandbox è completata e testata. Il sito ha un sistema di prenotazione funzionante con pagamenti reali (in attesa di switch a credenziali live).
 
-- Il branch `main` di `SitoDave` è aggiornato al commit `825ac18` (`feat: integra backend CMS e prelancio Friuli 2026`).
-- Sono presenti un backend Python/FastAPI, modelli dati, middleware di sicurezza, gestione contenuti, coupon, partecipanti, report e servizi email.
-- La landing autonoma pubblica `https://www.davideluongo.it/Friuli_2026/` mantiene PayPal separato dai moduli di contatto.
-- Il modulo informazioni della landing Friuli è stato verificato end-to-end il 10 agosto 2026: il guasto era nel trasporto SMTP del backend ed è stato corretto con fallback sul mailer locale dell'hosting.
-- Il checkout Friuli propone caparra da €50 oppure saldo totale da €350; la disponibilità mostrata è di 3 posti.
+- Il branch `main` di `SitoDave` è aggiornato al commit `4aa6eb5` (`feat(paypal): integra prenotazioni e pagamenti PayPal Sandbox`).
+- **Sistema prenotazioni**: modal multi-step con PayPal JS SDK. L'utente sceglie tra caparra €50 o saldo completo €350 con opzione "Paga in 3 rate" gestita direttamente da PayPal.
+- **Coupon sconto**: validazione server-side con due tipi — percentuale (`DAVEPRO10`: -10%) e prezzo fisso (`EARLYBIRD50`: €300). Preview live nel modal e nel pannello admin.
+- **Endpoint backend attivi**: `/api/create-paypal-order`, `/api/capture-paypal-order`, `/api/validate-coupon`, `/api/bookings`, `/api/save-coupons`, `/api/mark-balance-paid`.
+- **Admin panel**: tab Prenotazioni mostra stato pagamenti (pending/paid/failed), PayPal Order/Capture ID, pulsante "Segna Saldo Pagato"; editor coupon con campi separati percentuale/prezzo fisso, limite utilizzi e descrizione.
+- **Prossimo step**: switch credenziali PayPal da Sandbox a Live (cambiare `PAYPAL_ENV=live` in `.env`).
 - Credenziali, database, backup, ambienti virtuali e file `private/` restano esclusi dal repository pubblico.
-- `main.js` locale richiede revisione prima di un nuovo commit, perché contiene markup HTML grezzo e non supera il controllo sintattico JavaScript.
-
-### Prossimo risultato osservabile
-
-Allineare il frontend principale con il backend pubblicato, correggere `main.js` e completare una verifica regressiva di prenotazione, PayPal, email e pannello amministrativo.
+- Il Second Brain è stato unificato: il branch `chore/conservative-llm-provenance` (41 commit) è stato mergiato in `main` con fast-forward il 14/08/2026.
 
 ## Risultato ottenuto (`Sito_Dave`)
 
@@ -83,10 +80,12 @@ Allineare il frontend principale con il backend pubblicato, correggere `main.js`
 
 ## Prossime azioni mantenimento
 
-- Correggere e validare `main.js` prima di includerlo nel prossimo commit.
-- Verificare periodicamente disponibilità posti, form informazioni, notifiche e checkout PayPal.
+- **Switch PayPal Live**: sostituire `PAYPAL_ENV=sandbox` con `live` in `.env` e aggiornare Client ID/Secret con credenziali di produzione.
+- Verificare periodicamente disponibilità posti, form informazioni, notifiche email e checkout PayPal.
+- Testare il flusso E2E nel browser con account sandbox buyer reale prima del go-live.
 - Consolidare la configurazione di produzione del backend senza versionare segreti.
 - Integrare le nuove date di workshop e photo tour quando confermate.
+- Configurare webhook PayPal per aggiornamenti automatici stato pagamento (URL pubblico necessario).
 
 ## Collegamenti
 
