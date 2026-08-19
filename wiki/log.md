@@ -136,4 +136,11 @@ Registro cronologico append-only delle modifiche principali.
 
 
 
+## [2026-08-17] decision | Consolidamento SitoDave e separazione Friuli Prod
+- Auditata e consolidata la baseline tecnica del sito su FastAPI.
+- Creato il tag di ripristino `backup/pre-consolidamento-2026-08-17`.
+- Ripristinato il JavaScript della home e aggiunti smoke test, protezioni dati, SEO tecnico e controlli PayPal sandbox.
+- Separati i 13 file della landing Friuli dalla cartella `Sito_Dave/prelancio` alla cartella sorella locale `L:\Friuli_Prod`.
+- Gli altri progetti citati sul sito restano placeholder intenzionali fino alla loro integrazione.
+- Aggiornate: `wiki/projects/website-rebuild.md`, `wiki/dashboards/now.md`.
 

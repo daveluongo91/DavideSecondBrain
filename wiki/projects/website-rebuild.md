@@ -2,8 +2,8 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-14
-summary: Evoluzione di SitoDave da sito statico a piattaforma con CMS, backend, pagamenti e landing autonome per i workshop.
+updated: 2026-08-17
+summary: SitoDave consolidato su FastAPI con baseline recuperabile, pagamenti sandbox protetti e landing Friuli produttiva separata.
 tags:
   - website
   - conversion
@@ -16,7 +16,27 @@ tags:
 
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
-## Stato corrente (14 agosto 2026)
+## Stato corrente (17 agosto 2026)
+
+Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. Il ramo locale `main` di `SitoDave` include i commit di consolidamento e la separazione della landing Friuli; resta da sincronizzare con GitHub.
+
+- Punto di ripristino: tag `backup/pre-consolidamento-2026-08-17` sul commit `259ae14`.
+- Backend supportato: FastAPI (`python -m backend.run`); `server.py` resta soltanto riferimento della migrazione.
+- Esposizione pubblica: allowlist esplicita; `.env`, `private/`, backend e dati personali non sono serviti.
+- PayPal: ancora **sandbox**; validazione di workshop, formula, partecipanti, posti, importo e valuta; verifica firma webhook predisposta.
+- Email: assenza di SMTP produce un errore esplicito, non un falso esito positivo.
+- Qualità: cinque smoke test superati, JavaScript della home ripristinato e verificato.
+- SEO tecnico: aggiunti `robots.txt`, sitemap, canonical e `noindex` per la pagina di ringraziamento.
+- Landing produttiva Friuli: i 13 file autonomi sono stati spostati fuori da `Sito_Dave/prelancio` nella cartella sorella locale `L:\Friuli_Prod`.
+- I viaggi e gli altri progetti futuri restano citazioni/placeholder intenzionali fino all'integrazione completa.
+
+### Gate prima del go-live
+
+1. Configurare segreti persistenti, dominio HTTPS, CORS, SMTP e credenziali PayPal live nell'hosting.
+2. Registrare il webhook reale e completare un pagamento controllato end-to-end.
+3. Verificare email, decremento posti, rimborso/annullamento e rollback.
+4. Rimuovere `noindex` dalla landing Friuli soltanto quando contenuti, privacy/cookie e checkout live sono approvati.
+5. Eseguire l'analisi conversioni su home, schede workshop e landing Friuli dopo la stabilizzazione tecnica.
 
 L'integrazione PayPal Sandbox è completata e testata. Il sito ha un sistema di prenotazione funzionante con pagamenti reali (in attesa di switch a credenziali live).
 

@@ -26,7 +26,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Lancio YouTube](projects/youtube-launch.md) — Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica. _(active)_
 - [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca (Maggio 2027, 5 giorni / 4 notti). Anteprima 2027 sul sito web con iscrizione alla lista d'attesa. _(planned)_
 - [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet con Loris Ferrini. Landing page attiva su nivolet-2026.html (Ultimi 2 posti). _(active)_
-- [Ricostruzione sito web](projects/website-rebuild.md) — Evoluzione di SitoDave da sito statico a piattaforma con CMS, backend, pagamenti e landing autonome per i workshop. _(active)_
+- [Ricostruzione sito web](projects/website-rebuild.md) — SitoDave consolidato su FastAPI con baseline recuperabile, pagamenti sandbox protetti e landing Friuli produttiva separata. _(active)_
 - [Second Brain](projects/second-brain.md) — Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM. _(active)_
 
 ## Attrezzatura

@@ -2,7 +2,7 @@
 title: Adesso
 type: dashboard
 status: active
-updated: 2026-08-10
+updated: 2026-08-17
 summary: Le priorità correnti e le prossime azioni del sistema.
 tags:
   - dashboard
@@ -16,7 +16,8 @@ tags:
 1. Mantenere il [Second Brain](../projects/second-brain.md) allineato ai repository e portare la revisione approvata su `main`.
 2. Promuovere i 4 Workshop 2026 attivi, con priorità al Friuli (10-11 Ottobre; 3 posti mostrati disponibili), seguito da Cascate Appennino, Faggeta di Canfaito e Foreste Casentinesi.
 3. Sviluppare le schede per i 4 Viaggi 2027 (Lapponia a Gennaio, Minorca a Maggio, Azzorre a Luglio, Islanda ad Ottobre) con le agenzie partner.
-4. Stabilizzare il [sito web `Sito_Dave`](../projects/website-rebuild.md): correggere `main.js`, verificare email/PayPal e consolidare backend e pannello CMS.
+4. Portare in produzione controllata il [sito web `Sito_Dave`](../projects/website-rebuild.md): configurare hosting e segreti, completare il test PayPal/email end-to-end e analizzare le conversioni.
+5. Completare e pubblicare la landing autonoma Friuli dalla cartella locale sorella `L:\Friuli_Prod`, mantenendola separata dal repository generale del sito.
 
 ## Prossime azioni trasversali
 
