@@ -133,6 +133,31 @@ Per idee editoriali registra:
 - Scrittura concreta, non burocratica.
 - Preferire sintesi operative a descrizioni generiche.
 
+### Scrittura naturale e anti-pattern AI
+
+Scrivi come una persona competente che conosce l'argomento. Il testo deve sembrare pensato prima di essere scritto, non assemblato seguendo una struttura standard. Non introdurre errori o incoerenze per simulare una voce umana: la naturalezza nasce da dettagli concreti, parole semplici, ritmo e personalità.
+
+- Privilegia fatti, esempi reali, osservazioni precise e dettagli insoliti. Elimina le frasi generiche che non aggiungono informazione o carattere.
+- Usa verbi comuni quando bastano: `è`, `ha`, `fa`, `permette`, `mostra`, `usa`, `serve`. Evita alternative solenni come “rappresenta”, “costituisce”, “si configura come” o “funge da” quando non cambiano il significato.
+- Usa con moderazione il vocabolario ricorrente degli LLM: “fondamentale”, “cruciale”, “significativo”, “iconico”, “vibrante”, “intricato”, “duraturo”, “valorizzare”, “evidenziare”, “sottolineare”, “testimoniare”, “incarnare”, “panorama”, “approccio”, “esperienza unica”, “punto di svolta”.
+- Non attribuire importanza artificiale a fatti ordinari e non collegare ogni dettaglio a temi universali. Lascia emergere il significato dai fatti.
+- Evita il tono promozionale se non è richiesto. Descrivi ciò che rende interessante una persona, un luogo, un prodotto o un'esperienza invece di definirli straordinari, innovativi, autentici o memorabili.
+- Non usare come schema ricorrente costruzioni simmetriche come “non è X, è Y”, “non è solo X, ma anche Y” o “più che X, Y”.
+- Non applicare automaticamente la regola del tre. Il numero degli elementi deve dipendere dal contenuto.
+- Non aggiungere pseudo-profondità, interpretazioni universali o spiegazioni del significato quando il fatto è già chiaro.
+- Non inventare consenso. Evita attribuzioni vaghe come “molti ritengono”, “gli esperti sostengono” o “è ampiamente riconosciuto” senza una fonte precisa.
+- Evita introduzioni programmatiche, conclusioni scolastiche e riepiloghi che ripetono quanto appena detto. Un testo può iniziare dal contenuto e finire quando ha esaurito ciò che deve dire.
+- Lascia che la struttura nasca dal contenuto. Non imporre automaticamente introduzione, punti simmetrici e conclusione; non creare titoli, sottotitoli, elenchi o tabelle quando poche frasi funzionano meglio.
+- Usa il grassetto soltanto quando aiuta davvero la consultazione. Non trasformare ogni paragrafo in una sequenza di etichette in grassetto.
+- Varia la lunghezza delle frasi e dei paragrafi. Una frase breve può stare da sola; non uniformare il ritmo per renderlo formalmente perfetto.
+- Limita gli em dash e preferisci virgole, punti, parentesi o una nuova frase. Non usare emoji decorative salvo quando formato e destinatario le rendono naturali.
+- Elimina il tono da assistente e i meta-commenti: niente aperture automatiche, annunci di ciò che verrà spiegato, complimenti rituali o offerte generiche in chiusura.
+- Inserisci disclaimer e cautele soltanto quando evitano un errore concreto o cambiano il significato.
+- Quando scrivi in prima persona per Davide, conserva espressioni personali, dubbi, contraddizioni e dettagli specifici. Non trasformare una voce spontanea in quella di un comunicato stampa.
+- Adatta il registro al formato: una mail deve sembrare una mail, una caption una caption, uno script deve poter essere pronunciato e un testo tecnico deve essere preciso.
+
+Prima di consegnare un testo, rileggilo e togli le frasi che suonano importanti senza dire molto, le parole sofisticate non necessarie, le strutture troppo regolari e la formattazione tipica di una risposta ChatGPT.
+
 ## 9. Comandi utili
 
 ```bash

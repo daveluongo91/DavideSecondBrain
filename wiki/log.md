@@ -144,3 +144,6 @@ Registro cronologico append-only delle modifiche principali.
 - Gli altri progetti citati sul sito restano placeholder intenzionali fino alla loro integrazione.
 - Aggiornate: `wiki/projects/website-rebuild.md`, `wiki/dashboards/now.md`.
 
+## [2026-08-19] decision | Linee guida per una scrittura naturale
+- Aggiornato `AGENTS.md` con regole permanenti contro i pattern tipici della scrittura AI.
+- Privilegiate specificità, parole semplici, voce personale, ritmo naturale e formattazione determinata dal contenuto.
