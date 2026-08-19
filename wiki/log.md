@@ -147,3 +147,11 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-08-19] decision | Linee guida per una scrittura naturale
 - Aggiornato `AGENTS.md` con regole permanenti contro i pattern tipici della scrittura AI.
 - Privilegiate specificità, parole semplici, voce personale, ritmo naturale e formattazione determinata dal contenuto.
+
+## [2026-08-19] maintenance | Audit di coerenza e consolidamento su main
+- Allineati stato e dashboard del Second Brain al ramo principale unico.
+- Archiviato lo stato operativo del Nivolet senza dedurne lo svolgimento; aggiunta la retrospettiva tra le questioni aperte.
+- Uniformate le date di lavoro di Minorca e segnalata la durata ancora incoerente come dato da confermare.
+- Aggiornato il riferimento verificato di `SitoDave`, chiarito lo stato della landing Friuli e rimossi recapiti duplicati dalla wiki pubblicabile.
+- Riclassificata la guida Antigravity come riferimento storico, distinguendo i vecchi percorsi dai repository correnti su `L:`.
+- Completate le sezioni operative mancanti nei progetti attivi e chiarita la separazione tra PayPal sandbox e pagamenti reali.

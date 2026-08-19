@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-17
+updated: 2026-08-19
 summary: SitoDave consolidato su FastAPI con baseline recuperabile, pagamenti sandbox protetti e landing Friuli produttiva separata.
 tags:
   - website
@@ -16,9 +16,9 @@ tags:
 
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
-## Stato corrente (17 agosto 2026)
+## Stato corrente (19 agosto 2026)
 
-Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. Il ramo locale `main` di `SitoDave` include i commit di consolidamento e la separazione della landing Friuli; resta da sincronizzare con GitHub.
+Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. Il ramo `main` di `SitoDave` è allineato a `origin/main` al commit `dd6746e` e include il consolidamento tecnico e la separazione della landing Friuli.
 
 - Punto di ripristino: tag `backup/pre-consolidamento-2026-08-17` sul commit `259ae14`.
 - Backend supportato: FastAPI (`python -m backend.run`); `server.py` resta soltanto riferimento della migrazione.
@@ -38,16 +38,16 @@ Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. I
 4. Rimuovere `noindex` dalla landing Friuli soltanto quando contenuti, privacy/cookie e checkout live sono approvati.
 5. Eseguire l'analisi conversioni su home, schede workshop e landing Friuli dopo la stabilizzazione tecnica.
 
-L'integrazione PayPal Sandbox è completata e testata. Il sito ha un sistema di prenotazione funzionante con pagamenti reali (in attesa di switch a credenziali live).
+L'integrazione PayPal Sandbox è completata e testata. Il sistema gestisce ordini e acquisizioni nell'ambiente di prova; i pagamenti reali restano disattivati fino al passaggio verificato alle credenziali live.
 
-- Il branch `main` di `SitoDave` è aggiornato al commit `4aa6eb5` (`feat(paypal): integra prenotazioni e pagamenti PayPal Sandbox`).
+- Il lavoro PayPal sandbox è incluso nella baseline corrente di `SitoDave`; il riferimento operativo verificato il 19 agosto è `dd6746e`.
 - **Sistema prenotazioni**: modal multi-step con PayPal JS SDK. L'utente sceglie tra caparra €50 o saldo completo €350 con opzione "Paga in 3 rate" gestita direttamente da PayPal.
 - **Coupon sconto**: validazione server-side con due tipi — percentuale (`DAVEPRO10`: -10%) e prezzo fisso (`EARLYBIRD50`: €300). Preview live nel modal e nel pannello admin.
 - **Endpoint backend attivi**: `/api/create-paypal-order`, `/api/capture-paypal-order`, `/api/validate-coupon`, `/api/bookings`, `/api/save-coupons`, `/api/mark-balance-paid`.
 - **Admin panel**: tab Prenotazioni mostra stato pagamenti (pending/paid/failed), PayPal Order/Capture ID, pulsante "Segna Saldo Pagato"; editor coupon con campi separati percentuale/prezzo fisso, limite utilizzi e descrizione.
 - **Prossimo step**: switch credenziali PayPal da Sandbox a Live (cambiare `PAYPAL_ENV=live` in `.env`).
 - Credenziali, database, backup, ambienti virtuali e file `private/` restano esclusi dal repository pubblico.
-- Il Second Brain è stato unificato: il branch `chore/conservative-llm-provenance` (41 commit) è stato mergiato in `main` con fast-forward il 14/08/2026.
+- Il vecchio ramo `chore/conservative-llm-provenance` è stato integrato in `main` il 14 agosto 2026 e non è più un ramo operativo.
 
 ## Risultato ottenuto (`Sito_Dave`)
 
@@ -86,17 +86,17 @@ L'integrazione PayPal Sandbox è completata e testata. Il sito ha un sistema di 
   - **Politiche di Annullamento & Full Refund**:
     - Saldo: 100% rimborso a 30gg; 50% rimborso a 15gg.
     - Caparra: 100% full refund della caparra a 15gg.
-  - **Pulsanti di Contatto Affiancati**: "Prenota Ora", "Richiedi Info Email (`info@davideluongo.it`)" e "Chatta su WhatsApp (`+39 373 5096237`)".
+  - **Pulsanti di contatto**: prenotazione, richiesta informazioni via email e contatto WhatsApp. I recapiti non vengono duplicati nella wiki pubblicabile.
   - **Modale Popup Richiesta Info (`#info-modal-overlay`)**:
     - Popup interattivo che si apre al clic su "Richiedi Info via Email".
     - Campi obbligatori: Nome, Cognome, Email e Messaggio.
     - Campo facoltativo: **Numero di Telefono** con nota: *"ℹ️ Il telefono è facoltativo: inseriscilo solo se preferisci un contatto rapido via WhatsApp."*
-    - Invio diretto a `info@davideluongo.it`, con trasporto server-side e nessuna credenziale esposta nel client.
+    - Invio al recapito commerciale configurato, con trasporto server-side e nessuna credenziale esposta nel client.
   - **Pagina di Ringraziamento (`thank-you.html`)**: Conferma immediata iscrizione con riepilogo dati.
   - **Report Excel (.csv UTF-8 BOM) & Invio Automatico Email**:
     - Generazione file Excel partecipanti per il Cutoff.
     - Download diretto in qualsiasi momento dal pannello Admin (`/admin`).
-    - Invio automatico ed on-demand via email a `info@davideluongo.it`.
+    - Invio automatico e su richiesta al recapito commerciale configurato.
 
 ## Prossime azioni mantenimento
 
@@ -106,6 +106,28 @@ L'integrazione PayPal Sandbox è completata e testata. Il sito ha un sistema di 
 - Consolidare la configurazione di produzione del backend senza versionare segreti.
 - Integrare le nuove date di workshop e photo tour quando confermate.
 - Configurare webhook PayPal per aggiornamenti automatici stato pagamento (URL pubblico necessario).
+
+## Prossimo risultato osservabile
+
+Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook, email, decremento posti e annullamento senza esporre segreti.
+
+## Dipendenze
+
+- Repository locale e remoto `SitoDave`.
+- Hosting HTTPS, dominio, SMTP e account PayPal Business.
+- Landing autonoma in `L:\Friuli_Prod`.
+
+## Rischi
+
+- Confondere i test sandbox con l'abilitazione dei pagamenti reali.
+- Pubblicare segreti, dati di prenotazione o recapiti personali.
+- Mostrare disponibilità, date o condizioni commerciali non aggiornate.
+
+## Decisioni collegate
+
+- FastAPI è il backend supportato; `server.py` resta un riferimento di migrazione.
+- La landing Friuli produttiva resta separata dal repository generale del sito.
+- Credenziali, database, backup e file privati non vengono versionati.
 
 ## Collegamenti
 

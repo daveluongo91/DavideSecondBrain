@@ -1,11 +1,11 @@
 ---
 title: Nivolet 2026
 type: project
-status: active
-updated: 2026-07-29
+status: archived
+updated: 2026-08-19
 start: 2026-08-08
 end: 2026-08-09
-summary: Workshop fotografico al Colle del Nivolet con Loris Ferrini. Landing page attiva su nivolet-2026.html (Ultimi 2 posti).
+summary: Workshop fotografico al Colle del Nivolet previsto per l'8 e 9 agosto 2026; periodo concluso, retrospettiva da registrare.
 tags:
   - workshop
   - nivolet
@@ -18,10 +18,11 @@ tags:
 
 Realizzare un workshop fotografico al Colle del Nivolet (Gran Paradiso, 2.500m) l'8 e 9 agosto 2026, con esperienza sul campo di astrofotografia ambientata, pernottamento e supporto didattico continuo.
 
-## Stato & Pubblicazione sul Sito Web
+## Stato
 
-- **Landing page nel repository sito**: `SitoDave/nivolet-2026.html` (collegata direttamente alla card in home page su `index.html`).
-- **Disponibilità**: Ultimi 2 posti disponibili (badge in evidenza sul sito).
+- Il periodo previsto, 8-9 agosto 2026, è concluso e le iscrizioni risultano chiuse.
+- L'esito effettivo del workshop non è documentato nel repository: partecipazione, svolgimento e apprendimenti restano da registrare.
+- La landing storica era nel repository del sito come `nivolet-2026.html`.
 - **Quota & Logistica**: €290 a partecipante. Inclusi pernottamento e cena al Rifugio Savoia (Colle del Nivolet), colazione e assistenza didattica.
 - **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
 
@@ -37,11 +38,11 @@ Realizzare un workshop fotografico al Colle del Nivolet (Gran Paradiso, 2.500m) 
   - Ore 05:30: Alba in quota e blue hour.
   - Ore 08:30: Colazione e sessione di revisione scatti e introduzione al workflow di post-produzione (stacking cielo, blending, riduzione rumore).
 
-## Prossimi Passi
+## Chiusura da completare
 
-- Gestione richieste e ultime 2 iscrizioni via modale sito / email.
-- Invio guida logistica e consigli su abbigliamento di montagna / attrezzatura consigliata ai partecipanti.
-- Monitoraggio condizioni meteo in prossimità della data.
+- Confermare se il workshop si è svolto come previsto.
+- Registrare numero di partecipanti, feedback, metriche e problemi emersi.
+- Archiviare o aggiornare la landing per evitare disponibilità obsolete.
 
 ## Collegamenti
 

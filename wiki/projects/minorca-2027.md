@@ -2,10 +2,10 @@
 title: Minorca Photo Experience 2027
 type: project
 status: planned
-updated: 2026-07-29
-start: 2027-05-01
-end: 2027-05-31
-summary: Photo tour a Minorca (Maggio 2027, 5 giorni / 4 notti). Anteprima 2027 sul sito web con iscrizione alla lista d'attesa.
+updated: 2026-08-19
+start: 2027-05-29
+end: 2027-06-03
+summary: Photo tour a Minorca previsto dal 29 maggio al 3 giugno 2027; durata commerciale e dettagli operativi da confermare.
 tags:
   - minorca
   - photo-tour
@@ -24,7 +24,8 @@ Un viaggio fotografico tra i faraglioni e le scogliere incontaminate di Minorca,
 ## Stato & Pubblicazione sul Sito Web
 
 - **Presentazione sul Sito**: Card "Anteprima 2027" presente nella griglia Workshop & Photo Tour in `index.html`.
-- **Durata**: 5 Giorni / 4 Notti (Maggio 2027).
+- **Date di lavoro**: 29 maggio-3 giugno 2027, come riportato nella dashboard progetti.
+- **Durata commerciale**: da confermare; la precedente indicazione “5 giorni / 4 notti” non coincide con l'intervallo registrato.
 - **CTA Attiva**: Modale di iscrizione alla lista d'attesa precompilato ("Interesse Minorca 2027").
 - **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
 
@@ -45,4 +46,3 @@ Un viaggio fotografico tra i faraglioni e le scogliere incontaminate di Minorca,
 - [Ricostruzione sito web](website-rebuild.md)
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Astrofotografia](../knowledge/astrophotography.md)
-

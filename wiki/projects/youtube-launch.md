@@ -2,7 +2,7 @@
 title: Lancio YouTube
 type: project
 status: active
-updated: 2026-07-28
+updated: 2026-08-19
 summary: Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica.
 tags:
   - youtube
@@ -51,3 +51,27 @@ Il 35 mm come focale e come scelta narrativa, non soltanto la recensione di un s
 - Archiviare script e shot list come fonti.
 - Creare una pagina per ogni video pubblicato.
 - Registrare dopo 7 e 30 giorni risultati e apprendimenti.
+
+## Stato
+
+Il repository definisce direzione e metriche, ma non registra ancora un primo video pubblicato o i relativi risultati.
+
+## Prossimo risultato osservabile
+
+Pubblicazione del primo video accompagnata da script, shot list, link e rilevazione delle metriche a 7 giorni.
+
+## Dipendenze
+
+- Materiale girato sul campo e immagini di esempio.
+- Script e shot list archiviati tra le fonti.
+- Collegamento al sito e ai progetti editoriali pertinenti.
+
+## Rischi
+
+- Replicare il linguaggio rapido di Instagram in un formato lungo.
+- Pubblicare senza conservare materiali e dati utili alla revisione.
+
+## Decisioni collegate
+
+- I contenuti lunghi e basati sull'esperienza sono il formato principale.
+- Gli Shorts non sono il centro della strategia iniziale.

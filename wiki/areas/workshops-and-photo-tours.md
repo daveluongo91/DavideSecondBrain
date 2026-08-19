@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-08-10
+updated: 2026-08-19
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -29,11 +29,11 @@ L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici
 3. **Workshop Faggeta di Canfaito** (7-8 Novembre 2026): Il foliage autunnale tra i faggi secolari e le nebbie della riserva marchigiana (*Iscrizioni Aperte*).
 4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): Immersione nel picco del foliage tra i boschi sacri e i corsi d'acqua (*Iscrizioni Aperte*).
 
-*(Nota: Le iscrizioni per il Colle del Nivolet sono chiuse; Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi).*
+Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta collegata in attesa della retrospettiva. Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi dall'offerta attiva.
 
 ### ✈️ Viaggi Fotografici 2027 (Anteprima)
 1. **Photo Tour Lapponia** (Gennaio 2027): Caccia all'Aurora Boreale e paesaggi innevati artici.
-2. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (Maggio 2027): Faraglioni, fari e cieli bui in Riserva Starlight UNESCO (*Lista d'Attesa*).
+2. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (29 maggio-3 giugno 2027, date di lavoro): Faraglioni, fari e cieli bui in Riserva Starlight UNESCO (*Lista d'Attesa*). Durata commerciale da confermare.
 3. **Photo Tour Azzorre** (Luglio 2027): Vulcani, crateri azzurri, scogliere a picco e cieli atlantici.
 4. **Photo Tour Islanda** (Ottobre 2027): Cascate imponenti, spiagge di sabbia nera, ghiacciai e Aurore Boreali.
 
@@ -53,4 +53,4 @@ Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 - [Minorca 2027](../projects/minorca-2027.md)
 - [Ricostruzione sito web](../projects/website-rebuild.md)
 - [Workflow di lancio workshop](../workflows/workshop-launch.md)
-- Landing pubblica: `https://www.davideluongo.it/Friuli_2026/`
+- URL Friuli registrato: `https://www.davideluongo.it/Friuli_2026/` (stato della versione autonoma da verificare prima di considerarla pubblicata).

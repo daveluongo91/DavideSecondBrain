@@ -2,7 +2,7 @@
 title: Domande aperte
 type: question
 status: active
-updated: 2026-08-05
+updated: 2026-08-19
 summary: Questioni non ancora risolte che possono guidare ricerca e decisioni.
 tags:
   - questions
@@ -36,6 +36,8 @@ tags:
 
 - Qual è il formato più sostenibile tra weekend e tre giorni?
 - Quali elementi fanno percepire il viaggio come esperienza unica e non sostituibile?
+- Il workshop Nivolet dell'8-9 agosto 2026 si è svolto? Quali partecipazione, feedback e apprendimenti vanno registrati?
+- Per Minorca 2027, l'intervallo 29 maggio-3 giugno è confermato? Qual è la durata commerciale corretta?
 
 ## Attrezzatura
 

@@ -1,9 +1,9 @@
 ---
 title: Antigravity Setup, Permessi e Ripristino Ambiente
 type: workflow
-status: active
-updated: 2026-07-29
-summary: Guida completa per il ripristino dell'ambiente Antigravity, permessi concessi, eseguibili di sistema e configurazione su nuove macchine.
+status: reference
+updated: 2026-08-19
+summary: Registro storico della configurazione Antigravity; percorsi e permessi vanno verificati sulla macchina corrente.
 tags:
   - setup
   - antigravity
@@ -14,14 +14,15 @@ tags:
 
 # Antigravity Setup, Permessi e Ripristino Ambiente
 
-Guida operativa per ripristinare istantaneamente l'ambiente di lavoro dell'agente AI (Antigravity), i permessi concessi, gli eseguibili e la struttura dei repository su qualsiasi nuova macchina Windows.
+Questa pagina conserva la configurazione Antigravity usata in precedenza. Non va applicata alla cieca su una nuova macchina: percorsi, eseguibili e permessi dipendono dall'ambiente corrente. Al 19 agosto 2026 i repository attivi sono `L:\Sito_Dave` e `L:\Davide_SecondBrain`; Python e Git risultano disponibili dal `PATH`.
 
 ---
 
 ## 1. Percorsi Workspace e Junction Link
 
-- **Repository Sito Web**: `D:\Sito_Dave`
-- **Repository Second Brain**: `D:\Davide_SecondBrain`
+- **Repository Sito Web corrente**: `L:\Sito_Dave`
+- **Repository Second Brain corrente**: `L:\Davide_SecondBrain`
+- I successivi riferimenti a `D:` e al vecchio profilo Windows sono conservati come configurazione storica e devono essere adattati.
 - **Directory Junction per Retrocompatibilità** (da eseguire in PowerShell/CMD come Amministratore se il percorso primario era su `C:`):
 
 ```powershell
