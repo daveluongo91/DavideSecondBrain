@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-19
+updated: 2026-08-21
 summary: SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti.
 tags:
   - website
@@ -16,7 +16,22 @@ tags:
 
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
-## Stato corrente (19 agosto 2026)
+## Stato corrente (21 agosto 2026)
+
+### Audit backend del 21 agosto 2026
+
+- La baseline FastAPI/SQLite include già sessioni server-side, Argon2id, CSRF, rate limiting, audit log, ruoli, CMS a blocchi con revisioni, CRUD workshop, partecipanti, costi, coupon, PayPal Sandbox, report XLSX e libreria immagini.
+- La pipeline immagini già ridimensiona senza ingrandire fino a 2048 px, converte in sRGB, rimuove metadati e genera WebP/JPEG responsive a 480, 768, 1280 e 2048 px.
+- L'export manuale dei partecipanti non è ancora indipendente: la route di generazione richiama `run_cutoff` e il pulsante della sezione partecipanti usa un URL e un metodo non coerenti con l'endpoint. Va creato un export estemporaneo che non modifichi cutoff, prenotazioni o snapshot.
+- Il CMS ha pagine e blocchi, ma non dispone ancora di template rigidi e versionati capaci di creare dal backend una landing workshop o viaggio internazionale completa e uniforme.
+- Le richieste informazioni vengono inviate via email ma non diventano contatti persistenti nel database. Manca un CRM con import/export CSV, deduplicazione, stati, tag, blacklist, storico e consensi.
+- L'upload admin gestisce soltanto immagini. Manca una pipeline video sicura con transcodifica e poster.
+- Il login attuale crea la sessione subito dopo username e password. Il requisito successivo è un secondo passaggio OTP email obbligatorio, valido dieci minuti, prima della creazione della sessione.
+- Baseline test osservata: 19 test superati e 2 non eseguiti per un errore di permessi sulla directory temporanea di pytest, non per un'asserzione funzionale fallita.
+
+### Prossimo risultato richiesto
+
+Preparare un intervento backend che aggiunga export XLSX in qualsiasi momento, generazione guidata di workshop e viaggi da template, CRM contatti, pipeline video e OTP email, conservando compatibilità con prenotazioni e pagamenti esistenti.
 
 Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. La base remota precedente all'aggiornamento dei workshop autunnali è il commit `dd6746e`; il nuovo lavoro viene preparato su un ramo dedicato prima dell'integrazione in `main`.
 

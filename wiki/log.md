@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] audit / planning | Evoluzione backend SitoDave
+
+- Auditata la baseline FastAPI, SQLite e admin senza modificare il sito.
+- Confermate funzioni già presenti: CMS a blocchi, revisioni, workshop, partecipanti, PayPal Sandbox, report XLSX, sicurezza sessioni e pipeline immagini fino a 2048 px.
+- Definiti i prossimi ambiti: export partecipanti indipendente dal cutoff, template uniformi per workshop e viaggi, CRM con CSV e blacklist, video 1080p/720p e OTP email di dieci minuti.
+- Durante l'audit sono comparsi sei asset RAW/elaborato non versionati nel repository del sito; sono stati lasciati intatti come modifiche esterne.
+- Nessuna modifica applicata a `Sito_Dave`; il risultato operativo di questa fase è un prompt per Antigravity.
+
 ## [2026-08-21] planning | Nuova impostazione commerciale One-to-One
 
 - Registrata la proposta di revisione della pagina: footer coerente con il sito, tre confronti RAW/elaborato, due percorsi principali (remoto e dal vivo) e una terza scheda per comprare ore.
