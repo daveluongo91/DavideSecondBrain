@@ -2,6 +2,20 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] feature / content | Riprogettazione Pagina One-to-One e Motore Pricing
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Riprogettata la pagina `one-to-one/one-to-one.html` secondo le direttive visive e commerciali:
+    - Footer unificato e coerente al 100% con `index.html` (P.IVA IT03043130737, link e colonne identiche).
+    - Inseriti 3 confronti RAW / Elaborato orizzontali subito sotto la Hero (Via Lattea Nivolet, Cascate del Dardagna, Laghi di Fusine) con slider fluido mouse, touch e tastiera.
+    - Sezione Vantaggi riscritta in prima persona: "In gruppo è sicuramente bellissimo, ma nel One-to-One sono tutto per te", card personalizzazione ("Costruire il tuo stile, non copiare il mio") e card registrazioni/Drive condiviso con file .xmp, .psd e appunti Gemini.
+    - Due percorsi principali (Percorso da remoto e Percorso dal vivo) con pulsante "Richiedi un preventivo" e modale accessibile collegata a `api/send-info-email.php`.
+    - Terza card "Acquista le tue ore": selettore 1..5 ore con calcolo dinamico del prezzo (80 €/h, sconti progressivi 0%, 10%, 20%, 30%, 40%), prezzi barrati, badge percentuale e checkout PayPal Sandbox integrato con validazione server-side.
+    - Come funziona il percorso in 4 step e 9 FAQ con accordion accessibile.
+  - Aggiornati i backend `backend/app/routes/paypal.py` e `api/create-paypal-order.php` con calcolo sicuro dei prezzi e test di regressione pytest passati (23/23).
+- **Davide Second Brain**: Aggiornato registro modifiche e allineata la documentazione operativa.
+
+
 ## [2026-08-21] audit / planning | Evoluzione backend SitoDave
 
 - Auditata la baseline FastAPI, SQLite e admin senza modificare il sito.
