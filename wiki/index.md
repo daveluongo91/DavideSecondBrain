@@ -26,8 +26,9 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Lancio YouTube](projects/youtube-launch.md) — Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica. _(active)_
 - [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca previsto dal 29 maggio al 3 giugno 2027; durata commerciale e dettagli operativi da confermare. _(planned)_
 - [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet previsto per l'8 e 9 agosto 2026; periodo concluso, retrospettiva da registrare. _(archived)_
-- [Ricostruzione sito web](projects/website-rebuild.md) — SitoDave consolidato su FastAPI con baseline recuperabile, pagamenti sandbox protetti e landing Friuli produttiva separata. _(active)_
+- [Ricostruzione sito web](projects/website-rebuild.md) — SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti. _(active)_
 - [Second Brain](projects/second-brain.md) — Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM. _(active)_
+- [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave. _(active)_
 
 ## Attrezzatura
 

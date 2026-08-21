@@ -2,7 +2,15 @@
 
 Registro cronologico append-only delle modifiche principali.
 
-## [2026-08-14] feature | Integrazione PayPal Sandbox e unificazione branch Second Brain
+## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
+
+- **SitoDave commit `48682a3`**:
+  - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con il nuovo scatto verticale in Islanda con arco di roccia naturale scattato con Sigma 14mm (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
+  - **Blog & Pubblicazioni Showcase**: Centralizzato l'archivio articoli in `data/articles.json` e reso dinamico il caricamento delle preview in homepage tramite fetch asincrona in `main.js`, con ordinamento cronologico e supporto featured/external.
+  - **Behind the Shot**: Integrato il nuovo scatto alpino Via Lattea con scheda tecnica EXIF (SIGMA fp-L, 15mm F1.4 Fisheye, Move Shoot Move NOMAD, Vanguard Alta Pro 3VL 264CT).
+  - **Team**: Aggiunti Eleonora Fioravante (@travel.fiore) come Coordinatrice Viaggi & Tour Leader e Mauro Boccali (@mauro.boccali.ph) per la co-docenza dei workshop in Umbria e Val d'Orcia.
+- Allineato e sincronizzato repository `DavideSecondBrain`.
+
 
 - **SitoDave commit `4aa6eb5`** (`feat(paypal): integra prenotazioni e pagamenti PayPal Sandbox`):
   - Implementato modal di prenotazione multi-step con PayPal JS SDK: l'utente sceglie tra caparra €50 (saldo in loco) o saldo completo €350 con eventuale "Paga in 3 rate" gestito da PayPal.
@@ -155,3 +163,16 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornato il riferimento verificato di `SitoDave`, chiarito lo stato della landing Friuli e rimossi recapiti duplicati dalla wiki pubblicabile.
 - Riclassificata la guida Antigravity come riferimento storico, distinguendo i vecchi percorsi dai repository correnti su `L:`.
 - Completate le sezioni operative mancanti nei progetti attivi e chiarita la separazione tra PayPal sandbox e pagamenti reali.
+
+## [2026-08-19] feature | Landing Canfaito & Conero e Foreste Casentinesi
+- Create le cartelle autonome `L:\Canfaito_Conero_Prod` e `L:\Foreste_Casentinesi_Prod`, con copie versionate in `Sito_Dave/standalone_pages/`.
+- Collegati i due workshop al backend condiviso: 8 posti, caparra e saldo, PayPal Pay Later, cutoff, avvisi disponibilità e marker email distinti.
+- Lasciati segnaposto nominati per tutte le fotografie ancora da fornire; le pagine non sono indicate come pubblicate.
+- Aggiunta la scheda `wiki/projects/autumn-workshops-2026.md` e aggiornate area workshop, dashboard e progetto sito.
+
+## [2026-08-19] release | Pubblicazione Workshop Dardagna 2026
+- Pubblicata la landing su `https://www.davideluongo.it/Dardagna_2026/` dalla cartella `L:\Dardagna_Prod`.
+- Aggiunti endpoint PHP locali per 8 posti, caparra €50, saldo €350, PayPal Live, email con marker `[DARDAGNA 2026]` e avvisi alle soglie 2/1.
+- Registrato un webhook PayPal Live dedicato alla pagina Dardagna.
+- Verificati pagina, video, tre fotografie, disponibilità, SDK PayPal, protezione 403 dei file privati e validazioni API; inviata una mail test reale.
+- Non è stato eseguito alcun addebito reale durante la pubblicazione.

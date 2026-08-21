@@ -25,9 +25,9 @@ L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici
 
 ### 🇮🇹 Workshop Nazionali 2026 (Attivi)
 1. **Workshop Friuli — Laghi e Cascate** (10-11 Ottobre 2026): Fontanon di Goriuda, Laghi di Fusine e alba alle sorgenti di Zelenci; quota €350, caparra €50, massimo 8 partecipanti e 3 posti mostrati come disponibili. Non è prevista una sessione notturna ufficiale; l'astrofotografia resta un'opportunità fuori programma se meteo e gruppo lo consentono (*Iscrizioni aperte*).
-2. **Workshop Cascate dell'Appennino** (24-25 Ottobre 2026): Lunga esposizione su corsi d'acqua e cascate con filtri ND/GND Kase (*Iscrizioni Aperte*).
-3. **Workshop Faggeta di Canfaito** (7-8 Novembre 2026): Il foliage autunnale tra i faggi secolari e le nebbie della riserva marchigiana (*Iscrizioni Aperte*).
-4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): Immersione nel picco del foliage tra i boschi sacri e i corsi d'acqua (*Iscrizioni Aperte*).
+2. **Workshop Dardagna — Cascate dell'Appennino** (24-25 Ottobre 2026): pagina autonoma pubblicata su `https://www.davideluongo.it/Dardagna_2026/`, quota €350, caparra €50, massimo 8 partecipanti e docenza di Davide Luongo e Manuel Linari (*Iscrizioni aperte*).
+3. **Workshop Canfaito & Conero** (7-8 Novembre 2026): due giornate tra la faggeta di Canfaito e la costa del Monte Conero. La nuova pagina autonoma è pronta in `L:\Canfaito_Conero_Prod`, con fotografie ancora da sostituire nei segnaposto (*Pronta in locale, non ancora pubblicata*).
+4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): boschi, corsi d'acqua e scene di fine autunno. La nuova pagina autonoma è pronta in `L:\Foreste_Casentinesi_Prod`, con fotografie ancora da sostituire nei segnaposto (*Pronta in locale, non ancora pubblicata*).
 
 Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta collegata in attesa della retrospettiva. Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi dall'offerta attiva.
 
@@ -51,6 +51,9 @@ Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 
 - [Nivolet 2026](../projects/nivolet-2026.md)
 - [Minorca 2027](../projects/minorca-2027.md)
+- [Workshop autunnali 2026](../projects/autumn-workshops-2026.md)
 - [Ricostruzione sito web](../projects/website-rebuild.md)
 - [Workflow di lancio workshop](../workflows/workshop-launch.md)
-- URL Friuli registrato: `https://www.davideluongo.it/Friuli_2026/` (stato della versione autonoma da verificare prima di considerarla pubblicata).
+- URL Friuli confermato: `https://www.davideluongo.it/Friuli_2026/`.
+- URL Dardagna confermato: `https://www.davideluongo.it/Dardagna_2026/`.
+- Percorsi pubblici previsti per le nuove pagine: `/Canfaito_Conero_2026/` e `/Foreste_Casentinesi_2026/`. Non sono ancora indicati come pubblicati.

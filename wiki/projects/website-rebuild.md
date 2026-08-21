@@ -3,7 +3,7 @@ title: Ricostruzione sito web
 type: project
 status: active
 updated: 2026-08-19
-summary: SitoDave consolidato su FastAPI con baseline recuperabile, pagamenti sandbox protetti e landing Friuli produttiva separata.
+summary: SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti.
 tags:
   - website
   - conversion
@@ -18,34 +18,36 @@ Creare un sito più semplice, moderno e orientato alla conversione verso worksho
 
 ## Stato corrente (19 agosto 2026)
 
-Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. Il ramo `main` di `SitoDave` è allineato a `origin/main` al commit `dd6746e` e include il consolidamento tecnico e la separazione della landing Friuli.
+Il sito è stato sottoposto ad audit e consolidato in una baseline verificata. La base remota precedente all'aggiornamento dei workshop autunnali è il commit `dd6746e`; il nuovo lavoro viene preparato su un ramo dedicato prima dell'integrazione in `main`.
 
 - Punto di ripristino: tag `backup/pre-consolidamento-2026-08-17` sul commit `259ae14`.
 - Backend supportato: FastAPI (`python -m backend.run`); `server.py` resta soltanto riferimento della migrazione.
 - Esposizione pubblica: allowlist esplicita; `.env`, `private/`, backend e dati personali non sono serviti.
-- PayPal: ancora **sandbox**; validazione di workshop, formula, partecipanti, posti, importo e valuta; verifica firma webhook predisposta.
+- PayPal del backend FastAPI generale: ancora **sandbox**. La landing autonoma Dardagna usa invece gli endpoint PHP locali con credenziali Live private e webhook dedicato.
 - Email: assenza di SMTP produce un errore esplicito, non un falso esito positivo.
-- Qualità: cinque smoke test superati, JavaScript della home ripristinato e verificato.
+- Qualità: 21 test backend superati il 19 agosto, compresi importi PayPal, posti, marker email, avvisi disponibilità e report cutoff.
 - SEO tecnico: aggiunti `robots.txt`, sitemap, canonical e `noindex` per la pagina di ringraziamento.
-- Landing produttiva Friuli: i 13 file autonomi sono stati spostati fuori da `Sito_Dave/prelancio` nella cartella sorella locale `L:\Friuli_Prod`.
-- I viaggi e gli altri progetti futuri restano citazioni/placeholder intenzionali fino all'integrazione completa.
+- Landing autonome locali: `L:\Friuli_Prod`, `L:\Dardagna_Prod`, `L:\Canfaito_Conero_Prod` e `L:\Foreste_Casentinesi_Prod`.
+- Landing Dardagna pubblicata il 19 agosto 2026 su `https://www.davideluongo.it/Dardagna_2026/`; configurazione privata e archivio prenotazioni rispondono 403.
+- Canfaito & Conero e Foreste Casentinesi hanno anche copie versionate in `Sito_Dave/standalone_pages/`; le immagini sono segnaposto espliciti in attesa degli asset definitivi.
+- Il backend condiviso gestisce per i due nuovi workshop 8 posti, caparra €50, saldo €350, PayPal Pay Later, politiche di rimborso, cutoff, avvisi a 2/1 posti e marker distinti nelle richieste informazioni.
 
 ### Gate prima del go-live
 
 1. Configurare segreti persistenti, dominio HTTPS, CORS, SMTP e credenziali PayPal live nell'hosting.
 2. Registrare il webhook reale e completare un pagamento controllato end-to-end.
 3. Verificare email, decremento posti, rimborso/annullamento e rollback.
-4. Rimuovere `noindex` dalla landing Friuli soltanto quando contenuti, privacy/cookie e checkout live sono approvati.
-5. Eseguire l'analisi conversioni su home, schede workshop e landing Friuli dopo la stabilizzazione tecnica.
+4. Rimuovere `noindex` dalle landing soltanto quando contenuti, privacy/cookie e checkout live sono approvati.
+5. Eseguire l'analisi conversioni su home, schede workshop e landing autonome dopo la stabilizzazione tecnica.
 
-L'integrazione PayPal Sandbox è completata e testata. Il sistema gestisce ordini e acquisizioni nell'ambiente di prova; i pagamenti reali restano disattivati fino al passaggio verificato alle credenziali live.
+L'integrazione PayPal Sandbox del backend generale è completata e testata. Dardagna è il flusso autonomo già collegato a PayPal Live tramite PHP locale; non è stato eseguito un addebito reale durante la pubblicazione.
 
 - Il lavoro PayPal sandbox è incluso nella baseline corrente di `SitoDave`; il riferimento operativo verificato il 19 agosto è `dd6746e`.
 - **Sistema prenotazioni**: modal multi-step con PayPal JS SDK. L'utente sceglie tra caparra €50 o saldo completo €350 con opzione "Paga in 3 rate" gestita direttamente da PayPal.
 - **Coupon sconto**: validazione server-side con due tipi — percentuale (`DAVEPRO10`: -10%) e prezzo fisso (`EARLYBIRD50`: €300). Preview live nel modal e nel pannello admin.
 - **Endpoint backend attivi**: `/api/create-paypal-order`, `/api/capture-paypal-order`, `/api/validate-coupon`, `/api/bookings`, `/api/save-coupons`, `/api/mark-balance-paid`.
 - **Admin panel**: tab Prenotazioni mostra stato pagamenti (pending/paid/failed), PayPal Order/Capture ID, pulsante "Segna Saldo Pagato"; editor coupon con campi separati percentuale/prezzo fisso, limite utilizzi e descrizione.
-- **Prossimo step**: switch credenziali PayPal da Sandbox a Live (cambiare `PAYPAL_ENV=live` in `.env`).
+- **Prossimo step**: sostituire i segnaposto di Canfaito & Conero e Foreste Casentinesi, verificare i testi operativi e completare i rispettivi checkout sandbox prima del go-live.
 - Credenziali, database, backup, ambienti virtuali e file `private/` restano esclusi dal repository pubblico.
 - Il vecchio ramo `chore/conservative-llm-provenance` è stato integrato in `main` il 14 agosto 2026 e non è più un ramo operativo.
 
@@ -100,12 +102,12 @@ L'integrazione PayPal Sandbox è completata e testata. Il sistema gestisce ordin
 
 ## Prossime azioni mantenimento
 
-- **Switch PayPal Live**: sostituire `PAYPAL_ENV=sandbox` con `live` in `.env` e aggiornare Client ID/Secret con credenziali di produzione.
+- **Switch PayPal Live generale**: resta da fare per il backend FastAPI. Dardagna usa già PayPal Live nella propria cartella autonoma.
 - Verificare periodicamente disponibilità posti, form informazioni, notifiche email e checkout PayPal.
 - Testare il flusso E2E nel browser con account sandbox buyer reale prima del go-live.
 - Consolidare la configurazione di produzione del backend senza versionare segreti.
 - Integrare le nuove date di workshop e photo tour quando confermate.
-- Configurare webhook PayPal per aggiornamenti automatici stato pagamento (URL pubblico necessario).
+- Il webhook PayPal Live di Dardagna è registrato su `/Dardagna_2026/api/paypal-webhook`; gli altri flussi vanno configurati separatamente prima del live.
 
 ## Prossimo risultato osservabile
 
@@ -115,7 +117,7 @@ Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook
 
 - Repository locale e remoto `SitoDave`.
 - Hosting HTTPS, dominio, SMTP e account PayPal Business.
-- Landing autonoma in `L:\Friuli_Prod`.
+- Landing autonome nelle quattro cartelle `*_Prod` su `L:`.
 
 ## Rischi
 
@@ -126,7 +128,7 @@ Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook
 ## Decisioni collegate
 
 - FastAPI è il backend supportato; `server.py` resta un riferimento di migrazione.
-- La landing Friuli produttiva resta separata dal repository generale del sito.
+- Le cartelle `*_Prod` restano pacchetti autonomi; Canfaito & Conero e Foreste Casentinesi hanno una copia versionata nel repository per tracciarne l'evoluzione senza includere database o segreti.
 - Credenziali, database, backup e file privati non vengono versionati.
 
 ## Collegamenti
