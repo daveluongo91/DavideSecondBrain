@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] diagnosis / backend | WordPress Aruba e FastAPI locale non collegati
+
+- Verificato in sola lettura il nuovo `https://www.davideluongo.it/`: il dominio serve WordPress e `/wp-admin/` reindirizza correttamente alla schermata di login, senza pagina bianca, loop o errore PHP visibile.
+- `https://www.davideluongo.it/api/health` restituisce la pagina 404 di WordPress: il backend FastAPI di `L:\Sito_Dave` non è pubblicato né instradato sul dominio Aruba.
+- Verificato `L:\Sito_Dave` in locale senza modifiche: avvio con `python -m backend.run`, `/api/health` HTTP 200, `/admin/` HTTP 200 e suite completa con 29 test superati.
+- Diagnosi: il codice FastAPI locale funziona; il problema è il disallineamento architetturale/deployment tra il nuovo WordPress su Aruba e il backend presente nel repository. Nessuna modifica applicata al sito o a WordPress.
+
 ## [2026-08-21] feature / backend / admin | Evoluzione Backend FastAPI, CRM Contatti, Template Esperienze e 2FA Admin
 
 - **SitoDave (`L:\Sito_Dave`)**:
