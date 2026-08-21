@@ -4,8 +4,8 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `48682a3`**:
-  - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con il nuovo scatto verticale in Islanda con arco di roccia naturale scattato con Sigma 14mm (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
+- **SitoDave commit `3318c11`**:
+  - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con la versione pulita ad alta risoluzione dell'arco naturale in Islanda (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
   - **Blog & Pubblicazioni Showcase**: Centralizzato l'archivio articoli in `data/articles.json` e reso dinamico il caricamento delle preview in homepage tramite fetch asincrona in `main.js`, con ordinamento cronologico e supporto featured/external.
   - **Behind the Shot**: Integrato il nuovo scatto alpino Via Lattea con scheda tecnica EXIF (SIGMA fp-L, 15mm F1.4 Fisheye, Move Shoot Move NOMAD, Vanguard Alta Pro 3VL 264CT).
   - **Team**: Aggiunti Eleonora Fioravante (@travel.fiore) come Coordinatrice Viaggi & Tour Leader e Mauro Boccali (@mauro.boccali.ph) per la co-docenza dei workshop in Umbria e Val d'Orcia.
