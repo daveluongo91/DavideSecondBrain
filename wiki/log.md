@@ -4,7 +4,8 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `dd3c27b`**:
+- **SitoDave commit `68da381`**:
+  - **Workshop & Viaggi (`#workshops-2026`, `#viaggi-2027`)**: Rimosse le diciture descrittive/istruttive delle frecce e tastiera nelle intestazioni di sezione per un layout più pulito e minimale.
   - **Other Projects (`#other-projects`)**: Sostituita l'immagine statica nella card Timelapsing con il video mp4 720p ottimizzato web (`assets/timelapse_nivolet_card.mp4`), poster frame (`assets/timelapse_nivolet_poster.jpg`) e riproduzione fluida autoplay/loop/muted.
   - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con la versione pulita ad alta risoluzione dell'arco naturale in Islanda (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
   - **Blog & Pubblicazioni Showcase**: Centralizzato l'archivio articoli in `data/articles.json` e reso dinamico il caricamento delle preview in homepage tramite fetch asincrona in `main.js`, con ordinamento cronologico e supporto featured/external.
