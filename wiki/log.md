@@ -4,11 +4,10 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `a8e5fac`**:
-  - **Viaggi Fotografici 2027 (`#viaggi-2027`)**: Applicato a tutte e 4 le card carosello (Lapponia, Minorca, Azzorre, Islanda) il placeholder coordinato al **neon rosa "COMING SOON"** con animazione flicker.
-  - **Miniature Workshop Homepage (`#workshops-2026`)**: Placeholder al neon rosa "COMING SOON" per Canfaito e Foreste Casentinesi, mentre Friuli e Dardagna mostrano le rispettive foto hero reali.
-  - **Sincronizzazione Pagine Workshop (`workshops_2026/`)**: Pagine workshop perfettamente allineate con le landing di produzione (`Friuli_Prod`, `Dardagna_Prod`, `Canfaito_Conero_Prod`, `Foreste_Casentinesi_Prod`), complete di CSS dedicato, script di checkout e asset.
-  - **Cartelle Workshop Root**: Create e popolate le directory web dedicate `Friuli_2026/`, `Dardagna_2026/`, `Canfaito_Conero_2026/`, `Foreste_Casentinesi_2026/` con moduli PHP `/api` operativi e asset video/foto ad alta qualità.
+- **SitoDave commit `d4971b4`**:
+  - **Modulo Richiesta Informazioni Taggato (`info-modal`, `main.js`)**: Tutte le card con segnaposto "COMING SOON" (Canfaito, Foreste Casentinesi, Lapponia, Minorca, Azzorre, Islanda) aprono direttamente il modulo popup con tag dinamico pre-impostato (`Richiesta info per [Nome Evento]`) e badge visivo.
+  - **Backend Invio Email (`api/send-info-email.php`)**: Creato endpoint che inoltra la richiesta alla casella `info@davideluongo.it` con oggetto formattato `[RICHIESTA INFO] Richiesta info per [Nome Evento]`.
+  - **Viaggi Fotografici 2027 & Workshop 2026**: Card coordinate con pulsanti di richiesta info e link dedicati.
 - Allineato e sincronizzato repository `DavideSecondBrain`.
 
 
