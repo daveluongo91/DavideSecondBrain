@@ -4,7 +4,8 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `3318c11`**:
+- **SitoDave commit `dd3c27b`**:
+  - **Other Projects (`#other-projects`)**: Sostituita l'immagine statica nella card Timelapsing con il video mp4 720p ottimizzato web (`assets/timelapse_nivolet_card.mp4`), poster frame (`assets/timelapse_nivolet_poster.jpg`) e riproduzione fluida autoplay/loop/muted.
   - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con la versione pulita ad alta risoluzione dell'arco naturale in Islanda (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
   - **Blog & Pubblicazioni Showcase**: Centralizzato l'archivio articoli in `data/articles.json` e reso dinamico il caricamento delle preview in homepage tramite fetch asincrona in `main.js`, con ordinamento cronologico e supporto featured/external.
   - **Behind the Shot**: Integrato il nuovo scatto alpino Via Lattea con scheda tecnica EXIF (SIGMA fp-L, 15mm F1.4 Fisheye, Move Shoot Move NOMAD, Vanguard Alta Pro 3VL 264CT).
