@@ -4,11 +4,9 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `c2d2965`**:
-  - **Pulizia Progetto**: Rimossa completamente la directory `Test/` e i file temporanei.
-  - **Ottimizzazione Asset**: Eliminati gli asset orfani non utilizzati (placeholder svg obsoleti e immagini duplicate) ripulendo la cartella `assets/`.
-  - **Consolidamento PayPal**: Consolidato il modulo PayPal nativo PHP/JS SDK importato da `Friuli_Prod` su tutte le landing di produzione, eliminando il vecchio codice JS ridondante in `main.js`.
-  - **Controllo Dipendenze & Link**: Verificati e corretti tutti i collegamenti interni di navigazione nelle sezioni blog, gear, workshop e admin.
+- **SitoDave commit `e7cb68b`**:
+  - **Pagina One to One (`one-to-one/one-to-one.html`)**: Istituita la pagina dedicata ai percorsi formativi individuali e mentorship di Davide Luongo, con 3 moduli formativi (Astrofotografia sul Campo, Post-Produzione Digitale avanzata e Portfolio Review/Fine Art), sezione Metodo in 4 step, FAQ e modulo di richiesta info taggato per `info@davideluongo.it`.
+  - **Navigazione & Footer**: Collegata la voce "One to One" nei menu di navigazione e nei footer di tutto il sito (`index.html`, `blog/blog.html`, `gear/gear.html`).
 - Allineato e sincronizzato repository `DavideSecondBrain`.
 
 
