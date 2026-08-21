@@ -43,9 +43,20 @@ Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta colleg
 
 Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 
-- **Astrofotografia sul Campo**: Messa a fuoco notturna, pianificazione PhotoPills, allineamento polare con tracciatore stellare e tecniche per la riduzione del rumore.
-- **Post-Produzione Avanzata**: Sessioni online su Lightroom & Photoshop (stacking del cielo, denoise, blending tra primo piano e cielo notturno).
-- **Dal RAW alla Stampa Fine Art**: Preparazione corretta dei file per la stampa artistica, gestione del colore e prova d'assaggio a video.
+- **Dal vivo**: dalla progettazione dello scatto alla sua realizzazione sul campo.
+- **Da remoto**: elaborazione dei file e disamina compositiva e tecnica dei RAW, senza imporre lo stile del docente.
+- Le videolezioni online sono organizzate in blocchi da un'ora su Google Meet. Registrazioni, appunti Gemini, file XMP e PSD vengono raccolti in un Drive a disposizione dello studente.
+- Il preventivo viene costruito dopo un contatto telefonico, da effettuare entro il giorno successivo alla richiesta e nella fascia indicata dal cliente.
+- È prevista anche la vendita diretta di ore singole a partire da 80 euro l'ora, con sconto progressivo da definire in modo non ambiguo prima dello sviluppo del checkout PayPal.
+
+### Revisione pagina proposta il 21 agosto 2026
+
+- Allineare il footer alle altre pagine del sito.
+- Inserire sotto la hero tre confronti RAW/elaborato con cursore prima-dopo.
+- Riscrivere vantaggi e personalizzazione con la voce diretta di Davide: nel One-to-One l'attenzione è tutta sullo studente e l'obiettivo è sviluppare una visione personale.
+- Ridurre i percorsi principali a due schede, remoto e dal vivo, più una terza scheda per l'acquisto delle ore.
+- Mantenere la sezione sul funzionamento e riscrivere le FAQ in base a modalità, materiali consegnati, telefonata e acquisto ore.
+- Questa revisione è pianificata: al momento non risulta implementata nella pagina.
 
 ## Progetti & Workflow Collegati
 

@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] planning | Nuova impostazione commerciale One-to-One
+
+- Registrata la proposta di revisione della pagina: footer coerente con il sito, tre confronti RAW/elaborato, due percorsi principali (remoto e dal vivo) e una terza scheda per comprare ore.
+- Definiti materiali delle lezioni online (registrazione, appunti Gemini, XMP e PSD), contatto telefonico entro il giorno successivo e posizionamento centrato sullo sviluppo dello stile personale dello studente.
+- Il prezzo base richiesto è 80 euro l'ora. La regola dello sconto progressivo necessita di una formula e di un limite espliciti prima di implementare il pagamento PayPal.
+- Nessuna modifica eseguita sul sito in questa fase: il risultato richiesto è un prompt operativo per Antigravity.
+
 ## [2026-08-21] audit | Analisi pagina One-to-One
 
 - Analizzata in sola lettura `L:\Sito_Dave\one-to-one\one-to-one.html` insieme a `style.css` e `main.js`.
