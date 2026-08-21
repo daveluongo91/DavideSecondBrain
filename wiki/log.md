@@ -2,6 +2,20 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] feature / backend / admin | Evoluzione Backend FastAPI, CRM Contatti, Template Esperienze e 2FA Admin
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - **Export Partecipanti Estemporaneo**: Implementato endpoint isolato `GET /api/admin/participants/export` per il download istantaneo in XLSX (fogli Partecipanti, Riepilogo, Costi) con filtri per stato, data e formula, sanificazione formule `=/+/-/@` e nessuna alterazione di stato o cutoff.
+  - **Template Esperienze & Viaggi Internazionali**: Modelli unificati con template versionati `workshop-v1` e `international-trip-v1`, controlli pre-pubblicazione (Tour Operator, documenti, date, prezzi, assenza placeholder `[TODO]`), wizard e render deterministico HTML.
+  - **CRM Contatti & Rubrica**: Modello dati relazionale completo (`Contact`, `ContactInteraction`, `Tag`), acquisizione automatica da form contatti, avvisi e ordini PayPal con deduplicazione (email/telefono) e calcolo stati (`new_lead` -> `customer` -> `loyal_customer`), gestione blacklist con motivo, import/export CSV con UTF-8 BOM, delimitatore configurabile e strategie di risoluzione conflitti.
+  - **Autenticazione 2FA Email OTP & Recovery Codes**: Login a due fasi obbligatorio con codice a 6 cifre inviato via email (validità 10 min, cooldown 60s, max 5 tentativi), challenge token HMAC effimero e 8 codici di recupero monouso per emergenza, gestione revoca sessioni multiple.
+  - **Pipeline Video & Background Jobs**: Endpoint `POST /upload-video` con transcodifica FFmpeg asincrona (1080p, 720p H.264 web-ready, faststart, audio AAC, poster WebP/JPEG), gestione formato verticale e tracciamento progresso in database `Job`.
+  - **Backup SQLite Atomico**: Servizio di copia atomica a caldo con verifica di integrità `PRAGMA quick_check`, hash SHA-256 e download protetto da admin panel.
+  - **Frontend Admin Panel**: Ridisegnate `admin/index.html` (login 2FA), `admin/dashboard.html`, `admin/admin.js` e `admin/admin.css` con tab e modali dedicate per Esperienze/Viaggi, CRM contatti, Media & Video, Sicurezza e Backup.
+  - **Qualità & Test**: Suite estesa con 29 test automatizzati pytest (`tests/test_evolution.py` + baseline completa) superati con successo (29 passed).
+- **Davide Second Brain**: Aggiornata documentazione di progetto e registro log; lint wiki verificato senza errori.
+
+
 ## [2026-08-21] feature / content | Riprogettazione Pagina One-to-One e Motore Pricing
 
 - **SitoDave (`L:\Sito_Dave`)**:
