@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-21] audit | Analisi pagina One-to-One
+
+- Analizzata in sola lettura `L:\Sito_Dave\one-to-one\one-to-one.html` insieme a `style.css` e `main.js`.
+- La pagina ha una struttura completa (hero, vantaggi, tre percorsi, metodo, FAQ e CTA), ma non chiarisce prezzi, condizioni, credenziali del docente, prove sociali e differenze operative tra le formule.
+- Rilevati problemi tecnici da correggere in un intervento successivo: conferma di invio mostrata anche in caso di errore API; FAQ inizialmente aperte e primo clic inefficace; selettore inglese quasi privo di traduzioni per questa pagina; modale senza gestione completa di tastiera, focus e attributi ARIA; menu principale nascosto sotto 768 px senza alternativa.
+- Nessuna modifica eseguita sul sito. Il browser integrato non consente di aprire URL `file:///`, quindi il responsive è stato valutato dal codice e richiede ancora una verifica visiva renderizzata.
+
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
 - **SitoDave commit `e7cb68b`**:
