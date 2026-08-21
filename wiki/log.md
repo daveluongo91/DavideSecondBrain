@@ -4,7 +4,9 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `68da381`**:
+- **SitoDave commit `1aabf98`**:
+  - **Standalone Landing Workshop (`standalone_pages/`)**: Integrate nel repository le quattro directory autonome di produzione (`Friuli_Prod`, `Dardagna_Prod`, `Canfaito_Conero_Prod`, `Foreste_Casentinesi_Prod`), complete di moduli PHP `/api` per la creazione e cattura ordini PayPal, webhook, gestione posti ed email di notifica.
+  - **Carosello Workshop 2026 (`#workshops-2026`)**: Card aggiornate con la foto hero reale per Dardagna e l'effetto animato neon pink "COMING SOON" per Canfaito & Conero e Foreste Casentinesi (in attesa degli asset fotografici definitivi).
   - **Workshop & Viaggi (`#workshops-2026`, `#viaggi-2027`)**: Rimosse le diciture descrittive/istruttive delle frecce e tastiera nelle intestazioni di sezione per un layout più pulito e minimale.
   - **Other Projects (`#other-projects`)**: Sostituita l'immagine statica nella card Timelapsing con il video mp4 720p ottimizzato web (`assets/timelapse_nivolet_card.mp4`), poster frame (`assets/timelapse_nivolet_poster.jpg`) e riproduzione fluida autoplay/loop/muted.
   - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con la versione pulita ad alta risoluzione dell'arco naturale in Islanda (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
