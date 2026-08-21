@@ -4,8 +4,8 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `d436571`**:
-  - **Miniature Workshop Homepage (`#workshops-2026`)**: Tutte e 4 le card del carosello mostrano le foto hero reali delle rispettive location (Friuli `lago-friuli.jpg`, Dardagna `dardagna-hero-poster.jpg`, Canfaito `canfaito_workshop.png`, Foreste Casentinesi `foreste_casentinesi_workshop.png`).
+- **SitoDave commit `592dd89`**:
+  - **Miniature Workshop Homepage (`#workshops-2026`)**: Ripristinati i placeholder al neon rosa "COMING SOON" con effetto flicker per Canfaito e Foreste Casentinesi (in attesa delle foto hero definitive), mentre Friuli e Dardagna mostrano le rispettive foto hero reali.
   - **Sincronizzazione Pagine Workshop (`workshops_2026/`)**: Pagine workshop perfettamente allineate con le landing di produzione (`Friuli_Prod`, `Dardagna_Prod`, `Canfaito_Conero_Prod`, `Foreste_Casentinesi_Prod`), complete di CSS dedicato, script di checkout e asset.
   - **Cartelle Workshop Root**: Create e popolate le directory web dedicate `Friuli_2026/`, `Dardagna_2026/`, `Canfaito_Conero_2026/`, `Foreste_Casentinesi_2026/` con moduli PHP `/api` operativi e asset video/foto ad alta qualità.
 - Allineato e sincronizzato repository `DavideSecondBrain`.
