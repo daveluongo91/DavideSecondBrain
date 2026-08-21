@@ -4,15 +4,10 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-21] feature / content | Aggiornamento Homepage SitoDave (Story, Blog dinamico, Behind the Shot, Team)
 
-- **SitoDave commit `1aabf98`**:
-  - **Standalone Landing Workshop (`standalone_pages/`)**: Integrate nel repository le quattro directory autonome di produzione (`Friuli_Prod`, `Dardagna_Prod`, `Canfaito_Conero_Prod`, `Foreste_Casentinesi_Prod`), complete di moduli PHP `/api` per la creazione e cattura ordini PayPal, webhook, gestione posti ed email di notifica.
-  - **Carosello Workshop 2026 (`#workshops-2026`)**: Card aggiornate con la foto hero reale per Dardagna e l'effetto animato neon pink "COMING SOON" per Canfaito & Conero e Foreste Casentinesi (in attesa degli asset fotografici definitivi).
-  - **Workshop & Viaggi (`#workshops-2026`, `#viaggi-2027`)**: Rimosse le diciture descrittive/istruttive delle frecce e tastiera nelle intestazioni di sezione per un layout più pulito e minimale.
-  - **Other Projects (`#other-projects`)**: Sostituita l'immagine statica nella card Timelapsing con il video mp4 720p ottimizzato web (`assets/timelapse_nivolet_card.mp4`), poster frame (`assets/timelapse_nivolet_poster.jpg`) e riproduzione fluida autoplay/loop/muted.
-  - **La Mia Storia / Chi Sono (`#chi-sono`)**: Sostituita la foto della sezione biografica con la versione pulita ad alta risoluzione dell'arco naturale in Islanda (`assets/davide_luongo_story.jpg`), impostando layout a 9/16, ombra e posizionamento sticky ottimizzato.
-  - **Blog & Pubblicazioni Showcase**: Centralizzato l'archivio articoli in `data/articles.json` e reso dinamico il caricamento delle preview in homepage tramite fetch asincrona in `main.js`, con ordinamento cronologico e supporto featured/external.
-  - **Behind the Shot**: Integrato il nuovo scatto alpino Via Lattea con scheda tecnica EXIF (SIGMA fp-L, 15mm F1.4 Fisheye, Move Shoot Move NOMAD, Vanguard Alta Pro 3VL 264CT).
-  - **Team**: Aggiunti Eleonora Fioravante (@travel.fiore) come Coordinatrice Viaggi & Tour Leader e Mauro Boccali (@mauro.boccali.ph) per la co-docenza dei workshop in Umbria e Val d'Orcia.
+- **SitoDave commit `15d5200`**:
+  - **Sincronizzazione Pagine Workshop (`workshops_2026/`)**: Sostituite integralmente le vecchie bozze dei workshop (`friuli-2026.html`, `cascate-appennino-2026.html`, `canfaito-2026.html`, `foreste-casentinesi-2026.html`) con le landing page definitive di produzione (`Friuli_Prod`, `Dardagna_Prod`, `Canfaito_Conero_Prod`, `Foreste_Casentinesi_Prod`), complete di CSS dedicato, script di checkout e asset.
+  - **Cartelle Workshop Root**: Create e popolate le directory web dedicate `Friuli_2026/`, `Dardagna_2026/`, `Canfaito_Conero_2026/`, `Foreste_Casentinesi_2026/` con moduli PHP `/api` operativi e asset video/foto ad alta qualità.
+  - **Carosello Workshop 2026 (`#workshops-2026`)**: Card collegate alle landing di produzione, foto hero reale per Dardagna e placeholder neon pink "COMING SOON" per Canfaito & Conero e Foreste Casentinesi.
 - Allineato e sincronizzato repository `DavideSecondBrain`.
 
 
