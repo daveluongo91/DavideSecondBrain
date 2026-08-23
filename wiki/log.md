@@ -231,3 +231,9 @@ Registro cronologico append-only delle modifiche principali.
 - Registrato un webhook PayPal Live dedicato alla pagina Dardagna.
 - Verificati pagina, video, tre fotografie, disponibilità, SDK PayPal, protezione 403 dei file privati e validazioni API; inviata una mail test reale.
 - Non è stato eseguito alcun addebito reale durante la pubblicazione.
+
+## [2026-08-24] maintenance | Stato collaborazioni e controllo Thunderbird
+- Incrociato il CSV disponibile con i messaggi indicizzati nella Posta in arrivo di Thunderbird.
+- Registrati gli stati di ALPAKA, PGYTECH, SmallRig, SIRUI, iOptron e Vanguard; mantenute come dichiarazioni dell'utente le collaborazioni attive non ricostruibili dal solo indice.
+- Annotata la differenza tra le 12 righe dell'allegato recuperato e le 21 dichiarate nella conversazione precedente.
+- Preparati un master di 27 brand e un CSV residuo con le 10 proposte complete ancora da inviare.
