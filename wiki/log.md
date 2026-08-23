@@ -251,3 +251,8 @@ Registro cronologico append-only delle modifiche principali.
 - Nessun riepilogo di ordini, vendite o commissioni compare nelle email indicizzate; il totale deve essere letto dal pannello Affiliatly.
 - Annotata la soglia comunicata dal brand il 2 luglio 2026: almeno 10 ordini in un anno per la valutazione ambassador.
 - Chiarito che `aff=17` non compare nelle fonti: 17 è il numero di righe affiliate del master. Il link `aff=13` deriva dalla dichiarazione diretta di Davide, mentre `aff=448` è quello confermato via email dal brand.
+
+## [2026-08-24] maintenance | Verifica affiliazione BrightinStar
+- Confermata l'approvazione dell'account GoAffPro del 14 marzo 2024 e l'esistenza attuale del programma sul sito ufficiale.
+- Registrata una vendita verificata: ordine `US2883`, valore `60,17 USD`, commissione `6,02 USD`; nessuna prova del pagamento nelle email.
+- Aggiornata la struttura corrente: 5% generale, 10% sul 28mm F2.8 e indicazione pubblica “fino al 10%”.
