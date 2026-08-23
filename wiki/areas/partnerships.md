@@ -33,9 +33,9 @@ Il controllo comprende i tre account configurati in Thunderbird: `info@davideluo
 - Kase Filters e Vallerret restano collaborazioni storiche. Kase era gestita in forma spot tramite TFS e nell'ultimo scambio risultava in rallentamento.
 - ALPAKA richiede una nuova candidatura all'indirizzo ambassador ricevuto.
 - SmallRig, MIOPS e Irix risultano rifiutate.
-- Il master completo contiene 45 realtà e una sezione separata con 16 righe dedicate a programmi affiliati, codici e vantaggi.
+- Il master completo contiene 45 realtà e una sezione separata con 17 righe dedicate a programmi affiliati, codici e vantaggi.
 
-Tra i dati commerciali verificati: Move Shoot Move confermava attivi il link `?aff=448` e il codice pubblico `Davide`; PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
+Tra i dati commerciali verificati: per Move Shoot Move Davide usa ora il link `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator?aff=13`. Il precedente `?aff=448`, confermato dal brand il 14 novembre 2025, resta nello storico. Le email fissano il 10% di commissione e il 5% di sconto al pubblico, ma non contengono report con ordini, vendite o commissioni maturate; dal 2 luglio 2026 il programma ambassador richiede almeno 10 ordini in un anno. PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
 
 ### Prossime azioni
 
@@ -44,6 +44,7 @@ Tra i dati commerciali verificati: Move Shoot Move confermava attivi il link `?a
 3. Recuperare dal pannello o dal referente il codice e il link RCE, senza dedurli dalle email di cashback.
 4. Verificare nei pannelli i link personali Maven, SIRUI e Matjoez prima di pubblicarli.
 5. Inviare la candidatura ALPAKA completa.
+6. Aprire il pannello Affiliatly di Move Shoot Move e registrare ordini, vendite lorde, commissioni maturate e pagamenti; le email non permettono di calcolarli.
 
 ## Scheda minima per ogni collaborazione
 

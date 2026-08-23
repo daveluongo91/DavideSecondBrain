@@ -244,3 +244,9 @@ Registro cronologico append-only delle modifiche principali.
 - Ricostruite 45 relazioni tra collaborazioni, affiliazioni, offerte, invii e rifiuti.
 - Corretti gli stati: ORICO ripartita; SIRUI e PGYTECH da riattivare; Kase e Vallerret storiche.
 - Separati link pubblici, codici personali o monouso e campagne scadute; registrati sette ordini e €94,05 di cashback sul coupon RCE al 17 agosto 2026.
+
+## [2026-08-24] maintenance | Verifica affiliazione Move Shoot Move
+- Registrato come link corrente `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator?aff=13`; mantenuto `?aff=448` come riferimento storico.
+- Confermati dalle email il 10% di commissione e il 5% di sconto per chi acquista dal link.
+- Nessun riepilogo di ordini, vendite o commissioni compare nelle email indicizzate; il totale deve essere letto dal pannello Affiliatly.
+- Annotata la soglia comunicata dal brand il 2 luglio 2026: almeno 10 ordini in un anno per la valutazione ambassador.
