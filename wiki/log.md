@@ -250,3 +250,4 @@ Registro cronologico append-only delle modifiche principali.
 - Confermati dalle email il 10% di commissione e il 5% di sconto per chi acquista dal link.
 - Nessun riepilogo di ordini, vendite o commissioni compare nelle email indicizzate; il totale deve essere letto dal pannello Affiliatly.
 - Annotata la soglia comunicata dal brand il 2 luglio 2026: almeno 10 ordini in un anno per la valutazione ambassador.
+- Chiarito che `aff=17` non compare nelle fonti: 17 è il numero di righe affiliate del master. Il link `aff=13` deriva dalla dichiarazione diretta di Davide, mentre `aff=448` è quello confermato via email dal brand.
