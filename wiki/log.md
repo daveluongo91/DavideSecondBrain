@@ -237,3 +237,10 @@ Registro cronologico append-only delle modifiche principali.
 - Registrati gli stati di ALPAKA, PGYTECH, SmallRig, SIRUI, iOptron e Vanguard; mantenute come dichiarazioni dell'utente le collaborazioni attive non ricostruibili dal solo indice.
 - Annotata la differenza tra le 12 righe dell'allegato recuperato e le 21 dichiarate nella conversazione precedente.
 - Preparati un master di 27 brand e un CSV residuo con le 10 proposte complete ancora da inviare.
+
+## [2026-08-24] maintenance | Storico completo collaborazioni e affiliazioni
+- Aggiunti a Thunderbird `fangoman91@gmail.com` e `daveluongo.ph@gmail.com`, mantenendo invariato l'account Aruba.
+- Esteso il controllo a 3.444 messaggi ricevuti indicizzati nei tre account; Posta inviata e Tutti i messaggi non sono ancora indicizzati integralmente.
+- Ricostruite 45 relazioni tra collaborazioni, affiliazioni, offerte, invii e rifiuti.
+- Corretti gli stati: ORICO ripartita; SIRUI e PGYTECH da riattivare; Kase e Vallerret storiche.
+- Separati link pubblici, codici personali o monouso e campagne scadute; registrati sette ordini e €94,05 di cashback sul coupon RCE al 17 agosto 2026.

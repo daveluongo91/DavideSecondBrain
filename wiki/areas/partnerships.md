@@ -25,22 +25,25 @@ Una collaborazione funziona quando il prodotto entra in una storia o in un proce
 
 ## Stato contatti al 24 agosto 2026
 
-Il controllo usa il CSV disponibile e i messaggi indicizzati nella Posta in arrivo di Thunderbird. Gli invii sono confermati soltanto quando compaiono nelle risposte quotate oppure erano già stati indicati da Davide.
+Il controllo comprende i tre account configurati in Thunderbird: `info@davideluongo.it`, `fangoman91@gmail.com` e `daveluongo.ph@gmail.com`. La ricostruzione usa i messaggi ricevuti indicizzati e gli invii citati nelle risposte. Le cartelle Posta inviata e Tutti i messaggi non risultano ancora indicizzate integralmente, quindi gli stati senza prova diretta restano marcati come da verificare.
 
-- Collaborazioni attive: Sigma, Maven, iOptron, Asterra, Vanguard, PGYTECH e SIRUI.
-- ALPAKA ha risposto indicando `influencers@alpakagear.com`: serve una nuova candidatura con i dati richiesti.
-- Ulanzi è stata contattata; non risulta una risposta nell'indice controllato.
-- SmallRig ha risposto che non ha campagne coerenti con la proposta in questo momento. Stato: rifiutata.
-- Restano da contattare 17 realtà nel master. Il CSV operativo conserva 10 proposte complete presenti nel file sorgente.
+- Collaborazioni attive: Sigma, Vanguard, Maven Filters, Move Shoot Move, iOptron/Tecnosky, Asterra e RCE Foto.
+- ORICO è ripartita.
+- SIRUI e PGYTECH sono rapporti reali da riattivare, non prospect nuovi.
+- Kase Filters e Vallerret restano collaborazioni storiche. Kase era gestita in forma spot tramite TFS e nell'ultimo scambio risultava in rallentamento.
+- ALPAKA richiede una nuova candidatura all'indirizzo ambassador ricevuto.
+- SmallRig, MIOPS e Irix risultano rifiutate.
+- Il master completo contiene 45 realtà e una sezione separata con 16 righe dedicate a programmi affiliati, codici e vantaggi.
 
-Il file sorgente recuperato dalla conversazione contiene 12 righe. Il messaggio precedente ne dichiarava 21, ma le nove righe aggiuntive non erano nell'allegato disponibile. Sono state registrate nel master senza ricostruire email, oggetti o corpi mancanti.
+Tra i dati commerciali verificati: Move Shoot Move confermava attivi il link `?aff=448` e il codice pubblico `Davide`; PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
 
 ### Prossime azioni
 
-1. Inviare la candidatura ALPAKA al contatto ambassador ricevuto.
-2. Usare il CSV residuo per i dieci contatti con proposta completa.
-3. Recuperare o ricreare soltanto dopo verifica le proposte mancanti per Cotton Carrier, NITECORE, Lexar, HYLJE, Happy Campers Iceland, Wild About Lapland e Nordic Odyssey.
-4. Non ricontattare SmallRig con la stessa proposta.
+1. Preparare due proposte di ripartenza distinte per SIRUI e PGYTECH.
+2. Proporre a ORICO un secondo progetto, partendo dal video MG7 già completato.
+3. Recuperare dal pannello o dal referente il codice e il link RCE, senza dedurli dalle email di cashback.
+4. Verificare nei pannelli i link personali Maven, SIRUI e Matjoez prima di pubblicarli.
+5. Inviare la candidatura ALPAKA completa.
 
 ## Scheda minima per ogni collaborazione
 
