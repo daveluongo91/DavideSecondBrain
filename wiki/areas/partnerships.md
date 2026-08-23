@@ -33,11 +33,13 @@ Il controllo comprende i tre account configurati in Thunderbird: `info@davideluo
 - Kase Filters e Vallerret restano collaborazioni storiche. Kase era gestita in forma spot tramite TFS e nell'ultimo scambio risultava in rallentamento.
 - ALPAKA richiede una nuova candidatura all'indirizzo ambassador ricevuto.
 - SmallRig, MIOPS e Irix risultano rifiutate.
-- Il master completo contiene 45 realtà e una sezione separata con 18 righe dedicate a programmi affiliati, codici e vantaggi.
+- Il master completo contiene 45 realtà, 21 righe dedicate a programmi affiliati, codici e vantaggi e una scheda separata per i rendimenti verificati.
 
 Tra i dati commerciali verificati: per Move Shoot Move Davide usa ora il link `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator?aff=13`, comunicato direttamente da lui il 24 agosto 2026 ma non presente nelle email indicizzate. Il precedente `?aff=448`, confermato dal brand il 14 novembre 2025, resta nello storico. Non è stata trovata alcuna occorrenza di `aff=17`: il numero 17 citato in questa pagina indica il totale delle righe affiliate nel master. Le email fissano il 10% di commissione e il 5% di sconto al pubblico, ma non contengono report con ordini, vendite o commissioni maturate; dal 2 luglio 2026 il programma ambassador richiede almeno 10 ordini in un anno. PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
 
 BrightinStar ha approvato l'account GoAffPro il 14 marzo 2024. Una vendita è provata dall'email del 22 novembre 2024: ordine `US2883`, valore `60,17 USD`, commissione `6,02 USD`, pari al 10%. Il pagamento effettivo non compare nelle email. Il programma è ancora collegato dal sito ufficiale al pannello `https://brightinstar.goaffpro.com/`; la struttura pubblica corrente indica il 5% generale e il 10% sul 28mm F2.8, con dicitura complessiva “fino al 10%”.
+
+Vanguard ha comunicato €26,55 di commissioni per il 2023 su due ordini e €12,98 per il 2024 su un ordine. Le commissioni sono state convertite in credito prodotto raddoppiato: €53,10 più €25,96, per un totale di €79,06 usato per lo zaino VEO SELECT 39RBM. Nel 2025 nessun ordine ha usato il codice; dal gennaio 2026 il codice è `DAVIPRO2026`. Il foglio Google personale conferma inoltre i link `https://mavenfilters.com/aff/171/`, `https://hy-filter.com/?aff=18` e il referral BrightinStar `https://brightinstar.com/?ref=uOuUPua8fS9XId`.
 
 ### Prossime azioni
 

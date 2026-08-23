@@ -256,3 +256,10 @@ Registro cronologico append-only delle modifiche principali.
 - Confermata l'approvazione dell'account GoAffPro del 14 marzo 2024 e l'esistenza attuale del programma sul sito ufficiale.
 - Registrata una vendita verificata: ordine `US2883`, valore `60,17 USD`, commissione `6,02 USD`; nessuna prova del pagamento nelle email.
 - Aggiornata la struttura corrente: 5% generale, 10% sul 28mm F2.8 e indicazione pubblica “fino al 10%”.
+
+## [2026-08-24] maintenance | Rendimenti affiliate e provvigioni Vanguard
+- Ricostruiti i rendiconti Vanguard: due ordini nel 2023, €26,55 di commissioni; un ordine nel 2024, €12,98; nessun ordine con codice nel 2025.
+- Separata la commissione monetaria dal credito prodotto raddoppiato: €39,53 maturati e €79,06 di credito utilizzato per VEO SELECT 39RBM.
+- Inseriti nel master i link personali trovati nel foglio Google per Maven (`aff=171`), H&Y (`aff=18`) e BrightinStar, oltre al codice Vanguard `DAVIPRO2026`.
+- Aggiunta la scheda Rendimenti affiliate con 11 ordini verificati: Vanguard 3, BrightinStar 1 e RCE 7. Totali documentati: €133,58 e 6,02 USD, senza sommare due volte il credito prodotto Vanguard.
+- Verificati i programmi pubblici Kolari Vision e Cinomadist; le iscrizioni non sono state inviate perché richiedono conferma finale e dati di account/pagamento.
