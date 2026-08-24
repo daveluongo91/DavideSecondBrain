@@ -263,3 +263,7 @@ Registro cronologico append-only delle modifiche principali.
 - Inseriti nel master i link personali trovati nel foglio Google per Maven (`aff=171`), H&Y (`aff=18`) e BrightinStar, oltre al codice Vanguard `DAVIPRO2026`.
 - Aggiunta la scheda Rendimenti affiliate con 11 ordini verificati: Vanguard 3, BrightinStar 1 e RCE 7. Totali documentati: €133,58 e 6,02 USD, senza sommare due volte il credito prodotto Vanguard.
 - Verificati i programmi pubblici Kolari Vision e Cinomadist; le iscrizioni non sono state inviate perché richiedono conferma finale e dati di account/pagamento.
+
+## [2026-08-24] maintenance | Copia master collaborazioni in archivio social
+- Copiati `Master_Storico_Collaborazioni_Completo.xlsx` e `thunderbird_brand_collaborations_da_contattare.csv` in `L:\1_Social`.
+- Verificata l'identità delle copie tramite hash SHA-256.
