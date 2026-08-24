@@ -310,6 +310,11 @@ Registro cronologico append-only delle modifiche principali.
 - Copiati in `L:\1_Social` i workbook e i CSV dell'outreach Islanda 2026: strutture ricettive, autonoleggi e rilancio puffin per agosto 2027.
 - Conservati gli originali nella cartella di lavoro Codex e verificata l'identità delle cinque copie tramite hash SHA-256.
 
+## [2026-08-24] maintenance | Consegna CSV collaborazioni e verifica form WANDRD
+- Consegnata una copia verificata del CSV residuo con 10 brand ancora da contattare; hash SHA-256 `462E4CD875AD2FE4E829DDB522F869F94F34F21E69A10CA9D4253005029EEAFC`.
+- Confermato che WANDRD usa il form Creator Community collegato dalla pagina ufficiale Affiliates & Collaborators e riesamina le candidature ogni trimestre.
+- Preparata una risposta personalizzata sul profilo outdoor e landscape di Davide, sulle attività da Sigma Ambassador e sull'uso reale dell'attrezzatura durante workshop e photo tour; nessun form inviato.
+
 ## [2026-08-24] maintenance | Report completo Not Just Analytics
 - Scaricato e verificato il PDF di 43 pagine per `@davepics_91`, relativo al periodo 24 luglio–24 agosto 2026.
 - Aggiornata la baseline Instagram con 5.477 follower, 105.346 visualizzazioni, reach 28.310, 95 nuovi follower e unfollow rate riportato del 70,53%.
