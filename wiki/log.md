@@ -6,6 +6,7 @@ Registro cronologico append-only delle modifiche principali.
 
 - Condensato lo script YouTube Asterra Z+ in una versione parlata per Reel da circa 60 secondi.
 - Conservato il punto centrale degli 850 grammi come riduzione del peso fisico e del carico mentale; chiusura lasciata sul futuro test sul campo.
+- Esportate una versione italiana e una traduzione inglese naturale in due PDF locali su pagina singola. I file non sono stati copiati nel repository.
 
 ## [2026-08-24] production / YouTube | Script Asterra Z+
 
