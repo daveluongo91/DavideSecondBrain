@@ -314,6 +314,7 @@ Registro cronologico append-only delle modifiche principali.
 - Consegnata una copia verificata del CSV residuo con 10 brand ancora da contattare; hash SHA-256 `462E4CD875AD2FE4E829DDB522F869F94F34F21E69A10CA9D4253005029EEAFC`.
 - Confermato che WANDRD usa il form Creator Community collegato dalla pagina ufficiale Affiliates & Collaborators e riesamina le candidature ogni trimestre.
 - Preparata una risposta personalizzata sul profilo outdoor e landscape di Davide, sulle attività da Sigma Ambassador e sull'uso reale dell'attrezzatura durante workshop e photo tour; nessun form inviato.
+- Corretta la guida Mail Merge: la variabile destinatario del CSV è `{{Email}}`, senza spazi tra le parentesi e rispettando la E maiuscola dell'intestazione; il messaggio va generato dal comando Mail Merge, non dal normale pulsante Invia.
 
 ## [2026-08-24] maintenance | Report completo Not Just Analytics
 - Scaricato e verificato il PDF di 43 pagine per `@davepics_91`, relativo al periodo 24 luglio–24 agosto 2026.
