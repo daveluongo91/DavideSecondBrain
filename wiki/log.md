@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] archive / formazione | Serie UGC Starter Kit
+
+- Individuate nella casella professionale Aruba le sette email inviate da Noemi Colaianni tra l'8 e il 20 giugno 2026 e verificate come lette.
+- La serie tratta avvio nel lavoro UGC, differenza tra creator e influencer, criteri usati dai brand, errori iniziali, tariffe dichiarate, scelta della formazione e invito finale al percorso commerciale.
+- Nessun allegato tradizionale. Scaricata fuori dal repository la guida PDF collegata; gli altri link portano a Instagram, YouTube, WhatsApp o pagine di testimonianze.
+- Nessun contenuto integrale delle email, dato privato o file scaricato è stato aggiunto alla wiki.
+
 ## [2026-08-24] refinement / Instagram | Tono della bio
 
 - Rivista la bio proposta per eliminare la possibile distanza creata da “ti aiuto” e dalla promessa assoluta “con me diventerà semplice”.
