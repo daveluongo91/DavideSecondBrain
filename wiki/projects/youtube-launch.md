@@ -2,7 +2,7 @@
 title: Lancio YouTube
 type: project
 status: active
-updated: 2026-08-19
+updated: 2026-08-24
 summary: Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica.
 tags:
   - youtube
@@ -27,6 +27,12 @@ Costruire un canale di contenuti lunghi che approfondisca esperienza, scelte e t
 ## Primo filone
 
 Il 35 mm come focale e come scelta narrativa, non soltanto la recensione di un singolo obiettivo.
+
+## Materiale in preparazione
+
+- Script Asterra Z+ sul primo contatto, costruito attorno agli 850 grammi e alla riduzione del carico mentale del setup.
+- Versione italiana e traduzione inglese parlata impaginate in PDF, entrambe con indicazioni di ripresa.
+- Test successivo previsto sul campo a 100, 200 e 400 mm per confrontare i tempi teorici con vento, bilanciamento e precisione dell'allineamento.
 
 ## Struttura consigliata
 

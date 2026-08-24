@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] production / YouTube | Script Asterra Z+
+
+- Recuperato e impaginato lo script completo del primo contatto con Asterra Z+, mantenendo le indicazioni di ripresa.
+- Prodotti due PDF locali: versione italiana e traduzione inglese naturale per il parlato.
+- Registrato come passaggio successivo il test sul campo a 100, 200 e 400 mm. I PDF non sono stati copiati nel repository.
+
 ## [2026-08-24] archive / formazione | Serie UGC Starter Kit
 
 - Individuate nella casella professionale Aruba le sette email inviate da Noemi Colaianni tra l'8 e il 20 giugno 2026 e verificate come lette.
