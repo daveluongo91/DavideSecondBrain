@@ -2,7 +2,7 @@
 title: Strategia Instagram orientata alla conversione
 type: knowledge
 status: active
-updated: 2026-08-05
+updated: 2026-08-24
 summary: Strategia identitaria per trasformare attenzione e fiducia in richieste per workshop e viaggi.
 tags:
   - instagram
@@ -31,6 +31,8 @@ Baseline riportata da Not Just Analytics il 5 agosto 2026:
 | Audience Italia / Lombardia | 66% / 23% |
 
 L'“unfollow rate” dell'81% va validato perché definizione e calcolo non sono disponibili. La lettura prudente è che la scoperta non si traduce ancora con continuità in click, iscrizioni, richieste e prenotazioni.
+
+Report completo Not Just Analytics generato il 24 agosto 2026 per il periodo 24 luglio–24 agosto: 43 pagine, 5.477 follower, 105.346 visualizzazioni totali, reach totale 28.310 e 95 nuovi follower. Il report indica un unfollow rate del 70,53%; anche questo valore resta da interpretare usando la definizione esatta fornita da NJL.
 
 ## Ecosistema
 
@@ -80,4 +82,3 @@ Priorità di misura: click qualificati; iscrizioni newsletter; richieste; prenot
 - [Strategia social](social-strategy.md)
 - [Content e personal brand](../areas/content-and-personal-brand.md)
 - [Pipeline contenuti](../workflows/content-pipeline.md)
-

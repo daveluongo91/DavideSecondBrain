@@ -271,3 +271,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-08-24] maintenance | Copia outreach Islanda in archivio social
 - Copiati in `L:\1_Social` i workbook e i CSV dell'outreach Islanda 2026: strutture ricettive, autonoleggi e rilancio puffin per agosto 2027.
 - Conservati gli originali nella cartella di lavoro Codex e verificata l'identità delle cinque copie tramite hash SHA-256.
+
+## [2026-08-24] maintenance | Report completo Not Just Analytics
+- Scaricato e verificato il PDF di 43 pagine per `@davepics_91`, relativo al periodo 24 luglio–24 agosto 2026.
+- Aggiornata la baseline Instagram con 5.477 follower, 105.346 visualizzazioni, reach 28.310, 95 nuovi follower e unfollow rate riportato del 70,53%.
+- La definizione dell'unfollow rate resta da verificare prima di usarlo come indicatore decisionale.
