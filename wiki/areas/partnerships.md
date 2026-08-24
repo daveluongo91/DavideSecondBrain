@@ -33,7 +33,9 @@ Il controllo comprende i tre account configurati in Thunderbird: `info@davideluo
 - Kase Filters e Vallerret restano collaborazioni storiche. Kase era gestita in forma spot tramite TFS e nell'ultimo scambio risultava in rallentamento.
 - ALPAKA richiede una nuova candidatura all'indirizzo ambassador ricevuto.
 - SmallRig, MIOPS e Irix risultano rifiutate.
-- Il master completo contiene 45 realtà, 21 righe dedicate a programmi affiliati, codici e vantaggi e una scheda separata per i rendimenti verificati.
+- Il nuovo batch Mail Merge ha prodotto quattro segnali verificabili: WANDRD richiede il form Collaborators; GOMATIC ha preso in carico la proposta; Tenba/MAC Group Europe ha inviato una ricevuta automatica; l'indirizzo `press@boundarysupply.com` è inesistente e ha restituito errore permanente 550 5.1.1.
+- Per NYA-EVO, Shimoda, Matador, Peak Design e Think Tank/Fowa l'invio resta da verificare perché la cartella Posta inviata Aruba non è indicizzata e non è arrivata una risposta.
+- Il master completo contiene 54 realtà, 21 righe dedicate a programmi affiliati, codici e vantaggi e una scheda separata per i rendimenti verificati.
 
 Tra i dati commerciali verificati: per Move Shoot Move Davide usa ora il link `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator?aff=13`, comunicato direttamente da lui il 24 agosto 2026 ma non presente nelle email indicizzate. Il precedente `?aff=448`, confermato dal brand il 14 novembre 2025, resta nello storico. Non è stata trovata alcuna occorrenza di `aff=17`: il numero 17 citato in questa pagina indica il totale delle righe affiliate nel master. Le email fissano il 10% di commissione e il 5% di sconto al pubblico, ma non contengono report con ordini, vendite o commissioni maturate; dal 2 luglio 2026 il programma ambassador richiede almeno 10 ordini in un anno. PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
 
@@ -49,6 +51,8 @@ Vanguard ha comunicato €26,55 di commissioni per il 2023 su due ordini e €12
 4. Verificare nei pannelli i link personali Maven, SIRUI e Matjoez prima di pubblicarli.
 5. Inviare la candidatura ALPAKA completa.
 6. Aprire il pannello Affiliatly di Move Shoot Move e registrare ordini, vendite lorde, commissioni maturate e pagamenti; le email non permettono di calcolarli.
+7. Compilare il form Collaborators WANDRD senza reinviare la stessa proposta via email.
+8. Cercare un contatto ufficiale alternativo per Boundary Supply prima di un nuovo invio.
 
 ## Scheda minima per ogni collaborazione
 

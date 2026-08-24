@@ -316,6 +316,12 @@ Registro cronologico append-only delle modifiche principali.
 - Preparata una risposta personalizzata sul profilo outdoor e landscape di Davide, sulle attività da Sigma Ambassador e sull'uso reale dell'attrezzatura durante workshop e photo tour; nessun form inviato.
 - Corretta la guida Mail Merge: la variabile destinatario del CSV è `{{Email}}`, senza spazi tra le parentesi e rispettando la E maiuscola dell'intestazione; il messaggio va generato dal comando Mail Merge, non dal normale pulsante Invia.
 
+## [2026-08-24] maintenance | Aggiornamento master dopo il batch Mail Merge
+- Analizzate le nuove email indicizzate di `info@davideluongo.it`: WANDRD richiede il form Collaborators, GOMATIC ha preso in carico la proposta, Tenba ha inviato una ricevuta automatica e Boundary Supply ha restituito un errore permanente 550 5.1.1.
+- Aggiunte nove righe al master e tre stati distinti: `INVIO_DA_VERIFICARE`, `INVIO_FALLITO` e `RISPOSTA_AUTOMATICA`; i conteggi restano calcolati con formule.
+- Aggiornata la copertura Thunderbird a 896 messaggi Aruba, 12.429 su `fangoman91@gmail.com` e 3.151 su `daveluongo.ph@gmail.com`.
+- Sostituito `L:\1_Social\Master_Storico_Collaborazioni_Completo.xlsx` con la versione verificata; SHA-256 `A59AEC3E784A0290DA9DAD5D3594297473F434515B2026ADF9ACB3454C7AA6B8`.
+
 ## [2026-08-24] maintenance | Report completo Not Just Analytics
 - Scaricato e verificato il PDF di 43 pagine per `@davepics_91`, relativo al periodo 24 luglio–24 agosto 2026.
 - Aggiornata la baseline Instagram con 5.477 follower, 105.346 visualizzazioni, reach 28.310, 95 nuovi follower e unfollow rate riportato del 70,53%.
