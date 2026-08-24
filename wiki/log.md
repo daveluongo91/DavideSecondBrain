@@ -2,6 +2,11 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] adaptation / Instagram | Asterra Z+ in 60 secondi
+
+- Condensato lo script YouTube Asterra Z+ in una versione parlata per Reel da circa 60 secondi.
+- Conservato il punto centrale degli 850 grammi come riduzione del peso fisico e del carico mentale; chiusura lasciata sul futuro test sul campo.
+
 ## [2026-08-24] production / YouTube | Script Asterra Z+
 
 - Recuperato e impaginato lo script completo del primo contatto con Asterra Z+, mantenendo le indicazioni di ripresa.

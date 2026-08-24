@@ -32,6 +32,7 @@ Il 35 mm come focale e come scelta narrativa, non soltanto la recensione di un s
 
 - Script Asterra Z+ sul primo contatto, costruito attorno agli 850 grammi e alla riduzione del carico mentale del setup.
 - Versione italiana e traduzione inglese parlata impaginate in PDF, entrambe con indicazioni di ripresa.
+- Preparata una versione parlata per Instagram da circa 60 secondi, centrata sul peso, sugli elementi integrati e sul futuro test sul campo.
 - Test successivo previsto sul campo a 100, 200 e 400 mm per confrontare i tempi teorici con vento, bilanciamento e precisione dell'allineamento.
 
 ## Struttura consigliata
