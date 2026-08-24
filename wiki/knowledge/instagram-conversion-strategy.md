@@ -80,12 +80,21 @@ Priorità di misura: click qualificati; iscrizioni newsletter; richieste; prenot
 
 Audit diretto del 24 agosto 2026: la bio pubblicata è in inglese e concentra quasi tutto lo spazio su ruolo, ambassador e premi. Segnala autorevolezza, ma non chiarisce per chi lavora Davide, quale risultato offre e dove porta il link.
 
-Proposta da testare, mantenendo il profilo invariato fino all'approvazione:
+Prima proposta, poi rivista perché la formulazione poteva sembrare troppo assertiva:
 
 > Ti aiuto a fotografare il paesaggio con metodo,
 > non a copiare i miei scatti.
 > Workshop e percorsi 1:1
 > ↓ Prossima esperienza: Friuli
+
+Versione preferita dopo la revisione con Davide, più vicina e meno centrata sull'autorità del docente:
+
+> La fotografia di paesaggio sembra complessa.
+> Insieme la rendiamo più semplice.
+> Workshop e percorsi 1:1
+> ↓ Prossima esperienza: Friuli
+
+La frase evita la promessa assoluta “con me diventerà semplice” e mantiene l'idea centrale del Metodo SIS: accompagnare senza mettersi sul piedistallo.
 
 Nome profilo suggerito per rendere subito leggibile il tema: `Davide Luongo | Fotografia di paesaggio`.
 

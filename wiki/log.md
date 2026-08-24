@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] refinement / Instagram | Tono della bio
+
+- Rivista la bio proposta per eliminare la possibile distanza creata da “ti aiuto” e dalla promessa assoluta “con me diventerà semplice”.
+- Preferita la formulazione “La fotografia di paesaggio sembra complessa. Insieme la rendiamo più semplice”, coerente con il ruolo di guida e con il tono paritario definito nel Metodo SIS.
+- Nessuna modifica applicata al profilo Instagram.
+
 ## [2026-08-24] planning / Instagram | Nuova bio orientata alla conversione
 
 - Verificata direttamente la bio pubblica di `@davepics_91`: ruolo, ambassador e premi occupano lo spazio senza spiegare destinatario, risultato e offerta.
