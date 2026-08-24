@@ -319,3 +319,9 @@ Registro cronologico append-only delle modifiche principali.
 - Scaricato e verificato il PDF di 43 pagine per `@davepics_91`, relativo al periodo 24 luglio–24 agosto 2026.
 - Aggiornata la baseline Instagram con 5.477 follower, 105.346 visualizzazioni, reach 28.310, 95 nuovi follower e unfollow rate riportato del 70,53%.
 - La definizione dell'unfollow rate resta da verificare prima di usarlo come indicatore decisionale.
+
+## [2026-08-24] maintenance | Aggiornamento e consegna media kit Canva
+- Aggiornato il progetto Canva del media kit mantenendo il design esistente e usando il report Not Just Analytics del periodo 24 luglio–24 agosto 2026.
+- Inseriti 5.477 follower, 67% di follower in Italia, reach totale arrotondata a 28K, 113 like medi ed engagement rate arrotondato al 2,3%.
+- Riscritto il testo introduttivo in inglese, chiarite le etichette delle metriche e corretto il titolo `EDUCATIONAL REELS & POSTS`.
+- Consegnato `Media_Kit_Davide_Luongo_2026.pdf` in `L:\1_Social`; copia verificata con SHA-256 `6D4876E5E2E296C371FF02C7365A5674BCBFA7BEAA681A5196BF21E5BC45A52A`.
