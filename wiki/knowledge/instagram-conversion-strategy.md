@@ -76,6 +76,19 @@ Priorità di misura: click qualificati; iscrizioni newsletter; richieste; prenot
 - Va verificato quali contenuti generano lead e vendite, non solo distribuzione.
 - Ogni collaborazione dovrebbe avere uno scopo esplicito: autorevolezza, lead o ricavo.
 
+## Bio Instagram proposta
+
+Audit diretto del 24 agosto 2026: la bio pubblicata è in inglese e concentra quasi tutto lo spazio su ruolo, ambassador e premi. Segnala autorevolezza, ma non chiarisce per chi lavora Davide, quale risultato offre e dove porta il link.
+
+Proposta da testare, mantenendo il profilo invariato fino all'approvazione:
+
+> Ti aiuto a fotografare il paesaggio con metodo,
+> non a copiare i miei scatti.
+> Workshop e percorsi 1:1
+> ↓ Prossima esperienza: Friuli
+
+Nome profilo suggerito per rendere subito leggibile il tema: `Davide Luongo | Fotografia di paesaggio`.
+
 ## Collegamenti
 
 - [Identità di brand e Metodo SIS](brand-identity-metodo-sis.md)

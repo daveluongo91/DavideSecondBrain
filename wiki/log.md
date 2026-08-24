@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] planning / Instagram | Nuova bio orientata alla conversione
+
+- Verificata direttamente la bio pubblica di `@davepics_91`: ruolo, ambassador e premi occupano lo spazio senza spiegare destinatario, risultato e offerta.
+- Preparata una nuova bio in italiano centrata su metodo, sviluppo di una fotografia personale, workshop, percorsi individuali e CTA verso il Friuli.
+- La proposta è registrata per revisione; nessuna modifica applicata al profilo Instagram.
+
 ## [2026-08-24] ingest / brand | Verifica completa fonti Metodo SIS su Drive
 
 - Letta in sola lettura la cartella Drive condivisa da Davide: tre dispense SIS, sedici esercizi compilati e il documento finale “Davide Luongo - La Bussola”.
