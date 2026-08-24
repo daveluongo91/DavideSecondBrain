@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-24] ingest / brand | Verifica completa fonti Metodo SIS su Drive
+
+- Letta in sola lettura la cartella Drive condivisa da Davide: tre dispense SIS, sedici esercizi compilati e il documento finale “Davide Luongo - La Bussola”.
+- Verificata direttamente la provenienza dei contenuti già sintetizzati il 5 agosto, senza copiare gli allegati originali nel repository.
+- Integrati nella pagina identitaria la storia formativa con Franz, Gaspare Silverii ed Erik, l'esempio cliente di Flavio, il cliente ideale, i confini dell'offerta e l'architettura editoriale proposta dalla Bussola.
+- Nessun file o dato della cartella Drive è stato modificato.
+
 ## [2026-08-21] diagnosis / backend | WordPress Aruba e FastAPI locale non collegati
 
 - Verificato in sola lettura il nuovo `https://www.davideluongo.it/`: il dominio serve WordPress e `/wp-admin/` reindirizza correttamente alla schermata di login, senza pagina bianca, loop o errore PHP visibile.
