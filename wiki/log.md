@@ -267,3 +267,7 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-08-24] maintenance | Copia master collaborazioni in archivio social
 - Copiati `Master_Storico_Collaborazioni_Completo.xlsx` e `thunderbird_brand_collaborations_da_contattare.csv` in `L:\1_Social`.
 - Verificata l'identità delle copie tramite hash SHA-256.
+
+## [2026-08-24] maintenance | Copia outreach Islanda in archivio social
+- Copiati in `L:\1_Social` i workbook e i CSV dell'outreach Islanda 2026: strutture ricettive, autonoleggi e rilancio puffin per agosto 2027.
+- Conservati gli originali nella cartella di lavoro Codex e verificata l'identità delle cinque copie tramite hash SHA-256.
