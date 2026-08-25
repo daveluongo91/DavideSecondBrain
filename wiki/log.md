@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / awards | Recuperata menzione d'onore BPA 2024
+
+- Identificata nella galleria ufficiale Best Photography Awards 2024 la menzione d'onore di Davide Luongo in Amateur Nature per `Pan di marmotta` (`entry=2477`, `form_id=2240`).
+- Scaricata l'immagine ufficiale in `L:\1_Social\Best Photography Awards\2024 - Honorable Mention - Pan di marmotta - Davide Luongo.jpg` e aggiornato il manifesto con URL di verifica e SHA-256.
+- La mail del 27 agosto 2024 è una conferma d'iscrizione, non la comunicazione del premio; il risultato è stato quindi verificato sulla galleria BPA.
+
 ## [2026-08-25] fix / footer | Aggiornamento canali Social (Instagram @davepics_91, rimozione Facebook, aggiunta YouTube @davepics_91)
 
 - **SitoDave (`L:\Sito_Dave`)**:
