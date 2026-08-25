@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / blog | Eliminazione scritta "Vai al Blog completo" e fallback schede reali
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Rimossa la stringa di fallback "Vai al Blog completo" in `main.js`.
+  - Integrato un fallback resiliente con gli articoli in evidenza reali (`DEFAULT_HOMEPAGE_ARTICLES`), garantendo che la griglia del blog mostri sempre le card complete e formattate (anche in caso di consultazione locale su protocollo `file://` o fetch offline).
+
+
 ## [2026-08-25] feature / awards | Sezione Premi & Riconoscimenti con Contatori Dinamici e Modal di Verifica
 
 - **SitoDave (`L:\Sito_Dave`)**:
