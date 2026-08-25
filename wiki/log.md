@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] archive / awards | Raccolta materiali premi fotografici dalle email
+
+- Cercate nella casella Gmail disponibile le comunicazioni relative a Best Photography Awards, One Eyeland e 1x, distinguendo i risultati personali dalle newsletter e dalle call for entry.
+- Salvati in `L:\1_Social\Best Photography Awards` i materiali BPA 2024-25 e 2025-26: medaglie blu, bronzo e argento e tre fotografie associate.
+- Salvati in `L:\1_Social\1x` sei file social delle fotografie premiate e il certificato ufficiale `awarded_photographer_certificate-796527.jpg`.
+- Verificata nell'email One Eyeland la vittoria Fine Art 2025 come Country Winner per l'Italia, rank 1 con 10 punti. Certificati e badge non sono stati scaricati perché la pagina dedicata richiede un login One Eyeland separato.
+- Creato `L:\1_Social\awards_download_manifest_2026-08-25.csv` con stato, destinazione e SHA-256; un duplicato BPA è stato rilevato e non copiato.
+
 ## [2026-08-25] feature / galleries | Nuova area Gallerie Fotografiche (Islanda, Tenerife, Madeira, Montagna)
 
 - **SitoDave (`L:\Sito_Dave`)**:
