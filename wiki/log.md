@@ -9,6 +9,7 @@ Registro cronologico append-only delle modifiche principali.
     1. **Italy Rank #1 (1° Classificato Italia)** • Fotografia *Roque Cinchado under the Galactic Core (Tenerife)* con badge dorato Top 10 e logo One Eyeland.
     2. **Silver Award (Medaglia d'Argento)** • Fotografia *Roque Cinchado under the Galactic Core (Tenerife)* con badge d'argento Top 10 e logo One Eyeland.
   - Ottimizzati e salvati gli asset in `assets/awards/one_eyeland_rank1_italy_2025.jpg` e `assets/awards/one_eyeland_silver_2025.jpg`.
+  - Integrato il link diretto ufficiale di verifica: `https://oneeyeland.com/world-top10-fine-art-photographers-2025`.
   - Aggiornato `data/awards.json`, sincronizzato `main.js` ed impostato il badge contatore homepage su **One Eyeland (2)**.
 
 
