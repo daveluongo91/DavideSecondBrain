@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] style / team | Layout Team (4 membri prima riga + 2 membri centrati seconda riga)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Aggiornato il layout CSS di `.team-grid` e `.team-card` in `style.css`: configurato un layout a 4 colonne per la prima riga (`flex: 0 0 calc(25% - 1.5rem)`) con `justify-content: center`, in modo che i 2 membri sottostanti risultino posizionati al centro della sezione, sotto le card centrali.
+  - Mantenuta piena responsività: 2 colonne per riga su tablet e 1 colonna su smartphone.
+
+
 ## [2026-08-25] fix / ui | Ripristino Caroselli 3D Rotanti per Workshop e Viaggi
 
 - **SitoDave (`L:\Sito_Dave`)**:
