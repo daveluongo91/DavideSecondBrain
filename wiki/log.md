@@ -2,6 +2,18 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] feature / awards | Sezione Premi & Riconoscimenti con Contatori Dinamici e Modal di Verifica
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Creata la nuova area **Premi & Riconoscimenti** subito sotto il carosello delle recensioni in `index.html`.
+  - Aggiunti i badge interattivi per i concorsi richiesti: **Best Photography Awards** (BPA), **One Eyeland** e **1x.com**, con pillola contatore incrementale alimentata dinamicamente dal numero di premi vinti.
+  - Creata la base dati strutturata in `data/awards.json` contenente per ciascun concorso l'elenco premi, l'anno, il titolo della menzione/vittoria e l'opera fotografica associata.
+  - Implementato in `main.js` il sistema di modali/popup:
+    - Popup di concorso con l'elenco dei riconoscimenti e pulsante *"Verifica Riconoscimento ↗"*.
+    - Popup di verifica/anteprima certificato (attualmente con placeholder dedicato e pronto per accogliere i banner ufficiali definitivi).
+  - Aggiunti stili dedicati in `style.css` e verificata la test suite (29/29 superati).
+
+
 ## [2026-08-25] style / team | Layout Team (4 membri prima riga + 2 membri centrati seconda riga)
 
 - **SitoDave (`L:\Sito_Dave`)**:
