@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] clean / homepage | Rimozione card di anteprima articoli dal blog
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Rimosse le 3 card di anteprima articoli da `index.html`.
+  - Trasformata la sezione *Blog & Pubblicazioni* in un banner pulito ed elegante con titolo, descrizione e pulsante di collegamento rapido **"Vedi Tutti gli Articoli →"** che porta direttamente all'archivio completo `blog/blog.html`.
+  - Pulito `main.js` rimuovendo il codice ridondante di iniezione delle card in homepage.
+
+
 ## [2026-08-25] fix / blog | Eliminazione scritta "Vai al Blog completo" e fallback schede reali
 
 - **SitoDave (`L:\Sito_Dave`)**:
