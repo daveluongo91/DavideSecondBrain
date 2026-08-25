@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / navigation | Collegamento pulsante hero One-to-One
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Aggiornato il pulsante secondario della Hero in `index.html` ("Corsi One-to-One", posizionato accanto a "Scegli la tua prossima avventura"): sostituito il vecchio anchor `#corsi` con il link diretto alla pagina dedicata `one-to-one/one-to-one.html`.
+  - Verificata la navigazione coerente tra navbar, hero e footer. Test suite (29 test) superata al 100%.
+
+
 ## [2026-08-24] adaptation / Instagram | Asterra Z+ in 60 secondi
 
 - Condensato lo script YouTube Asterra Z+ in una versione parlata per Reel da circa 60 secondi.
