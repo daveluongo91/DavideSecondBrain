@@ -2,6 +2,15 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / ui | Ripristino Caroselli 3D Rotanti per Workshop e Viaggi
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Ripristinato e integrato nel motore globale `main.js` il sistema di caroselli 3D rotanti con gestione classi (`is-active`, `is-previous`, `is-next`, `is-hidden`) per tutte le sezioni `[data-carousel]`.
+  - Aggiunti controlli di navigazione completi (frecce circolari interattive `data-carousel-prev` / `data-carousel-next` e contatore di stato `.carousel-status-pill`) nelle testate di Workshop 2026 e Viaggi 2027 in `index.html`.
+  - Aggiunto supporto completo a rotazione con clic su card laterale, hover/pointerenter, frecce da tastiera e swipe touch su mobile.
+  - Aggiornati stili in `style.css` e test suite (29/29 superati).
+
+
 ## [2026-08-25] fix / navigation | Collegamento pulsante hero One-to-One
 
 - **SitoDave (`L:\Sito_Dave`)**:
