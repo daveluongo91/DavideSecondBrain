@@ -2,6 +2,16 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] feature / one-eyeland | Integrazione dei 2 premi ufficiali One Eyeland (Italy Rank #1 e Silver Award)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Analizzate le immagini ufficiali One Eyeland (`World's Top 10 Fine Art Photo Contest 2025`):
+    1. **Italy Rank #1 (1° Classificato Italia)** • Fotografia *Roque Cinchado under the Galactic Core (Tenerife)* con badge dorato Top 10 e logo One Eyeland.
+    2. **Silver Award (Medaglia d'Argento)** • Fotografia *Roque Cinchado under the Galactic Core (Tenerife)* con badge d'argento Top 10 e logo One Eyeland.
+  - Ottimizzati e salvati gli asset in `assets/awards/one_eyeland_rank1_italy_2025.jpg` e `assets/awards/one_eyeland_silver_2025.jpg`.
+  - Aggiornato `data/awards.json`, sincronizzato `main.js` ed impostato il badge contatore homepage su **One Eyeland (2)**.
+
+
 ## [2026-08-25] feature / bpa | Integrazione completa dei 5 premi Best Photography Awards
 
 - **SitoDave (`L:\Sito_Dave`)**:
