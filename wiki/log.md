@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] export / PDF | Raccolta professionale articoli SIGMA
+
+- Esportati dal nuovo sito locale, senza modificare le pagine sorgente, i quattro articoli dedicati a **SIGMA 14mm F1.4**, **24-70mm F2.8 DG DN II Art**, **28-105mm F2.8 DG DN Art** e **28-45mm F1.8 DG DN Art**.
+- Creati quattro PDF singoli e una raccolta unica di 27 pagine in `output/pdf/` nel progetto Codex `Sito`.
+- Conservati testi, titoli, immagini, tabelle e gerarchia editoriale; applicata una resa A4 con margini da stampa e controllata visivamente su apertura, pagine interne e chiusura.
+- Nota editoriale: nei tre articoli riscritti restano didascalie con diciture placeholder già presenti nelle pagine locali. Non sono state corrette durante l'esportazione per rispettare la richiesta di non modificare i contenuti del sito.
+
 ## [2026-08-25] editorial / blog | Riscrittura completa dei tre articoli Sigma (24-70mm II, 28-105mm, 28-45mm)
 
 - **SitoDave (`L:\Sito_Dave`)**:
