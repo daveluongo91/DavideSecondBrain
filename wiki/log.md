@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] decision / sito | Ottimizzazione rimandata alla chiusura delle modifiche
+
+- Davide continua in autonomia le modifiche al nuovo sito.
+- Nessun intervento di ottimizzazione va applicato finché struttura, contenuti e asset non saranno dichiarati conclusi.
+- A sito finito verrà preparato uno script unico di ottimizzazione con backup, verifiche prima/dopo e possibilità di rollback.
+
 ## [2026-08-25] fix / awards | Incorporamento dati completi premi e gallerie in main.js per protocollo locale
 
 - **SitoDave (`L:\Sito_Dave`)**:

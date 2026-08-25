@@ -121,6 +121,8 @@ L'integrazione PayPal Sandbox del backend generale è completata e testata. Dard
 
 ## Prossime azioni mantenimento
 
+- Completare prima modifiche, contenuti e asset ancora in lavorazione. L'ottimizzazione massiva verrà eseguita soltanto quando Davide dichiarerà il sito finito, così da lavorare su una struttura stabile.
+- Preparare a quel punto uno script di ottimizzazione unico e verificabile, con backup iniziale, controlli prima/dopo e possibilità di rollback.
 - **Switch PayPal Live generale**: resta da fare per il backend FastAPI. Dardagna usa già PayPal Live nella propria cartella autonoma.
 - Verificare periodicamente disponibilità posti, form informazioni, notifiche email e checkout PayPal.
 - Testare il flusso E2E nel browser con account sandbox buyer reale prima del go-live.
