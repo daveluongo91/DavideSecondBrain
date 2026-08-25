@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / footer | Aggiornamento canali Social (Instagram @davepics_91, rimozione Facebook, aggiunta YouTube @davepics_91)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Aggiornato il link Instagram nel footer di `index.html` e `one-to-one/one-to-one.html` verso `https://www.instagram.com/davepics_91/` (`@davepics_91`).
+  - Rimosso il link obsoleto a Facebook.
+  - Aggiunto il link ufficiale a YouTube verso `https://www.youtube.com/@davepics_91` (`@davepics_91`).
+
+
 ## [2026-08-25] archive / awards | Raccolta materiali premi fotografici dalle email
 
 - Cercate nella casella Gmail disponibile le comunicazioni relative a Best Photography Awards, One Eyeland e 1x, distinguendo i risultati personali dalle newsletter e dalle call for entry.
