@@ -2,6 +2,18 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] feature / galleries | Nuova area Gallerie Fotografiche (Islanda, Tenerife, Madeira, Montagna)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Creata la nuova sezione **Gallerie Fotografiche** (`#gallerie`) in `index.html` con 4 card verticali d'impatto ad alto contrasto e tipografia dedicata: **Islanda**, **Tenerife**, **Madeira** e **Montagna**.
+  - Aggiunto il link `Gallerie` nella navbar per una navigazione rapida.
+  - Creata la base dati in `data/galleries.json` con 10 immagini/placeholder strutturate per ciascuna delle 4 gallerie (titolo, didascalia, thumb, e numerazione `1 / 10`).
+  - Implementato in `main.js` il sistema di modali/lightbox:
+    - Popup della galleria con griglia responsive a 10 foto.
+    - Lightbox ingrandito per la visualizzazione a pieno schermo con navigazione foto precedente/successiva (`←` / `→`), supporto a tastiera (tasto ESC, frecce) e swipe.
+  - Aggiunti stili dedicati in `style.css` e verificata la test suite (29/29 superati).
+
+
 ## [2026-08-25] clean / homepage | Rimozione card di anteprima articoli dal blog
 
 - **SitoDave (`L:\Sito_Dave`)**:
