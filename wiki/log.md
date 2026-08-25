@@ -2,6 +2,23 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] editorial / blog | Riscrittura completa dei tre articoli Sigma (24-70mm II, 28-105mm, 28-45mm)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Riscritto completamente il contenuto editoriale dei tre articoli dedicati alle ottiche Sigma, adottando la struttura, la profondità, il ritmo narrativo e la gerarchia visiva dell'articolo di riferimento **Sigma 14mm F1.4 DG DN Art**:
+    1. **Sigma 24-70mm F2.8 DG DN II Art** (`blog/test-sigma-24-70mm-art.html`):
+       - Sviluppata la contraddizione fondante: *"Vedo il mondo a 14mm, ma il 24-70 è il primo che metto nello zaino"*.
+       - Analizzata la personalità ottica a 24mm (distorsione utile ed effetto immersivo), la tenuta sui 60MP+, il margine di crop a 70mm, l'autofocus HLA e la netta riduzione di peso/volume.
+    2. **Sigma 28-105mm F2.8 DG DN Art** (`blog/test-sigma-28-105mm-art.html`):
+       - Strutturato l'articolo su due piani distinti: *Santo Graal nel Wedding* (105mm a F2.8 costante senza cambi ottica) vs *Limiti nel Landscape* (i 4mm mancanti tra 24 e 28mm e la gestione del kit da trekking).
+       - Approfondito il concetto fondamentale di *"valutare l'obiettivo dentro il kit reale e non isolato"*.
+    3. **Sigma 28-45mm F1.8 DG DN Art** (`blog/test-sigma-28-45mm-art.html`):
+       - Sviluppato il concetto di *"tre ottiche fisse F1.8 in un unico zoom"*.
+       - Spiegata la meccanica dello *zoom interno* con baricentro invariato (ideale su astroinseguitore e gimbal).
+       - Raccontata l'esperienza nel wedding (movimento consapevole) e la straordinaria resa del coma a F1.8 lungo tutto il range in astrofotografia (*"entrato a gamba tesa nell'astro kit per restarci"*).
+  - Inseriti placeholder espliciti e descrittivi per tutte le immagini intermedie, crop e confronti, con relative tabelle tecniche e griglie PRO/CONTRO.
+
+
 ## [2026-08-25] feature / one-eyeland | Integrazione dei 2 premi ufficiali One Eyeland (Italy Rank #1 e Silver Award)
 
 - **SitoDave (`L:\Sito_Dave`)**:
