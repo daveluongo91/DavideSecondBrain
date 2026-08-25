@@ -506,3 +506,9 @@ Registro cronologico append-only delle modifiche principali.
 - Inseriti 5.477 follower, 67% di follower in Italia, reach totale arrotondata a 28K, 113 like medi ed engagement rate arrotondato al 2,3%.
 - Riscritto il testo introduttivo in inglese, chiarite le etichette delle metriche e corretto il titolo `EDUCATIONAL REELS & POSTS`.
 - Consegnato `Media_Kit_Davide_Luongo_2026.pdf` in `L:\1_Social`; copia verificata con SHA-256 `6D4876E5E2E296C371FF02C7365A5674BCBFA7BEAA681A5196BF21E5BC45A52A`.
+
+## [2026-08-25] analysis | Lista di revisione unfollow Instagram
+- Confrontati gli export Instagram del 25 agosto 2026: 2.748 following, 908 follower e 147 rapporti reciproci.
+- Preparato un Excel con 2.601 account non-follow-back, link diretti, data del follow, stato modificabile e priorità di revisione.
+- La priorità non determina l'unfollow: 419 profili con possibili segnali foto, travel, brand o relazioni recenti sono indicati per una verifica più cauta.
+- Controllati anche profili bloccati, richieste in sospeso, richieste recenti, profili rimossi di recente e suggerimenti rimossi; nessun account bloccato era presente tra i candidati.
