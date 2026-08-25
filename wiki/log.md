@@ -2,6 +2,19 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] feature / bpa | Integrazione completa dei 5 premi Best Photography Awards
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Eseguita scansione accurata dell'archivio postale Thunderbird (`daveluongo.ph@gmail.com`) e verificati i 5 riconoscimenti ufficiali assegnati da Best Photography Awards:
+    1. **Silver Medal (2° Posto)** • Categoria Nature (Entry #3909, Edizione 2025-26)
+    2. **Bronze Medal (3° Posto)** • Categoria Night Photography (Entry #3908, Edizione 2025-26)
+    3. **Blue Medal (Honorable Mention)** • Categoria Nature (Entry #3908, Edizione 2025-26)
+    4. **Blue Medal (Honorable Mention)** • Categoria Nature (Entry #4075, Edizione 2025-26)
+    5. **Blue Medal (Honorable Mention)** • Categoria Nature (Entry #2477, Edizione 2024-25, *Pan di marmotta*)
+  - Integrati i link di verifica ufficiali diretti per ciascuno dei 5 premi, le medaglie associate e le fotografie premiate in alta definizione.
+  - Aggiornato il contatore nella barra homepage a **BPA (5)**.
+
+
 ## [2026-08-25] decision / sito | Ottimizzazione rimandata alla chiusura delle modifiche
 
 - Davide continua in autonomia le modifiche al nuovo sito.
