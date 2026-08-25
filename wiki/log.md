@@ -2,6 +2,11 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] archive / awards | Materiali One Eyeland aggiunti manualmente
+
+- Confermata la presenza in `L:\1_Social\One Eyeland` di `watermark-socialcrop.jpg` e `watermark-socialcrop (1).jpg`, aggiunti manualmente da Davide.
+- I file sono stati lasciati invariati; i nomi non permettono da soli di associare con certezza ciascuna immagine al relativo premio.
+
 ## [2026-08-25] fix / awards | Recuperata menzione d'onore BPA 2024
 
 - Identificata nella galleria ufficiale Best Photography Awards 2024 la menzione d'onore di Davide Luongo in Amateur Nature per `Pan di marmotta` (`entry=2477`, `form_id=2240`).
