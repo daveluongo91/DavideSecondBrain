@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] fix / awards | Incorporamento dati completi premi e gallerie in main.js per protocollo locale
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Incorporati direttamente in `main.js` (`DEFAULT_AWARDS_DATA` e `DEFAULT_GALLERIES_DATA`) tutti i certificati, le medaglie, le 6 opere 1x e le 4 gallerie fotografiche.
+  - Risolto il problema di visualizzazione quando il sito viene aperto in locale su protocollo `file://` (dove le policy di sicurezza dei browser bloccano le `fetch` locali dei file JSON).
+  - Aggiornati i badge numerici dei concorsi in `index.html`: **BPA (3)**, **One Eyeland (1)**, **1x.com (7)**.
+
+
 ## [2026-08-25] feature / awards | Integrazione Certificati, Medaglie e Banner Ufficiali dei Concorsi
 
 - **SitoDave (`L:\Sito_Dave`)**:
