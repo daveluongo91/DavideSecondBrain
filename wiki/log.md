@@ -2,6 +2,29 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-25] feature / awards | Integrazione Certificati, Medaglie e Banner Ufficiali dei Concorsi
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Estratti e integrati in `assets/awards/` tutti i materiali e i certificati ufficiali:
+    - **Best Photography Awards**: medaglie ufficiali (Silver Medal, Bronze Medal, Blue Medal) e fotografie premiate (Astrofotografia Nivolet e Paesaggio).
+    - **1x.com**: certificato ufficiale Awarded Photographer (`awarded_photographer_certificate-796527.jpg`) e 6 banner ufficiali delle opere premiate e pubblicate dai curatori.
+    - **One Eyeland**: vittoria Fine Art 2025 Country Winner Italia (Rank 1 con 10 punti).
+  - Aggiornato `data/awards.json` con metadati reali, percorsi delle immagini e link diretti ai portali di verifica.
+  - Aggiornato `main.js` per mostrare le medaglie nelle card e i certificati/banner in alta definizione nel popup di verifica con pulsante di verifica diretta.
+
+
+## [2026-08-25] audit / sito | Verifica nuovo sito e articoli SIGMA
+
+- Confrontato `L:\Sito_Dave` sul ramo `main`, commit `0759587`, con lo stato registrato nel Second Brain.
+- Integrato l'audit di concept dopo la precisazione di Davide: efficacia del posizionamento, chiarezza della promessa, gerarchia tra offerta principale e progetti paralleli, ruolo di gallerie, premi, team e articoli SIGMA.
+- Esito concettuale: identità fotografica e prove sono forti, ma la homepage non rende ancora centrale il Metodo SIS; troppi contenuti ricevono lo stesso peso e la biografia arriva troppo tardi.
+- Distinti i flussi operativi dai segnaposto intenzionali: Dardagna pubblicata con flusso autonomo; Canfaito e Foreste locali con fotografie da sostituire; viaggi 2027, workshop 2027 e fotochiacchierate ancora informativi.
+- Verificate le nuove sezioni Premi e Gallerie; i banner dei certificati premio risultano ancora placeholder.
+- Rilevati link partner vuoti nei footer e più copie delle landing da mantenere sincronizzate.
+- Auditati i cinque articoli SIGMA locali: struttura completa, ma tono troppo promozionale, introduzioni duplicate e affermazioni tecniche assolute da verificare.
+- Creata la nota [`wiki/reports/site-audit-2026-08-25.md`](reports/site-audit-2026-08-25.md) con problemi, priorità e piano di revisione.
+- Nessuna modifica applicata al repository del sito.
+
 ## [2026-08-25] archive / awards | Materiali One Eyeland aggiunti manualmente
 
 - Confermata la presenza in `L:\1_Social\One Eyeland` di `watermark-socialcrop.jpg` e `watermark-socialcrop (1).jpg`, aggiunti manualmente da Davide.

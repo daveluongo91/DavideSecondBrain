@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-21
+updated: 2026-08-25
 summary: SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti.
 tags:
   - website
@@ -17,6 +17,14 @@ tags:
 Creare un sito più semplice, moderno e orientato alla conversione verso workshop e corsi, sostituendo la precedente struttura con un'architettura statica veloce e di impatto visivo premium.
 
 ## Stato corrente (21 agosto 2026)
+
+### Audit contenuti e interfaccia del 25 agosto
+
+- Verificate le aggiunte recenti a homepage, gallerie, premi, caroselli e navigazione One-to-One.
+- Confermata la distinzione tra flussi operativi e segnaposto intenzionali: Dardagna è pubblicata con flusso autonomo; Canfaito e Foreste restano locali con immagini da sostituire; i viaggi 2027 raccolgono interesse ma non sono acquistabili.
+- Individuati link partner vuoti nel footer e certificati premio ancora sostituiti da immagini placeholder.
+- I cinque articoli SIGMA locali richiedono revisione editoriale e verifica delle affermazioni tecniche prima di essere considerati pronti.
+- Rapporto completo: [Analisi SitoDave del 25 agosto 2026](../reports/site-audit-2026-08-25.md).
 
 ### Evoluzione Backend & Admin completata
 
