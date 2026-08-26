@@ -606,3 +606,9 @@ Registro cronologico append-only delle modifiche principali.
 - Il riepilogo corretto è 24 email inviate, 5 risposte, 1 `OK`, 16 `APERTO`, 7 `CHIUSO` e 1 `NON INVIATA`.
 - Buubble è l'unico contatto pendente e usa esclusivamente il form ufficiale; la bozza è stata inserita nella nuova scheda `Da inviare` del workbook madre.
 - Sincronizzato `L:\1_Social\Outreach_Islanda_2026.xlsx` dopo verifica di formule, colori, layout e hash SHA-256.
+
+## [2026-08-26] maintenance | Aggiornamento master collaborazioni da Thunderbird
+- Controllati i nuovi messaggi indicizzati nei tre account Thunderbird, con priorità a `info@davideluongo.it`.
+- Aggiornati Shimoda e Peak Design da invio da verificare a risposta ricevuta o follow-up; aggiunti GRAYL, Afternoon Cottages e Hotel Örk senza duplicati.
+- Le newsletter SIRUI e la risposta automatica Sigma non hanno cambiato lo stato delle collaborazioni.
+- Il master contiene ora 57 realtà. I conteggi restano calcolati con formule e la copertura Thunderbird è aggiornata al 26 agosto 2026.
