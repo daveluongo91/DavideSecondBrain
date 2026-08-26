@@ -2,6 +2,17 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Correzione definitiva abbinamento avatar fotografici del team
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Riassegnate correttamente tutte le foto del team in `index.html`:
+    1. **Mauro Boccali** (`assets/team_mauro_boccali.jpg`): ritratto sul campo con fotocamera, treppiede e zaino nel prato verde.
+    2. **Manuel Linari** (`assets/team_manuel_linari.jpg`): scatto outdoor seduto sul tronco nella foresta.
+    3. **Elia Marcon** (`assets/team_elia_marcon.jpg`): ritratto su poltrona in pelle con fotocamera e teleobiettivo bianco.
+    4. **Luca Sensoli** (`assets/team_luca_sensoli.jpg`): ritratto in quota sulle Dolomiti con le vette alpine.
+    5. **Loris Ferrini** (`assets/team_loris_ferrini.jpg`): scatto astronomico con telescopio ed equipaggiamento notturno.
+
+
 ## [2026-08-26] ui / team | Aggiornamento avatar di Luca Sensoli con ritratto montano
 
 - **SitoDave (`L:\Sito_Dave`)**:
