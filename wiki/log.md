@@ -484,6 +484,13 @@ Registro cronologico append-only delle modifiche principali.
 - Copiati in `L:\1_Social` i workbook e i CSV dell'outreach Islanda 2026: strutture ricettive, autonoleggi e rilancio puffin per agosto 2027.
 - Conservati gli originali nella cartella di lavoro Codex e verificata l'identità delle cinque copie tramite hash SHA-256.
 
+## [2026-08-26] maintenance | Aggiornamento tracking outreach Islanda
+- Controllata in sola lettura la Webmail Aruba: nessuna email inviata o modificata.
+- Registrata l'accettazione di Afternoon Cottages, con finestra indicata da Davide tra il 4 e il 7 dicembre.
+- Registrata la richiesta di media kit ed esempi da Hotel Örk e il rifiuto definitivo di Blue Hotel & Cabins.
+- Chiuso Hotel Skógafoss dopo 7 giorni lavorativi senza risposta; riepilogo corrente: 1 `OK`, 15 `APERTO`, 4 `CHIUSO`, 5 `NON INVIATA`.
+- Aggiornato e sincronizzato `L:\1_Social\Outreach_Islanda_2026.xlsx`; creata la scheda `wiki/projects/outreach-islanda-2026.md`.
+
 ## [2026-08-24] maintenance | Consegna CSV collaborazioni e verifica form WANDRD
 - Consegnata una copia verificata del CSV residuo con 10 brand ancora da contattare; hash SHA-256 `462E4CD875AD2FE4E829DDB522F869F94F34F21E69A10CA9D4253005029EEAFC`.
 - Confermato che WANDRD usa il form Creator Community collegato dalla pagina ufficiale Affiliates & Collaborators e riesamina le candidature ogni trimestre.
