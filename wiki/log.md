@@ -2,6 +2,18 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] feature / hospitality | Creazione landing page dedicata Travel & Hospitality
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Creata la nuova landing page B2B `travel-hospitality.html` dedicata a hotel, resort e brand di viaggio:
+    - Hero section immersiva con visual aurora e van, metriche chiave e posizionamento come *Travel & Hospitality Videomaker*.
+    - Griglia dei 4 servizi chiave per le strutture: *Reel 4K (9:16)*, *Libreria Fotografica d'Ambiente & Lifestyle*, *Integrazione della Destinazione*, *Licenza Commerciale & Collaborazione Social*.
+    - Showcase interattivo dei Case Studies con link diretti ai Reel Instagram di **Hotel Keflavík (Islanda)** e **Hotel Monopol (Tenerife)**.
+    - Spiegazione del metodo di lavoro in 4 step (*Briefing*, *Shooting*, *Post-produzione*, *Consegna & Boost*).
+    - Modale e form di contatto dedicato alle strutture ricettive.
+  - Aggiornata la card **Travel & Hospitality** nell'homepage (`index.html`) per rendere l'immagine, il titolo e il pulsante cliccabili direttamente verso `travel-hospitality.html`.
+
+
 ## [2026-08-26] ui / homepage | Aggiornamento immagine di copertina Travel & Hospitality
 
 - **SitoDave (`L:\Sito_Dave`)**:
