@@ -2,6 +2,17 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / homepage | Aggiornamento Travel & Hospitality con anteprime Reel Instagram
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Aggiornata la card **Travel & Hospitality** nella sezione *Progetti Paralleli* (`#other-projects`) in `index.html`:
+    - Riformulato il testo editoriale e il posizionamento come *Travel & Hospitality Videomaker* (creazione di reel cinematici e storytelling emozionale del soggiorno integrato al territorio).
+    - Integrato un blocco di anteprima interattivo con collegamenti diretti ai due reel ufficiali Instagram verificati:
+      1. **Hotel Keflavík (Islanda)** (`https://www.instagram.com/reel/DTTC2x6iCTv/`)
+      2. **Hotel Monopol (Tenerife)** (`https://www.instagram.com/reel/DNyEEpsWmie/`)
+    - Aggiornato il pulsante di contatto in `Proponi una Collaborazione →` collegato alla modale con oggetto preimpostato `Collaborazione Travel & Hospitality`.
+
+
 ## [2026-08-26] ui / homepage | Impostata la card Wedding nei Progetti Paralleli in stato Coming Soon
 
 - **SitoDave (`L:\Sito_Dave`)**:
