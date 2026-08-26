@@ -2,6 +2,17 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Integrazione avatar fotografici circolari per il team
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Ottimizzati, ritagliati e integrati i 4 avatar fotografici circolari nella sezione *Vi Presento il Team* (`#team`) in `index.html`:
+    1. **Loris Ferrini** (`assets/team_loris_ferrini.jpg`): scatto notturno con telescopio ed equipaggiamento astronomico sotto le stelle.
+    2. **Manuel Linari** (`assets/team_manuel_linari.jpg`): ritratto sul campo con reflex Canon e treppiede.
+    3. **Elia Marcon** (`assets/team_elia_marcon.jpg`): ritratto outdoor nella foresta su tronco muschioso.
+    4. **Luca Sensoli** (`assets/team_luca_sensoli.jpg`): ritratto su poltrona in pelle con fotocamera e teleobiettivo.
+  - Aggiunta in `style.css` la classe `.team-avatar-photo` con resa perfettamente circolare, preservando gli anelli luminosi sfumati (`team-avatar-ring`) e i collegamenti esterni.
+
+
 ## [2026-08-26] feature / hospitality | Player video Instagram Reel incorporati nelle card Case Study
 
 - **SitoDave (`L:\Sito_Dave`)**:
