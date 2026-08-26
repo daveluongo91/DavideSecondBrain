@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Aggiornamento avatar di Luca Sensoli con ritratto montano
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituita la foto avatar di **Luca Sensoli** (`assets/team_luca_sensoli.jpg`) con il nuovo ritratto in quota tra le vette alpine/dolomitiche, centrato e ritagliato a cerchio.
+
+
 ## [2026-08-26] ui / team | Integrazione avatar fotografici circolari per il team
 
 - **SitoDave (`L:\Sito_Dave`)**:
