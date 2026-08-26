@@ -518,3 +518,10 @@ Registro cronologico append-only delle modifiche principali.
 - Verificato il reel `DNyEEpsWmie`, pubblicato da `@davepics_91`: presenta Hotel Monopol a Tenerife con testo in italiano, inglese e spagnolo.
 - Per una versione hospitality del media kit, usare i due reel come lavori precedenti verificati e non come prova di performance: like e commenti pubblici non sostituiscono reach, visualizzazioni e insight completi.
 - Mantenere separato il media kit fotografico generale e creare una copia dedicata a hotel e strutture ricettive.
+
+## [2026-08-26] maintenance | Media kit hospitality Canva
+- Creata e salvata una copia separata del media kit Canva, titolo `Davide Luongo - Hospitality Media Kit 2026`, design ID `DAHTXYBJzj0`.
+- Conservato intatto il media kit fotografico originale `DAGe4uhSwEE`.
+- Adattati presentazione e servizi a hotel e travel brand: fotografia della struttura, reel verticali, esperienza e destinazione, pacchetti foto e video.
+- Inseriti Hotel Keflavik e Hotel Monopol come lavori precedenti, con collegamenti ai reel Instagram verificati.
+- Le immagini restano provvisoriamente quelle del progetto originale finché non sono disponibili gli scatti hospitality ad alta risoluzione.
