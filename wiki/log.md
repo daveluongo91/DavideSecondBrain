@@ -546,3 +546,9 @@ Registro cronologico append-only delle modifiche principali.
 - Inserite le copertine e le schede dei reel Hotel Keflavik e Hotel Monopol; i nomi restano collegati ai rispettivi reel.
 - Posizionamento aggiornato a `Travel & Hospitality Videomaker`; servizi riscritti intorno a video per hotel, reel, esperienza e destinazione, consegne per la struttura.
 - I dati NJL sono presentati come metriche generali del profilo. Nessuna performance è attribuita ai singoli hotel senza insight completi.
+
+## [2026-08-26] outreach | Risposta media kit per Hotel Örk
+- Preparata una risposta in inglese da sottoporre a revisione, con media kit hospitality da allegare manualmente.
+- Inseriti i link ai reel realizzati per Hotel Keflavik e Hotel Monopol.
+- Chiarito che concept, tono e montaggio di ciascun video sono stati concordati interamente con la relativa struttura; la differenza di mood mostra quindi un adattamento al carattere e agli obiettivi dell'hotel.
+- Nessun messaggio inviato.
