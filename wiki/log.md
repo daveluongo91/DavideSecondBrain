@@ -525,3 +525,10 @@ Registro cronologico append-only delle modifiche principali.
 - Adattati presentazione e servizi a hotel e travel brand: fotografia della struttura, reel verticali, esperienza e destinazione, pacchetti foto e video.
 - Inseriti Hotel Keflavik e Hotel Monopol come lavori precedenti, con collegamenti ai reel Instagram verificati.
 - Le immagini restano provvisoriamente quelle del progetto originale finché non sono disponibili gli scatti hospitality ad alta risoluzione.
+
+## [2026-08-26] analysis | Concept dati e video per media kit hospitality
+- Riesaminata la versione Canva hospitality `DAHTXYBJzj0`: testi e servizi sono coerenti, ma le immagini di astrofotografia mantengono ambiguo il posizionamento.
+- Davide non dispone di fotografie hospitality originali; sono disponibili soltanto i due lavori video per Hotel Keflavik e Hotel Monopol.
+- Proposto un concept basato su dati NJL verificati, grafici semplici, copertine o fotogrammi dei reel e collegamenti diretti ai due lavori.
+- Evitare grafici decorativi o confronti tra grandezze non omogenee; distinguere metriche del profilo dai risultati specifici dei lavori hotel, per i quali non sono disponibili insight completi.
+- Nessuna modifica applicata al progetto Canva in questa fase: la revisione resta una proposta da approvare.
