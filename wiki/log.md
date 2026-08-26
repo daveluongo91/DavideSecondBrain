@@ -2,6 +2,16 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] branding / ui | Generazione e integrazione favicon ufficiale del logo
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Generato il pacchetto completo delle favicon ad alta nitidezza ritagliate dal pittogramma ufficiale (`assets/pittogramma.png`):
+    - `favicon.ico` (multi-risoluzione 16x16, 32x32, 48x48, 64x64) nella root e in `assets/`.
+    - `assets/favicon-32x32.png` e `assets/favicon-16x16.png` per i moderni browser desktop.
+    - `assets/apple-touch-icon.png` (180x180) per smartphone iOS/Android e scorciatoie home screen.
+  - Inseriti i relativi meta tag `<link rel="icon">` e `<link rel="apple-touch-icon">` in tutte le 35 pagine HTML del sito (Home, Blog, Workshop, Gear, Hospitality, One-to-One, Landing Pages e Admin).
+
+
 ## [2026-08-26] ui / team | Integrazione avatar Eleonora Fioravante da Instagram
 
 - **SitoDave (`L:\Sito_Dave`)**:
