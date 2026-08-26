@@ -539,3 +539,10 @@ Registro cronologico append-only delle modifiche principali.
 - Proposto un concept basato su dati NJL verificati, grafici semplici, copertine o fotogrammi dei reel e collegamenti diretti ai due lavori.
 - Evitare grafici decorativi o confronti tra grandezze non omogenee; distinguere metriche del profilo dai risultati specifici dei lavori hotel, per i quali non sono disponibili insight completi.
 - Nessuna modifica applicata al progetto Canva in questa fase: la revisione resta una proposta da approvare.
+
+## [2026-08-26] maintenance | Concept video-first del media kit hospitality
+- Salvato su Canva il redesign definitivo del progetto `DAHTXYBJzj0`, mantenendo separato il media kit fotografico originale `DAGe4uhSwEE`.
+- Sostituite le immagini di astrofotografia con quattro pannelli basati sul report NJL 24 luglio–24 agosto 2026: visibilità del profilo, pubblico, rendimento dei post e storie.
+- Inserite le copertine e le schede dei reel Hotel Keflavik e Hotel Monopol; i nomi restano collegati ai rispettivi reel.
+- Posizionamento aggiornato a `Travel & Hospitality Videomaker`; servizi riscritti intorno a video per hotel, reel, esperienza e destinazione, consegne per la struttura.
+- I dati NJL sono presentati come metriche generali del profilo. Nessuna performance è attribuita ai singoli hotel senza insight completi.
