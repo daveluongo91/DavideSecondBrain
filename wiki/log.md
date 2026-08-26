@@ -548,7 +548,8 @@ Registro cronologico append-only delle modifiche principali.
 - I dati NJL sono presentati come metriche generali del profilo. Nessuna performance è attribuita ai singoli hotel senza insight completi.
 
 ## [2026-08-26] outreach | Risposta media kit per Hotel Örk
-- Preparata una risposta in inglese da sottoporre a revisione, con media kit hospitality da allegare manualmente.
+- Preparata la risposta in inglese alla richiesta ricevuta da Hotel Örk, con media kit hospitality da allegare manualmente.
 - Inseriti i link ai reel realizzati per Hotel Keflavik e Hotel Monopol.
 - Chiarito che concept, tono e montaggio di ciascun video sono stati concordati interamente con la relativa struttura; la differenza di mood mostra quindi un adattamento al carattere e agli obiettivi dell'hotel.
+- Ripreso l'interesse espresso dalla struttura per il taglio winter wellness e per il racconto dell'hotel insieme ai dintorni.
 - Nessun messaggio inviato.
