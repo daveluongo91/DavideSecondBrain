@@ -673,3 +673,9 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornati Shimoda e Peak Design da invio da verificare a risposta ricevuta o follow-up; aggiunti GRAYL, Afternoon Cottages e Hotel Örk senza duplicati.
 - Le newsletter SIRUI e la risposta automatica Sigma non hanno cambiato lo stato delle collaborazioni.
 - Il master contiene ora 57 realtà. I conteggi restano calcolati con formule e la copertura Thunderbird è aggiornata al 26 agosto 2026.
+
+## [2026-08-26] maintenance | Raccolta JPG Islanda per il sito
+- Scansionate le unità collegate `C:`, `D:`, `G:`, `I:`, `J:`, `K:`, `L:` e `Y:` cercando file `.jpg` e `.jpeg` riconducibili all'Islanda tramite cartelle, nomi e località.
+- Copiati 588 file in `L:\1\_Social\SITO DATA\Islanda`, per 11,01 GB: 270 da `I:`, 315 da `K:`, 2 da `L:` e 1 da `C:`.
+- Saltati 3 duplicati identici verificati con hash SHA-256. Escluse le miniature delle videocamere, le copie di backup WordPress e le riduzioni automatiche con dimensioni nel nome.
+- Gli originali non sono stati spostati né cancellati. Il manifesto completo delle provenienze è `L:\1\_Social\SITO DATA\Islanda\_manifest_copia_islanda.csv`; tutti i 588 percorsi di destinazione risultano presenti.
