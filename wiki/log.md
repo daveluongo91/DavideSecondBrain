@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Integrazione avatar Eleonora Fioravante da Instagram
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Scaricato, ottimizzato e integrato l'avatar circolare ufficiale di **Eleonora Fioravante** (@travel.fiore) (`assets/team_eleonora_fioravante.jpg`) nella sezione Team di `index.html`.
+  - Ora tutti i 6 componenti del team (Loris, Manuel, Elia, Luca, Eleonora, Mauro) dispongono di avatar fotografici professionali circolari con anello luminoso sfumato.
+
+
 ## [2026-08-26] ui / team | Correzione definitiva abbinamento avatar fotografici del team
 
 - **SitoDave (`L:\Sito_Dave`)**:
