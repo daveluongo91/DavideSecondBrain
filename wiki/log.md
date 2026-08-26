@@ -2,6 +2,15 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / homepage | Impostata la card Wedding nei Progetti Paralleli in stato Coming Soon
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Aggiornata la card **Wedding** nella sezione *Progetti Paralleli* (`#other-projects`) in `index.html`:
+    - Applicato il placeholder visivo `neon-pink-card-placeholder` con testo animato flicker `COMING SOON` (coerente con la sezione *Viaggi 2027*).
+    - Aggiornato il badge di stato da `Disponibile` a `Coming Soon` (`badge-status upcoming`).
+    - Aggiornata la CTA in `Richiedi Info Wedding →` collegata alla finestra modale per le richieste di informazioni.
+
+
 ## [2026-08-25] export / PDF | Raccolta professionale articoli SIGMA
 
 - Esportati dal nuovo sito locale, senza modificare le pagine sorgente, i quattro articoli dedicati a **SIGMA 14mm F1.4**, **24-70mm F2.8 DG DN II Art**, **28-105mm F2.8 DG DN Art** e **28-45mm F1.8 DG DN Art**.
@@ -553,3 +562,11 @@ Registro cronologico append-only delle modifiche principali.
 - Chiarito che concept, tono e montaggio di ciascun video sono stati concordati interamente con la relativa struttura; la differenza di mood mostra quindi un adattamento al carattere e agli obiettivi dell'hotel.
 - Ripreso l'interesse espresso dalla struttura per il taglio winter wellness e per il racconto dell'hotel insieme ai dintorni.
 - Nessun messaggio inviato.
+
+## [2026-08-26] maintenance | Riconciliazione completa tracking strutture Islanda
+- Confrontato il workbook allegato da Davide con il file madre e conservate le regole colore per `OK`, `APERTO`, `CHIUSO` e `NON INVIATA`.
+- La Webmail ha confermato quattro invii assenti dal tracking: Hotel Skógá il 18 agosto; Hotel Vík í Mýrdal, Black Beach Suites e Hotel Dyrhólaey il 17 agosto.
+- Registrato l'invio del media kit hospitality e di due reel a Hotel Örk il 26 agosto alle 10:23; la trattativa resta aperta.
+- Il riepilogo corretto è 24 email inviate, 5 risposte, 1 `OK`, 16 `APERTO`, 7 `CHIUSO` e 1 `NON INVIATA`.
+- Buubble è l'unico contatto pendente e usa esclusivamente il form ufficiale; la bozza è stata inserita nella nuova scheda `Da inviare` del workbook madre.
+- Sincronizzato `L:\1_Social\Outreach_Islanda_2026.xlsx` dopo verifica di formule, colori, layout e hash SHA-256.
