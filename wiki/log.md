@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Collegamento profilo Instagram di Manuel Linari
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Collegato il profilo Instagram di **Manuel Linari** (`https://www.instagram.com/manuel_linari/`) nella sezione Team in `index.html`:
+    - Reso cliccabile l'avatar fotografico con anello luminoso e tooltip `Segui Manuel su Instagram ↗`.
+    - Aggiunto il pulsante dedicato `Segui @manuel_linari ↗`.
+
+
 ## [2026-08-26] branding / ui | Generazione e integrazione favicon ufficiale del logo
 
 - **SitoDave (`L:\Sito_Dave`)**:
