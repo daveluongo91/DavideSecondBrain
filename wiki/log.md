@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / team | Collegamento profilo Instagram di Elia Marcon
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Collegato il profilo Instagram di **Elia Marcon** (`https://www.instagram.com/elia.marcon/`) nella sezione Team in `index.html`:
+    - Reso cliccabile l'avatar fotografico con anello luminoso e tooltip `Segui Elia su Instagram ↗`.
+    - Aggiunto il pulsante dedicato `Segui @elia.marcon ↗`.
+
+
 ## [2026-08-26] ui / team | Collegamento profilo Instagram di Manuel Linari
 
 - **SitoDave (`L:\Sito_Dave`)**:
