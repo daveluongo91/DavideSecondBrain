@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] ui / homepage | Aggiornamento immagine di copertina Travel & Hospitality
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituita l'immagine di copertina della card **Travel & Hospitality** con il nuovo scatto d'impatto con aurora boreale e van/camper (`assets/travel_hospitality_aurora.jpg`), ottimizzato per il web.
+
+
 ## [2026-08-26] ui / homepage | Aggiornamento Travel & Hospitality con anteprime Reel Instagram
 
 - **SitoDave (`L:\Sito_Dave`)**:
