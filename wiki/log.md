@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-26] feature / hospitality | Player video Instagram Reel incorporati nelle card Case Study
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituite le immagini statiche nelle card delle collaborazioni in `travel-hospitality.html` con i player video embedded ufficiali di Instagram per **Hotel Keflavík** (`DTTC2x6iCTv`) e **Hotel Monopol** (`DNyEEpsWmie`).
+  - I video sono ora riproducibili direttamente all'interno della pagina in formato verticale 9:16 con controlli nativi.
+
+
 ## [2026-08-26] feature / hospitality | Creazione landing page dedicata Travel & Hospitality
 
 - **SitoDave (`L:\Sito_Dave`)**:
