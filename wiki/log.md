@@ -512,3 +512,9 @@ Registro cronologico append-only delle modifiche principali.
 - Preparato un Excel con 2.601 account non-follow-back, link diretti, data del follow, stato modificabile e priorità di revisione.
 - La priorità non determina l'unfollow: 419 profili con possibili segnali foto, travel, brand o relazioni recenti sono indicati per una verifica più cauta.
 - Controllati anche profili bloccati, richieste in sospeso, richieste recenti, profili rimossi di recente e suggerimenti rimossi; nessun account bloccato era presente tra i candidati.
+
+## [2026-08-26] analysis | Riferimenti hospitality per media kit
+- Verificato il reel `DTTC2x6iCTv`, pubblicato da `@hotelkeflavik`: la caption accredita direttamente Davide Luongo come autore video.
+- Verificato il reel `DNyEEpsWmie`, pubblicato da `@davepics_91`: presenta Hotel Monopol a Tenerife con testo in italiano, inglese e spagnolo.
+- Per una versione hospitality del media kit, usare i due reel come lavori precedenti verificati e non come prova di performance: like e commenti pubblici non sostituiscono reach, visualizzazioni e insight completi.
+- Mantenere separato il media kit fotografico generale e creare una copia dedicata a hotel e strutture ricettive.
