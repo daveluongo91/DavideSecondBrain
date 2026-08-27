@@ -54,11 +54,11 @@ Instagram genera scoperta, desiderio e fiducia; newsletter e sito accompagnano l
 
 ## Caroselli per engagement e community
 
-Il 27 agosto è stata preparata in Canva una raccolta 4:5 di 39 slide, design `DAHTe3PPkgA`. Il sistema visivo riprende il carosello “Se domani spegnessero i social”: fondo nero materico, bianco sporco, rosa neon, font condensato, cornici luminose e CTA incorniciate. Le aree fotografiche sono placeholder, così Davide può inserire le immagini dopo.
+Il 27 agosto è stato avviato in Canva il progetto 4:5 `DAHTe5hl-LU`. Il sistema visivo riprende il carosello “Se domani spegnessero i social”: fondo nero materico, bianco sporco, rosa neon, font condensato, cornici luminose e CTA incorniciate. Le fotografie restano elementi separati.
 
 La raccolta contiene dieci domande e il format ricorrente “Confessioni di un fotografo”. Le domande non chiedono competenze tecniche per rispondere: partono da foto amate ma poco capite, rapporto tra fotografia e giornata vissuta, attrezzatura economica, immagini inseguite, pause, abitudini prese dai social e cambiamento dello sguardo. Ogni mini-carosello termina con una richiesta precisa: commento, racconto, tag o DM.
 
-Stato: progetto Canva pronto, fotografie ancora da inserire, pubblicazione non eseguita.
+Stato: cover e sviluppo del primo carosello sono stati convertiti in livelli Canva e salvati. La CTA e le copie generate non sono modificabili tramite il flusso automatico; la raccolta completa non è pronta. Nessun contenuto è stato pubblicato.
 
 ## Collegamenti
 

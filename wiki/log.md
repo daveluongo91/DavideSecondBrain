@@ -8,6 +8,7 @@ Registro cronologico append-only delle modifiche principali.
 - Ripreso il sistema visivo del carosello “Se domani spegnessero i social” usando le tre slide fornite da Davide come riferimento diretto.
 - Inseriti dieci mini-caroselli basati su domande aperte e il format “Confessioni di un fotografo” con tre esempi.
 - Le aree fotografiche restano vuote come placeholder. Nessun contenuto è stato pubblicato su Instagram.
+- Correzione dello stato: il primo import non rispettava abbastanza il riferimento. Il progetto nativo successivo è `DAHTe5hl-LU`; soltanto cover e sviluppo del primo carosello risultano convertiti, modificabili e salvati. La raccolta completa non è pronta.
 
 ## [2026-08-26] ui / team | Collegamento profilo Instagram di Elia Marcon
 
