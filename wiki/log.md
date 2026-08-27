@@ -715,3 +715,9 @@ Registro cronologico append-only delle modifiche principali.
 - Inserite tre fotografie recuperate dai due post Instagram indicati da Davide: zaino e treppiede Vanguard sul ghiaccio, Davide con lo zaino davanti alla cascata e paesaggio di Madeira.
 - La cartella Google Drive fornita non era accessibile con l'account `daveluongo.ph@gmail.com`; non è stata inviata una richiesta di accesso.
 - Le modifiche sono state approvate da Davide e salvate su Canva. Nessuna email è stata inviata a J Sport.
+
+## [2026-08-27] maintenance | Controllo raccolte fotografiche sul disco Data
+- Scansionato il disco `M:` (`Data`, seriale `CE8BEF62`) per file `.jpg` e `.jpeg` riconducibili a Islanda, Tenerife e Madeira.
+- Islanda e Madeira non hanno prodotto candidati. Per Tenerife sono stati trovati 4 file, tutti identici a immagini già presenti e quindi non ricopiati.
+- I totali restano 588 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira. Tutti i 984 percorsi registrati nei manifesti risultano presenti.
+- Nessun errore e nessun originale spostato o cancellato.
