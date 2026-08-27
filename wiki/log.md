@@ -770,3 +770,10 @@ Registro cronologico append-only delle modifiche principali.
 - Individuati 47 messaggi provenienti da domini `1x.com` con 38 allegati JPEG complessivi. Sette file erano già presenti nell'archivio; aggiunti 31 JPEG nuovi tra immagini `published` e `accepted`.
 - La cartella `L:\1_Social\1x` contiene ora 38 JPEG per 11,68 MB. Tutti hanno intestazione JPEG valida e hash SHA-256 coerente con `L:\1_Social\awards_download_manifest_2026-08-25.csv`.
 - Thunderbird e i messaggi originali non sono stati modificati. Il plugin Gmail non è stato installato perché Davide ha chiesto di usare Thunderbird.
+
+## [2026-08-27] maintenance | Selezione gallerie Islanda, Tenerife e Madeira
+- Create le cartelle `selected` sotto `L:\1_Social\SITO DATA\Islanda`, `Tenerife` e `Madeira`. Il percorso corretto delle raccolte è `L:\1_Social\SITO DATA`, non la precedente variante `L:\1\_Social\SITO DATA` rimasta nei vecchi manifesti.
+- Copiati 29 JPEG con fregio 1x, classificati visivamente per destinazione: 10 Islanda, 14 Tenerife e 5 Madeira. Il certificato generale 1x e i fregi relativi ad altri soggetti sono rimasti fuori.
+- Selezionate inoltre 10 fotografie per ogni destinazione, escludendo i file `awarded`, `published` e `accepted`. La scelta ha considerato qualità tecnica, luce, composizione, varietà dei soggetti e duplicati visivi.
+- Il manifesto `L:\1_Social\SITO DATA\_selected_all_collections_manifest.csv` contiene 59 copie con sorgente, destinazione e SHA-256; tutti gli hash risultano validi. Gli originali non sono stati spostati o cancellati.
+- Tre file nella raccolta Tenerife (`A7R00156-Edit-2.jpg`, `A7R00420-Edit.jpg`, `A7R00463-Edit.jpg`) non sono leggibili come JPEG e non sono entrati nella selezione; non sono stati modificati.
