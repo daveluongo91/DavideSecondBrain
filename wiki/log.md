@@ -2,6 +2,25 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] feature / gallerie | Integrazione portfolio fotografico completo (Islanda, Tenerife, Madeira)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Integrate tutte le fotografie selezionate per le 3 gallerie:
+    - **Islanda** (24 foto da `L:\1_Social\SITO DATA\Islanda\selected`): salvate in `assets/galleries/islanda/` con nuova copertina `cover_islanda.jpg`.
+    - **Tenerife** (28 foto da `L:\1_Social\SITO DATA\Tenerife\selected`): salvate in `assets/galleries/tenerife/` con nuova copertina `cover_tenerife.jpg`.
+    - **Madeira** (14 foto da `L:\1_Social\SITO DATA\Madeira\selected`): salvate in `assets/galleries/madeira/` con nuova copertina `cover_madeira.jpg`.
+  - Applicato rigoroso ordinamento di prestigio con fregi **1x**:
+    1. `1X Awarded` (badge oro/ambra)
+    2. `1X Published` (badge azzurro/ciano)
+    3. `1X Accepted` (badge viola/magenta)
+    4. Seguite da tutte le altre fotografie d'impatto e Top 10.
+  - **Eliminati tutti i counter numerici** da card, badge, modali e lightbox.
+  - Sviluppato **Lightbox Immersivo a Schermo Intero**:
+    - Apertura in sovraimpressione al click sul thumbnail.
+    - Pulsante "×" in alto a destra per tornare alla vista precedente.
+    - Frecce di navigazione laterali fluttuanti (Sinistra / Destra) + supporto tastiera (Freccia Sinistra, Freccia Destra, Escape).
+
+
 ## [2026-08-27] ui / gallerie | Rimozione galleria Montagna e ottimizzazione griglia
 
 - **SitoDave (`L:\Sito_Dave`)**:
