@@ -692,3 +692,11 @@ Registro cronologico append-only delle modifiche principali.
 - Inseriti Islanda dicembre 2026 da confermare, Lapponia gennaio 2027, Thailandia 2027, Minorca maggio 2027, Azzorre luglio 2027 e Islanda ottobre 2027.
 - La raccolta pubblica Instagram `Vanguard Pro` è stata verificata, ma le storie non erano accessibili senza login. Il case study usa quindi soltanto fatti già documentati: attrezzatura Vanguard sul campo e possibilità di prova durante i workshop.
 - Il PDF è pronto per la revisione. Nessuna email è stata inviata a J Sport.
+
+## [2026-08-27] maintenance | Progetto Canva INWILD / J Sport
+- Il flusso automatico di generazione Canva è rimasto fermo alla fase di scelta del riferimento, anche dopo il riavvio segnalato da Davide.
+- Creata una copia separata del media kit hospitality `DAHTXYBJzj0` e trasformata direttamente nel progetto `Davide Luongo × INWILD / J Sport - One kit. Multiple environments.`, design ID `DAHTejEGIjs`.
+- Conservati griglia, palette, font e proporzioni del riferimento. La prima pagina raccoglie profilo, metriche e concept carry-on; la seconda riunisce kit, calendario, workshop e prova sul campo Vanguard.
+- Inserite tre fotografie recuperate dai due post Instagram indicati da Davide: zaino e treppiede Vanguard sul ghiaccio, Davide con lo zaino davanti alla cascata e paesaggio di Madeira.
+- La cartella Google Drive fornita non era accessibile con l'account `daveluongo.ph@gmail.com`; non è stata inviata una richiesta di accesso.
+- Le modifiche sono state approvate da Davide e salvate su Canva. Nessuna email è stata inviata a J Sport.
