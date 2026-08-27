@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Tenerife con scatto Roques de García
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituita l'immagine di copertina della galleria **Tenerife** (`assets/galleries/cover_tenerife.jpg`) con lo scatto iconico verticale del torrione vulcanico di *Roques de García* / Teide National Park con il sentiero dorato.
+
+
 ## [2026-08-27] feature / gallerie | Integrazione portfolio fotografico completo (Islanda, Tenerife, Madeira)
 
 - **SitoDave (`L:\Sito_Dave`)**:
