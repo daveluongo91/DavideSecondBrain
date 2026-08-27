@@ -749,3 +749,9 @@ Registro cronologico append-only delle modifiche principali.
 - Tenerife: aggiunti 26 file dalla cartella `M:\24072027_Teide\Foto`, provenienti dalle sottocartelle A6700 e A7RIIIA. La raccolta contiene ora 114 JPG per 1,500 GB.
 - Islanda e Madeira non hanno prodotto candidati. I totali restano 641 JPG Islanda e 381 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.136 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Integrazione Tenerife 2026 dal secondo disco senza etichetta
+- Scansionato il disco `M:` senza etichetta, seriale `0E088000`, per Islanda, Tenerife e Madeira, limitando la selezione ai file `.jpg` e `.jpeg`.
+- Tenerife: aggiunti 20 file dalla cartella `M:\Tenerife_2026`, provenienti dalle esportazioni, da Osmo Nano, Sony A7RIII e dalla sottocartella `Sky`. La raccolta contiene ora 134 JPG per 1,879 GB.
+- Islanda e Madeira non hanno prodotto candidati. I totali restano 641 JPG Islanda e 381 JPG Madeira.
+- Nessun errore e nessun originale spostato o cancellato. Tutti i 1.156 percorsi registrati nei manifesti risultano presenti.
