@@ -685,3 +685,10 @@ Registro cronologico append-only delle modifiche principali.
 - Copiati 87 file di Tenerife in `L:\1\_Social\SITO DATA\Tenerife`, per 0,965 GB: 82 da `I:`, 3 da `J:`, 1 da `C:` e 1 da `L:`. Saltati 12 duplicati identici tramite hash SHA-256.
 - Per Madeira è stato trovato un solo JPG certo, `Madeira-26.jpg`, copiato da `L:` in `L:\1\_Social\SITO DATA\Madeira`. Le altre occorrenze erano riduzioni automatiche o backup WordPress dello stesso file e sono state escluse.
 - Gli originali non sono stati spostati né cancellati. I manifesti sono `_manifest_copia_tenerife.csv` e `_manifest_copia_madeira.csv` nelle rispettive cartelle; tutti gli 88 percorsi registrati risultano presenti.
+
+## [2026-08-27] outreach | Media kit INWILD / J Sport
+- Analizzato il media kit Canva originale `DAGe4uhSwEE` senza modificarlo: due pagine A4, fotografia dominante, serif bianco e blu scuro.
+- Preparato un PDF separato di 11 pagine per la proposta INWILD / J Sport. Il concept è un kit outdoor compatto e modulare, compatibile con il bagaglio a mano e usato nei progetti 2026-2027.
+- Inseriti Islanda dicembre 2026 da confermare, Lapponia gennaio 2027, Thailandia 2027, Minorca maggio 2027, Azzorre luglio 2027 e Islanda ottobre 2027.
+- La raccolta pubblica Instagram `Vanguard Pro` è stata verificata, ma le storie non erano accessibili senza login. Il case study usa quindi soltanto fatti già documentati: attrezzatura Vanguard sul campo e possibilità di prova durante i workshop.
+- Il PDF è pronto per la revisione. Nessuna email è stata inviata a J Sport.

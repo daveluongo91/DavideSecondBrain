@@ -2,7 +2,7 @@
 title: Partnership
 type: area
 status: active
-updated: 2026-08-26
+updated: 2026-08-27
 summary: Area dedicata a collaborazioni, ambassador program e contenuti sponsorizzati.
 tags:
   - partnerships
@@ -36,6 +36,7 @@ Il controllo comprende i tre account configurati in Thunderbird: `info@davideluo
 - Il nuovo batch Mail Merge ha prodotto quattro segnali verificabili: WANDRD richiede il form Collaborators; GOMATIC ha preso in carico la proposta; Tenba/MAC Group Europe ha inviato una ricevuta automatica; l'indirizzo `press@boundarysupply.com` è inesistente e ha restituito errore permanente 550 5.1.1.
 - Shimoda ha risposto: il Workshop Program citato non viene più offerto. Peak Design rimanda al form dedicato a partnership e sponsorship. Per NYA-EVO, Matador e Think Tank/Fowa l'invio resta da verificare perché la cartella Posta inviata Aruba non è indicizzata e non è arrivata una risposta.
 - GRAYL ha indicato il contatto PR a cui inviare la proposta. Afternoon Cottages ha accettato una notte per due persone in cambio dei contenuti concordati. Hotel Örk ha chiesto media kit ed esempi e attende la valutazione interna.
+- INWILD / J Sport ha risposto positivamente al primo contatto via Instagram e ha chiesto di ricevere progetto e media kit all'indirizzo del team social. È stato preparato un PDF dedicato di 11 pagine, ancora da inviare, costruito intorno a un kit outdoor modulare compatibile con il bagaglio a mano. Il calendario copre Islanda dicembre 2026 da confermare, Lapponia gennaio 2027, Thailandia 2027, Minorca maggio 2027, Azzorre luglio 2027 e Islanda ottobre 2027.
 - Il master completo contiene 57 realtà, 21 righe dedicate a programmi affiliati, codici e vantaggi e una scheda separata per i rendimenti verificati.
 
 Tra i dati commerciali verificati: per Move Shoot Move Davide usa ora il link `https://www.moveshootmove.com/it/collections/move-shoot-move-rotator?aff=13`, comunicato direttamente da lui il 24 agosto 2026 ma non presente nelle email indicizzate. Il precedente `?aff=448`, confermato dal brand il 14 novembre 2025, resta nello storico. Non è stata trovata alcuna occorrenza di `aff=17`: il numero 17 citato in questa pagina indica il totale delle righe affiliate nel master. Le email fissano il 10% di commissione e il 5% di sconto al pubblico, ma non contengono report con ordini, vendite o commissioni maturate; dal 2 luglio 2026 il programma ambassador richiede almeno 10 ordini in un anno. PGYTECH usava `DAVEPPGY10`; ORICO ha associato `EASNVG7O` al prodotto MG7. Il coupon RCE ha generato sette ordini e €94,05 di cashback cumulato al 17 agosto 2026, ma il codice pubblico non compare nei messaggi indicizzati.
@@ -57,6 +58,7 @@ Vanguard ha comunicato €26,55 di commissioni per il 2023 su due ordini e €12
 9. Scrivere al contatto PR indicato da GRAYL citando il ticket già aperto.
 10. Valutare con Shimoda una proposta distinta dal Workshop Program non più attivo.
 11. Compilare il form partnership di Peak Design senza reinviare la stessa email.
+12. Rivedere il media kit INWILD / J Sport e inviarlo manualmente al contatto social indicato dal brand.
 
 ## Scheda minima per ogni collaborazione
 
