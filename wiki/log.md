@@ -2,6 +2,16 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / gallerie | Integrazione bandiere grafiche SVG per Islanda, Tenerife e Madeira
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Creati asset vettoriali SVG ad alta definizione in `assets/flags/`:
+    - `islanda.svg` (Bandiera Islanda)
+    - `spagna.svg` (Bandiera Spagna per Tenerife)
+    - `portogallo.svg` (Bandiera Portogallo per Madeira)
+  - Sostituite le emoji unicode con vere bandiere grafiche SVG nei badge delle card in homepage, nelle intestazioni delle modali e nella barra informativa del lightbox per garantire la visualizzazione a colori su tutti i browser e sistemi operativi (incluso Windows).
+
+
 ## [2026-08-27] ui / lightbox | Ottimizzazione visibilità pulsante di chiusura (X)
 
 - **SitoDave (`L:\Sito_Dave`)**:
