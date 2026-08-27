@@ -679,3 +679,9 @@ Registro cronologico append-only delle modifiche principali.
 - Copiati 588 file in `L:\1\_Social\SITO DATA\Islanda`, per 11,01 GB: 270 da `I:`, 315 da `K:`, 2 da `L:` e 1 da `C:`.
 - Saltati 3 duplicati identici verificati con hash SHA-256. Escluse le miniature delle videocamere, le copie di backup WordPress e le riduzioni automatiche con dimensioni nel nome.
 - Gli originali non sono stati spostati né cancellati. Il manifesto completo delle provenienze è `L:\1\_Social\SITO DATA\Islanda\_manifest_copia_islanda.csv`; tutti i 588 percorsi di destinazione risultano presenti.
+
+## [2026-08-27] maintenance | Raccolte JPG Madeira e Tenerife per il sito
+- Scansionate le unità disponibili `C:`, `D:`, `G:`, `I:`, `J:`, `K:` e `L:` cercando file `.jpg` e `.jpeg` tramite destinazione e località riconoscibili. L'unità `Y:` non era collegata durante questa scansione.
+- Copiati 87 file di Tenerife in `L:\1\_Social\SITO DATA\Tenerife`, per 0,965 GB: 82 da `I:`, 3 da `J:`, 1 da `C:` e 1 da `L:`. Saltati 12 duplicati identici tramite hash SHA-256.
+- Per Madeira è stato trovato un solo JPG certo, `Madeira-26.jpg`, copiato da `L:` in `L:\1\_Social\SITO DATA\Madeira`. Le altre occorrenze erano riduzioni automatiche o backup WordPress dello stesso file e sono state escluse.
+- Gli originali non sono stati spostati né cancellati. I manifesti sono `_manifest_copia_tenerife.csv` e `_manifest_copia_madeira.csv` nelle rispettive cartelle; tutti gli 88 percorsi registrati risultano presenti.
