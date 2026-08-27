@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / onetoone | Disposizione frase vantaggi su riga singola
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Impostato `max-width: none` per il sottotitolo *"In gruppo è sicuramente bellissimo, ma nel One-to-One sono tutto per te."* in `one-to-one/one-to-one.html` garantendo la disposizione su una sola riga continua.
+
+
 ## [2026-08-27] ui / onetoone | Rimozione titoli e didascalie dalle card di confronto Before/After
 
 - **SitoDave (`L:\Sito_Dave`)**:
