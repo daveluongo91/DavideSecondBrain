@@ -737,3 +737,9 @@ Registro cronologico append-only delle modifiche principali.
 - Scansionato il disco `M:` (`Data`, seriale `FA24CA0F`) per file `.jpg` e `.jpeg` riconducibili a Islanda, Tenerife e Madeira.
 - Il disco era quasi vuoto e nessuna delle tre destinazioni ha prodotto candidati. I totali restano 641 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.037 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Integrazione Madeira dal disco SanDisk
+- Scansionato il disco `M:` (`SanDisk`, seriale `BACE7454`) per Islanda, Tenerife e Madeira, limitando la selezione ai file `.jpg` e `.jpeg`.
+- Madeira: trovati 74 candidati nella cartella `M:\Madeira_2025`, aggiunti 73 file nuovi e saltato 1 duplicato identico. Le fonti comprendono esportazioni, versioni web, GoPro e Sony.
+- Islanda e Tenerife non hanno prodotto candidati. I totali sono ora 641 JPG Islanda, 88 JPG Tenerife e 381 JPG Madeira.
+- Nessun errore e nessun originale spostato o cancellato. Tutti i 1.110 percorsi registrati nei manifesti risultano presenti.
