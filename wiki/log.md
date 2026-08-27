@@ -727,3 +727,8 @@ Registro cronologico append-only delle modifiche principali.
 - Islanda: trovati 364 candidati, aggiunti 53 file nuovi e saltati 311 duplicati identici. I nuovi file provengono da cartelle `Islanda_2025` e `Islanda_2025_2`, soprattutto dalle esportazioni A7RIII, BF e FPL.
 - Tenerife e Madeira non hanno prodotto candidati. I totali sono ora 641 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.037 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Controllo raccolte sul terzo disco Data
+- Scansionato il disco `M:` (`Data`, seriale `8286ECD3`) per file `.jpg` e `.jpeg` riconducibili a Islanda, Tenerife e Madeira.
+- Nessuna delle tre destinazioni ha prodotto candidati. I totali restano 641 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira.
+- Nessun errore e nessun originale spostato o cancellato. Tutti i 1.037 percorsi registrati nei manifesti risultano presenti.
