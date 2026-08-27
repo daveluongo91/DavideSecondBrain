@@ -764,3 +764,9 @@ Registro cronologico append-only delle modifiche principali.
 - Tenerife: aggiunti 20 file dalla cartella `M:\Tenerife_2026`, provenienti dalle esportazioni, da Osmo Nano, Sony A7RIII e dalla sottocartella `Sky`. La raccolta contiene ora 134 JPG per 1,879 GB.
 - Islanda e Madeira non hanno prodotto candidati. I totali restano 641 JPG Islanda e 381 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.156 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Recupero JPEG 1x da Thunderbird
+- Controllata la Posta in arrivo locale Thunderbird dell'account `daveluongo.ph@gmail.com`, associata alla cartella IMAP `imap.gmail-1.com`.
+- Individuati 47 messaggi provenienti da domini `1x.com` con 38 allegati JPEG complessivi. Sette file erano già presenti nell'archivio; aggiunti 31 JPEG nuovi tra immagini `published` e `accepted`.
+- La cartella `L:\1_Social\1x` contiene ora 38 JPEG per 11,68 MB. Tutti hanno intestazione JPEG valida e hash SHA-256 coerente con `L:\1_Social\awards_download_manifest_2026-08-25.csv`.
+- Thunderbird e i messaggi originali non sono stati modificati. Il plugin Gmail non è stato installato perché Davide ha chiesto di usare Thunderbird.
