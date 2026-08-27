@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Madeira con scatto foresta di Fanal
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituita l'immagine di copertina della galleria **Madeira** (`assets/galleries/cover_madeira.jpg`) con lo scatto iconico verticale dell'albero millenario e tronco muschioso avvolto dalla nebbia nella foresta di *Fanal*.
+
+
 ## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Tenerife con scatto Roques de García
 
 - **SitoDave (`L:\Sito_Dave`)**:
