@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / onetoone | Rimozione titoli e didascalie dalle card di confronto Before/After
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Rimossi i blocchi di testo (titoli `<h4>` e descrizioni `<p>`) da ciascuna delle 3 card di confronto interattivo RAW/Elaborata in `one-to-one/one-to-one.html`, lasciando spazio pulito e full-bleed agli slider interattivi.
+
+
 ## [2026-08-27] ui / gallerie | Integrazione bandiere grafiche SVG per Islanda, Tenerife e Madeira
 
 - **SitoDave (`L:\Sito_Dave`)**:
