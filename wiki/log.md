@@ -2,6 +2,13 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] planning / Instagram | Caroselli engagement e community
+
+- Creato il progetto Canva 4:5 `DAHTe3PPkgA`, titolo `Caroselli Engagement — Davide Luongo`, composto da 39 slide modificabili.
+- Ripreso il sistema visivo del carosello “Se domani spegnessero i social” usando le tre slide fornite da Davide come riferimento diretto.
+- Inseriti dieci mini-caroselli basati su domande aperte e il format “Confessioni di un fotografo” con tre esempi.
+- Le aree fotografiche restano vuote come placeholder. Nessun contenuto è stato pubblicato su Instagram.
+
 ## [2026-08-26] ui / team | Collegamento profilo Instagram di Elia Marcon
 
 - **SitoDave (`L:\Sito_Dave`)**:
