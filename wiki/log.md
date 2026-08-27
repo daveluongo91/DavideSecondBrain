@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] feature / onetoone | Aggiornamento primo slider Before/After (Tenerife Sky 35mm)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Convertito il file RAW originale Sony ARW (`DSC00203.ARW`) in `assets/confronto_01_raw.jpg`.
+  - Ottimizzato il file TIF elaborato definitivo (`35mm.tif`) in `assets/confronto_01_elaborata.jpg`.
+  - Aggiornato il primo slider interattivo della pagina `one-to-one/one-to-one.html` per mostrare la lavorazione del cielo stellato e della Via Lattea a 35mm di Tenerife.
+
+
 ## [2026-08-27] ui / onetoone | Disposizione frase vantaggi su riga singola
 
 - **SitoDave (`L:\Sito_Dave`)**:
