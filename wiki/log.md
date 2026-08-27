@@ -2,6 +2,14 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] feature / onetoone | Aggiornamento secondo slider Before/After (Islanda A7R00018)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Convertito il file RAW originale Sony ARW (`A7R00018.ARW`) in `assets/confronto_02_raw.jpg`.
+  - Ottimizzato lo scatto elaborato definitivo (`A7R00018-Edit.jpg`) in `assets/confronto_02_elaborata.jpg`.
+  - Aggiornato il secondo slider interattivo della pagina `one-to-one/one-to-one.html` con il paesaggio islandese.
+
+
 ## [2026-08-27] feature / onetoone | Aggiornamento primo slider Before/After (Tenerife Sky 35mm)
 
 - **SitoDave (`L:\Sito_Dave`)**:
