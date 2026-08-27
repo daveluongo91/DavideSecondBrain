@@ -2,6 +2,15 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / gallerie | Rimozione galleria Montagna e ottimizzazione griglia
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Rimossa la galleria **Montagna** da:
+    - `index.html` (sezione Gallerie Fotografiche `#gallerie`).
+    - `data/galleries.json` e `DEFAULT_GALLERIES_DATA` in `main.js`.
+  - Ottimizzata la griglia `.galleries-grid` in `style.css` con layout a 3 colonne per le gallerie principali (**Islanda**, **Tenerife**, **Madeira**).
+
+
 ## [2026-08-27] planning / Instagram | Caroselli engagement e community
 
 - Creato il progetto Canva 4:5 `DAHTe3PPkgA`, titolo `Caroselli Engagement — Davide Luongo`, composto da 39 slide modificabili.
