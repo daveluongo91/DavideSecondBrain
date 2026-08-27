@@ -2,6 +2,12 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Islanda con scatto Brúarfoss
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Sostituita l'immagine di copertina della galleria **Islanda** (`assets/galleries/cover_islanda.jpg`) con lo scatto iconico verticale delle acque turchesi glaciali di *Brúarfoss* tra rocce laviche e neve.
+
+
 ## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Madeira con scatto foresta di Fanal
 
 - **SitoDave (`L:\Sito_Dave`)**:
