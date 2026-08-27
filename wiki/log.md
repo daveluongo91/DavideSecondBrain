@@ -694,6 +694,13 @@ Registro cronologico append-only delle modifiche principali.
 - Per Madeira è stato trovato un solo JPG certo, `Madeira-26.jpg`, copiato da `L:` in `L:\1\_Social\SITO DATA\Madeira`. Le altre occorrenze erano riduzioni automatiche o backup WordPress dello stesso file e sono state escluse.
 - Gli originali non sono stati spostati né cancellati. I manifesti sono `_manifest_copia_tenerife.csv` e `_manifest_copia_madeira.csv` nelle rispettive cartelle; tutti gli 88 percorsi registrati risultano presenti.
 
+## [2026-08-27] maintenance | Integrazione raccolte fotografiche dal disco Elements
+- Scansionato il nuovo disco `M:` (`Elements`) per Islanda, Tenerife e Madeira, limitando la selezione ai file `.jpg` e `.jpeg` riconducibili alle destinazioni tramite cartelle, nomi e località.
+- Madeira: aggiunti 307 file da `M:\0326_Madeira` e `M:\Backup`. La raccolta contiene ora 308 JPG per 3,145 GB.
+- Tenerife: aggiunto 1 file da `M:\Backup`. La raccolta contiene ora 88 JPG per 0,966 GB.
+- Islanda: i 2 candidati trovati su `M:` erano duplicati identici di file già raccolti e non sono stati ricopiati. Il totale resta 588 JPG per 11,006 GB.
+- Nessun errore e nessun originale spostato o cancellato. I manifesti delle tre cartelle sono stati aggiornati; tutti i 984 percorsi registrati risultano presenti.
+
 ## [2026-08-27] outreach | Media kit INWILD / J Sport
 - Analizzato il media kit Canva originale `DAGe4uhSwEE` senza modificarlo: due pagine A4, fotografia dominante, serif bianco e blu scuro.
 - Preparato un PDF separato di 11 pagine per la proposta INWILD / J Sport. Il concept è un kit outdoor compatto e modulare, compatibile con il bagaglio a mano e usato nei progetti 2026-2027.
