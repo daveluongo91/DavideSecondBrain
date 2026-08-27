@@ -732,3 +732,8 @@ Registro cronologico append-only delle modifiche principali.
 - Scansionato il disco `M:` (`Data`, seriale `8286ECD3`) per file `.jpg` e `.jpeg` riconducibili a Islanda, Tenerife e Madeira.
 - Nessuna delle tre destinazioni ha prodotto candidati. I totali restano 641 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.037 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Controllo raccolte sul quarto disco Data
+- Scansionato il disco `M:` (`Data`, seriale `FA24CA0F`) per file `.jpg` e `.jpeg` riconducibili a Islanda, Tenerife e Madeira.
+- Il disco era quasi vuoto e nessuna delle tre destinazioni ha prodotto candidati. I totali restano 641 JPG Islanda, 88 JPG Tenerife e 308 JPG Madeira.
+- Nessun errore e nessun originale spostato o cancellato. Tutti i 1.037 percorsi registrati nei manifesti risultano presenti.
