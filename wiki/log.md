@@ -743,3 +743,9 @@ Registro cronologico append-only delle modifiche principali.
 - Madeira: trovati 74 candidati nella cartella `M:\Madeira_2025`, aggiunti 73 file nuovi e saltato 1 duplicato identico. Le fonti comprendono esportazioni, versioni web, GoPro e Sony.
 - Islanda e Tenerife non hanno prodotto candidati. I totali sono ora 641 JPG Islanda, 88 JPG Tenerife e 381 JPG Madeira.
 - Nessun errore e nessun originale spostato o cancellato. Tutti i 1.110 percorsi registrati nei manifesti risultano presenti.
+
+## [2026-08-27] maintenance | Integrazione Tenerife dal disco senza etichetta
+- Scansionato il disco `M:` senza etichetta, seriale `16BABE6A`, per Islanda, Tenerife e Madeira, limitando la selezione ai file `.jpg` e `.jpeg`.
+- Tenerife: aggiunti 26 file dalla cartella `M:\24072027_Teide\Foto`, provenienti dalle sottocartelle A6700 e A7RIIIA. La raccolta contiene ora 114 JPG per 1,500 GB.
+- Islanda e Madeira non hanno prodotto candidati. I totali restano 641 JPG Islanda e 381 JPG Madeira.
+- Nessun errore e nessun originale spostato o cancellato. Tutti i 1.136 percorsi registrati nei manifesti risultano presenti.
