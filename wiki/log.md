@@ -2,6 +2,15 @@
 
 Registro cronologico append-only delle modifiche principali.
 
+## [2026-08-27] ui / lightbox | Ottimizzazione visibilità pulsante di chiusura (X)
+
+- **SitoDave (`L:\Sito_Dave`)**:
+  - Ridiscusso e potenziato il pulsante di chiusura del Lightbox a schermo intero (`.lightbox-close-btn`):
+    - Pulsante circolare in vetro scuro opaco con bordo bianco nitido (`rgba(15, 23, 42, 0.88)` e `border: 1px solid rgba(255, 255, 255, 0.35)`).
+    - Icona "✕" bianca spessa in rilievo con effetto glow.
+    - Hover reattivo con sfondo rosso (`#ef4444`), rotazione a 90° ed espansione per un feedback immediato e inequivocabile.
+
+
 ## [2026-08-27] ui / gallerie | Aggiornamento copertina galleria Islanda con scatto Brúarfoss
 
 - **SitoDave (`L:\Sito_Dave`)**:
