@@ -906,3 +906,12 @@ Registro cronologico append-only delle modifiche principali.
 - CookieYes è attivo sul WordPress pubblico e la Website Key usata dalle landing è raggiungibile. Nella copia ottimizzata lo script è incluso nelle pagine workshop, comprese quelle inglesi, ma non nelle pagine generali del sito.
 - La copia del vecchio WordPress contiene Better WP Security e regole `.htaccess` per file di sistema, directory listing, upload PHP e cartelle Git. Queste regole non sono presenti in una `.htaccess` di radice di `L:\Sito_Dave_Opt`; il backend FastAPI ha propri header e restrizioni, mentre `private/.htaccess` protegge i dati runtime.
 - Sul sito pubblico HTTPS è forzato e i file sensibili provati risultano negati o non trovati. Mancano però sulle risposte HTML principali CSP, HSTS, X-Content-Type-Options, X-Frame-Options e Referrer-Policy.
+
+## [2026-08-28] security / website | Hardening della copia ottimizzata
+
+- Rafforzata `L:\Sito_Dave_Opt` senza pubblicare modifiche e senza toccare i file PayPal.
+- Aggiunta una `.htaccess` di radice per Aruba/Apache: HTTPS, directory listing disattivato, file e cartelle sensibili negati, JSON privati esclusi e PHP eseguibile soltanto nelle API previste.
+- Applicati CSP, HSTS, anti-framing, anti-sniffing, referrer policy, permissions policy e protezioni per popup e contenuti cross-domain, mantenendo le eccezioni necessarie a PayPal, CookieYes e Google Fonts.
+- La stessa policy è stata applicata al middleware FastAPI. CookieYes ora copre tutte le 40 pagine HTML pubbliche controllate, senza essere caricato nell'amministrazione.
+- Passano compilazione Python, sintassi JavaScript, audit SEO strutturale e controllo delle modifiche. La suite pytest non è stata ripetuta perché le dipendenze temporanee non sono risultate visibili al test runner; l'ultima baseline resta 29 test superati.
+- Commit locale del sito: `6a05028`. Prima del go-live resta obbligatorio un collaudo staging Aruba di `.htaccess`, header, consenso CookieYes, PayPal, form e rollback.

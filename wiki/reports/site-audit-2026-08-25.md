@@ -288,3 +288,15 @@ CookieYes risulta attivo sulla homepage WordPress pubblica. La Website Key `b11b
 La sicurezza WordPress non è stata importata come insieme equivalente. La copia di rollback contiene il plugin Better WP Security e una `.htaccess` di radice che protegge file di sistema, vieta il listing, blocca PHP negli upload e impedisce l'accesso a cartelle Git. `L:\Sito_Dave_Opt` non ha una `.htaccess` di radice; dispone della protezione di `private/.htaccess`, dei controlli delle API PHP e del middleware FastAPI, che però valgono solo se il sito viene servito attraverso quel backend.
 
 Sul dominio pubblico il passaggio HTTP verso HTTPS funziona. I controlli non invasivi hanno restituito 403 per `wp-config.php` e per `Dardagna_2026/private/production.env`, 404 per `.env` e 405 per `xmlrpc.php`. Le normali risposte HTML non espongono invece CSP, HSTS, X-Content-Type-Options, X-Frame-Options o Referrer-Policy. Prima della migrazione serve una configurazione Aruba esplicita che riproduca le protezioni necessarie senza copiare alla cieca le regole WordPress.
+
+## Hardening locale del 28 agosto 2026
+
+La copia `L:\Sito_Dave_Opt` ha ora una configurazione di sicurezza di radice pensata per Aruba/Apache. Forza HTTPS, disattiva il listing e la firma del server, nega dotfile, configurazioni, log, database, backup, sorgenti backend, test, stato di progetto e dati runtime. Nella cartella `data/` restano pubblici soltanto `articles.json`, `awards.json` e `galleries.json`; file come prenotazioni, richieste informazioni e configurazione SMTP vengono bloccati. L'esecuzione PHP è consentita soltanto nelle cartelle API dichiarate.
+
+Le risposte Apache applicano CSP, HSTS, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy e X-Permitted-Cross-Domain-Policies. La CSP ammette le sole eccezioni necessarie a CookieYes, PayPal e Google Fonts. Il middleware FastAPI è stato allineato e la CSP non è più soltanto report-only.
+
+Il loader CookieYes con la Website Key già verificata è stato aggiunto alle pagine generali italiane e inglesi. Il controllo copre 40 documenti HTML pubblici e non ha trovato pagine prive dell'integrazione; l'amministrazione ne resta esclusa. I file PayPal e le landing workshop non sono stati modificati durante questo intervento.
+
+Sono passati compilazione dei moduli Python cambiati, controllo sintattico JavaScript, audit SEO strutturale e `git diff --check`, salvo avvisi non bloccanti sulle terminazioni di riga. La suite pytest non è stata rieseguita: il gestore pacchetti ha installato le dipendenze temporanee, ma l'ambiente non le ha rese visibili al processo di test. Le cartelle temporanee sono state eliminate e l'ultima baseline verificata resta 29 test superati.
+
+Il risultato è nel commit locale `6a05028`. Non esiste una garanzia di sicurezza al 100%: prima della pubblicazione servono staging Aruba, verifica della compatibilità `.htaccess`, lettura degli header reali, prove di accettazione/rifiuto CookieYes, checkout PayPal senza addebito, form, log e rollback. Dopo il go-live restano necessari aggiornamenti, backup, rotazione delle credenziali e monitoraggio.
