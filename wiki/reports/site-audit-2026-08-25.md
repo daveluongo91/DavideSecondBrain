@@ -303,8 +303,10 @@ Il risultato è nel commit locale `6a05028`. Non esiste una garanzia di sicurezz
 
 ## Miglioria di navigazione del 28 agosto 2026
 
-Workshop, pagina Travel & Hospitality e CTA verso il blog vengono aperti in una nuova scheda, senza cambiare il comportamento del link Blog nel menu e nel footer. Tutti i collegamenti usano `noopener noreferrer`.
+Soltanto workshop e singoli articoli vengono aperti in una nuova scheda. Blog, One-to-One, gallerie, Gear e Travel & Hospitality restano nella scheda corrente. I collegamenti che aprono una nuova scheda usano `noopener noreferrer`.
 
 Nelle pagine blog italiane e inglesi l'area attiva è stata estesa all'intera card. Il link testuale rimane disponibile, ma si può aprire l'articolo cliccando sul resto della scheda oppure usando Invio o barra spaziatrice quando la card ha il focus. Il focus è visibile e le card laterali continuano a ruotare il carosello senza aprire accidentalmente l'articolo.
 
 Il test browser ha rilevato 18 card su 18 correttamente attive in entrambe le lingue, target `_blank`, relazione sicura e label accessibile localizzata. I viaggi 2027 non hanno ancora pagine proprie e continuano quindi ad aprire il modulo informazioni. Commit locale: `547c3c2`.
+
+La precisazione sul perimetro è stata applicata nel commit `9c5bdb9`: tra i collegamenti interni della homepage soltanto le pagine workshop reali conservano `_blank`; le sezioni generali restano nella navigazione corrente.

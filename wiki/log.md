@@ -918,8 +918,9 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-28] ux / website | Card cliccabili e apertura in nuova scheda
 
-- In `L:\Sito_Dave_Opt` i link verso workshop, Travel & Hospitality e la CTA principale del blog aprono ora una nuova scheda con protezione `noopener noreferrer`.
+- In `L:\Sito_Dave_Opt` soltanto i link verso workshop e singoli articoli aprono una nuova scheda con protezione `noopener noreferrer`.
 - Nel blog italiano e inglese l'intera card articolo è cliccabile, non soltanto la piccola etichetta finale. La card è raggiungibile da tastiera, risponde a Invio e barra spaziatrice e mostra un focus visibile.
 - Le card laterali del carosello conservano il comportamento di rotazione; l'apertura avviene soltanto dalla card attiva. I link interni alla card continuano a funzionare senza doppia apertura.
 - I viaggi 2027 ancora privi di landing mantengono il modulo informazioni: non viene aperta una scheda vuota o inventata.
 - Verifica browser superata su 18 card italiane e 18 inglesi. Commit locale del sito: `547c3c2`.
+- Corretto il perimetro dopo la precisazione di Davide: Blog, One-to-One, gallerie, Gear e Travel & Hospitality restano nella scheda corrente. Commit locale correttivo: `9c5bdb9`.
