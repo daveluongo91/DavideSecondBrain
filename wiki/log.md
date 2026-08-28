@@ -964,3 +964,11 @@ Registro cronologico append-only delle modifiche principali.
 - Collegata la modifica delle pagine a un editor reale con caricamento, blocco, salvataggio e rilascio tramite API.
 - Sistemati i comandi superiori affinché vadano a capo sui display stretti. Verificati 32 pulsanti identificati, tutti associati a un'azione.
 - Rimosso un frammento JavaScript duplicato che bloccava il caricamento. Sintassi valida, 31 test superati e reindirizzamento verificato nel browser. Commit locale sito: `9361629`.
+
+## [2026-08-28] backend / auth | Prima registrazione e recupero password
+
+- Corretto il blocco operativo emerso dopo la bonifica: il database non conteneva ancora un amministratore, quindi non esistevano credenziali utilizzabili.
+- `/admin/` rileva ora il primo avvio e permette a Davide di scegliere username, email e password. La registrazione si chiude definitivamente dopo il primo account.
+- In locale la procedura è ammessa soltanto dalla macchina stessa; in produzione richiede una chiave di attivazione separata e non versionata.
+- Aggiunto il recupero password tramite OTP WhatsApp o codice di recupero, con revoca delle vecchie sessioni e nuova serie di otto codici monouso.
+- La password resta memorizzata solo come hash Argon2id. Verificati nel browser il modulo iniziale e con 33 test il blocco della seconda registrazione e la sostituzione della vecchia password. Commit locale sito: `b2e0fd9`.

@@ -154,6 +154,7 @@ Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook
 - Credenziali, database, backup e file privati non vengono versionati.
 - Il pannello amministrativo supportato è soltanto `/admin/`. Il precedente `admin.html` è ora un reindirizzamento e non contiene più controlli simulati o toggle lingua.
 - La dashboard richiede una sessione server valida anche quando si tenta di aprirne direttamente il file HTML. L'editor delle pagine usa le API CMS reali.
+- Al primo avvio, se il database non contiene amministratori, `/admin/` mostra una registrazione iniziale a uso singolo. Online richiede anche `ADMIN_BOOTSTRAP_TOKEN`; il recupero password usa OTP WhatsApp o uno dei codici monouso e revoca tutte le sessioni precedenti.
 
 ## Collegamenti
 
