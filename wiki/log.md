@@ -945,3 +945,13 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiunto Gruppo TFS, nome breve di Toscana Foto Service, ai partner tecnologici dei 32 footer pubblici italiani e inglesi.
 - Il link porta a `https://www.universofotofirenze.it/` e si apre in una nuova scheda con `noopener noreferrer`.
 - Verificata una sola occorrenza del nuovo partner in ogni footer. Commit locale del sito: `ecb8740`.
+
+## [2026-08-28] backend / cms | Ripristino admin, OTP WhatsApp e asset
+
+- Il backend di `L:\Sito_Dave_Opt` non partiva perché mancava l'ambiente Python. Creato l'ambiente locale isolato e verificate API e admin: `/api/health` e `/admin/` rispondono HTTP 200.
+- Predisposto l'OTP con Meta WhatsApp Cloud API, template approvato, consegna fail-closed in produzione, cooldown, scadenza, limite tentativi e codici di recupero. Credenziali e numero restano da configurare in `.env` e non sono versionati.
+- Confermato l'export XLSX partecipanti anticipato e indipendente dal cutoff; il pannello Esperienze ora usa le API unificate e mostra nei campi i dati esistenti di workshop e viaggi.
+- Reintegrata nel pannello la creazione in bozza di pagine e articoli. Workshop e viaggi si creano dalla sezione Esperienze.
+- Deduplicate tramite SHA-256 20 copie degli asset workshop, senza eliminare i file canonici né i placeholder: recuperati 27.267.854 byte.
+- Test: 31 superati; smoke test FastAPI e riferimenti asset workshop superati. Commit locale sito: `66b12e5`.
+- Limite architetturale: il normale WordPress/Apache Aruba non esegue FastAPI. Per rendere operativo il backend online serve un processo Python su VPS/Cloud, un servizio API separato oppure una riscrittura WordPress/PHP.
