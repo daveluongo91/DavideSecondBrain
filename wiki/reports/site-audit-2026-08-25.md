@@ -322,3 +322,7 @@ Il controllo finale ha trovato esattamente un footer e un riferimento al foglio 
 ## Gear nella navigazione principale
 
 La voce Gear è stata aggiunta al menu superiore delle 22 pagine che usano la navigazione principale, comprese le versioni inglesi. Gli stessi elementi alimentano il menu mobile, quindi la sezione ora è raggiungibile dall'alto anche su smartphone. Tutti i percorsi relativi sono stati risolti e verificati verso la pagina Gear della lingua corretta. Commit del sito: `35370f5`.
+
+## Gruppo TFS tra i partner tecnologici
+
+Gruppo TFS, abbreviazione di Toscana Foto Service, è stato aggiunto ai partner tecnologici di tutti i 32 footer pubblici. Il collegamento porta a `https://www.universofotofirenze.it/`, si apre in una nuova scheda e usa `noopener noreferrer`. Il controllo strutturale ha confermato una sola occorrenza del partner in ogni footer. Commit del sito: `ecb8740`.

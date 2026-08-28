@@ -939,3 +939,9 @@ Registro cronologico append-only delle modifiche principali.
 - La voce compare anche nel menu mobile perché usa la stessa lista di navigazione.
 - Controllati tutti i percorsi relativi: ogni collegamento porta alla pagina Gear nella lingua corretta.
 - Commit locale del sito: `35370f5`.
+
+## [2026-08-28] partnership / website | Gruppo TFS nel footer
+
+- Aggiunto Gruppo TFS, nome breve di Toscana Foto Service, ai partner tecnologici dei 32 footer pubblici italiani e inglesi.
+- Il link porta a `https://www.universofotofirenze.it/` e si apre in una nuova scheda con `noopener noreferrer`.
+- Verificata una sola occorrenza del nuovo partner in ogni footer. Commit locale del sito: `ecb8740`.
