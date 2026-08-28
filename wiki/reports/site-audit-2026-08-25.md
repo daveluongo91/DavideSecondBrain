@@ -256,6 +256,7 @@ Correzioni verificate:
 - corretta la sitemap, escludendo temporaneamente le pagine inglesi non finite;
 - corrette le affermazioni sul vantaggio di f/1.8 rispetto a f/2.8 e sul coma “totalmente azzerato”;
 - protetta `private/` da accesso Apache e mantenuta fuori dal versionamento dei dati runtime;
+- corretti i percorsi di CSS, JavaScript, immagini e JSON che nelle copie inglesi cercavano erroneamente risorse sotto `/en/`;
 - rieseguiti i test backend: 29 superati.
 
 La versione inglese non è completa: quindici pagine contengono ancora blocchi italiani. Sono state messe in `noindex, follow` per non indicizzare pagine miste. L'uso di un servizio esterno di traduzione richiede autorizzazione esplicita all'invio dei testi pubblici; fino a quella decisione il sito inglese resta un lavoro aperto.

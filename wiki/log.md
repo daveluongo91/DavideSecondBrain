@@ -876,4 +876,4 @@ Registro cronologico append-only delle modifiche principali.
 - Ripristinato il claim “Impara a leggere la luce anche dove sembra non esserci”, riordinata la homepage e aggiunto il menu mobile.
 - Corretti canonical, hreflang, landmark, sitemap e alcune affermazioni tecniche assolute degli articoli SIGMA.
 - I 29 test backend passano. La versione inglese resta incompleta ed è temporaneamente esclusa dall'indicizzazione.
-- Commit locale della copia ottimizzata: `56f47e0`.
+- Commit locali della copia ottimizzata: `56f47e0` e `55524bf`; il secondo corregge i percorsi degli asset nelle pagine inglesi.
