@@ -260,3 +260,7 @@ Correzioni verificate:
 - rieseguiti i test backend: 29 superati.
 
 La versione inglese non è completa: quindici pagine contengono ancora blocchi italiani. Sono state messe in `noindex, follow` per non indicizzare pagine miste. L'uso di un servizio esterno di traduzione richiede autorizzazione esplicita all'invio dei testi pubblici; fino a quella decisione il sito inglese resta un lavoro aperto.
+
+### Pacchetto di traduzione manuale
+
+Il 28 agosto Davide ha autorizzato la traduzione esterna dei soli testi pubblici. Google ha limitato le richieste automatiche prima che venissero scritte modifiche nelle pagine. È stato quindi preparato un file con 720 segmenti unici, divisi in 20 blocchi e associati a identificatori stabili. Davide può tradurre un blocco alla volta e restituire il file; il reinserimento verrà seguito da revisione manuale, controllo dei termini fotografici, verifica dei metadati e test del toggle. Il `noindex` inglese resta attivo fino a quel momento.

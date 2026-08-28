@@ -877,3 +877,10 @@ Registro cronologico append-only delle modifiche principali.
 - Corretti canonical, hreflang, landmark, sitemap e alcune affermazioni tecniche assolute degli articoli SIGMA.
 - I 29 test backend passano. La versione inglese resta incompleta ed è temporaneamente esclusa dall'indicizzazione.
 - Commit locali della copia ottimizzata: `56f47e0`, `55524bf` ed `e45be53`; gli ultimi due correggono asset, poster e dati dinamici nelle pagine inglesi.
+
+## [2026-08-28] maintenance / website | Pacchetto manuale per la traduzione inglese
+
+- Davide ha autorizzato l’invio dei soli testi pubblici delle pagine `/en/` a Google Translate; esclusi codice, URL, email, script, dati strutturati e contenuti privati.
+- L’accesso automatico è stato fermato dal limite del servizio prima di modificare le pagine.
+- Preparato un file manuale con 720 testi unici divisi in 20 blocchi, ognuno collegato a un identificatore stabile per il reinserimento controllato.
+- Le pagine inglesi restano in `noindex, follow` fino al reinserimento, alla revisione editoriale e ai controlli finali.
