@@ -264,3 +264,15 @@ La versione inglese non è completa: quindici pagine contengono ancora blocchi i
 ### Pacchetto di traduzione manuale
 
 Il 28 agosto Davide ha autorizzato la traduzione esterna dei soli testi pubblici. Google ha limitato le richieste automatiche prima che venissero scritte modifiche nelle pagine. È stato quindi preparato un file con 720 segmenti unici, divisi in 20 blocchi e associati a identificatori stabili. Davide può tradurre un blocco alla volta e restituire il file; il reinserimento verrà seguito da revisione manuale, controllo dei termini fotografici, verifica dei metadati e test del toggle. Il `noindex` inglese resta attivo fino a quel momento.
+
+### Integrazione della traduzione completata
+
+Il DOCX tradotto restituito da Davide è stato integrato nella copia ottimizzata. Sono stati reinseriti tutti i 720 segmenti; `T0640`, il cui codice mancava nel documento pur essendo presente la traduzione, è stato ricostruito dalla posizione e dal testo corrispondente senza alterare gli abbinamenti successivi.
+
+La revisione non si è fermata al testo visibile. Sono stati corretti metadati, Open Graph, JSON-LD, alt, title, aria-label, form e messaggi generati dagli script condivisi. Le 15 pagine inglesi pubbliche usano ora `index, follow`; `en/thank-you.html` resta correttamente esclusa. La sitemap contiene 30 URL pubblici, 15 italiani e 15 inglesi, con alternate `it`, `en` e `x-default`.
+
+Le quattro pagine workshop inglesi caricano nuovamente CSS, JavaScript e poster dai percorsi corretti. I placeholder di Canfaito, Conero e degli altri contenuti in attesa non sono stati sostituiti con immagini inventate. Il controllo browser a 375 px non ha rilevato overflow, immagini rotte o stringhe italiane visibili nelle pagine campione; menu mobile e toggle lingua funzionano in entrambe le direzioni.
+
+La suite backend termina con 29 test superati. Passano anche il controllo strutturale SEO, la lettura della sitemap e la verifica sintattica dei file JavaScript. Il risultato è nel commit locale `beb3999` di `L:\Sito_Dave_Opt`; il repository originale `L:\Sito_Dave` è rimasto sul commit `92ff6e79` senza modifiche.
+
+Restano decisioni operative, non difetti della copia: pubblicazione su Aruba, passaggio di PayPal da Sandbox a Live e sostituzione dei placeholder workshop con fotografie approvate.

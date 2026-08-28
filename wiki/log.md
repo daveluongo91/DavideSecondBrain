@@ -890,3 +890,11 @@ Registro cronologico append-only delle modifiche principali.
 - Convertito il pacchetto manuale in `L:\TESTI_SITO_DA_TRADURRE.docx` senza modificare i testi.
 - Verificati 720 identificatori unici e 20 blocchi; istruzioni e ordine risultano preservati.
 - Il rendering visivo automatico non è stato eseguito perché LibreOffice non è disponibile nell’ambiente; completata la verifica strutturale del documento.
+
+## [2026-08-28] maintenance / website | Integrazione completa della versione inglese
+
+- Reinseriti nella copia `L:\Sito_Dave_Opt` tutti i 720 segmenti tradotti restituiti da Davide. L'identificatore `T0640`, assente nel DOCX ma con testo presente nella posizione corretta, è stato recuperato senza spostare gli altri abbinamenti.
+- Rivisti metadati, dati strutturati, testi generati dagli script, etichette accessibili e microcopy. Le 15 pagine inglesi pubbliche sono ora indicizzabili; la pagina di ringraziamento resta in `noindex,nofollow`.
+- La sitemap contiene 30 URL pubblici accoppiati IT/EN con alternate e `x-default`. Corretti anche i percorsi CSS, JavaScript e poster delle quattro pagine workshop inglesi, mantenendo tutti i placeholder delle immagini.
+- Verificati toggle lingua, menu mobile, overflow, immagini, landmark e stringhe residue su homepage, blog, One-to-One e quattro workshop. I 29 test backend e i controlli sintattici JavaScript passano.
+- Salvato il risultato nel commit locale `beb3999` di `L:\Sito_Dave_Opt`. `L:\Sito_Dave` è rimasto intatto.
