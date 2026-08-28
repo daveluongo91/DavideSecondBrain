@@ -310,3 +310,11 @@ Nelle pagine blog italiane e inglesi l'area attiva è stata estesa all'intera ca
 Il test browser ha rilevato 18 card su 18 correttamente attive in entrambe le lingue, target `_blank`, relazione sicura e label accessibile localizzata. I viaggi 2027 non hanno ancora pagine proprie e continuano quindi ad aprire il modulo informazioni. Commit locale: `547c3c2`.
 
 La precisazione sul perimetro è stata applicata nel commit `9c5bdb9`: tra i collegamenti interni della homepage soltanto le pagine workshop reali conservano `_blank`; le sezioni generali restano nella navigazione corrente.
+
+## Footer uniforme del 28 agosto 2026
+
+Il footer della homepage è stato replicato sulle 32 pagine pubbliche italiane e inglesi della copia ottimizzata. La struttura è comune, mentre testo e navigazione restano localizzati per lingua. Un nuovo `footer.css` evita di duplicare la parte grafica e mantiene il comportamento responsive anche nelle pagine workshop, che usano un sistema di stili diverso dal resto del sito.
+
+I collegamenti interni usano percorsi dalla radice, così funzionano anche da articoli e sottocartelle. Amministrazione e copie tecniche duplicate non sono state incluse. Le otto pagine workshop conservano modulo, finestra di prenotazione e riferimenti PayPal; nessun file API o PayPal compare nelle modifiche.
+
+Il controllo finale ha trovato esattamente un footer e un riferimento al foglio stile in ognuna delle 32 pagine. `git diff --check` è passato e la homepage è stata verificata nel browser locale. Commit del sito: `1352790`.

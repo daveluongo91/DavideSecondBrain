@@ -924,3 +924,11 @@ Registro cronologico append-only delle modifiche principali.
 - I viaggi 2027 ancora privi di landing mantengono il modulo informazioni: non viene aperta una scheda vuota o inventata.
 - Verifica browser superata su 18 card italiane e 18 inglesi. Commit locale del sito: `547c3c2`.
 - Corretto il perimetro dopo la precisazione di Davide: Blog, One-to-One, gallerie, Gear e Travel & Hospitality restano nella scheda corrente. Commit locale correttivo: `9c5bdb9`.
+
+## [2026-08-28] ux / website | Footer uniforme sulle pagine pubbliche
+
+- Replicato il footer della homepage su 32 pagine pubbliche di `L:\Sito_Dave_Opt`, nelle versioni italiana e inglese.
+- Aggiunto un foglio stile condiviso per mantenere la stessa struttura anche su articoli, pagine servizio e workshop, compresi i breakpoint responsive.
+- Usati percorsi dalla radice per evitare collegamenti errati nelle pagine annidate; conservati contatti, partner e collegamenti esterni sicuri.
+- Escluse amministrazione e copie tecniche duplicate. Prenotazione, moduli e riferimenti PayPal dei workshop sono rimasti presenti; nessun file API o PayPal è stato modificato.
+- Verifica strutturale superata: 32 footer, uno per pagina, e 32 riferimenti al foglio stile condiviso. Commit locale del sito: `1352790`.
