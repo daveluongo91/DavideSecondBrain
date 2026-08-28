@@ -955,3 +955,12 @@ Registro cronologico append-only delle modifiche principali.
 - Deduplicate tramite SHA-256 20 copie degli asset workshop, senza eliminare i file canonici né i placeholder: recuperati 27.267.854 byte.
 - Test: 31 superati; smoke test FastAPI e riferimenti asset workshop superati. Commit locale sito: `66b12e5`.
 - Limite architetturale: il normale WordPress/Apache Aruba non esegue FastAPI. Per rendere operativo il backend online serve un processo Python su VPS/Cloud, un servizio API separato oppure una riscrittura WordPress/PHP.
+
+## [2026-08-28] backend / cms | Bonifica del pannello amministrativo
+
+- Individuati due pannelli distinti: `admin.html` era una vecchia interfaccia dimostrativa, mentre `/admin/` è il pannello collegato alle API FastAPI.
+- Rimossi il pannello dimostrativo e il relativo JavaScript. Il vecchio indirizzo ora porta all'unica schermata di accesso reale.
+- Eliminato il toggle ITA/ENG dall'amministrazione e protetto anche l'accesso diretto alla dashboard: senza sessione il server risponde 401.
+- Collegata la modifica delle pagine a un editor reale con caricamento, blocco, salvataggio e rilascio tramite API.
+- Sistemati i comandi superiori affinché vadano a capo sui display stretti. Verificati 32 pulsanti identificati, tutti associati a un'azione.
+- Rimosso un frammento JavaScript duplicato che bloccava il caricamento. Sintassi valida, 31 test superati e reindirizzamento verificato nel browser. Commit locale sito: `9361629`.
