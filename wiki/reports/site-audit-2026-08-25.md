@@ -318,3 +318,7 @@ Il footer della homepage è stato replicato sulle 32 pagine pubbliche italiane e
 I collegamenti interni usano percorsi dalla radice, così funzionano anche da articoli e sottocartelle. Amministrazione e copie tecniche duplicate non sono state incluse. Le otto pagine workshop conservano modulo, finestra di prenotazione e riferimenti PayPal; nessun file API o PayPal compare nelle modifiche.
 
 Il controllo finale ha trovato esattamente un footer e un riferimento al foglio stile in ognuna delle 32 pagine. `git diff --check` è passato e la homepage è stata verificata nel browser locale. Commit del sito: `1352790`.
+
+## Gear nella navigazione principale
+
+La voce Gear è stata aggiunta al menu superiore delle 22 pagine che usano la navigazione principale, comprese le versioni inglesi. Gli stessi elementi alimentano il menu mobile, quindi la sezione ora è raggiungibile dall'alto anche su smartphone. Tutti i percorsi relativi sono stati risolti e verificati verso la pagina Gear della lingua corretta. Commit del sito: `35370f5`.

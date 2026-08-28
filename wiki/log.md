@@ -932,3 +932,10 @@ Registro cronologico append-only delle modifiche principali.
 - Usati percorsi dalla radice per evitare collegamenti errati nelle pagine annidate; conservati contatti, partner e collegamenti esterni sicuri.
 - Escluse amministrazione e copie tecniche duplicate. Prenotazione, moduli e riferimenti PayPal dei workshop sono rimasti presenti; nessun file API o PayPal è stato modificato.
 - Verifica strutturale superata: 32 footer, uno per pagina, e 32 riferimenti al foglio stile condiviso. Commit locale del sito: `1352790`.
+
+## [2026-08-28] ux / website | Gear nel menu superiore
+
+- Aggiunta la voce Gear alla navigazione principale delle 22 pagine che condividono il menu superiore, in italiano e inglese.
+- La voce compare anche nel menu mobile perché usa la stessa lista di navigazione.
+- Controllati tutti i percorsi relativi: ogni collegamento porta alla pagina Gear nella lingua corretta.
+- Commit locale del sito: `35370f5`.
