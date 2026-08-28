@@ -915,3 +915,11 @@ Registro cronologico append-only delle modifiche principali.
 - La stessa policy è stata applicata al middleware FastAPI. CookieYes ora copre tutte le 40 pagine HTML pubbliche controllate, senza essere caricato nell'amministrazione.
 - Passano compilazione Python, sintassi JavaScript, audit SEO strutturale e controllo delle modifiche. La suite pytest non è stata ripetuta perché le dipendenze temporanee non sono risultate visibili al test runner; l'ultima baseline resta 29 test superati.
 - Commit locale del sito: `6a05028`. Prima del go-live resta obbligatorio un collaudo staging Aruba di `.htaccess`, header, consenso CookieYes, PayPal, form e rollback.
+
+## [2026-08-28] ux / website | Card cliccabili e apertura in nuova scheda
+
+- In `L:\Sito_Dave_Opt` i link verso workshop, Travel & Hospitality e la CTA principale del blog aprono ora una nuova scheda con protezione `noopener noreferrer`.
+- Nel blog italiano e inglese l'intera card articolo è cliccabile, non soltanto la piccola etichetta finale. La card è raggiungibile da tastiera, risponde a Invio e barra spaziatrice e mostra un focus visibile.
+- Le card laterali del carosello conservano il comportamento di rotazione; l'apertura avviene soltanto dalla card attiva. I link interni alla card continuano a funzionare senza doppia apertura.
+- I viaggi 2027 ancora privi di landing mantengono il modulo informazioni: non viene aperta una scheda vuota o inventata.
+- Verifica browser superata su 18 card italiane e 18 inglesi. Commit locale del sito: `547c3c2`.

@@ -300,3 +300,11 @@ Il loader CookieYes con la Website Key già verificata è stato aggiunto alle pa
 Sono passati compilazione dei moduli Python cambiati, controllo sintattico JavaScript, audit SEO strutturale e `git diff --check`, salvo avvisi non bloccanti sulle terminazioni di riga. La suite pytest non è stata rieseguita: il gestore pacchetti ha installato le dipendenze temporanee, ma l'ambiente non le ha rese visibili al processo di test. Le cartelle temporanee sono state eliminate e l'ultima baseline verificata resta 29 test superati.
 
 Il risultato è nel commit locale `6a05028`. Non esiste una garanzia di sicurezza al 100%: prima della pubblicazione servono staging Aruba, verifica della compatibilità `.htaccess`, lettura degli header reali, prove di accettazione/rifiuto CookieYes, checkout PayPal senza addebito, form, log e rollback. Dopo il go-live restano necessari aggiornamenti, backup, rotazione delle credenziali e monitoraggio.
+
+## Miglioria di navigazione del 28 agosto 2026
+
+Workshop, pagina Travel & Hospitality e CTA verso il blog vengono aperti in una nuova scheda, senza cambiare il comportamento del link Blog nel menu e nel footer. Tutti i collegamenti usano `noopener noreferrer`.
+
+Nelle pagine blog italiane e inglesi l'area attiva è stata estesa all'intera card. Il link testuale rimane disponibile, ma si può aprire l'articolo cliccando sul resto della scheda oppure usando Invio o barra spaziatrice quando la card ha il focus. Il focus è visibile e le card laterali continuano a ruotare il carosello senza aprire accidentalmente l'articolo.
+
+Il test browser ha rilevato 18 card su 18 correttamente attive in entrambe le lingue, target `_blank`, relazione sicura e label accessibile localizzata. I viaggi 2027 non hanno ancora pagine proprie e continuano quindi ad aprire il modulo informazioni. Commit locale: `547c3c2`.
