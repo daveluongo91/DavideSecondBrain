@@ -898,3 +898,11 @@ Registro cronologico append-only delle modifiche principali.
 - La sitemap contiene 30 URL pubblici accoppiati IT/EN con alternate e `x-default`. Corretti anche i percorsi CSS, JavaScript e poster delle quattro pagine workshop inglesi, mantenendo tutti i placeholder delle immagini.
 - Verificati toggle lingua, menu mobile, overflow, immagini, landmark e stringhe residue su homepage, blog, One-to-One e quattro workshop. I 29 test backend e i controlli sintattici JavaScript passano.
 - Salvato il risultato nel commit locale `beb3999` di `L:\Sito_Dave_Opt`. `L:\Sito_Dave` è rimasto intatto.
+
+## [2026-08-28] audit / website | Verifica PayPal, CookieYes e sicurezza
+
+- Confrontate in sola lettura le quattro cartelle `*_Prod` con le copie presenti in `L:\Sito_Dave_Opt`: JavaScript applicativo e file PHP PayPal risultano identici per hash nelle landing autonome.
+- Le pagine collegate dalla homepage sotto `workshops_2026/` non conservano però l'isolamento delle landing: Dardagna e Friuli usano la stessa cartella `workshops_2026/api`, configurata con `WORKSHOP_ID='friuli-2026'`. Il checkout Dardagna verrebbe quindi rifiutato come workshop non valido. Le cartelle autonome `Dardagna_2026` e `Friuli_2026` restano la fonte funzionante.
+- CookieYes è attivo sul WordPress pubblico e la Website Key usata dalle landing è raggiungibile. Nella copia ottimizzata lo script è incluso nelle pagine workshop, comprese quelle inglesi, ma non nelle pagine generali del sito.
+- La copia del vecchio WordPress contiene Better WP Security e regole `.htaccess` per file di sistema, directory listing, upload PHP e cartelle Git. Queste regole non sono presenti in una `.htaccess` di radice di `L:\Sito_Dave_Opt`; il backend FastAPI ha propri header e restrizioni, mentre `private/.htaccess` protegge i dati runtime.
+- Sul sito pubblico HTTPS è forzato e i file sensibili provati risultano negati o non trovati. Mancano però sulle risposte HTML principali CSP, HSTS, X-Content-Type-Options, X-Frame-Options e Referrer-Policy.
