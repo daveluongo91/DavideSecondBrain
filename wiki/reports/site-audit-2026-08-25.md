@@ -242,3 +242,20 @@ Struttura minima: contesto d'uso, fotografia o problema reale, comportamento oss
 - [Ricostruzione sito web](../projects/website-rebuild.md)
 - [Sigma Italia](../organizations/sigma-italia.md)
 - [Workshop autunnali 2026](../projects/autumn-workshops-2026.md)
+
+## Bonifica della copia ottimizzata del 28 agosto 2026
+
+La copia `L:\Sito_Dave_Opt` è stata ricontrollata perché i report interni dichiaravano completamento e traduzione al 100%, ma i file reali non lo confermavano.
+
+Correzioni verificate:
+
+- ripristinato in homepage il claim scelto da Davide: “Impara a leggere la luce anche dove sembra non esserci”;
+- spostato `Behind the Shot` subito dopo la hero e portata la biografia prima di gallerie e team;
+- semplificato il menu e aggiunta una navigazione mobile accessibile, prima assente sotto 768 px;
+- aggiunti `<main>`, canonical, hreflang e schemi di base alle pagine master;
+- corretta la sitemap, escludendo temporaneamente le pagine inglesi non finite;
+- corrette le affermazioni sul vantaggio di f/1.8 rispetto a f/2.8 e sul coma “totalmente azzerato”;
+- protetta `private/` da accesso Apache e mantenuta fuori dal versionamento dei dati runtime;
+- rieseguiti i test backend: 29 superati.
+
+La versione inglese non è completa: quindici pagine contengono ancora blocchi italiani. Sono state messe in `noindex, follow` per non indicizzare pagine miste. L'uso di un servizio esterno di traduzione richiede autorizzazione esplicita all'invio dei testi pubblici; fino a quella decisione il sito inglese resta un lavoro aperto.

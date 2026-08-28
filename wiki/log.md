@@ -869,3 +869,11 @@ Registro cronologico append-only delle modifiche principali.
 - Selezionate inoltre 10 fotografie per ogni destinazione, escludendo i file `awarded`, `published` e `accepted`. La scelta ha considerato qualità tecnica, luce, composizione, varietà dei soggetti e duplicati visivi.
 - Il manifesto `L:\1_Social\SITO DATA\_selected_all_collections_manifest.csv` contiene 59 copie con sorgente, destinazione e SHA-256; tutti gli hash risultano validi. Gli originali non sono stati spostati o cancellati.
 - Tre file nella raccolta Tenerife (`A7R00156-Edit-2.jpg`, `A7R00420-Edit.jpg`, `A7R00463-Edit.jpg`) non sono leggibili come JPEG e non sono entrati nella selezione; non sono stati modificati.
+
+## [2026-08-28] maintenance / website | Bonifica verificata di Sito_Dave_Opt
+
+- Ricontrollata la copia `L:\Sito_Dave_Opt` senza modificare `L:\Sito_Dave`.
+- Ripristinato il claim “Impara a leggere la luce anche dove sembra non esserci”, riordinata la homepage e aggiunto il menu mobile.
+- Corretti canonical, hreflang, landmark, sitemap e alcune affermazioni tecniche assolute degli articoli SIGMA.
+- I 29 test backend passano. La versione inglese resta incompleta ed è temporaneamente esclusa dall'indicizzazione.
+- Commit locale della copia ottimizzata: `56f47e0`.
