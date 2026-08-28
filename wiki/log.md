@@ -884,3 +884,9 @@ Registro cronologico append-only delle modifiche principali.
 - L’accesso automatico è stato fermato dal limite del servizio prima di modificare le pagine.
 - Preparato un file manuale con 720 testi unici divisi in 20 blocchi, ognuno collegato a un identificatore stabile per il reinserimento controllato.
 - Le pagine inglesi restano in `noindex, follow` fino al reinserimento, alla revisione editoriale e ai controlli finali.
+
+## [2026-08-28] maintenance / website | Conversione DOCX del pacchetto di traduzione
+
+- Convertito il pacchetto manuale in `L:\TESTI_SITO_DA_TRADURRE.docx` senza modificare i testi.
+- Verificati 720 identificatori unici e 20 blocchi; istruzioni e ordine risultano preservati.
+- Il rendering visivo automatico non è stato eseguito perché LibreOffice non è disponibile nell’ambiente; completata la verifica strutturale del documento.
