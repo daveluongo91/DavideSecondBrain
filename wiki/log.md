@@ -979,3 +979,12 @@ Registro cronologico append-only delle modifiche principali.
 - Eliminato il file fisico `admin.html`, ormai privo di funzione propria. Il vecchio URL `/admin.html` continua a portare a `/admin/` tramite il backend FastAPI.
 - Adeguato anche il server di migrazione affinché reindirizzi senza dipendere dal file eliminato; aggiornato l'inventario da 35 a 34 pagine HTML.
 - Non rimossi `admin/admin.js`, che alimenta il pannello reale, né `server.py`, conservato come riferimento di migrazione. Suite completa: 33 test superati. Commit locale sito: `0cc0b2c`.
+
+## [2026-09-01] archive / photography | Ricerca fotografie per obiettivo
+
+- Cercati sui dischi `I:` (seriale `4C5E-1425`) e `K:` (seriale `06C5-8308`) i RAW attribuibili ai Sigma 24-70, 28-105 e 28-45 tramite il campo EXIF `LensModel`.
+- Esaminati 67.287 RAW nei percorsi recenti o pertinenti. Per evitare associazioni errate dovute alla numerazione ripetuta delle fotocamere, un JPEG è stato accettato soltanto quando si trovava nella stessa cartella del RAW e ne condivideva il nome base.
+- Copiati in `L:\1_Social\SITO DATA\Obiettivi\24-70` 21 JPEG verificati. Per 28-105 e 28-45 non sono stati trovati JPEG esportati associabili con lo stesso livello di certezza; il manifest conserva rispettivamente 762 e 2.137 RAW candidati senza JPEG.
+- Ogni copia è stata confrontata con il sorgente tramite SHA-256: 21 sorgenti distinti, 21 destinazioni distinte, nessuna differenza e nessun originale modificato.
+- Una prima associazione basata su un perimetro di cartella troppo ampio è stata scartata. I relativi 844 file e i due file di servizio sono stati spostati, senza cancellarli, in `L:\1_Social\SITO DATA\Obiettivi\_DaVerificare_associazione_precedente\2026-09-01`.
+- Manifest finale: `L:\1_Social\SITO DATA\Obiettivi\_manifest_foto_per_obiettivo.csv`. Checkpoint completo: `L:\1_Social\SITO DATA\Obiettivi\_checkpoint_scansione_obiettivi.json`.
