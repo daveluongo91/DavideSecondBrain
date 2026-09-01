@@ -972,3 +972,10 @@ Registro cronologico append-only delle modifiche principali.
 - In locale la procedura è ammessa soltanto dalla macchina stessa; in produzione richiede una chiave di attivazione separata e non versionata.
 - Aggiunto il recupero password tramite OTP WhatsApp o codice di recupero, con revoca delle vecchie sessioni e nuova serie di otto codici monouso.
 - La password resta memorizzata solo come hash Argon2id. Verificati nel browser il modulo iniziale e con 33 test il blocco della seconda registrazione e la sostituzione della vecchia password. Commit locale sito: `b2e0fd9`.
+
+## [2026-09-01] maintenance / website | Rimozione admin legacy ridondante
+
+- Verificato il percorso richiesto: la copia attiva è `L:\Sito_Dave_Opt`; `L:\Sito\_Dave\_Opt` non esiste.
+- Eliminato il file fisico `admin.html`, ormai privo di funzione propria. Il vecchio URL `/admin.html` continua a portare a `/admin/` tramite il backend FastAPI.
+- Adeguato anche il server di migrazione affinché reindirizzi senza dipendere dal file eliminato; aggiornato l'inventario da 35 a 34 pagine HTML.
+- Non rimossi `admin/admin.js`, che alimenta il pannello reale, né `server.py`, conservato come riferimento di migrazione. Suite completa: 33 test superati. Commit locale sito: `0cc0b2c`.

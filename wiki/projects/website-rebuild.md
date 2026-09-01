@@ -152,7 +152,7 @@ Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook
 - FastAPI è il backend supportato; `server.py` resta un riferimento di migrazione.
 - Le cartelle `*_Prod` restano pacchetti autonomi; Canfaito & Conero e Foreste Casentinesi hanno una copia versionata nel repository per tracciarne l'evoluzione senza includere database o segreti.
 - Credenziali, database, backup e file privati non vengono versionati.
-- Il pannello amministrativo supportato è soltanto `/admin/`. Il precedente `admin.html` è ora un reindirizzamento e non contiene più controlli simulati o toggle lingua.
+- Il pannello amministrativo supportato è soltanto `/admin/`. Il file fisico legacy `admin.html` è stato eliminato; il vecchio URL resta un reindirizzamento server e non contiene controlli simulati o toggle lingua.
 - La dashboard richiede una sessione server valida anche quando si tenta di aprirne direttamente il file HTML. L'editor delle pagine usa le API CMS reali.
 - Al primo avvio, se il database non contiene amministratori, `/admin/` mostra una registrazione iniziale a uso singolo. Online richiede anche `ADMIN_BOOTSTRAP_TOKEN`; il recupero password usa OTP WhatsApp o uno dei codici monouso e revoca tutte le sessioni precedenti.
 
