@@ -988,3 +988,11 @@ Registro cronologico append-only delle modifiche principali.
 - Ogni copia è stata confrontata con il sorgente tramite SHA-256: 21 sorgenti distinti, 21 destinazioni distinte, nessuna differenza e nessun originale modificato.
 - Una prima associazione basata su un perimetro di cartella troppo ampio è stata scartata. I relativi 844 file e i due file di servizio sono stati spostati, senza cancellarli, in `L:\1_Social\SITO DATA\Obiettivi\_DaVerificare_associazione_precedente\2026-09-01`.
 - Manifest finale: `L:\1_Social\SITO DATA\Obiettivi\_manifest_foto_per_obiettivo.csv`. Checkpoint completo: `L:\1_Social\SITO DATA\Obiettivi\_checkpoint_scansione_obiettivi.json`.
+
+## [2026-09-02] media / website | Sample degli articoli Sigma
+
+- Inserite le nove fotografie della selezione corrente di Davide nei tre articoli Sigma 24-70, 28-105 e 28-45, sia in italiano sia in inglese, nella sola copia locale ottimizzata del sito.
+- Tre fotografie per articolo, senza didascalie visibili. Conservate le immagini dei prodotti e i testi degli articoli; rimossi i sample precedenti e le didascalie placeholder dalle sei pagine.
+- Create versioni WebP da 800 e 1.600 pixel di larghezza con selezione responsive, dimensioni esplicite e caricamento differito. Originali fotografici intatti, nessun caricamento sul sito pubblico.
+- Descrizioni alternative IT/EN basate sul contenuto visibile, senza dichiarare focali, diaframmi o localita non verificati. Gallery a una colonna su schermi stretti e fotografie intere senza ritagli.
+- Verificato nel browser il caricamento dei 18 riferimenti alle foto nelle sei pagine, assenza di didascalie e overflow desktop; controllata anche la gallery mobile a 390 pixel.
