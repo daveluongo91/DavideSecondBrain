@@ -1010,3 +1010,9 @@ Registro cronologico append-only delle modifiche principali.
 - Inserite le tre immagini fornite da Davide nella cartella del 15mm nei due articoli italiano e inglese: panorama costiero nella sezione sul dettaglio, aurora con Via Lattea e presentazione premiata su 1x nella sezione notturna.
 - Sostituiti tutti e quattro i placeholder senza duplicare immagini. Nessuna didascalia aggiunta; cornice, firma e riconoscimento 1x restano parte integrante del file fornito.
 - Create sei copie WebP responsive senza ritagli e senza ingrandire gli originali, con testi alternativi IT/EN e dimensioni esplicite. File sorgenti invariati; nessuna pubblicazione online.
+
+## [2026-09-02] translation / website | Revisione inglese del fisheye 15mm
+
+- Rifinita la versione inglese del test 15mm e la relativa anteprima blog: sintassi piu naturale, tono diretto e terminologia fotografica coerente con il racconto italiano.
+- Conservato il claim “The fisheye that makes you want to use it”. Allineate descrizioni SEO, Open Graph, Twitter e BlogPosting; rifiniti alt delle fotografie, logo e dicitura VAT.
+- Controllata nel browser la versione renderizzata e verificato il toggle EN/IT/EN. Nessuna didascalia aggiunta, immagini e testo italiano invariati. Intervento limitato al fisheye e alla sua anteprima; nessuna pubblicazione online.
