@@ -1095,3 +1095,9 @@ Registro cronologico append-only delle modifiche principali.
 - Proposta, non implementata: conservare il vecchio WordPress offline anziché eseguirlo sotto /_old/ con lo stesso utente hosting; una sottocartella o password HTTP non costituiscono isolamento dei processi.
 - Per mantenere checkout automatico, valutare un servizio pagamenti separato con identità e segreti separati e API limitate alle operazioni previste. Non basta un sottodominio sul medesimo account. Richiede scelta e collaudo; nessun acquisto o migrazione autorizzato.
 - Alternativa provvisoria: link creati dal pannello PayPal, senza segreto API sul sito; verificare disponibilità e impatto su caparre, posti e riconciliazione. Resta possibile la sostituzione dei link se il sito è compromesso. Non sostituire i flussi esistenti senza approvazione. Fonte: https://developer.paypal.com/payment-links-buttons/create-payment-link/ .
+
+## [2026-09-02] requirement / website | Preservare Paga in 3 rate
+
+- L'utente teme di perdere Paga in 3 rate passando ai link: preservare la possibilità di rateizzazione è un requisito della valutazione, non sostituire il checkout attuale senza verificarlo.
+- La documentazione PayPal indica supporto Pay Later nei Payment Links and Buttons; non dimostra la disponibilità per ogni link o cliente italiano. Paga in 3 rate resta soggetto a idoneità e approvazione PayPal anche nel checkout attuale. Fonti: https://developer.paypal.com/payment-links-buttons/overview e https://www.paypal.com/it/cshelp/article/cos%C3%A8-paga-in-3-rate-help463 .
+- Nessuna modifica al pagamento eseguita; verificare anche automazioni posti, caparre e riconciliazione prima di scegliere una variante.
