@@ -996,3 +996,11 @@ Registro cronologico append-only delle modifiche principali.
 - Create versioni WebP da 800 e 1.600 pixel di larghezza con selezione responsive, dimensioni esplicite e caricamento differito. Originali fotografici intatti, nessun caricamento sul sito pubblico.
 - Descrizioni alternative IT/EN basate sul contenuto visibile, senza dichiarare focali, diaframmi o localita non verificati. Gallery a una colonna su schermi stretti e fotografie intere senza ritagli.
 - Verificato nel browser il caricamento dei 18 riferimenti alle foto nelle sei pagine, assenza di didascalie e overflow desktop; controllata anche la gallery mobile a 390 pixel.
+
+## [2026-09-02] editorial / website | SIGMA 15mm Fisheye, nuovo taglio del test
+
+- Riscritto il test italiano e inglese attorno al claim di Davide: “Il fisheye che ti fa venire voglia di usarlo”. Aggiornate anche le anteprime blog e i metadata delle due pagine.
+- Il giudizio personale mette al centro dettaglio ai bordi e controllo del coma osservato sulle stelle. Peso e dimensioni sono il principale compromesso; il confronto con fisheye piu economici non attribuisce difetti a modelli non testati direttamente.
+- La staffa viene descritta come soluzione pratica accettabile nel setup di Davide, non come sostituto universale di una slitta panoramica regolata per la parallasse.
+- Specifiche e funzioni verificate sulla pagina ufficiale SIGMA. Conservati i tre asset del prodotto; sostituiti quattro sample estranei con placeholder neutri in attesa di immagini del 15mm, senza didascalie.
+- Verificati struttura, dati BlogPosting, toggle IT/EN e assenza di overflow a 390 pixel nel browser. Modifiche soltanto locali, nessuna pubblicazione del sito.
