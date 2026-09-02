@@ -1031,3 +1031,9 @@ Registro cronologico append-only delle modifiche principali.
 - Aruba pubblico verificato in sola lettura: home WordPress, Dardagna e Friuli presenti; API generale e landing autunnali assenti. Piano hosting, staging e configurazioni SMTP/WhatsApp/PayPal del backend non ancora disponibili per collaudo completo.
 - Creata e verificata privata la repository [SitoDave-Release](https://github.com/daveluongo91/SitoDave-Release). Snapshot pulito preparato senza storico, prenotazioni, richieste, SMTP, database o vecchi report. Upload fermato dall'auto-review: remoto ancora vuoto in attesa di autorizzazione al codice backend/PHP.
 - Esito: NON PRONTO AL GO-LIVE. Nessuna pubblicazione, modifica al WordPress o transazione reale. Rapporto e protocollo RESUME PRELAUNCH salvati nel progetto.
+
+## [2026-09-02] git / website | Caricamento autorizzato del nuovo sito
+
+- Su autorizzazione esplicita dell'utente, caricato lo snapshot ripulito in daveluongo91/SitoDave-Release, repository privata, branch main. Commit iniziale: `3f6c2a936f92989194abf9e16fbfc69676d5eb07`.
+- Inclusi frontend, immagini, backend e API PHP. Esclusi database, prenotazioni e configurazioni riservate. Nessuna modifica al sito pubblico Aruba.
+- Aggiornamento Second Brain registrato localmente; non autorizzato in questa richiesta il caricamento dei precedenti commit con metadati dei dischi.
