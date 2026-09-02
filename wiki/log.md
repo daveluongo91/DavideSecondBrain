@@ -1059,3 +1059,9 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente autorizza il rilascio lunedì 7 settembre 2026 alle 12:30, Europe/Rome. Creata automazione attiva nella chat: pubblicazione-sitodave-7-settembre, esecuzione singola.
 - Rilascio subordinato a collaudo, accessi, backup e ripristino verificati. In caso di blocchi preservare il sito attuale. Backend amministrativo escluso e conservato localmente.
 - È pianificato l'avvio dell'attività locale, non garantita la disponibilità del nuovo sito alle 12:30. Occorrono computer acceso, app in esecuzione, disco disponibile e permessi adeguati; nessuna modifica attuale al sito pubblico.
+
+## [2026-09-02] check / website | Presenza CookieYes e protezioni
+
+- Verificati nella copia locale cookie-consent.js e il suo richiamo nelle home IT/EN; presente il caricamento del servizio CookieYes e il comando di riapertura preferenze.
+- Presente .htaccess con HTTPS, divieto elenco directory, protezione file riservati e intestazioni di sicurezza. Presenza nei file non equivale a verifica su Apache/Aruba.
+- Restano da collaudare sul dominio banner, rifiuto/accettazione e blocco preventivo degli script non necessari, oltre alla compatibilità delle regole con PayPal e con l'eventuale archivio WordPress /_old/. Nessuna garanzia di sicurezza assoluta e nessuna modifica al sito.
