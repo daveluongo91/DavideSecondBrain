@@ -1065,3 +1065,8 @@ Registro cronologico append-only delle modifiche principali.
 - Verificati nella copia locale cookie-consent.js e il suo richiamo nelle home IT/EN; presente il caricamento del servizio CookieYes e il comando di riapertura preferenze.
 - Presente .htaccess con HTTPS, divieto elenco directory, protezione file riservati e intestazioni di sicurezza. Presenza nei file non equivale a verifica su Apache/Aruba.
 - Restano da collaudare sul dominio banner, rifiuto/accettazione e blocco preventivo degli script non necessari, oltre alla compatibilità delle regole con PayPal e con l'eventuale archivio WordPress /_old/. Nessuna garanzia di sicurezza assoluta e nessuna modifica al sito.
+
+## [2026-09-02] security / website | Richiesta Kadence Security
+
+- L'utente segnala Kadence Security sul vecchio sito e chiede l'integrazione prima del rilascio. Confermata l'esistenza del plugin ufficiale WordPress: https://wordpress.org/plugins/better-wp-security/ . Installazione e configurazione effettive del vecchio sito non ancora verificate.
+- Non trasferibile come plugin eseguibile al frontend HTML/PHP autonomo. Eventuali regole server riutilizzabili richiedono lettura della configurazione reale e collaudo; la protezione WordPress non copre automaticamente le API autonome. Nessuna installazione o migrazione eseguita.
