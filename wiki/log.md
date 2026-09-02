@@ -1101,3 +1101,10 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente teme di perdere Paga in 3 rate passando ai link: preservare la possibilità di rateizzazione è un requisito della valutazione, non sostituire il checkout attuale senza verificarlo.
 - La documentazione PayPal indica supporto Pay Later nei Payment Links and Buttons; non dimostra la disponibilità per ogni link o cliente italiano. Paga in 3 rate resta soggetto a idoneità e approvazione PayPal anche nel checkout attuale. Fonti: https://developer.paypal.com/payment-links-buttons/overview e https://www.paypal.com/it/cshelp/article/cos%C3%A8-paga-in-3-rate-help463 .
 - Nessuna modifica al pagamento eseguita; verificare anche automazioni posti, caparre e riconciliazione prima di scegliere una variante.
+
+## [2026-09-02] proposal / partnerships | Ripresa contatto SIRUI
+
+- Preparata una bozza, non inviata: proposta principale SVS75 per contenuti timelapse con motion controller, mostrando preparazione del setup e risultato. Compatibilità meccanica da confermare prima di concordare il prodotto.
+- Alternativa Traveler X-I per i progetti travel in Lapponia e Thailandia tra gennaio e febbraio 2027, secondo il calendario indicato da Davide.
+- Incluso come riferimento il post fornito da Davide: https://www.instagram.com/p/DcLZxKWI__7/ . Contenuto non ispezionabile durante la verifica, quindi nessuna descrizione aggiuntiva dedotta.
+- Recapiti e contenuti degli scambi privati restano fuori dalla wiki. Nessuna email inviata e nessun cambiamento allo stato del master.
