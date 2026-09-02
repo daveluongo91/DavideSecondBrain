@@ -1082,3 +1082,10 @@ Registro cronologico append-only delle modifiche principali.
 - Lo screenshot Advanced espanso mostra selezionati Protect System Files, Disable Directory Browsing e Disable PHP in Uploads, Plugins e Themes. Non prova l'applicazione effettiva delle regole server.
 - Riletto .htaccess della copia da pubblicare: contiene già blocco elenco directory, protezione di configurazioni e dati e rifiuto delle richieste .php fuori dalle cartelle API ammesse. Obiettivi simili, non equivalenza completa al plugin o firewall Kadence.
 - Nessuna modifica necessaria per duplicare queste impostazioni. Resta il collaudo Apache/Aruba e l'adattamento per il vecchio WordPress sotto /_old/, che sarebbe bloccato dalle attuali regole PHP. Nessuna modifica live.
+
+## [2026-09-02] audit / website | Primo controllo collegamento PayPal
+
+- Controllati in sola lettura gli endpoint PHP locali principali di creazione, cattura e webhook e common.php. Il loader SDK espone il Client ID; il segreto viene letto lato server da configurazione privata, protetta da .htaccess. Non sono state lette o riportate credenziali effettive.
+- Importi calcolati lato server e confrontati con la prenotazione; cattura controlla stato COMPLETED e valuta EUR. Webhook richiede verifica firma PayPal, ma non controlla esplicitamente la valuta prima di paid(): da completare nel collaudo. Il percorso comune esaminato non mostra un rate limiter applicativo.
+- Nessuna corrispondenza per client_secret, paypal_secret o access_token nella ricerca sui file HTML/JS della copia. Ricerca limitata a questi indicatori, non certificazione di assenza di segreti o compromissione.
+- Le configurazioni live e la sicurezza dell'account PayPal non sono state verificate. Nessun accesso account, pagamento, rotazione chiavi, cambio DNS o acquisto. Prossimi controlli: protezione effettiva configurazioni su Aruba, abusi API, valuta webhook e idempotenza; sull'account password unica e passkey/2FA, anche sulla casella email associata. Fonti ufficiali: https://developer.paypal.com/security-guidelines e https://www.paypal.com/us/security/protect-your-account .
