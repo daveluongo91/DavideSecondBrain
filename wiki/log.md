@@ -1016,3 +1016,9 @@ Registro cronologico append-only delle modifiche principali.
 - Rifinita la versione inglese del test 15mm e la relativa anteprima blog: sintassi piu naturale, tono diretto e terminologia fotografica coerente con il racconto italiano.
 - Conservato il claim “The fisheye that makes you want to use it”. Allineate descrizioni SEO, Open Graph, Twitter e BlogPosting; rifiniti alt delle fotografie, logo e dicitura VAT.
 - Controllata nel browser la versione renderizzata e verificato il toggle EN/IT/EN. Nessuna didascalia aggiunta, immagini e testo italiano invariati. Intervento limitato al fisheye e alla sua anteprima; nessuna pubblicazione online.
+
+## [2026-09-02] media / website | Didascalie immagini negli articoli
+
+- Controllati i sei articoli locali nelle versioni italiana e inglese. Le didascalie HTML residue erano nelle due pagine del SIGMA 14mm: rimosse dodici scritte sotto le immagini.
+- Immagini, percorsi e testi alternativi preservati. Le scritte incorporate nei file fotografici, inclusa la presentazione 1x del 15mm, non sono state ritoccate.
+- Intervento solo sulla copia locale ottimizzata, senza pubblicazione online.
