@@ -1042,3 +1042,9 @@ Registro cronologico append-only delle modifiche principali.
 
 - L'utente indica Hosting Easy Linux. Verificata la documentazione ufficiale: PHP/MySQL supportati, Python in cgi-bin; supporto a processo ASGI persistente non confermato.
 - Resta da scegliere fra backend separato compatibile e adattamento PHP/MySQL o WordPress. Nessun acquisto, cambio piano o intervento sul sito pubblico.
+
+## [2026-09-02] query / website | Vecchio sito e rilascio programmato
+
+- L'utente chiede la fattibilità di conservare WordPress sotto /_old/, mostrare la nuova index.html alla radice del dominio e automatizzare il passaggio. Non è un'autorizzazione a eseguire o pianificare la pubblicazione.
+- Soluzione proposta: copia WordPress con database separato, URL aggiornati e accesso protetto; nuova home servita alla radice; mappa dei redirect verso i contenuti nuovi, preservando landing attive e callback dei pagamenti.
+- Rilascio automatizzabile dopo collaudo, backup e approvazione esplicita di data/orario, con controlli e procedura di ripristino che tuteli eventuali nuove prenotazioni. Compatibilità del backend resta da risolvere.
