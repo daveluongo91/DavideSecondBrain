@@ -1108,3 +1108,4 @@ Registro cronologico append-only delle modifiche principali.
 - Alternativa Traveler X-I per i progetti travel in Lapponia e Thailandia tra gennaio e febbraio 2027, secondo il calendario indicato da Davide.
 - Incluso come riferimento il post fornito da Davide: https://www.instagram.com/p/DcLZxKWI__7/ . Contenuto non ispezionabile durante la verifica, quindi nessuna descrizione aggiuntiva dedotta.
 - Recapiti e contenuti degli scambi privati restano fuori dalla wiki. Nessuna email inviata e nessun cambiamento allo stato del master.
+- Integrazione dichiarata da Davide: collaborazioni anche tramite l'importatore italiano per il treppiede L324F e gli obiettivi anamorfici AF 20mm e 40mm f/1.8. Aggiunte alla presentazione nella bozza per dare continuità al rapporto; nessun invio effettuato.
