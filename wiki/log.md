@@ -1109,3 +1109,9 @@ Registro cronologico append-only delle modifiche principali.
 - Incluso come riferimento il post fornito da Davide: https://www.instagram.com/p/DcLZxKWI__7/ . Contenuto non ispezionabile durante la verifica, quindi nessuna descrizione aggiuntiva dedotta.
 - Recapiti e contenuti degli scambi privati restano fuori dalla wiki. Nessuna email inviata e nessun cambiamento allo stato del master.
 - Integrazione dichiarata da Davide: collaborazioni anche tramite l'importatore italiano per il treppiede L324F e gli obiettivi anamorfici AF 20mm e 40mm f/1.8. Aggiunte alla presentazione nella bozza per dare continuità al rapporto; nessun invio effettuato.
+
+## [2026-09-02] maintenance / partnerships | Invio SIRUI e bozza PGYTECH
+
+- Davide ha confermato l'invio della proposta SIRUI. Aggiornata la riga esistente nel master a INVIATO, data 2026-09-02, mantenendo lo storico e specificando la fonte dichiarata; nessuna nuova verifica di consegna.
+- Preparata una bozza PGYTECH per riprendere il rapporto con un progetto su uno zaino durante Lapponia e Thailandia, gennaio-febbraio 2027. OnePro Flex è una proposta iniziale, modello e capienza non ancora scelti da Davide. Nessuna email PGYTECH inviata.
+- Verificati formule e aspetto dei cinque fogli; conservati gli altri dati del master e la data della precedente verifica generale Thunderbird.

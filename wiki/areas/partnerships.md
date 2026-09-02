@@ -29,7 +29,7 @@ Il controllo comprende i tre account configurati in Thunderbird: `info@davideluo
 
 - Collaborazioni attive: Sigma, Vanguard, Maven Filters, Move Shoot Move, iOptron/Tecnosky, Asterra e RCE Foto.
 - ORICO è ripartita.
-- SIRUI e PGYTECH sono rapporti reali da riattivare, non prospect nuovi.
+- SIRUI e PGYTECH sono rapporti già avviati, non prospect nuovi. Il 2 settembre 2026 Davide conferma l'invio della nuova proposta SIRUI: SVS75 per timelapse con motion controller, in alternativa Traveler X-I per i progetti travel. Si attende risposta. Per PGYTECH è in preparazione una proposta su uno zaino, non ancora inviata.
 - Kase Filters e Vallerret restano collaborazioni storiche. Kase era gestita in forma spot tramite TFS e nell'ultimo scambio risultava in rallentamento.
 - ALPAKA richiede una nuova candidatura all'indirizzo ambassador ricevuto.
 - SmallRig, MIOPS e Irix risultano rifiutate.
@@ -47,7 +47,7 @@ Vanguard ha comunicato €26,55 di commissioni per il 2023 su due ordini e €12
 
 ### Prossime azioni
 
-1. Preparare due proposte di ripartenza distinte per SIRUI e PGYTECH.
+1. Attendere la risposta SIRUI e rivedere la bozza PGYTECH sullo zaino prima dell'invio.
 2. Proporre a ORICO un secondo progetto, partendo dal video MG7 già completato.
 3. Recuperare dal pannello o dal referente il codice e il link RCE, senza dedurli dalle email di cashback.
 4. Verificare nei pannelli i link personali Maven, SIRUI e Matjoez prima di pubblicarli.
