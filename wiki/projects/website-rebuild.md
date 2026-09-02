@@ -2,8 +2,8 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-25
-summary: SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti.
+updated: 2026-09-02
+summary: Audit pre-pubblicazione con 51 test locali superati; hosting, pagamenti e servizi esterni ancora da collaudare.
 tags:
   - website
   - conversion
@@ -11,6 +11,15 @@ tags:
 ---
 
 # Ricostruzione sito web
+
+## Stato corrente: audit del 2 settembre 2026
+
+La copia controllata è Sito_Dave_Opt. Il frontend locale è stato corretto e la suite passa 51 test, ma il sito **non è pronto alla pubblicazione**: su Aruba continua a rispondere WordPress e il percorso pubblico /api/health restituisce 404. Questo non consente di confermare il backend in produzione. Occorre confermare il piano hosting e predisporre staging HTTPS, processo ASGI o una diversa architettura approvata, credenziali SMTP/WhatsApp/PayPal e collaudo end-to-end. Il supporto Python CGI non equivale al supporto FastAPI persistente.
+
+Nuova repository privata: [SitoDave-Release](https://github.com/daveluongo91/SitoDave-Release), creata ma ancora vuota: upload del codice fermato dall'auto-review, in attesa di autorizzazione esplicita. Snapshot locale separato senza vecchio storico o dati personali.
+
+Corretti risorse e routing mancanti, protezione dei sorgenti PHP, varianti dashboard, lingua del documento e rate limit. Il precedente contatore con riduzione artificiale dei posti e stato sostituito con disponibilita reale. Le sezioni successive descrivono anche fasi storiche e non costituiscono una certificazione dello stato live.
+
 
 ## Obiettivo
 

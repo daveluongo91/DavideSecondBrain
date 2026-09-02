@@ -1022,3 +1022,12 @@ Registro cronologico append-only delle modifiche principali.
 - Controllati i sei articoli locali nelle versioni italiana e inglese. Le didascalie HTML residue erano nelle due pagine del SIGMA 14mm: rimosse dodici scritte sotto le immagini.
 - Immagini, percorsi e testi alternativi preservati. Le scritte incorporate nei file fotografici, inclusa la presentazione 1x del 15mm, non sono state ritoccate.
 - Intervento solo sulla copia locale ottimizzata, senza pubblicazione online.
+
+## [2026-09-02] audit / website | Pre-pubblicazione e repository privata
+
+- Eseguito audit su Sito_Dave_Opt: 40 HTML pubblici controllati, nessun riferimento a file locali mancanti; suite estesa da 33 a 51 test superati.
+- Ripristinati routing inglese, risorse comuni e pagine mancanti nel server FastAPI. Bloccata l'esposizione di PHP e file privati nei mount statici, anche le varianti maiuscole della dashboard.
+- Corretti lingua derivata dal documento, contatori con posti reali e rate limit che non si fida di header client. Esclusi i blocchi home in bozza dalle API pubbliche e bonificato il manifest Node obsoleto.
+- Aruba pubblico verificato in sola lettura: home WordPress, Dardagna e Friuli presenti; API generale e landing autunnali assenti. Piano hosting, staging e configurazioni SMTP/WhatsApp/PayPal del backend non ancora disponibili per collaudo completo.
+- Creata e verificata privata la repository [SitoDave-Release](https://github.com/daveluongo91/SitoDave-Release). Snapshot pulito preparato senza storico, prenotazioni, richieste, SMTP, database o vecchi report. Upload fermato dall'auto-review: remoto ancora vuoto in attesa di autorizzazione al codice backend/PHP.
+- Esito: NON PRONTO AL GO-LIVE. Nessuna pubblicazione, modifica al WordPress o transazione reale. Rapporto e protocollo RESUME PRELAUNCH salvati nel progetto.
