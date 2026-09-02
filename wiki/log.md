@@ -1070,3 +1070,9 @@ Registro cronologico append-only delle modifiche principali.
 
 - L'utente segnala Kadence Security sul vecchio sito e chiede l'integrazione prima del rilascio. Confermata l'esistenza del plugin ufficiale WordPress: https://wordpress.org/plugins/better-wp-security/ . Installazione e configurazione effettive del vecchio sito non ancora verificate.
 - Non trasferibile come plugin eseguibile al frontend HTML/PHP autonomo. Eventuali regole server riutilizzabili richiedono lettura della configurazione reale e collaudo; la protezione WordPress non copre automaticamente le API autonome. Nessuna installazione o migrazione eseguita.
+
+## [2026-09-02] evidence / website | Moduli Kadence visibili negli screenshot
+
+- Negli screenshot dell'utente risultano attivi Two-Factor, Ban Users, Firewall Rules Engine, Local e Network Brute Force, Database Backups e Security Check Pro.
+- Risultano disattivati File Change, Scheduled Site Scan ed Enforce SSL. Questo non dimostra assenza di HTTPS a livello hosting; Database Backups attivo non dimostra backup eseguiti, né Two-Factor attivo prova configurazione per ogni utente.
+- Mancano ancora le impostazioni Advanced e le regole server generate per valutare il riutilizzo nel nuovo sito. Nessuna modifica alle impostazioni effettuata.
