@@ -1053,3 +1053,9 @@ Registro cronologico append-only delle modifiche principali.
 
 - L'utente sceglie di conservare la versione locale, modificarla e pubblicarla quando pronta. Affronterà il backend in una chat distinta; nessuna nuova chat creata automaticamente.
 - Sospeso il lavoro di adattamento del backend. Prima del rilascio del frontend resta necessario controllare dipendenze API pubbliche, form e pagamenti, preservando le landing autonome funzionanti. Nessuna eliminazione, pubblicazione o attivazione programmata.
+
+## [2026-09-02] schedule / website | Rilascio del 7 settembre
+
+- L'utente autorizza il rilascio lunedì 7 settembre 2026 alle 12:30, Europe/Rome. Creata automazione attiva nella chat: pubblicazione-sitodave-7-settembre, esecuzione singola.
+- Rilascio subordinato a collaudo, accessi, backup e ripristino verificati. In caso di blocchi preservare il sito attuale. Backend amministrativo escluso e conservato localmente.
+- È pianificato l'avvio dell'attività locale, non garantita la disponibilità del nuovo sito alle 12:30. Occorrono computer acceso, app in esecuzione, disco disponibile e permessi adeguati; nessuna modifica attuale al sito pubblico.
