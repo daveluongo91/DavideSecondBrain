@@ -1037,3 +1037,8 @@ Registro cronologico append-only delle modifiche principali.
 - Su autorizzazione esplicita dell'utente, caricato lo snapshot ripulito in daveluongo91/SitoDave-Release, repository privata, branch main. Commit iniziale: `3f6c2a936f92989194abf9e16fbfc69676d5eb07`.
 - Inclusi frontend, immagini, backend e API PHP. Esclusi database, prenotazioni e configurazioni riservate. Nessuna modifica al sito pubblico Aruba.
 - Aggiornamento Second Brain registrato localmente; non autorizzato in questa richiesta il caricamento dei precedenti commit con metadati dei dischi.
+
+## [2026-09-02] hosting / website | Piano Aruba identificato dall'utente
+
+- L'utente indica Hosting Easy Linux. Verificata la documentazione ufficiale: PHP/MySQL supportati, Python in cgi-bin; supporto a processo ASGI persistente non confermato.
+- Resta da scegliere fra backend separato compatibile e adattamento PHP/MySQL o WordPress. Nessun acquisto, cambio piano o intervento sul sito pubblico.

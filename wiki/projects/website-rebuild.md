@@ -14,6 +14,8 @@ tags:
 
 ## Stato corrente: audit del 2 settembre 2026
 
+Il piano comunicato dall'utente è **Aruba Hosting Easy Linux**. La documentazione Aruba conferma PHP/MySQL e Python tramite cgi-bin, ma non documenta qui l'esecuzione persistente ASGI necessaria al backend attuale. Non considerare FastAPI già compatibile con il piano. Da scegliere: mantenere il frontend su Aruba con backend su servizio compatibile separato, oppure adattare il backend a PHP/MySQL o WordPress. Nessun acquisto o migrazione autorizzato. Fonte: [Aruba, linguaggi e spazio web Linux](https://guide.aruba.it/faq/hosting-e-domini/linguaggi-e-spazio-web-linux).
+
 La copia controllata è Sito_Dave_Opt. Il frontend locale è stato corretto e la suite passa 51 test, ma il sito **non è pronto alla pubblicazione**: su Aruba continua a rispondere WordPress e il percorso pubblico /api/health restituisce 404. Questo non consente di confermare il backend in produzione. Occorre confermare il piano hosting e predisporre staging HTTPS, processo ASGI o una diversa architettura approvata, credenziali SMTP/WhatsApp/PayPal e collaudo end-to-end. Il supporto Python CGI non equivale al supporto FastAPI persistente.
 
 Nuova repository privata: [SitoDave-Release](https://github.com/daveluongo91/SitoDave-Release). Il 2 settembre, dopo l'autorizzazione esplicita dell'utente, caricato sul branch main lo snapshot ripulito, incluse API PHP e backend. Commit iniziale: `3f6c2a936f92989194abf9e16fbfc69676d5eb07`. Esclusi vecchio storico, database, prenotazioni e configurazioni riservate. Nessuna pubblicazione su Aruba.
