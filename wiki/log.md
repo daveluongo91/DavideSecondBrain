@@ -1004,3 +1004,9 @@ Registro cronologico append-only delle modifiche principali.
 - La staffa viene descritta come soluzione pratica accettabile nel setup di Davide, non come sostituto universale di una slitta panoramica regolata per la parallasse.
 - Specifiche e funzioni verificate sulla pagina ufficiale SIGMA. Conservati i tre asset del prodotto; sostituiti quattro sample estranei con placeholder neutri in attesa di immagini del 15mm, senza didascalie.
 - Verificati struttura, dati BlogPosting, toggle IT/EN e assenza di overflow a 390 pixel nel browser. Modifiche soltanto locali, nessuna pubblicazione del sito.
+
+## [2026-09-02] media / website | Foto del SIGMA 15mm Fisheye
+
+- Inserite le tre immagini fornite da Davide nella cartella del 15mm nei due articoli italiano e inglese: panorama costiero nella sezione sul dettaglio, aurora con Via Lattea e presentazione premiata su 1x nella sezione notturna.
+- Sostituiti tutti e quattro i placeholder senza duplicare immagini. Nessuna didascalia aggiunta; cornice, firma e riconoscimento 1x restano parte integrante del file fornito.
+- Create sei copie WebP responsive senza ritagli e senza ingrandire gli originali, con testi alternativi IT/EN e dimensioni esplicite. File sorgenti invariati; nessuna pubblicazione online.
