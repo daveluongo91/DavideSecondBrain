@@ -1076,3 +1076,9 @@ Registro cronologico append-only delle modifiche principali.
 - Negli screenshot dell'utente risultano attivi Two-Factor, Ban Users, Firewall Rules Engine, Local e Network Brute Force, Database Backups e Security Check Pro.
 - Risultano disattivati File Change, Scheduled Site Scan ed Enforce SSL. Questo non dimostra assenza di HTTPS a livello hosting; Database Backups attivo non dimostra backup eseguiti, né Two-Factor attivo prova configurazione per ogni utente.
 - Mancano ancora le impostazioni Advanced e le regole server generate per valutare il riutilizzo nel nuovo sito. Nessuna modifica alle impostazioni effettuata.
+
+## [2026-09-02] evidence / website | Confronto System Tweaks
+
+- Lo screenshot Advanced espanso mostra selezionati Protect System Files, Disable Directory Browsing e Disable PHP in Uploads, Plugins e Themes. Non prova l'applicazione effettiva delle regole server.
+- Riletto .htaccess della copia da pubblicare: contiene già blocco elenco directory, protezione di configurazioni e dati e rifiuto delle richieste .php fuori dalle cartelle API ammesse. Obiettivi simili, non equivalenza completa al plugin o firewall Kadence.
+- Nessuna modifica necessaria per duplicare queste impostazioni. Resta il collaudo Apache/Aruba e l'adattamento per il vecchio WordPress sotto /_old/, che sarebbe bloccato dalle attuali regole PHP. Nessuna modifica live.
