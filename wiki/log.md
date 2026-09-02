@@ -1048,3 +1048,8 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente chiede la fattibilità di conservare WordPress sotto /_old/, mostrare la nuova index.html alla radice del dominio e automatizzare il passaggio. Non è un'autorizzazione a eseguire o pianificare la pubblicazione.
 - Soluzione proposta: copia WordPress con database separato, URL aggiornati e accesso protetto; nuova home servita alla radice; mappa dei redirect verso i contenuti nuovi, preservando landing attive e callback dei pagamenti.
 - Rilascio automatizzabile dopo collaudo, backup e approvazione esplicita di data/orario, con controlli e procedura di ripristino che tuteli eventuali nuove prenotazioni. Compatibilità del backend resta da risolvere.
+
+## [2026-09-02] decision / website | Modifiche locali, backend rinviato
+
+- L'utente sceglie di conservare la versione locale, modificarla e pubblicarla quando pronta. Affronterà il backend in una chat distinta; nessuna nuova chat creata automaticamente.
+- Sospeso il lavoro di adattamento del backend. Prima del rilascio del frontend resta necessario controllare dipendenze API pubbliche, form e pagamenti, preservando le landing autonome funzionanti. Nessuna eliminazione, pubblicazione o attivazione programmata.

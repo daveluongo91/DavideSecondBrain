@@ -3,7 +3,7 @@ title: Ricostruzione sito web
 type: project
 status: active
 updated: 2026-09-02
-summary: Audit pre-pubblicazione con 51 test locali superati; hosting, pagamenti e servizi esterni ancora da collaudare.
+summary: Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente.
 tags:
   - website
   - conversion
@@ -13,6 +13,10 @@ tags:
 # Ricostruzione sito web
 
 ## Stato corrente: audit del 2 settembre 2026
+
+### Decisione successiva: gestione locale e backend separato
+
+L'utente considera il backend attualmente non funzionante e rinvia il suo sviluppo a una nuova chat mirata, che aprirà personalmente. Per questa fase si conserva la versione locale: modifiche e verifica in locale, poi pubblicazione della versione approvata. Il backend non va eliminato né riscritto in questa attività. Il suo completamento non è più un prerequisito del rilascio del frontend, purché siano individuate e risolte o escluse in modo esplicito le dipendenze pubbliche da FastAPI. Pagamenti, form e disponibilità delle landing PHP restano da verificare e preservare; non sono equivalenti al pannello amministrativo. Nessun publish o pianificazione eseguito. Le valutazioni seguenti riportano l'audit precedente a questa riduzione del perimetro.
 
 Il piano comunicato dall'utente è **Aruba Hosting Easy Linux**. La documentazione Aruba conferma PHP/MySQL e Python tramite cgi-bin, ma non documenta qui l'esecuzione persistente ASGI necessaria al backend attuale. Non considerare FastAPI già compatibile con il piano. Da scegliere: mantenere il frontend su Aruba con backend su servizio compatibile separato, oppure adattare il backend a PHP/MySQL o WordPress. Nessun acquisto o migrazione autorizzato. Fonte: [Aruba, linguaggi e spazio web Linux](https://guide.aruba.it/faq/hosting-e-domini/linguaggi-e-spazio-web-linux).
 
