@@ -1,5 +1,9 @@
 # Log
 
+## [2026-09-03] fix | Percorsi della card Lapponia
+
+- Corretti link, immagine e script della card IT/EN: percorsi relativi e destinazione index.html esplicita per apertura anche da file locale. Adeguati i percorsi delle pagine del viaggio e corretto hreflang italiano nella versione inglese. Verificata l'esistenza delle destinazioni su disco. Programmazione del rilascio invariata.
+
 Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-27] feature / onetoone | Aggiornamento terzo slider Before/After (Islanda A7R00076)
