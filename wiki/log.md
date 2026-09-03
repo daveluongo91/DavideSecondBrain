@@ -1,5 +1,9 @@
 # Log
 
+## [2026-09-03] layout | Apertura Lapponia come Friuli
+
+- Rimossa la barra superiore della pagina Lapponia IT/EN su richiesta di Davide: apertura direttamente sulla foto come Friuli. Cambio lingua spostato nel footer; contenuti, form e pianificazione invariati.
+
 ## [2026-09-03] fix | Percorsi della card Lapponia
 
 - Corretti link, immagine e script della card IT/EN: percorsi relativi e destinazione index.html esplicita per apertura anche da file locale. Adeguati i percorsi delle pagine del viaggio e corretto hreflang italiano nella versione inglese. Verificata l'esistenza delle destinazioni su disco. Programmazione del rilascio invariata.
