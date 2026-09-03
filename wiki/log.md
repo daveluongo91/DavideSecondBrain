@@ -1137,3 +1137,8 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornato [Ricostruzione sito web](projects/website-rebuild.md): date confermate 13–17 gennaio 2027, quota 1.880 euro, pagina IT/EN e card home senza coming soon.
 - PDF con dati precedenti tenuto fuori dal download pubblico. Modulo PHP collaudato con email simulate, non consegna reale. Da verificare SMTP su Aruba e riconfermare il contatto dell'operatore.
 - Programmazione della pubblicazione e sito online invariati. Nessun dato privato o credenziale aggiunto alla wiki.
+
+## [2026-09-03] outreach | Bozze di follow-up Islanda
+
+- Preparati per revisione due testi di risposta, distinguendo il coordinamento di una data dalla richiesta di un aggiornamento sulla valutazione.
+- Nessun messaggio inviato e nessuna modifica al tracker Excel. Testi e dettagli delle conversazioni restano fuori dal repository.
