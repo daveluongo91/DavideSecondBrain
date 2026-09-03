@@ -986,3 +986,8 @@ Registro cronologico append-only delle modifiche principali.
 - Eliminato il file fisico `admin.html`, ormai privo di funzione propria. Il vecchio URL `/admin.html` continua a portare a `/admin/` tramite il backend FastAPI.
 - Adeguato anche il server di migrazione affinché reindirizzi senza dipendere dal file eliminato; aggiornato l'inventario da 35 a 34 pagine HTML.
 - Non rimossi `admin/admin.js`, che alimenta il pannello reale, né `server.py`, conservato come riferimento di migrazione. Suite completa: 33 test superati. Commit locale sito: `0cc0b2c`.
+
+## [2026-09-03] outreach | Bozze di follow-up Islanda
+
+- Preparati per revisione due testi di risposta, distinguendo il coordinamento di una data dalla richiesta di un aggiornamento sulla valutazione.
+- Nessun messaggio inviato e nessuna modifica al tracker Excel. Testi e dettagli delle conversazioni restano fuori dal repository.
