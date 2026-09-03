@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-03] website | Sincronizzazione sito e integrazione Lapponia
+
+- Aggiornata [Ricostruzione sito web](projects/website-rebuild.md) con stato della copia locale, integrazione Lapponia IT/EN, date 13–17 gennaio 2027 e quota di 1.880 euro.
+- Card con immagine e link corretti anche da file locale; foto organizzate, apertura come Friuli e cambio lingua nel footer. PDF precedente escluso dal download perché contiene date e prezzo diversi.
+- Modulo informazioni PHP: destinatari fissi, validazione e limite invii; 14 controlli con trasporto simulato e 24 test di routing superati. Consegna reale delle email su Aruba ancora da verificare.
+- Sincronizzazione GitHub richiesta da Davide. Esclusi fonti storiche riservate, credenziali e modifiche di altre attività. Programmazione del rilascio invariata.
+
 Registro cronologico append-only delle modifiche principali.
 
 ## [2026-08-27] feature / onetoone | Aggiornamento terzo slider Before/After (Islanda A7R00076)

@@ -2,8 +2,8 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-08-25
-summary: SitoDave consolidato su FastAPI con quattro landing workshop autonome, backend condiviso e pagamenti sandbox protetti.
+updated: 2026-09-03
+summary: Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente.
 tags:
   - website
   - conversion
@@ -11,6 +11,29 @@ tags:
 ---
 
 # Ricostruzione sito web
+
+## Stato corrente: audit del 2 settembre 2026
+
+### Integrazione Lapponia 2027
+
+Aggiornamento del 3 settembre: corretti i percorsi della card, delle immagini e degli script per funzionare anche aprendo la home da file locale. Collegamenti espliciti a index.html, versione inglese inclusa. Rimossa la fascia superiore come richiesto, con cambio lingua nel footer. Superati 24 test di routing e protezione delle risorse, oltre ai 14 controlli del modulo con trasporto simulato. La sincronizzazione GitHub riguarda il codice e la documentazione, non una pubblicazione su Aruba. Nessuna modifica alla programmazione del rilascio.
+
+Integrata nella copia ottimizzata una pagina autonoma in `Lapponia_2027/`, con variante inglese, foto estratte dalla fonte e card collegata nelle home IT/EN. Davide ha confermato 13–17 gennaio 2027 e quota di 1.880 euro. Il PDF precedente contiene date e prezzo diversi: conservato tra le fonti locali protette, non offerto come download. La pagina non raccoglie pagamenti o documenti.
+
+Il modulo informazioni usa un endpoint PHP con destinatari predefiniti, consenso, validazione e limite agli invii. Superati 14 controlli locali con trasporto email simulato; verificati nel browser invio simulato ed errore con conservazione del messaggio. La ricezione reale su Aruba non è stata testata e richiede configurazione SMTP. Il contatto del tour operator resta quello della pagina fonte, non ancora riconfermato da Davide. Nessuna modifica alla pianificazione o al sito online.
+
+### Decisione successiva: gestione locale e backend separato
+
+L'utente considera il backend attualmente non funzionante e rinvia il suo sviluppo a una nuova chat mirata, che aprirà personalmente. Per questa fase si conserva la versione locale: modifiche e verifica in locale, poi pubblicazione della versione approvata. Il backend non va eliminato né riscritto in questa attività. Il suo completamento non è più un prerequisito del rilascio del frontend, purché siano individuate e risolte o escluse in modo esplicito le dipendenze pubbliche da FastAPI. Pagamenti, form e disponibilità delle landing PHP restano da verificare e preservare; non sono equivalenti al pannello amministrativo. Nessun publish o pianificazione eseguito. Le valutazioni seguenti riportano l'audit precedente a questa riduzione del perimetro.
+
+Il piano comunicato dall'utente è **Aruba Hosting Easy Linux**. La documentazione Aruba conferma PHP/MySQL e Python tramite cgi-bin, ma non documenta qui l'esecuzione persistente ASGI necessaria al backend attuale. Non considerare FastAPI già compatibile con il piano. Da scegliere: mantenere il frontend su Aruba con backend su servizio compatibile separato, oppure adattare il backend a PHP/MySQL o WordPress. Nessun acquisto o migrazione autorizzato. Fonte: [Aruba, linguaggi e spazio web Linux](https://guide.aruba.it/faq/hosting-e-domini/linguaggi-e-spazio-web-linux).
+
+La copia controllata è Sito_Dave_Opt. Il frontend locale è stato corretto e la suite passa 51 test, ma il sito **non è pronto alla pubblicazione**: su Aruba continua a rispondere WordPress e il percorso pubblico /api/health restituisce 404. Questo non consente di confermare il backend in produzione. Occorre confermare il piano hosting e predisporre staging HTTPS, processo ASGI o una diversa architettura approvata, credenziali SMTP/WhatsApp/PayPal e collaudo end-to-end. Il supporto Python CGI non equivale al supporto FastAPI persistente.
+
+Nuova repository privata: [SitoDave-Release](https://github.com/daveluongo91/SitoDave-Release). Il 2 settembre, dopo l'autorizzazione esplicita dell'utente, caricato sul branch main lo snapshot ripulito, incluse API PHP e backend. Commit iniziale: `3f6c2a936f92989194abf9e16fbfc69676d5eb07`. Esclusi vecchio storico, database, prenotazioni e configurazioni riservate. Nessuna pubblicazione su Aruba.
+
+Corretti risorse e routing mancanti, protezione dei sorgenti PHP, varianti dashboard, lingua del documento e rate limit. Il precedente contatore con riduzione artificiale dei posti e stato sostituito con disponibilita reale. Le sezioni successive descrivono anche fasi storiche e non costituiscono una certificazione dello stato live.
+
 
 ## Obiettivo
 
