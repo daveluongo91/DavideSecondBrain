@@ -1,5 +1,9 @@
 # Log
 
+## [2026-09-03] website | Preparazione sincronizzazione GitHub
+
+- Caricati e verificati su GitHub: SitoDave-Release main `2d35b5875ec6b936eba6451885c303bac52feac3`; DavideSecondBrain main `875d89a59b3187a51c67cd7e339738b6c3461663`. Documentazione in [Ricostruzione sito web](projects/website-rebuild.md). La copia pubblica del Second Brain parte dal remoto per non esporre lo storico locale con dettagli sui dischi e attività estranee. Fonti storiche Lapponia, credenziali e file privati esclusi. Nessuna modifica alla pubblicazione programmata. Il branch locale conserva lo storico non pubblicato: non forzare il push per riallinearlo al remoto.
+
 ## [2026-09-03] layout | Apertura Lapponia come Friuli
 
 - Rimossa la barra superiore della pagina Lapponia IT/EN su richiesta di Davide: apertura direttamente sulla foto come Friuli. Cambio lingua spostato nel footer; contenuti, form e pianificazione invariati.

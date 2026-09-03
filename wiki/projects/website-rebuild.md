@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-09-02
+updated: 2026-09-03
 summary: Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente.
 tags:
   - website
@@ -15,6 +15,8 @@ tags:
 ## Stato corrente: audit del 2 settembre 2026
 
 ### Integrazione Lapponia 2027
+
+Aggiornamento del 3 settembre: corretti i percorsi della card, delle immagini e degli script per funzionare anche aprendo la home da file locale. Collegamenti espliciti a index.html, versione inglese inclusa. Rimossa la fascia superiore come richiesto, con cambio lingua nel footer. Superati 24 test di routing e protezione delle risorse, oltre ai 14 controlli del modulo con trasporto simulato. La sincronizzazione GitHub riguarda il codice e la documentazione, non una pubblicazione su Aruba. Nessuna modifica alla programmazione del rilascio.
 
 Integrata nella copia ottimizzata una pagina autonoma in `Lapponia_2027/`, con variante inglese, foto estratte dalla fonte e card collegata nelle home IT/EN. Davide ha confermato 13–17 gennaio 2027 e quota di 1.880 euro. Il PDF precedente contiene date e prezzo diversi: conservato tra le fonti locali protette, non offerto come download. La pagina non raccoglie pagamenti o documenti.
 
