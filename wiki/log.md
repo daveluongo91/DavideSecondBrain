@@ -1142,3 +1142,9 @@ Registro cronologico append-only delle modifiche principali.
 
 - Preparati per revisione due testi di risposta, distinguendo il coordinamento di una data dalla richiesta di un aggiornamento sulla valutazione.
 - Nessun messaggio inviato e nessuna modifica al tracker Excel. Testi e dettagli delle conversazioni restano fuori dal repository.
+
+## [2026-09-03] audit | Verifica divergenza Git del Second Brain
+
+- Verificato in sola lettura il remoto main: `875d89a59b3187a51c67cd7e339738b6c3461663`. Prima di questa nota, il ramo locale aveva 32 commit esclusivi e il remoto uno.
+- Confermata la separazione intenzionale documentata nel commit `02ec0fc`: la versione pubblicata esclude lo storico locale non destinato alla diffusione. La pagina del sito coincide; l'indice remoto ha la descrizione aggiornata.
+- Nessun merge, rebase, push o modifica alla variazione Instagram preesistente. Eventuale pubblicazione della sola nota operativa Islanda da autorizzare separatamente, partendo dalla versione remota e senza esportare lo storico locale.
