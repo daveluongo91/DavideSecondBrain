@@ -14,6 +14,12 @@ tags:
 
 ## Stato corrente: audit del 2 settembre 2026
 
+### Integrazione Lapponia 2027
+
+Integrata nella copia ottimizzata una pagina autonoma in `Lapponia_2027/`, con variante inglese, foto estratte dalla fonte e card collegata nelle home IT/EN. Davide ha confermato 13–17 gennaio 2027 e quota di 1.880 euro. Il PDF precedente contiene date e prezzo diversi: conservato tra le fonti locali protette, non offerto come download. La pagina non raccoglie pagamenti o documenti.
+
+Il modulo informazioni usa un endpoint PHP con destinatari predefiniti, consenso, validazione e limite agli invii. Superati 14 controlli locali con trasporto email simulato; verificati nel browser invio simulato ed errore con conservazione del messaggio. La ricezione reale su Aruba non è stata testata e richiede configurazione SMTP. Il contatto del tour operator resta quello della pagina fonte, non ancora riconfermato da Davide. Nessuna modifica alla pianificazione o al sito online.
+
 ### Decisione successiva: gestione locale e backend separato
 
 L'utente considera il backend attualmente non funzionante e rinvia il suo sviluppo a una nuova chat mirata, che aprirà personalmente. Per questa fase si conserva la versione locale: modifiche e verifica in locale, poi pubblicazione della versione approvata. Il backend non va eliminato né riscritto in questa attività. Il suo completamento non è più un prerequisito del rilascio del frontend, purché siano individuate e risolte o escluse in modo esplicito le dipendenze pubbliche da FastAPI. Pagamenti, form e disponibilità delle landing PHP restano da verificare e preservare; non sono equivalenti al pannello amministrativo. Nessun publish o pianificazione eseguito. Le valutazioni seguenti riportano l'audit precedente a questa riduzione del perimetro.
