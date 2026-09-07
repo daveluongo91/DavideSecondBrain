@@ -995,3 +995,7 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-09-07] content | Reel John Wick e test Instagram
 
 - Integrata nella [Pipeline contenuti](workflows/content-pipeline.md) la scheda del reel IMG_3442: analisi visiva, revisione proposta della copertina, caption e valutazione Trial Reel a 48–72 ore. Audio non verificato; contenuto non pubblicato e risultati da raccogliere. Nessuna nuova pagina duplicata.
+
+## [2026-09-07] content | Revisione caption total black
+
+- Sostituita la prima caption nella [Pipeline contenuti](workflows/content-pipeline.md), rifiutata da Davide. Fulcro confermato: sprecare il total black, ironia su John Wick / Baba Jaga senza riferimenti violenti o ritorni forzati alla fotografia. Nuova caption ancora proposta, non approvata né pubblicata su Instagram.

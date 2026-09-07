@@ -59,15 +59,14 @@ Asset esaminati: `IMG_3442.MP4` (6,63 secondi, verticale 1440×2560, 30 fps) e `
 
 La sequenza apre sull'oggetto e sul pavimento, poi intorno al quarto secondo rivela Davide allo specchio in completo nero. La copertina riporta “TI INSEGNO A SPRECARE UN COMPLETO TOTAL BLACK” e “JOHN WICK”, in rosa su fondo mosso. La gag funziona come incursione personale; non dimostra il metodo fotografico e non deve portare a una CTA commerciale forzata. Il riferimento a John Wick può attrarre un pubblico interessato al cinema più che alla fotografia: è un'ipotesi da misurare, non un motivo per eliminare gli interessi personali dal profilo.
 
-Proposte di montaggio, non applicate: anticipare il reveal allo specchio e rendere leggibile il contesto ironico già all'apertura. Per la cover usare un fotogramma riconoscibile di Davide in nero e accorciare il testo in “John Wick, più o meno.”. Il testo attuale richiede più lettura e il fondo non identifica il protagonista. Verificare la resa del ritaglio nella griglia prima di pubblicare. La cover resta distinta dall'hook dentro il video.
+Revisione richiesta da Davide: mantenere il fulcro “ti mostro come sprecare un total black”. Il riferimento a John Wick / Baba Jaga serve alla gag sullo stile; ironia piena, senza riferimenti violenti e senza ricondurre forzatamente la battuta alla fotografia. Superata la proposta di sostituire l'hook della cover con “John Wick, più o meno.”. L'asset originale non è stato modificato.
 
-Caption proposta, valida per prova e successivo feed:
+Caption rivista, proposta da approvare, valida per prova e successivo feed:
 
-> Mi metto un completo nero una volta e penso subito di essere John Wick.
+> John Wick ha dato un senso al total black.
+> Io gliel’ho tolto.
 >
-> Poi mi rivedo nel video. Meglio continuare con le fotografie.
->
-> La somiglianza almeno nel completo c'è, dai.
+> Baba Jaga non approva.
 
 Nessuna CTA commerciale; la chiusura lascia spazio alla battuta nei commenti. Non aggiungere hashtag fotografici estranei alla scena o una richiesta artificiale di salvataggio.
 
