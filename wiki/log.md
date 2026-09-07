@@ -1148,3 +1148,7 @@ Registro cronologico append-only delle modifiche principali.
 - Verificato in sola lettura il remoto main: `875d89a59b3187a51c67cd7e339738b6c3461663`. Prima di questa nota, il ramo locale aveva 32 commit esclusivi e il remoto uno.
 - Confermata la separazione intenzionale documentata nel commit `02ec0fc`: la versione pubblicata esclude lo storico locale non destinato alla diffusione. La pagina del sito coincide; l'indice remoto ha la descrizione aggiornata.
 - Nessun merge, rebase, push o modifica alla variazione Instagram preesistente. Eventuale pubblicazione della sola nota operativa Islanda da autorizzare separatamente, partendo dalla versione remota e senza esportare lo storico locale.
+
+## [2026-09-07] content | Reel John Wick e test Instagram
+
+- Integrata nella [Pipeline contenuti](workflows/content-pipeline.md) la scheda del reel IMG_3442: analisi visiva, revisione proposta della copertina, caption e valutazione Trial Reel a 48–72 ore. Audio non verificato; contenuto non pubblicato e risultati da raccogliere. Nessuna nuova pagina duplicata.
