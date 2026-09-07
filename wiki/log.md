@@ -991,3 +991,7 @@ Registro cronologico append-only delle modifiche principali.
 
 - Preparati per revisione due testi di risposta, distinguendo il coordinamento di una data dalla richiesta di un aggiornamento sulla valutazione.
 - Nessun messaggio inviato e nessuna modifica al tracker Excel. Testi e dettagli delle conversazioni restano fuori dal repository.
+
+## [2026-09-07] content | Reel John Wick e test Instagram
+
+- Integrata nella [Pipeline contenuti](workflows/content-pipeline.md) la scheda del reel IMG_3442: analisi visiva, revisione proposta della copertina, caption e valutazione Trial Reel a 48–72 ore. Audio non verificato; contenuto non pubblicato e risultati da raccogliere. Nessuna nuova pagina duplicata.
