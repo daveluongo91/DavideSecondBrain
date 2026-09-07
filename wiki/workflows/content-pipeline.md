@@ -67,6 +67,8 @@ Caption rivista, proposta da approvare, valida per prova e successivo feed:
 > Io gliel’ho tolto.
 >
 > Baba Jaga non approva.
+>
+> #johnwick #babayaga #totalblack #ironia #autoironia
 
 Nessuna CTA commerciale; la chiusura lascia spazio alla battuta nei commenti. Non aggiungere hashtag fotografici estranei alla scena o una richiesta artificiale di salvataggio.
 
