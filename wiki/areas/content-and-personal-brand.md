@@ -71,7 +71,7 @@ Caption dei tre Reel e del carosello preparate. Il video BF è materiale precede
 
 Carosello CLS: sette pagine adattate dalla raccolta Canva esistente, con fotografie grandi, meno decorazioni, testo e immagini separati. Mappa, Luna, setup e risultato forniti da Davide. Nessun valore Bortle numerico dedotto dalla mappa; nessun confronto con/senza filtro inventato. Il CLS non elimina la luce lunare.
 
-Progetto: https://www.canva.com/design/DAHUle_YWr8/edit. Stato: bozza in transazione, salvataggio definitivo da approvare dopo l’anteprima. Nessuna pubblicazione o modifica della programmazione Instagram eseguita. Prossima azione: approvare l’anteprima e salvare il progetto, quindi applicare le date proposte.
+Progetto: https://www.canva.com/design/DAHUle_YWr8/edit. Stato: anteprima approvata da Davide e progetto salvato in Canva l’8 settembre 2026. Nessuna pubblicazione o modifica della programmazione Instagram eseguita. Prossima azione: applicare le date proposte alla programmazione Instagram.
 
 Tag ufficiale verificato: [@astronomikfilters](https://www.instagram.com/astronomikfilters/), collegato dal [sito Astronomik](https://www.astronomik.com/en/blog/astronomik-auf-instagram). Fonti tecniche: [CLS fotografico](https://www.astronomik.com/en/Light-Pollution/CLS/) e [NASA sull’airglow](https://www.nasa.gov/solar-system/why-nasa-watches-airglow-the-colors-of-the-upper-atmospheric-wind/).
 

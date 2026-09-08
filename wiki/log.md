@@ -1,5 +1,11 @@
 # Log
 
+## [2026-09-08] content | Salvataggio carosello CLS approvato
+
+- Davide ha approvato l’anteprima. Transazione Canva confermata: progetto `DAHUle_YWr8` salvato, sette pagine. Piano e caption consegnati; nessuna pubblicazione o riprogrammazione Instagram eseguita.
+- Aggiornato lo stato in [Content e personal brand](areas/content-and-personal-brand.md).
+
+
 ## [2026-09-08] content | Piano Instagram e carosello CLS
 
 - Recuperati calendario programmato, script dei Reel e immagini del carosello. Proposte date distanziate dai richiami Friuli e Dardagna e preparate caption nel tono di Davide.
