@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-08] content | Piano Instagram e carosello CLS
+
+- Recuperati calendario programmato, script dei Reel e immagini del carosello. Proposte date distanziate dai richiami Friuli e Dardagna e preparate caption nel tono di Davide.
+- Adattato un progetto Canva di sette pagine con foto grandi; bozza in attesa di approvazione e salvataggio. Nessun contenuto pubblicato o riprogrammato.
+- Verificati CLS e tag ufficiale Astronomik. Stato e prossime azioni in [Content e personal brand](areas/content-and-personal-brand.md).
+
+
 ## [2026-09-03] website | Preparazione sincronizzazione GitHub
 
 - Caricati e verificati su GitHub: SitoDave-Release main `2d35b5875ec6b936eba6451885c303bac52feac3`; DavideSecondBrain main `875d89a59b3187a51c67cd7e339738b6c3461663`. Documentazione in [Ricostruzione sito web](projects/website-rebuild.md). La copia pubblica del Second Brain parte dal remoto per non esporre lo storico locale con dettagli sui dischi e attività estranee. Fonti storiche Lapponia, credenziali e file privati esclusi. Nessuna modifica alla pubblicazione programmata. Il branch locale conserva lo storico non pubblicato: non forzare il push per riallinearlo al remoto.
