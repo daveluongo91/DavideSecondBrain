@@ -2,7 +2,7 @@
 title: Content e personal brand
 type: area
 status: active
-updated: 2026-08-27
+updated: 2026-09-08
 summary: Strategia editoriale identitaria che collega scoperta, fiducia, esperienza e conversione.
 tags:
   - content
@@ -59,6 +59,21 @@ Il 27 agosto è stato avviato in Canva il progetto 4:5 `DAHTe5hl-LU`. Il sistema
 La raccolta contiene dieci domande e il format ricorrente “Confessioni di un fotografo”. Le domande non chiedono competenze tecniche per rispondere: partono da foto amate ma poco capite, rapporto tra fotografia e giornata vissuta, attrezzatura economica, immagini inseguite, pause, abitudini prese dai social e cambiamento dello sguardo. Ogni mini-carosello termina con una richiesta precisa: commento, racconto, tag o DM.
 
 Stato: cover e sviluppo del primo carosello sono stati convertiti in livelli Canva e salvati. La CTA e le copie generate non sono modificabili tramite il flusso automatico; la raccolta completa non è pronta. Nessun contenuto è stato pubblicato.
+
+
+## Piano Instagram di settembre 2026
+
+L’8 settembre Davide ha confermato il Reel John Wick/wedding, con caption già pronta. Dallo screenshot risultano programmati Dardagna il 9 e 25 settembre, Friuli il 17 settembre e 5 ottobre e il post sui 35 mm il 16 settembre.
+
+Proposta preparata: BF OnField il 12 settembre, post 35 mm anticipato al 14, TestObiettivi il 20, Airglow il 28 e carosello CLS il 1 ottobre. Richiamo finale Dardagna proposto per il 19 ottobre; il testo del post non ancora programmato non era disponibile. Il 5 ottobre sostituire «Manca una settimana» con «Questo weekend siamo in Friuli». Orario operativo proposto per i nuovi contenuti: 19:00 Europe/Rome, senza attribuirlo agli Insights.
+
+Caption dei tre Reel e del carosello preparate. Il video BF è materiale precedente al workshop del 5 settembre, non una sua ripresa. La caption airglow distingue fenomeno naturale e scelta personale di attenuarlo; quella sugli obiettivi evita diagnosi certe e promesse di sostituzione da un solo test.
+
+Carosello CLS: sette pagine adattate dalla raccolta Canva esistente, con fotografie grandi, meno decorazioni, testo e immagini separati. Mappa, Luna, setup e risultato forniti da Davide. Nessun valore Bortle numerico dedotto dalla mappa; nessun confronto con/senza filtro inventato. Il CLS non elimina la luce lunare.
+
+Progetto: https://www.canva.com/design/DAHUle_YWr8/edit. Stato: bozza in transazione, salvataggio definitivo da approvare dopo l’anteprima. Nessuna pubblicazione o modifica della programmazione Instagram eseguita. Prossima azione: approvare l’anteprima e salvare il progetto, quindi applicare le date proposte.
+
+Tag ufficiale verificato: [@astronomikfilters](https://www.instagram.com/astronomikfilters/), collegato dal [sito Astronomik](https://www.astronomik.com/en/blog/astronomik-auf-instagram). Fonti tecniche: [CLS fotografico](https://www.astronomik.com/en/Light-Pollution/CLS/) e [NASA sull’airglow](https://www.nasa.gov/solar-system/why-nasa-watches-airglow-the-colors-of-the-upper-atmospheric-wind/).
 
 ## Collegamenti
 

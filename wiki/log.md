@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-08] content | Piano Instagram e carosello CLS
+
+- Recuperati calendario programmato, script dei Reel e immagini del carosello. Proposte date distanziate dai richiami Friuli e Dardagna e preparate caption nel tono di Davide.
+- Adattato un progetto Canva di sette pagine con foto grandi; bozza in attesa di approvazione e salvataggio. Nessun contenuto pubblicato o riprogrammato.
+- Verificati CLS e tag ufficiale Astronomik. Stato e prossime azioni in [Content e personal brand](areas/content-and-personal-brand.md).
+
+
 ## [2026-09-03] website | Sincronizzazione sito e integrazione Lapponia
 
 - Aggiornata [Ricostruzione sito web](projects/website-rebuild.md) con stato della copia locale, integrazione Lapponia IT/EN, date 13–17 gennaio 2027 e quota di 1.880 euro.
