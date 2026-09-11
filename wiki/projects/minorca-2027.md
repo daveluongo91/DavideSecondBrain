@@ -1,11 +1,11 @@
 ---
 title: Minorca Photo Experience 2027
 type: project
-status: planned
-updated: 2026-08-19
-start: 2027-05-29
-end: 2027-06-03
-summary: Photo tour a Minorca previsto dal 29 maggio al 3 giugno 2027; durata commerciale e dettagli operativi da confermare.
+status: published
+updated: 2026-09-11
+start: 2027-06-01
+end: 2027-06-05
+summary: Photo tour a Minorca dall'1 al 5 giugno 2027, pubblicato sul sito con quota di 849 euro e prenotazione gestita da Atelier dei Viaggi.
 tags:
   - minorca
   - photo-tour
@@ -21,13 +21,14 @@ tags:
 
 Un viaggio fotografico tra i faraglioni e le scogliere incontaminate di Minorca, riserva della biosfera UNESCO e Starlight Reserve per l'osservazione del cielo notturno.
 
-## Stato & Pubblicazione sul Sito Web
+## Stato e pubblicazione sul sito
 
-- **Presentazione sul Sito**: Card "Anteprima 2027" presente nella griglia Workshop & Photo Tour in `index.html`.
-- **Date di lavoro**: 29 maggio-3 giugno 2027, come riportato nella dashboard progetti.
-- **Durata commerciale**: da confermare; la precedente indicazione “5 giorni / 4 notti” non coincide con l'intervallo registrato.
-- **CTA Attiva**: Modale di iscrizione alla lista d'attesa precompilato ("Interesse Minorca 2027").
-- **Co-host**: [Loris Ferrini](../people/loris-ferrini.md).
+- Landing italiana e inglese pubblicate l'11 settembre 2026.
+- Date definitive: 1-5 giugno 2027, cinque giorni e quattro notti.
+- Quota pubblicata: 849 euro a persona.
+- La prenotazione passa dal portale di Atelier dei Viaggi.
+- Il modulo informazioni permette di scrivere a Davide Luongo, Roberta di Atelier dei Viaggi o [Loris Ferrini](../people/loris-ferrini.md), in base al tipo di domanda.
+- La card in home usa una fotografia reale e apre la landing dedicata. La versione inglese contiene testi, metadata e consenso cookie coerenti con la lingua.
 
 ## Posizionamento Narrativo & Pilastri
 
@@ -35,11 +36,9 @@ Un viaggio fotografico tra i faraglioni e le scogliere incontaminate di Minorca,
 - Paesaggio costiero con faraglioni e fari storici (es. Cavalleria, Favàritx).
 - Astrofotografia di qualità con basso inquinamento luminoso marino.
 
-## Prossime Azioni
+## Verifiche del rilascio
 
-- Raccolta iscrizioni in lista d'attesa tramite il modulo del sito web.
-- Definizione date esatte, itinerario, alloggi e partnership operative.
-- Apertura ufficiale delle iscrizioni e lancio della landing page dedicata.
+Il rilascio ha incluso 39 file pubblici. Le 44 pagine del sito sono state controllate nel browser dopo la pubblicazione: nessuna risorsa mancante o risposta 404/500. La cache HiSpeed Aruba è stata svuotata e le pagine HTML rispondono senza cache, così i visitatori ricevono subito la versione aggiornata.
 
 ## Collegamenti
 
