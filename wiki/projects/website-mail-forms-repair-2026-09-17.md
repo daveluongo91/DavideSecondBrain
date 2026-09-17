@@ -3,6 +3,7 @@ title: Ripristino moduli email del sito
 type: project-log
 status: completed
 updated: 2026-09-17
+summary: Ripristino e collaudo SMTP dei moduli pubblici, comprese le scelte dei destinatari per Minorca e Lapponia.
 tags:
   - website
   - email
@@ -19,3 +20,9 @@ La configurazione SMTP privata è stata aggiornata senza inserirla nel repositor
 Il collaudo finale ha inviato richieste reali da tutti i 15 moduli o varianti pubbliche. Home, One-to-One IT/EN, Canfaito, Foreste Casentinesi, copie workshop, Dardagna, Friuli, Lapponia IT/EN e Minorca IT/EN hanno ricevuto risposta positiva dal server SMTP. La configurazione privata continua a rispondere con HTTP 403 dall'esterno.
 
 Il percorso sorgente verificato del sito è `L:\Sito_Dave_Opt`. La variante `L:\Sito\_Dave\_Opt` non esiste sul disco.
+
+## Verifica dei destinatari dei viaggi
+
+È stato eseguito anche un test mirato sui destinatari selezionabili nelle pagine Minorca e Lapponia, in italiano e inglese. Minorca indirizza correttamente le richieste a Davide, Atelier dei Viaggi o Loris; Lapponia permette di scegliere tra Davide e il tour operator. Gli invii reali sono stati accettati dal server SMTP per tutti i destinatari. Una prova duplicata sulla variante inglese di Minorca è stata fermata correttamente dal limite antispam dopo cinque richieste ravvicinate; lo stesso destinatario era già stato verificato tramite la pagina italiana.
+
+Le quattro pagine pubbliche espongono le opzioni previste. Gli endpoint accettano soltanto le chiavi dei destinatari definite sul server e rispondono con HTTP 400 quando viene fornito un destinatario arbitrario.
