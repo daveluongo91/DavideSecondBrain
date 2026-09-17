@@ -26,3 +26,7 @@ Il percorso sorgente verificato del sito è `L:\Sito_Dave_Opt`. La variante `L:\
 È stato eseguito anche un test mirato sui destinatari selezionabili nelle pagine Minorca e Lapponia, in italiano e inglese. Minorca indirizza correttamente le richieste a Davide, Atelier dei Viaggi o Loris; Lapponia permette di scegliere tra Davide e il tour operator. Gli invii reali sono stati accettati dal server SMTP per tutti i destinatari. Una prova duplicata sulla variante inglese di Minorca è stata fermata correttamente dal limite antispam dopo cinque richieste ravvicinate; lo stesso destinatario era già stato verificato tramite la pagina italiana.
 
 Le quattro pagine pubbliche espongono le opzioni previste. Gli endpoint accettano soltanto le chiavi dei destinatari definite sul server e rispondono con HTTP 400 quando viene fornito un destinatario arbitrario.
+
+## Verifica della pubblicazione
+
+Il controllo successivo del sito pubblico ha confrontato i file principali con `L:\Sito_Dave_Opt`: home italiana e inglese, JavaScript, CSS, Blog, Gear, One-to-One, Lapponia, Minorca, workshop, robots e sitemap corrispondono alla copia operativa. L'unica differenza binaria rilevata era dovuta alle terminazioni di riga trasformate dal server e non modificava il contenuto. Tutte le 32 URL presenti nella sitemap hanno risposto con HTTP 200; i file di configurazione e i dati privati controllati hanno risposto con HTTP 403. Non è stato necessario ripubblicare il sito.
