@@ -1,5 +1,13 @@
 # Log
 
+## [2026-09-25] website | Recensioni Google e controllo mensile
+
+- Corretto nelle home italiana e inglese il collegamento alle recensioni Google: `https://share.google/BAb4AYWCa66b4ixCN`.
+- Centralizzate sei recensioni in `data/reviews.json`, con caricamento dinamico e fallback HTML in caso di errore.
+- Attivato il controllo mensile del profilo pubblico, con selezione verificabile e senza contenuti inventati.
+- Pubblicati i cinque file interessati su Aruba con backup, svuotata HiSpeed Cache e verificati sito italiano, sito inglese e JSON pubblico.
+- GitHub `SitoDave-Release`: commit `69dcd00`. Dettagli in [Recensioni Google del sito e aggiornamento mensile](projects/website-google-reviews-automation-2026-09-25.md).
+
 ## [2026-09-08] content | Salvataggio carosello CLS approvato
 
 - Davide ha approvato l’anteprima. Transazione Canva confermata: progetto `DAHUle_YWr8` salvato, sette pagine. Piano e caption consegnati; nessuna pubblicazione o riprogrammazione Instagram eseguita.

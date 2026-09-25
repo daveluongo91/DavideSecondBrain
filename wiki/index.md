@@ -24,11 +24,15 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 ## Progetti
 
 - [Lancio YouTube](projects/youtube-launch.md) — Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica. _(active)_
-- [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca previsto dal 29 maggio al 3 giugno 2027; durata commerciale e dettagli operativi da confermare. _(planned)_
+- [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca dall'1 al 5 giugno 2027, pubblicato sul sito con quota di 849 euro e prenotazione gestita da Atelier dei Viaggi. _(published)_
 - [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet previsto per l'8 e 9 agosto 2026; periodo concluso, retrospettiva da registrare. _(archived)_
 - [Outreach Islanda 2026](projects/outreach-islanda-2026.md) — Tracking delle proposte hosted stay e autonoleggio per il viaggio fotografico in Islanda tra novembre e dicembre 2026. _(active)_
+- [Recensioni Google del sito e aggiornamento mensile](projects/website-google-reviews-automation-2026-09-25.md) — Link pubblico corretto, recensioni centralizzate in JSON e controllo mensile delle nuove recensioni Google. _(active)_
 - [Ricostruzione sito web](projects/website-rebuild.md) — Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente. _(active)_
+- [Ripristino moduli email del sito](projects/website-mail-forms-repair-2026-09-17.md) — Ripristino e collaudo SMTP dei moduli pubblici, comprese le scelte dei destinatari per Minorca e Lapponia. _(completed)_
 - [Second Brain](projects/second-brain.md) — Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM. _(active)_
+- [Website Full Mobile Production Pass 2026 09 07](projects/website-full-mobile-production-pass-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
+- [Website Production Cache Fix 2026 09 07](projects/website-production-cache-fix-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
 - [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave. _(active)_
 
 ## Attrezzatura
