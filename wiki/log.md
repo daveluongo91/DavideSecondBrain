@@ -1,5 +1,11 @@
 # Log
 
+## [2026-09-28] decisione / website | Lifecycle automatico dei workshop
+
+- Verificato che il cutoff esistente appartiene al backend locale, mentre le landing pubbliche usano PHP autonomo su Aruba.
+- Proposto un ciclo a due date: chiusura server-side di iscrizioni e PayPal alla data X; rimozione della card dagli elenchi alla data Y, conservando la landing come archivio o con redirect 301.
+- Il controllo deve usare il fuso `Europe/Rome`, funzionare a PC spento e fallire in modalità chiusa se la configurazione è invalida. Nessuna modifica applicata al sito.
+
 ## [2026-09-28] fix / website | Landing workshop allineate a Friuli e Dardagna
 
 - Rimossa la barra superiore dalle landing Conero e Foreste Casentinesi, sia IT sia EN: la pagina ora parte direttamente dalla hero come le versioni produttive di Friuli e Dardagna.

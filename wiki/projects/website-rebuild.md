@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-09-03
+updated: 2026-09-28
 summary: Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente.
 tags:
   - website
@@ -11,6 +11,14 @@ tags:
 ---
 
 # Ricostruzione sito web
+
+## Lifecycle automatico dei workshop
+
+Analisi del 28 settembre: il backend locale possiede già uno scheduler per il cutoff, ma le landing pubbliche attuali usano PHP autonomo su Aruba e non dipendono da quel processo. L'automazione va quindi applicata anche al livello pubblico.
+
+Il comportamento consigliato ha due date. Alla data X il server chiude le iscrizioni: gli endpoint rifiutano nuovi ordini PayPal e la pagina mostra “Iscrizioni chiuse”. Alla data Y la card scompare dalla home e dagli elenchi correnti; la landing non viene cancellata, ma resta come archivio oppure risponde con un redirect 301 verso la pagina workshop. In questo modo link già condivisi e segnali SEO non finiscono in errore.
+
+Le date devono stare in una configurazione unica, con fuso `Europe/Rome`, letta sia dalle API PHP sia dalla home. Il controllo decisivo resta server-side e funziona anche con il computer locale spento. Un cron Aruba può aggiornare sitemap o file statici, ma non deve essere l'unica protezione contro ordini oltre la scadenza. Stato: proposta tecnica, non ancora implementata.
 
 ## Stato corrente: audit del 2 settembre 2026
 
