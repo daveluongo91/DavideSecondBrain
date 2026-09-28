@@ -2,8 +2,8 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-08-19
-summary: Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave.
+updated: 2026-09-28
+summary: Landing Conero e Foreste Casentinesi online con fotografie reali, API locali, PayPal live e moduli email collaudati.
 tags:
   - workshops
   - website
@@ -15,31 +15,30 @@ tags:
 
 ## Obiettivo
 
-Preparare due pagine autonome, con la stessa struttura tecnica di Friuli e Dardagna, per gli ultimi appuntamenti del calendario 2026:
+Pubblicare due pagine autonome, con la stessa struttura tecnica di Friuli e Dardagna, per gli ultimi appuntamenti del calendario 2026:
 
-- Canfaito & Conero, 7-8 novembre 2026;
+- Riviera del Conero, 7-8 novembre 2026;
 - Foreste Casentinesi, 28-29 novembre 2026.
 
 ## Stato
 
-Le pagine sono pronte in locale nelle cartelle `L:\Canfaito_Conero_Prod` e `L:\Foreste_Casentinesi_Prod`. Una copia di entrambe è versionata in `Sito_Dave/standalone_pages/`.
+Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026/`, con versioni inglesi, fotografie reali e card attive nelle due home. Le copie sotto `workshops_2026/` restano fuori dall'indice e puntano alle canoniche.
 
-Il backend contiene i due workshop con 8 posti ciascuno, quota di lavoro €350, caparra €50, saldo €300, cutoff alla mezzanotte locale che precede il primo giorno e marker email distinti. Le fotografie definitive non sono ancora disponibili: la hero e le tre schede fotografiche di ogni pagina usano segnaposto nominati in modo esplicito.
+Ogni pagina usa la propria API per posti, richieste email e PayPal. Il 28 settembre 2026 i loader PayPal live, la disponibilità e la validazione server sono risultati operativi. Due email reali di collaudo, una per pagina, sono state accettate dal server e indirizzate a `info@davideluongo.it`. Il test non ha creato né addebitato pagamenti.
+
+SEO aggiornata con title e description specifici, canonical, hreflang IT/EN, Open Graph, Twitter Card, dati strutturati `EducationEvent` e sitemap. Cache Aruba HiSpeed svuotata dopo il rilascio.
 
 ## Risultato osservabile
 
 - Due landing statiche complete di modale di pagamento, PayPal Pay Later, richiesta informazioni, avvisi a 2/1 posti, cookie consent e pagina di ringraziamento.
 - Backend condiviso per posti, ordini, cattura pagamento, email e report cutoff.
-- 21 test backend superati il 19 agosto 2026.
-- Nessuna pubblicazione live dichiarata per le due nuove pagine.
+- API live raggiungibili e configurazioni private protette.
+- Commit sito locale `531e78b`; release GitHub `0a98c8d`.
 
 ## Prossime azioni
 
-1. Sostituire tutti i file `placeholder-*.svg` con le fotografie approvate.
-2. Confermare quota, punti di ritrovo, difficoltà dei percorsi e programma definitivo.
-3. Verificare il rendering desktop/mobile e completare un pagamento sandbox con account buyer.
-4. Provare email informazioni, conferma pagamento e avvisi disponibilità con SMTP di test.
-5. Pubblicare nei percorsi `/Canfaito_Conero_2026/` e `/Foreste_Casentinesi_2026/` soltanto dopo il controllo finale.
+1. Verificare la prima prenotazione reale ricevuta da ciascuna landing.
+2. Controllare periodicamente posti disponibili, consegna email e log PayPal.
 
 ## Dipendenze
 
@@ -58,18 +57,18 @@ Il backend contiene i due workshop con 8 posti ciascuno, quota di lavoro €350,
 - Le cartelle esterne `*_Prod` restano utilizzabili come pacchetti autonomi.
 - Le copie nel repository servono a tracciare il codice delle due nuove pagine.
 - L'opzione aggiuntiva “dal venerdì” resta esclusiva del Friuli.
-- Le email informative riportano `[CANFAITO & CONERO 2026]` oppure `[FORESTE CASENTINESI 2026]` per rendere immediata la provenienza.
+- Le email informative riportano `[CONERO 2026]` oppure `[FORESTE CASENTINESI 2026]` per rendere immediata la provenienza.
 
 ## Materiali
 
 - Calendario Workshop 2026 condiviso il 19 agosto 2026.
-- `L:\Canfaito_Conero_Prod`
-- `L:\Foreste_Casentinesi_Prod`
+- `L:\Sito_Dave_Opt\Conero_2026`
+- `L:\Sito_Dave_Opt\Foreste_Casentinesi_2026`
 - `Sito_Dave/standalone_pages/`
 
 ## Revisione
 
-Rivedere la pagina appena arrivano le fotografie o prima della pubblicazione live, a seconda di quale evento avviene prima.
+Rivedere la pagina dopo la prima prenotazione reale o in caso di variazioni operative.
 
 ## Collegamenti
 

@@ -33,7 +33,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Second Brain](projects/second-brain.md) — Costruzione di una wiki persistente su GitHub mantenuta con agenti LLM. _(active)_
 - [Website Full Mobile Production Pass 2026 09 07](projects/website-full-mobile-production-pass-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
 - [Website Production Cache Fix 2026 09 07](projects/website-production-cache-fix-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
-- [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave. _(active)_
+- [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Landing Conero e Foreste Casentinesi online con fotografie reali, API locali, PayPal live e moduli email collaudati. _(active)_
 
 ## Attrezzatura
 

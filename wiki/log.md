@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-28] release / website | Conero e Foreste Casentinesi online
+
+- Pubblicate le landing canoniche Conero e Foreste Casentinesi, le versioni inglesi, le card home, gli asset reali e la sitemap; svuotata la cache Aruba HiSpeed.
+- Corretto il routing API locale, aggiunte configurazioni private protette e verificati disponibilità posti e loader PayPal live. Nessun pagamento reale creato o addebitato.
+- Inviate due email reali di collaudo a `info@davideluongo.it`: entrambe accettate con HTTP 200 e `status: ok`.
+- Commit sito locale `531e78b`; release GitHub `0a98c8d`.
+
 ## [2026-09-25] website | Recensioni Google e controllo mensile
 
 - Corretto nelle home italiana e inglese il collegamento alle recensioni Google: `https://share.google/BAb4AYWCa66b4ixCN`.
