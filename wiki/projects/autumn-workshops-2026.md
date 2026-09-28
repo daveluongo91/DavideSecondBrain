@@ -25,7 +25,8 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
 ### Pubblicazione e collaudo live
 
 - Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026/`; le copie sotto `workshops_2026/` restano fuori dall'indice e puntano alle canoniche.
-- Le card IT e EN della home non sono più `coming soon`: aprono le pagine corrette e mostrano le fotografie reali.
+- Le card IT e EN della home non sono più `coming soon`: sono interamente cliccabili, aprono le pagine corrette in una nuova scheda e mostrano le fotografie reali.
+- Le landing Conero e Foreste, IT e EN, partono direttamente dalla hero come Friuli e Dardagna: rimossa la barra di navigazione superiore. Eliminata anche la sezione aggiuntiva “Scatti sul campo”, assente nelle altre landing produttive.
 - API locali separate per ciascun workshop. Corretto il routing di disponibilità posti e predisposte configurazioni private protette per SMTP e PayPal.
 - Loader PayPal verificati sull'ambiente live, entrambi collegati all'SDK di produzione. Testata la validazione degli ordini con richieste non valide, senza creare o addebitare pagamenti.
 - Inviate due email reali di collaudo a `info@davideluongo.it`, una dal modulo Conero e una dal modulo Foreste. Entrambe accettate dal server con HTTP 200 e risposta `status: ok`.
@@ -38,7 +39,7 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
     - *La Vela* (682x1024, Verticale 2:3)
     - *Le Due Sorelle* (1024x682, Orizzontale 3:2)
     - *La Seggiola del Papa* (1024x682, Orizzontale 3:2)
-  - Aggiunta sezione galleria "Scatti sul Campo" con visualizzazione non tagliata al 100%.
+  - Le fotografie restano nelle schede dell'itinerario; la galleria aggiuntiva è stata rimossa per uniformità con Friuli e Dardagna.
   - Specificata nota logistica sul cammino di 45 minuti per i faraglioni delle Due Sorelle.
 
 - **Foreste Casentinesi 2026**:
@@ -49,7 +50,7 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
     - *Tronco monumentale con muschio* (682x1024, Verticale 2:3) - Sottobosco
     - *Cascata dell'Acquacheta a balze* (682x1024, Verticale 2:3) - Salti d'acqua
     - *Faggeta mistica con bruma azzurra* (1024x682, Orizzontale 3:2) - Atmosfera
-  - Creata galleria visiva completa a 5 fotografie responsive.
+  - Le fotografie restano nelle schede dell'itinerario; la galleria aggiuntiva è stata rimossa per uniformità con Friuli e Dardagna.
 
 - **Home Page & Backend**:
   - Caroselli in `index.html` e `en/index.html` completamente attivi con collegamenti diretti e foto reali.
