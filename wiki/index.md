@@ -34,7 +34,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Website Full Mobile Production Pass 2026 09 07](projects/website-full-mobile-production-pass-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
 - [Website Mobile Pass 2026 09 07](projects/website-mobile-pass-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
 - [Website Production Cache Fix 2026 09 07](projects/website-production-cache-fix-2026-09-07.md) — Nessun riassunto disponibile. _(unknown)_
-- [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave. _(active)_
+- [Workshop autunnali 2026](projects/autumn-workshops-2026.md) — Due landing autonome per Riviera del Conero 2026 e Foreste Casentinesi 2026 con fotografie reali a proporzioni native, collegate al backend condiviso di SitoDave. _(active)_
 
 ## Attrezzatura
 

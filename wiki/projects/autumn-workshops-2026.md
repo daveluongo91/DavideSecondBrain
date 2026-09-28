@@ -22,6 +22,16 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
 
 ## Stato Attuale (28 Settembre 2026)
 
+### Pubblicazione e collaudo live
+
+- Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026/`; le copie sotto `workshops_2026/` restano fuori dall'indice e puntano alle canoniche.
+- Le card IT e EN della home non sono più `coming soon`: aprono le pagine corrette e mostrano le fotografie reali.
+- API locali separate per ciascun workshop. Corretto il routing di disponibilità posti e predisposte configurazioni private protette per SMTP e PayPal.
+- Loader PayPal verificati sull'ambiente live, entrambi collegati all'SDK di produzione. Testata la validazione degli ordini con richieste non valide, senza creare o addebitare pagamenti.
+- Inviate due email reali di collaudo a `info@davideluongo.it`, una dal modulo Conero e una dal modulo Foreste. Entrambe accettate dal server con HTTP 200 e risposta `status: ok`.
+- SEO aggiornata: title e description specifici, canonical, hreflang IT/EN, Open Graph, Twitter Card, dati strutturati `EducationEvent` e sitemap.
+- Cache Aruba HiSpeed svuotata dopo il rilascio. Commit locale sito: `531e78b`; release GitHub: `0a98c8d`.
+
 - **Riviera del Conero 2026**:
   - Landing autonoma attiva in `Conero_2026/` e `workshops_2026/conero-2026.html` (e versione EN).
   - Integrate 3 fotografie reali fornite da Davide nel loro aspect ratio nativo:
@@ -44,6 +54,10 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
 - **Home Page & Backend**:
   - Caroselli in `index.html` e `en/index.html` completamente attivi con collegamenti diretti e foto reali.
   - Test di regressione backend: **58/58 test superati**.
+
+## Prossimo risultato osservabile
+
+Ricevere e verificare una prenotazione reale per ciascuna landing. Il collaudo non ha effettuato transazioni economiche.
 
 ## Collegamenti
 
