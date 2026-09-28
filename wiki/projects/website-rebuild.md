@@ -20,6 +20,12 @@ Il comportamento consigliato ha due date. Alla data X il server chiude le iscriz
 
 Le date devono stare in una configurazione unica, con fuso `Europe/Rome`, letta sia dalle API PHP sia dalla home. Il controllo decisivo resta server-side e funziona anche con il computer locale spento. Un cron Aruba può aggiornare sitemap o file statici, ma non deve essere l'unica protezione contro ordini oltre la scadenza. Stato: proposta tecnica, non ancora implementata.
 
+### Friuli 2026
+
+Implementato nel sorgente `L:\Sito_Dave_Opt` il ciclo richiesto per il solo Friuli. Dal 5 ottobre 2026 alle 00:00, ora italiana, la hero mostra “Sold Out”, i pulsanti di prenotazione vengono disattivati e l'endpoint PHP impedisce la creazione di nuovi ordini PayPal. Gli ordini già creati possono ancora completare la cattura, evitando pagamenti sospesi. Dal 15 ottobre 2026 alle 00:00 la card viene rimossa dalle home IT/EN e le landing riportano alla sezione workshop. I sorgenti restano recuperabili localmente e su GitHub. Commit sito `95121d2`.
+
+La pubblicazione Aruba non è stata eseguita: il file locale con le credenziali FTP atteso dallo strumento di rilascio non è presente. Il tentativo si è fermato prima della connessione, quindi nessun file remoto e nessuna cache sono stati modificati.
+
 ## Stato corrente: audit del 2 settembre 2026
 
 ### Integrazione Lapponia 2027

@@ -1,5 +1,11 @@
 # Log
 
+## [2026-09-28] website | Lifecycle Friuli programmato nel sorgente
+
+- Dal 5 ottobre 2026 alle 00:00 la landing Friuli mostra “Sold Out” sulla hero, disattiva la prenotazione e blocca server-side la creazione di nuovi ordini PayPal.
+- Dal 15 ottobre 2026 alle 00:00 la card Friuli viene rimossa dalle home IT/EN e le landing rimandano alla sezione workshop; i sorgenti restano conservati localmente e su GitHub.
+- Commit sito `95121d2`. Pubblicazione Aruba non eseguita perché manca il file locale con le credenziali FTP; il tentativo è terminato prima della connessione e non ha modificato il sito live.
+
 ## [2026-09-28] decisione / website | Lifecycle automatico dei workshop
 
 - Verificato che il cutoff esistente appartiene al backend locale, mentre le landing pubbliche usano PHP autonomo su Aruba.
