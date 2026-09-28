@@ -22,7 +22,7 @@ Pubblicare due pagine autonome, con la stessa struttura tecnica di Friuli e Dard
 
 ## Stato
 
-Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026/`, con versioni inglesi, fotografie reali e card attive nelle due home. Le copie sotto `workshops_2026/` restano fuori dall'indice e puntano alle canoniche.
+Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026/`, con versioni inglesi, fotografie reali e card attive nelle due home. Le copie sotto `workshops_2026/` restano fuori dall'indice e puntano alle canoniche. Le pagine partono direttamente dalla hero come Friuli e Dardagna: non hanno la barra superiore né la sezione aggiuntiva “Scatti sul campo”. Le card workshop della home sono interamente cliccabili e aprono una nuova scheda.
 
 Ogni pagina usa la propria API per posti, richieste email e PayPal. Il 28 settembre 2026 i loader PayPal live, la disponibilità e la validazione server sono risultati operativi. Due email reali di collaudo, una per pagina, sono state accettate dal server e indirizzate a `info@davideluongo.it`. Il test non ha creato né addebitato pagamenti.
 

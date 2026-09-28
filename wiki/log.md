@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-28] fix / website | Landing workshop allineate a Friuli e Dardagna
+
+- Rimossa la barra superiore dalle landing Conero e Foreste Casentinesi, sia IT sia EN: la pagina ora parte direttamente dalla hero come le versioni produttive di Friuli e Dardagna.
+- Eliminata la sezione aggiuntiva “Scatti sul campo” da entrambe le landing e dalle copie di compatibilità.
+- Le quattro card workshop della home IT/EN sono interamente cliccabili e aprono la destinazione in una nuova scheda, senza cambiare il comportamento dei pulsanti interni.
+- Pubblicazione verificata con HTTP 200 e cache Aruba HiSpeed svuotata. Commit sito locale `aa77fd3`; release GitHub `2658ab5`.
+
 ## [2026-09-28] release / website | Conero e Foreste Casentinesi online
 
 - Pubblicate le landing canoniche Conero e Foreste Casentinesi, le versioni inglesi, le card home, gli asset reali e la sitemap; svuotata la cache Aruba HiSpeed.
