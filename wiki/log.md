@@ -1,5 +1,22 @@
 # Log
 
+## [2026-09-28] website | Foto Reali Conero 2026, Foreste Casentinesi 2026 & URL Conero_2026
+
+- **Riviera del Conero 2026**:
+  - Riconfigurata la pagina eliminando Canfaito e concentrando il programma sui 3 spot costieri: Scoglio della Vela (Portonovo), I Faraglioni delle Due Sorelle (con avviso esplicito di 45 min di cammino a piedi), La Seggiola del Papa (Passetto).
+  - Rinominate cartelle e URL in `/Conero_2026/` e `workshops_2026/conero-2026.html` (IT ed EN) con alias e retrocompatibilità per il vecchio mount `/Canfaito_Conero_2026/`.
+  - Elaborate e inserite le 3 fotografie reali fornite da Davide nei formati WebP e JPEG ad alta qualità, preservando fedelmente gli aspect ratio nativi (La Vela in verticale 2:3, Due Sorelle e Seggiola del Papa in orizzontale 3:2).
+  - Aggiunta sezione galleria visuale "Scatti sul Campo" con visualizzazione al 100% senza ritagli.
+- **Foreste Casentinesi 2026**:
+  - Elaborate e inserite le 5 fotografie reali fornite da Davide (Sentiero nella nebbia, Cascata nel bosco, Tronco monumentale con muschio, Cascata Acquacheta, Faggeta mistica).
+  - Creata la galleria fotografica a 5 scatti con supporto nativo per foto orizzontali 3:2 e verticali 2:3.
+  - Aggiornate le schede dell'itinerario e la hero background.
+- **Home Page & Dati**:
+  - Aggiornati i caroselli in `index.html` e `en/index.html` con immagini reali e collegamenti diretti attivi.
+  - Aggiornato `data/content.json` per tutti i workshop autunnali 2026.
+- **Test & Qualità**:
+  - Eseguiti 58/58 test pytest superati con successo (`58 passed, 0 failed`).
+
 ## [2026-09-25] website | Recensioni Google e controllo mensile
 
 - Corretto nelle home italiana e inglese il collegamento alle recensioni Google: `https://share.google/BAb4AYWCa66b4ixCN`.

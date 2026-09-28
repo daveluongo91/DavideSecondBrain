@@ -2,8 +2,8 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-08-19
-summary: Due landing autonome per Canfaito & Conero e Foreste Casentinesi, collegate al backend condiviso di SitoDave.
+updated: 2026-09-28
+summary: Due landing autonome per Riviera del Conero 2026 e Foreste Casentinesi 2026 con fotografie reali a proporzioni native, collegate al backend condiviso di SitoDave.
 tags:
   - workshops
   - website
@@ -15,64 +15,38 @@ tags:
 
 ## Obiettivo
 
-Preparare due pagine autonome, con la stessa struttura tecnica di Friuli e Dardagna, per gli ultimi appuntamenti del calendario 2026:
+Completare e rifinire le due landing page autonome per gli appuntamenti autunnali 2026, collegate all'infrastruttura backend e dotate di materiale fotografico reale ad alto impatto:
 
-- Canfaito & Conero, 7-8 novembre 2026;
-- Foreste Casentinesi, 28-29 novembre 2026.
+- **Riviera del Conero 2026** (7–8 novembre 2026): focus esclusivo sulla costa del Conero (La Vela, Le Due Sorelle con sentiero panoramico di 45 min a piedi, La Seggiola del Papa al Passetto).
+- **Foreste Casentinesi 2026** (28–29 novembre 2026): boschi maturi, sentiero nella nebbia, foliage, cascate e dettagli del sottobosco primordiale.
 
-## Stato
+## Stato Attuale (28 Settembre 2026)
 
-Le pagine sono pronte in locale nelle cartelle `L:\Canfaito_Conero_Prod` e `L:\Foreste_Casentinesi_Prod`. Una copia di entrambe è versionata in `Sito_Dave/standalone_pages/`.
+- **Riviera del Conero 2026**:
+  - Landing autonoma attiva in `Conero_2026/` e `workshops_2026/conero-2026.html` (e versione EN).
+  - Integrate 3 fotografie reali fornite da Davide nel loro aspect ratio nativo:
+    - *La Vela* (682x1024, Verticale 2:3)
+    - *Le Due Sorelle* (1024x682, Orizzontale 3:2)
+    - *La Seggiola del Papa* (1024x682, Orizzontale 3:2)
+  - Aggiunta sezione galleria "Scatti sul Campo" con visualizzazione non tagliata al 100%.
+  - Specificata nota logistica sul cammino di 45 minuti per i faraglioni delle Due Sorelle.
 
-Il backend contiene i due workshop con 8 posti ciascuno, quota di lavoro €350, caparra €50, saldo €300, cutoff alla mezzanotte locale che precede il primo giorno e marker email distinti. Le fotografie definitive non sono ancora disponibili: la hero e le tre schede fotografiche di ogni pagina usano segnaposto nominati in modo esplicito.
+- **Foreste Casentinesi 2026**:
+  - Landing autonoma attiva in `Foreste_Casentinesi_2026/` e `workshops_2026/foreste-casentinesi-2026.html` (e versione EN).
+  - Integrate 5 fotografie reali a proporzioni native in WebP/JPG:
+    - *Sentiero nella nebbia tra i faggi* (1024x682, Orizzontale 3:2) - Hero & Boschi
+    - *Cascata nel bosco e foliage* (1024x682, Orizzontale 3:2) - Corsi d'acqua
+    - *Tronco monumentale con muschio* (682x1024, Verticale 2:3) - Sottobosco
+    - *Cascata dell'Acquacheta a balze* (682x1024, Verticale 2:3) - Salti d'acqua
+    - *Faggeta mistica con bruma azzurra* (1024x682, Orizzontale 3:2) - Atmosfera
+  - Creata galleria visiva completa a 5 fotografie responsive.
 
-## Risultato osservabile
-
-- Due landing statiche complete di modale di pagamento, PayPal Pay Later, richiesta informazioni, avvisi a 2/1 posti, cookie consent e pagina di ringraziamento.
-- Backend condiviso per posti, ordini, cattura pagamento, email e report cutoff.
-- 21 test backend superati il 19 agosto 2026.
-- Nessuna pubblicazione live dichiarata per le due nuove pagine.
-
-## Prossime azioni
-
-1. Sostituire tutti i file `placeholder-*.svg` con le fotografie approvate.
-2. Confermare quota, punti di ritrovo, difficoltà dei percorsi e programma definitivo.
-3. Verificare il rendering desktop/mobile e completare un pagamento sandbox con account buyer.
-4. Provare email informazioni, conferma pagamento e avvisi disponibilità con SMTP di test.
-5. Pubblicare nei percorsi `/Canfaito_Conero_2026/` e `/Foreste_Casentinesi_2026/` soltanto dopo il controllo finale.
-
-## Dipendenze
-
-- Repository `SitoDave` e backend FastAPI.
-- Credenziali PayPal sandbox/live e configurazione SMTP, non versionate.
-- Fotografie definitive e conferma delle informazioni operative.
-
-## Rischi
-
-- Considerare definitivi quota e programma prima della conferma di Davide e Manuel.
-- Confondere un test PayPal sandbox con un pagamento reale.
-- Pubblicare database, backup o credenziali insieme ai file statici.
-
-## Decisioni
-
-- Le cartelle esterne `*_Prod` restano utilizzabili come pacchetti autonomi.
-- Le copie nel repository servono a tracciare il codice delle due nuove pagine.
-- L'opzione aggiuntiva “dal venerdì” resta esclusiva del Friuli.
-- Le email informative riportano `[CANFAITO & CONERO 2026]` oppure `[FORESTE CASENTINESI 2026]` per rendere immediata la provenienza.
-
-## Materiali
-
-- Calendario Workshop 2026 condiviso il 19 agosto 2026.
-- `L:\Canfaito_Conero_Prod`
-- `L:\Foreste_Casentinesi_Prod`
-- `Sito_Dave/standalone_pages/`
-
-## Revisione
-
-Rivedere la pagina appena arrivano le fotografie o prima della pubblicazione live, a seconda di quale evento avviene prima.
+- **Home Page & Backend**:
+  - Caroselli in `index.html` e `en/index.html` completamente attivi con collegamenti diretti e foto reali.
+  - Test di regressione backend: **58/58 test superati**.
 
 ## Collegamenti
 
 - [Workshop e photo tour](../areas/workshops-and-photo-tours.md)
 - [Ricostruzione sito web](website-rebuild.md)
-- [Workflow di lancio workshop](../workflows/workshop-launch.md)
+- [Minorca Photo Experience 2027](minorca-2027.md)

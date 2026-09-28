@@ -2,7 +2,7 @@
 title: Strategia Instagram orientata alla conversione
 type: knowledge
 status: active
-updated: 2026-08-24
+updated: 2026-08-25
 summary: Strategia identitaria per trasformare attenzione e fiducia in richieste per workshop e viaggi.
 tags:
   - instagram
@@ -68,6 +68,12 @@ Ogni contenuto mantiene un solo obiettivo primario e una CTA coerente. Il ruolo 
 Proposta da validare: **“Il Metodo Dave — Come progetto una fotografia di paesaggio”**, con pianificazione, meteo, luce, focale, piano B, checklist e decisioni sul campo.
 
 Priorità di misura: click qualificati; iscrizioni newsletter; richieste; prenotazioni e ricavo per lead; ritorno, testimonianze e referral. Like e reach restano diagnostici. I target numerici proposti nel playbook sono ipotesi finché tracking e baseline non sono verificati.
+
+## Following e interessi personali
+
+La pulizia dei following non deve ridurre il profilo a una lista composta soltanto da fotografi. Amici, interessi personali e pagine fuori nicchia possono restare: il semplice follow non penalizza automaticamente la distribuzione dei contenuti pubblicati. Le interazioni con quei profili contribuiscono soprattutto a personalizzare ciò che Davide vede nel proprio feed e nelle raccomandazioni.
+
+La lista dei non-follow-back serve quindi per rivedere rapporti senza più motivo, account inattivi o residui di vecchie dinamiche follow-for-follow. Non è una regola automatica di unfollow. Per la distribuzione contano di più la risposta del pubblico ai singoli contenuti, la pertinenza percepita e l'idoneità alle raccomandazioni.
 
 ## Questioni da validare
 
