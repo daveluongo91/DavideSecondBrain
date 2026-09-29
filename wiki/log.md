@@ -1,5 +1,27 @@
 # Log
 
+## [2026-09-29] backend & admin | Bonifica backend, Riscrizione SiteManager ed Excel dedicati per Workshop
+
+- **Bonifica e Architettura Backend**:
+  - Eliminato il vecchio pannello legacy in favore della nuova interfaccia **`SiteManager`** (accessibile tramite `/SiteManager`, `/SiteManager/`, `/SiteManager.html`).
+  - Configurato redirect legacy 308 dalle vecchie rotte `/admin` e `/admin.html` a `/SiteManager/`.
+  - Aggiornato `robots.txt` per escludere l'indicizzazione dei percorsi SiteManager.
+- **Autenticazione & Sicurezza**:
+  - Super-admin username rigorosamente **case-sensitive**: `info@davideluongo.itAdmin`.
+  - Sistema di accesso sicuro tramite password e flusso **codice OTP a 6 cifre** con scadenza a 10 minuti inviato via email a `fangoman91@gmail.com`.
+  - Funzione di reset/impostazione password integrata tramite OTP.
+- **Gestione Partecipanti & File Excel (.xlsx) per Workshop Nazionali**:
+  - Generazione e sincronizzazione automatica dei file Excel dedicati esclusivamente ai 4 Workshop Nazionali (*Friuli 2026*, *Dardagna 2026*, *Conero 2026*, *Foreste Casentinesi 2026*). I viaggi fotografici esteri (*Lapponia*, *Minorca*) non generano fogli interni.
+  - Struttura Excel completa con stile Navy Dark, formattazione valuta, larghezza colonne automatica e formule protette per totali e incassi.
+  - Colonna dedicata per l'**Opzione Venerdì** (Toggle Sì/No dove previsto, NO per gli altri).
+  - Toggle in tempo reale dell'opzione Venerdì direttamente dalla tabella partecipanti con riallineamento immediato del file Excel.
+  - Download diretto a 1-click del file `.xlsx` aggiornato per ciascun workshop.
+  - Sincronizzazione automatica del file Excel ad ogni nuovo acquisto registrato via PayPal.
+- **Frontend SiteManager**:
+  - Creata interfaccia SPA moderna e reattiva in tema Glassmorphism Dark (`SiteManager/index.html`, `SiteManager/sitemanager.css`, `SiteManager/sitemanager.js`).
+- **Verifica & Test Suite**:
+  - Eseguiti 62/62 test pytest superati con successo (`62 passed, 0 failed`).
+
 ## [2026-09-28] fix / website | Landing workshop allineate a Friuli e Dardagna
 
 - Rimossa la barra superiore dalle landing Conero e Foreste Casentinesi, sia IT sia EN: la pagina ora parte direttamente dalla hero come le versioni produttive di Friuli e Dardagna.
