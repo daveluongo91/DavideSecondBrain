@@ -1,5 +1,11 @@
 # Log
 
+## [2026-09-30] review / backend | Blocco CORS SiteManager
+
+- Il blocco proposto coincide sostanzialmente con il middleware già presente nel `main.py` locale e il router SiteManager è già registrato.
+- CORS non risolve il disallineamento: `backend.run` resta configurato sulla porta 3000, mentre il frontend forza la 8000 quando non è già servito dalla 8000.
+- Non va sostituito il `main.py` completo con lo snippet minimale, perché si perderebbero lifespan, database, middleware di sicurezza, router e mount pubblici. Nessuna modifica applicata al sito.
+
 ## [2026-09-30] diagnosis / backend | SiteManager errore di rete
 
 - Verificato il disallineamento locale: FastAPI è configurato sulla porta 3000, mentre SiteManager forza l'API sulla 8000; nessun processo risultava in ascolto.
