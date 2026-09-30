@@ -12,6 +12,14 @@ tags:
 
 # Ricostruzione sito web
 
+## Diagnosi SiteManager del 30 settembre 2026
+
+L'errore di rete ha due cause distinte. In locale `backend.run` legge `APP_PORT=3000`, mentre lo script SiteManager forza `http://127.0.0.1:8000/api/sitemanager` quando la pagina è aperta da file o da una porta diversa da 8000. Nessun processo risultava in ascolto sulle porte 3000 o 8000. I quattro test mirati passano perché usano FastAPI direttamente in memoria e non verificano il collegamento browser-server.
+
+Sul dominio pubblico `https://www.davideluongo.it/SiteManager/`, `/api/health` e `/api/sitemanager/login` restituiscono HTTP 404. Aruba serve il sito statico/PHP, ma non il processo FastAPI: modificare CORS non crea l'API mancante. La soluzione locale è usare un solo endpoint same-origin, avviare FastAPI sulla porta scelta e aprire SiteManager attraverso quel server. Per la produzione serve un servizio persistente compatibile con ASGI e un reverse proxy `/api`, oppure una riscrittura PHP/MySQL; Hosting Easy Linux non rende operativo Uvicorn caricando semplicemente i file.
+
+Prima della produzione vanno inoltre rimossi password iniziale e hash SHA-256 definiti nel codice, resi persistenti OTP e sessioni, applicati rate limit e consegna OTP fail-closed, e configurato SMTP fuori dal repository. Le modifiche non registrate già presenti in `SiteManager/sitemanager.js`, `backend/app/config/settings.py` e `backend/app/main.py` sono state lasciate intatte. Nessuna correzione o pubblicazione eseguita durante la diagnosi.
+
 ## Lifecycle automatico dei workshop
 
 Analisi del 28 settembre: il backend locale possiede già uno scheduler per il cutoff, ma le landing pubbliche attuali usano PHP autonomo su Aruba e non dipendono da quel processo. L'automazione va quindi applicata anche al livello pubblico.

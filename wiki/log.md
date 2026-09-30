@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-30] diagnosis / backend | SiteManager errore di rete
+
+- Verificato il disallineamento locale: FastAPI è configurato sulla porta 3000, mentre SiteManager forza l'API sulla 8000; nessun processo risultava in ascolto.
+- I quattro test SiteManager passano in memoria, ma non provano il collegamento browser-server.
+- Sul sito pubblico `/SiteManager/`, `/api/health` e `/api/sitemanager/login` rispondono HTTP 404: il backend FastAPI non è pubblicato né instradato su Aruba.
+- Le tre modifiche locali non registrate sono state preservate. Nessuna modifica al sito o pubblicazione eseguita.
+
 ## [2026-09-28] website | Lifecycle Friuli programmato nel sorgente
 
 - Dal 5 ottobre 2026 alle 00:00 la landing Friuli mostra “Sold Out” sulla hero, disattiva la prenotazione e blocca server-side la creazione di nuovi ordini PayPal.
