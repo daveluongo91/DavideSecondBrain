@@ -20,6 +20,12 @@ Sul dominio pubblico `https://www.davideluongo.it/SiteManager/`, `/api/health` e
 
 Prima della produzione vanno inoltre rimossi password iniziale e hash SHA-256 definiti nel codice, resi persistenti OTP e sessioni, applicati rate limit e consegna OTP fail-closed, e configurato SMTP fuori dal repository. Le modifiche non registrate già presenti in `SiteManager/sitemanager.js`, `backend/app/config/settings.py` e `backend/app/main.py` sono state lasciate intatte. Nessuna correzione o pubblicazione eseguita durante la diagnosi.
 
+### Correzione locale applicata
+
+Allineato il backend sulla porta 8000 e impostato SiteManager sulla sola API same-origin `/api/sitemanager`. Tutte le richieste passano ora da `apiRequest()`, che applica un timeout di 15 secondi, distingue server irraggiungibile da errori HTTP, controlla il Content-Type e mostra il messaggio restituito dal backend senza tentare di interpretare come JSON una pagina HTML. Aggiornati `.env.example`, README e cache-busting dello script.
+
+Lo script `avvia_server.bat` verifica l'ambiente Python e avvia `backend.run` con la configurazione condivisa. Collaudo reale: `/api/health`, `/SiteManager/` e lo script rispondono HTTP 200 sulla porta 8000; credenziali errate restituiscono JSON 401 leggibile. Suite completa: 62 test superati. Nessun OTP reale inviato e nessun partecipante modificato. Commit sito `8a62e86`, pubblicato su GitHub; nessun deploy Aruba.
+
 ## Lifecycle automatico dei workshop
 
 Analisi del 28 settembre: il backend locale possiede già uno scheduler per il cutoff, ma le landing pubbliche attuali usano PHP autonomo su Aruba e non dipendono da quel processo. L'automazione va quindi applicata anche al livello pubblico.

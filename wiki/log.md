@@ -1,5 +1,12 @@
 # Log
 
+## [2026-09-30] fix / backend | SiteManager locale operativo sulla porta 8000
+
+- Allineati FastAPI, `.env.example`, documentazione e SiteManager sulla porta 8000 e sull'API same-origin `/api/sitemanager`.
+- Centralizzate le richieste in `apiRequest()`: timeout, controllo Content-Type, distinzione fra errore HTTP e backend irraggiungibile, messaggio server mostrato senza falso “Errore di rete”.
+- Rafforzato `avvia_server.bat` con controllo dell'ambiente e avvio tramite `backend.run`.
+- Collaudo reale HTTP riuscito e suite completa 62/62. Nessun OTP reale o dato partecipanti modificato. Commit sito `8a62e86`; nessun deploy Aruba.
+
 ## [2026-09-30] review / backend | Blocco CORS SiteManager
 
 - Il blocco proposto coincide sostanzialmente con il middleware già presente nel `main.py` locale e il router SiteManager è già registrato.
