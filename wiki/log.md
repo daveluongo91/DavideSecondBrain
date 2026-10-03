@@ -1,5 +1,29 @@
 # Log
 
+## [2026-10-03] backend & sitemanager | Modulo Insights & Statistiche Traffico (Google, Instagram, YouTube)
+
+- **Motore di Analytics & Privacy GDPR**:
+  - Implementato modello `AnalyticsVisit` (`analytics_visits` su SQLite) e servizio di tracciamento anonimizzato di prima parte senza cookie invasivi.
+  - Calcolo affidabile dei visitatori unici tramite hash giornaliero con salt protetto.
+  - Classificatore automatico delle sorgenti di traffico:
+    - 🔍 **Google** (Ricerca Organica & Ads)
+    - 📸 **Instagram** (Link in bio, Storie, Post, `l.instagram.com`)
+    - 🎥 **YouTube** (Descrizioni video, Canale, `youtu.be`)
+    - 👥 **Facebook**
+    - ⚡ **Diretto** (Digitato / Segnalibri)
+    - 🌐 **Referral** (Siti esterni)
+    - 🏷️ **Parametri di Campagna UTM** (`utm_source`, `utm_medium`, `utm_campaign`).
+- **Client Tracker Leggero**:
+  - Creato [`assets/tracker.js`](../assets/tracker.js) / [`tracker.js`](../tracker.js) con `navigator.sendBeacon` nativo non-bloccante (<1KB) e aggancio trasparente in `main.js`.
+- **Nuova Sezione Dashboard SiteManager**:
+  - Aggiunta navigazione principale a schede: *🏷️ Workshop & Fogli Excel* e *📊 Insights & Statistiche Traffico*.
+  - 4 Card KPI: Visitatori Unici, Visualizzazioni Totali, Sorgente Principale, % Traffico Mobile.
+  - Barre percentuali colorate per canale di provenienza.
+  - Classifica e distribuzione delle Pagine Più Visitate (Top Pages).
+  - Suddivisione Dispositivi (Smartphone, Desktop, Tablet) e filtro temporale (*Oggi, 7 giorni, 30 giorni, Tutto*).
+- **Test Suite**:
+  - Creato `tests/test_analytics.py` ed eseguiti **65/65 test superati al 100%**.
+
 ## [2026-09-29] backend & admin | Bonifica backend, Riscrizione SiteManager ed Excel dedicati per Workshop
 
 - **Bonifica e Architettura Backend**:
