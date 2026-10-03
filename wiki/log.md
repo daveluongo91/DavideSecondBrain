@@ -1070,3 +1070,9 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-09-07] content | Hashtag reel total black
 
 - Aggiunti alla caption proposta nella [Pipeline contenuti](workflows/content-pipeline.md) cinque hashtag minuscoli pertinenti alla gag: #johnwick #babayaga #totalblack #ironia #autoironia.
+
+## [2026-10-03] website | Aggiornamento recensioni Google
+
+- Verificate dalla scheda Google pubblica 18 recensioni e valutazione media 5,0.
+- Aggiornata la selezione del sito con sei recensioni a cinque stelle, dando priorità a quelle più recenti e pertinenti a workshop, viaggi e didattica.
+- Conservati senza correzioni i testi italiani pubblici; aggiunte traduzioni inglesi fedeli. Nessun dato privato registrato.

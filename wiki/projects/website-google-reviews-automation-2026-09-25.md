@@ -2,10 +2,10 @@
 title: Recensioni Google del sito e aggiornamento mensile
 type: project
 status: active
-updated: 2026-09-25
+updated: 2026-10-03
 created: 2026-09-25
 owner: Davide
-review_after: 2026-10-02
+review_after: 2026-11-01
 summary: Link pubblico corretto, recensioni centralizzate in JSON e controllo mensile delle nuove recensioni Google.
 tags:
   - sito
@@ -36,6 +36,12 @@ Le sei recensioni mostrate in home ora sono raccolte in `data/reviews.json`. `ma
 - Controllare il primo aggiornamento automatico del 1 ottobre 2026.
 - Se Google cambia struttura o limita l'accesso alle recensioni, fermare l'aggiornamento senza alterare il file pubblicato e registrare l'errore.
 - Non pubblicare nomi, testi o valutazioni che non siano visibili sulla scheda Google pubblica.
+
+## Controllo del 3 ottobre
+
+La scheda pubblica mostra 18 recensioni e una valutazione media di 5,0. Sono state trovate nuove recensioni a cinque stelle con riferimenti concreti a workshop, uscite fotografiche, didattica e organizzazione. La selezione del sito è stata aggiornata dando priorità alle più recenti: Luca Martinelli, Eleonora Fioravante, Cristina Monzoni, Mirco Galloni, Alessandro Peruzzi e Giancarlo Ferrari.
+
+Nel JSON resta il testo italiano esattamente come pubblicato su Google, senza correzioni o unioni. Per la home inglese è stata aggiunta una traduzione fedele. Il caricamento dinamico e il fallback HTML non sono stati modificati.
 
 ## Collegamenti
 
