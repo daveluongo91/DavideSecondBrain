@@ -1,5 +1,22 @@
 # Log
 
+## [2026-10-03] sitemanager & cms | Page Manager & Generatore di Entità Standardizzate (Blog, Workshop, Viaggi)
+
+- **Page Manager & Generatore di Entità**:
+  - Creato servizio [`backend/app/services/page_manager_service.py`](../backend/app/services/page_manager_service.py) per il catalogo unificato di tutte le pagine ed entità del sito.
+  - Implementato Master Template HTML standardizzato per articoli blog (`blog/{slug}.html`) e workshop, garantendo coerenza visiva, accessibilità, responsive design e SEO.
+  - Endpoint REST protetti per SiteManager:
+    - `GET /api/sitemanager/pages`: Catalogo con conteggi per categoria (*Blog*, *Workshop*, *Viaggi*, *Statiche*).
+    - `GET /api/sitemanager/pages/{entity_type}/{page_id}`: Lettura campi e sezioni strutturate.
+    - `PUT /api/sitemanager/pages/{entity_type}/{page_id}`: Modifica campi con rigenerazione immediata del file HTML e sincronizzazione JSON.
+    - `POST /api/sitemanager/pages/{entity_type}`: Creazione e generazione automatica di nuove pagine standardizzate con 1 clic.
+    - `DELETE /api/sitemanager/pages/{entity_type}/{page_id}`: Eliminazione sicura di articoli con cancellazione dell'HTML associato.
+- **Interfaccia Grafica SiteManager**:
+  - Aggiunta terza scheda di navigazione **📄 Gestione Pagine & Contenuti** con filtri per categoria (*Tutte*, *📰 Articoli*, *🏔️ Workshop*, *✈️ Viaggi*, *🌐 Istituzionali*).
+  - Modal per la modifica dei campi e modal guidato per la creazione di nuovi articoli del blog standard.
+- **Test Suite**:
+  - Creato `tests/test_page_manager.py` con **66/66 test superati al 100%**.
+
 ## [2026-10-03] backend & sitemanager | Modulo Insights & Statistiche Traffico (Google, Instagram, YouTube)
 
 - **Motore di Analytics & Privacy GDPR**:
