@@ -1281,3 +1281,11 @@ Registro cronologico append-only delle modifiche principali.
 - Verificate dalla scheda Google pubblica 18 recensioni e valutazione media 5,0.
 - Aggiornata la selezione del sito con sei recensioni a cinque stelle, dando priorità a quelle più recenti e pertinenti a workshop, viaggi e didattica.
 - Conservati senza correzioni i testi italiani pubblici; aggiunte traduzioni inglesi fedeli. Nessun dato privato registrato.
+
+## [2026-10-12] photography | Organizzazione archivio multimediale
+
+- Integrato il metodo nel [Workflow di post-produzione](workflows/photo-processing.md): esclusioni prima della scansione, modello EXIF, classificazione prudente dei matrimoni, protezione dalle sovrascritture e registro riprendibile.
+- Organizzati 8.403 RAW di matrimonio, 4.155 altre fotografie e 13 video, 16 proxy e 22 file collegati. Conservati nelle posizioni originali 209 RAW dubbi e un file non fotografico; modello EXIF disponibile per tutti i RAW, assente per due JPEG classificati visivamente e segnalati nel rapporto locale.
+- Verifica finale superata: 12.819 file e 822.964.260.227 byte riconciliati, senza file mancanti o inattesi e con date e attributi degli spostamenti conservati. Quattro interi sottoalberi esclusi prima dell’ispezione. Classificazione per sequenze controllate e, per le cartelle miste, anteprime singole.
+- Percorsi dei singoli file, registri e immagini restano locali. Aggiunto il frontmatter mancante a due registri storici del sito per consentire il controllo della wiki, mantenendo i loro testi e le date originali.
+- Controllo della wiki pubblicabile superato su 52 file. Il controllo locale su 53 file segnala quattro problemi preesistenti: tre collegamenti storici verso sorgenti esterne al repository e il frontmatter di un ulteriore registro mobile. Conservati senza modifiche estranee a questa operazione.

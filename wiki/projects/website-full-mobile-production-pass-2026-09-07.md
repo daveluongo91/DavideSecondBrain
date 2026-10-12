@@ -1,3 +1,15 @@
+---
+title: Collaudo mobile completo del sito pubblico
+type: project
+status: completed
+updated: 2026-09-07
+summary: Registro del collaudo mobile del sito pubblico eseguito il 7 settembre 2026.
+tags:
+  - website
+  - mobile
+  - verification
+---
+
 # Collaudo mobile completo del sito pubblico
 
 Il 7 settembre 2026 sono state controllate 42 pagine pubbliche in cinque larghezze: 320, 375, 390, 430 e 768 pixel, per 210 rendering complessivi. Dopo le correzioni non risultano overflow orizzontali, immagini rotte o risposte HTTP 404/500.
