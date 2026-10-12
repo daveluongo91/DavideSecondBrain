@@ -1,3 +1,14 @@
+---
+title: Bonifica cache dopo la pubblicazione del sito
+type: project
+status: completed
+updated: 2026-09-07
+summary: Registro della correzione della cache del sito dopo la pubblicazione del 7 settembre 2026.
+tags:
+  - website
+  - cache
+---
+
 # Bonifica cache dopo la pubblicazione del sito
 
 Il 7 settembre 2026 il nuovo frontend di davideluongo.it e stato pubblicato. Dopo il rilascio alcuni browser continuavano a mostrare la precedente installazione WordPress salvata in cache.
