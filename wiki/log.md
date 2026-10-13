@@ -1299,6 +1299,7 @@ Registro cronologico append-only delle modifiche principali.
 - Rifinito il programma pubblico del workshop Conero: sabato Sentiero del Lupo e Due Sorelle di giorno, tramonto alla Vela; domenica alba alla Seggiola del Papa e al Passetto.
 - La degustazione resta riservata ed è presentata soltanto come “una piccola sorpresa”. Allineate le pagine IT ed EN senza intervenire su moduli e pagamenti.
 - Aperta e verificata nel browser la pagina locale canonica `Conero_2026/`: il nuovo programma è visibile e gli asset della pagina vengono caricati correttamente.
+- Pubblicate su Aruba le tre pagine Conero aggiornate con backup automatico: canonica IT, copia workshop IT e versione EN. I file online coincidono con quelli locali, gli URL normali restituiscono HTTP 200 con il nuovo programma e la cache HTML è `no-store`. Aggiornato anche `SitoDave-Release` al commit `270ae85`.
 
 
 ## [2026-10-13] query | Selezione Hans battesimo e limite download
