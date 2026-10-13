@@ -1299,3 +1299,7 @@ Registro cronologico append-only delle modifiche principali.
 - Rifinito il programma pubblico del workshop Conero: sabato Sentiero del Lupo e Due Sorelle di giorno, tramonto alla Vela; domenica alba alla Seggiola del Papa e al Passetto.
 - La degustazione resta riservata ed è presentata soltanto come “una piccola sorpresa”. Allineate le pagine IT ed EN senza intervenire su moduli e pagamenti.
 
+
+## [2026-10-13] query | Selezione Hans battesimo e limite download
+- Aggiornato [workflow Audiio](workflows/audiio-musica-battesimo.md): dieci candidati, uso cliente privato, prima licenza generata; download non completati nel browser di Codex.
+
