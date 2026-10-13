@@ -60,6 +60,7 @@ SEO aggiornata con title e description specifici, canonical, hreflang IT/EN, Ope
 - Le email informative riportano `[CONERO 2026]` oppure `[FORESTE CASENTINESI 2026]` per rendere immediata la provenienza.
 - Il programma Conero prevede sabato mattina Sentiero del Lupo e Due Sorelle viste dall'alto, con soste fotografiche libere nel bosco; tramonto allo Scoglio della Vela; domenica alba alla Seggiola del Papa e lungo il Passetto.
 - La degustazione non viene anticipata nella pagina pubblica: è indicata soltanto come “una piccola sorpresa” a fine giornata.
+- Pubblicazione del programma aggiornata il 13 ottobre 2026 su Aruba: pagina canonica IT, copia `workshops_2026` e versione EN sostituite con backup automatico dei file precedenti. Verifica HTTP 200 e confronto SHA-256 superato sui tre file; cache HTML configurata `no-store` e URL normali già aggiornati. Commit GitHub sito: `270ae85`.
 
 ## Materiali
 
