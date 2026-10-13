@@ -32,3 +32,7 @@ L'utente richiede 4-5 audio da inviare ai clienti per scegliere la musica. Il pu
 https://d2t2ss1zux7287.cloudfront.net/Audiio_EVOE_Feather_Feather.wav
 
 Il browser Codex ha mostrato: This page has been blocked by ChatGPT, ERR_BLOCKED_BY_CLIENT. Nessun file scaricato. Non è stato usato un metodo alternativo per aggirare il blocco. Il problema è ora identificato direttamente, oltre ai precedenti timeout. La possibilità di distribuire audio separati ai clienti per ascolto non è stata verificata; la licenza precedente riguarda l'utilizzo nel progetto video.
+
+## Selezione ridotta per download manuale
+L'utente prosegue personalmente con i download. Cinque brani scelti dai risultati Hans: Feather (EVOE), I'll Stay With You strumentale (Heather Evans), Homestead strumentale (J Scott Rakozy), Building a Treehouse strumentale (As Tall As Pine), Little Bird strumentale (Jacob Montague). Link alle pagine ufficiali consegnati in chat; nessuna nuova verifica d'ascolto.
+

@@ -1308,3 +1308,7 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-13] query | Blocco concreto WAV Audiio
 - Download ufficiale Feather apre WAV CloudFront; browser Codex mostra blocco ChatGPT. Nessun file scaricato, nessun aggiramento.
 
+
+## [2026-10-13] query | Cinque link Audiio per download manuale
+- Ridotta la selezione a cinque candidati e consegnati i link ufficiali; download gestiti dall'utente.
+
