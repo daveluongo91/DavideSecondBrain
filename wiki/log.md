@@ -1313,3 +1313,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-13] query | Cinque link Audiio per download manuale
 - Ridotta la selezione a cinque candidati e consegnati i link ufficiali; download gestiti dall'utente.
 
+
+## [2026-10-13] query | Possibilità montaggio CapCut
+- Consultato [software](gear/software.md): CapCut già usato per montaggi rapidi e social.
+- Domanda esplorativa, nessun montaggio autorizzato o avviato. In questa sessione il controllo delle app native non è abilitato; accesso e funzioni CapCut web da verificare prima di promettere un montaggio completo.
+
