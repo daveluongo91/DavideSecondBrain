@@ -2,7 +2,7 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-09-28
+updated: 2026-10-13
 summary: Due landing autonome per Riviera del Conero 2026 e Foreste Casentinesi 2026 con fotografie reali a proporzioni native, collegate al backend condiviso di SitoDave.
 tags:
   - workshops
@@ -41,6 +41,8 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
     - *La Seggiola del Papa* (1024x682, Orizzontale 3:2)
   - Le fotografie restano nelle schede dell'itinerario; la galleria aggiuntiva è stata rimossa per uniformità con Friuli e Dardagna.
   - Specificata nota logistica sul cammino di 45 minuti per i faraglioni delle Due Sorelle.
+  - Programma rifinito sulla base del confronto con Manuel: sabato mattina Sentiero del Lupo e Due Sorelle viste dall'alto, con soste fotografiche libere nel bosco; rientro e tramonto allo Scoglio della Vela; domenica alba alla Seggiola del Papa e lungo il Passetto.
+  - La degustazione non viene anticipata nella pagina pubblica: è indicata soltanto come “una piccola sorpresa” a fine giornata.
 
 - **Foreste Casentinesi 2026**:
   - Landing autonoma attiva in `Foreste_Casentinesi_2026/` e `workshops_2026/foreste-casentinesi-2026.html` (e versione EN).

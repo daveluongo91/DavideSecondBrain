@@ -1294,3 +1294,8 @@ Registro cronologico append-only delle modifiche principali.
 - Creato [workflow](workflows/audiio-musica-battesimo.md).
 - Aperto login Audiio; selezione e download in attesa dell'accesso dell'utente.
 
+## [2026-10-13] website | Programma workshop Conero
+
+- Rifinito il programma pubblico del workshop Conero: sabato Sentiero del Lupo e Due Sorelle di giorno, tramonto alla Vela; domenica alba alla Seggiola del Papa e al Passetto.
+- La degustazione resta riservata ed è presentata soltanto come “una piccola sorpresa”. Allineate le pagine IT ed EN senza intervenire su moduli e pagamenti.
+
