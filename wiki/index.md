@@ -57,6 +57,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Antigravity Setup, Permessi e Ripristino Ambiente](workflows/antigravity-setup-and-permissions.md) — Registro storico della configurazione Antigravity; percorsi e permessi vanno verificati sulla macchina corrente. _(reference)_
 - [Ingestione fonti](workflows/source-ingestion.md) — Procedura per trasformare una nuova fonte in conoscenza collegata. _(active)_
 - [Lancio workshop](workflows/workshop-launch.md) — Processo replicabile per progettare, vendere e chiudere un workshop fotografico. _(active)_
+- [Musica Audiio per video di battesimo](workflows/audiio-musica-battesimo.md) — Selezione di circa dieci brani tramite Hans per vestizione, chiesa e ricevimento, da completare dopo accesso Audiio. _(planned)_
 - [Pipeline contenuti](workflows/content-pipeline.md) — Processo dal concept alla pubblicazione e all'apprendimento editoriale. _(active)_
 - [Workflow di post-produzione](workflows/photo-processing.md) — Struttura per documentare elaborazioni fotografiche complesse e renderle ripetibili. _(active)_
 

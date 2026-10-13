@@ -1289,3 +1289,8 @@ Registro cronologico append-only delle modifiche principali.
 - Verifica finale superata: 12.819 file e 822.964.260.227 byte riconciliati, senza file mancanti o inattesi e con date e attributi degli spostamenti conservati. Quattro interi sottoalberi esclusi prima dell’ispezione. Classificazione per sequenze controllate e, per le cartelle miste, anteprime singole.
 - Percorsi dei singoli file, registri e immagini restano locali. Aggiunto il frontmatter mancante a due registri storici del sito per consentire il controllo della wiki, mantenendo i loro testi e le date originali.
 - Controllo della wiki pubblicabile superato su 52 file. Il controllo locale su 53 file segnala quattro problemi preesistenti: tre collegamenti storici verso sorgenti esterne al repository e il frontmatter di un ulteriore registro mobile. Conservati senza modifiche estranee a questa operazione.
+
+## [2026-10-13] query | Musica Audiio per battesimo
+- Creato [workflow](workflows/audiio-musica-battesimo.md).
+- Aperto login Audiio; selezione e download in attesa dell'accesso dell'utente.
+
