@@ -1318,3 +1318,8 @@ Registro cronologico append-only delle modifiche principali.
 - Consultato [software](gear/software.md): CapCut già usato per montaggi rapidi e social.
 - Domanda esplorativa, nessun montaggio autorizzato o avviato. In questa sessione il controllo delle app native non è abilitato; accesso e funzioni CapCut web da verificare prima di promettere un montaggio completo.
 
+
+## [2026-10-13] query | Perimetro premontaggio battesimo
+- L'utente vuole fornire percorsi locali di clip e musica: inserimento in timeline, tagli a tempo e disattivazione audio originale delle clip.
+- Color e rifiniture restano all'utente. Percorsi ancora da ricevere. Compatibilità di una timeline modificabile CapCut ancora da verificare; non promettere un progetto importabile senza prova.
+
