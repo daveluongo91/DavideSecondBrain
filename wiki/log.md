@@ -1323,3 +1323,8 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente vuole fornire percorsi locali di clip e musica: inserimento in timeline, tagli a tempo e disattivazione audio originale delle clip.
 - Color e rifiniture restano all'utente. Percorsi ancora da ricevere. Compatibilità di una timeline modificabile CapCut ancora da verificare; non promettere un progetto importabile senza prova.
 
+
+## [2026-10-13] query | Collegamento AI e DaVinci Resolve
+- L'utente domanda se un'estensione con modelli Claude può essere configurata su DaVinci. Nome dell'estensione ancora sconosciuto.
+- Documentazione ufficiale OpenAI conferma integrazioni tramite MCP; questo non prova compatibilità di una specifica estensione con Resolve. Documentazione scripting locale non trovata nel percorso standard. Nessuna configurazione o installazione eseguita.
+
