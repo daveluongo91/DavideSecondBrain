@@ -1303,3 +1303,7 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-13] query | Selezione Hans battesimo e limite download
 - Aggiornato [workflow Audiio](workflows/audiio-musica-battesimo.md): dieci candidati, uso cliente privato, prima licenza generata; download non completati nel browser di Codex.
 
+
+## [2026-10-13] query | Blocco concreto WAV Audiio
+- Download ufficiale Feather apre WAV CloudFront; browser Codex mostra blocco ChatGPT. Nessun file scaricato, nessun aggiramento.
+

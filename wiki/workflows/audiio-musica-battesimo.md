@@ -25,3 +25,10 @@ Fonte: richiesta dell'utente nella chat del 13 ottobre 2026 e pagina https://aud
 Accesso effettuato dall'utente. Uso dichiarato: lavoro per cliente, solo consegna/proiezione privata. Hans ha restituito due selezioni; escluse versioni cantate e proposte natalizie. Dieci candidati: Feather, Amaris, I'll Stay With You (Instrumental), Homestead, Sleep Habits, Building a Treehouse, Deluge, The Great Divide, UKE Like It, Little Bird. Autori e link sono conservati nella lista locale; assegnazione alle scene indicativa, ascolto non verificato.
 
 Audiio ha generato una licenza Business / Event per Feather. I pulsanti ufficiali per audio e PDF non hanno prodotto file rilevabili nel browser di Codex, dopo più tentativi. Gli altri nove certificati non sono stati generati. Nessun download audio completato. Lista e stato salvati nella cartella indicata dall'utente. Prossimo passo: completare i download dal browser personale o da un browser con trasferimento file funzionante.
+
+## Nuovo tentativo: cinque file da far scegliere ai clienti
+
+L'utente richiede 4-5 audio da inviare ai clienti per scegliere la musica. Il pulsante ufficiale Download Song di Feather, nella scheda aperta dall'utente, ha portato al WAV ufficiale:
+https://d2t2ss1zux7287.cloudfront.net/Audiio_EVOE_Feather_Feather.wav
+
+Il browser Codex ha mostrato: This page has been blocked by ChatGPT, ERR_BLOCKED_BY_CLIENT. Nessun file scaricato. Non è stato usato un metodo alternativo per aggirare il blocco. Il problema è ora identificato direttamente, oltre ai precedenti timeout. La possibilità di distribuire audio separati ai clienti per ascolto non è stata verificata; la licenza precedente riguarda l'utilizzo nel progetto video.
