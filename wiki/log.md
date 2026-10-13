@@ -1083,3 +1083,8 @@ Registro cronologico append-only delle modifiche principali.
 - Organizzati 8.403 RAW di matrimonio, 4.155 altre fotografie e 13 video, 16 proxy e 22 file collegati. Conservati nelle posizioni originali 209 RAW dubbi e un file non fotografico; modello EXIF disponibile per tutti i RAW, assente per due JPEG classificati visivamente e segnalati nel rapporto locale.
 - Verifica finale superata: 12.819 file e 822.964.260.227 byte riconciliati, senza file mancanti o inattesi e con date e attributi degli spostamenti conservati. Quattro interi sottoalberi esclusi prima dell’ispezione. Classificazione per sequenze controllate e, per le cartelle miste, anteprime singole.
 - Percorsi dei singoli file, registri e immagini restano locali. Aggiunto il frontmatter mancante a due registri storici del sito per consentire il controllo della wiki, mantenendo i loro testi e le date originali.
+
+## [2026-10-13] website | Programma workshop Conero
+
+- Rifinito il programma pubblico del workshop Conero: sabato Sentiero del Lupo e Due Sorelle di giorno, tramonto alla Vela; domenica alba alla Seggiola del Papa e al Passetto.
+- La degustazione resta riservata ed è presentata soltanto come “una piccola sorpresa”. Allineate le pagine IT ed EN senza intervenire su moduli e pagamenti.

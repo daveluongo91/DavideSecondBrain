@@ -2,7 +2,7 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-09-28
+updated: 2026-10-13
 summary: Landing Conero e Foreste Casentinesi online con fotografie reali, API locali, PayPal live e moduli email collaudati.
 tags:
   - workshops
@@ -58,6 +58,8 @@ SEO aggiornata con title e description specifici, canonical, hreflang IT/EN, Ope
 - Le copie nel repository servono a tracciare il codice delle due nuove pagine.
 - L'opzione aggiuntiva “dal venerdì” resta esclusiva del Friuli.
 - Le email informative riportano `[CONERO 2026]` oppure `[FORESTE CASENTINESI 2026]` per rendere immediata la provenienza.
+- Il programma Conero prevede sabato mattina Sentiero del Lupo e Due Sorelle viste dall'alto, con soste fotografiche libere nel bosco; tramonto allo Scoglio della Vela; domenica alba alla Seggiola del Papa e lungo il Passetto.
+- La degustazione non viene anticipata nella pagina pubblica: è indicata soltanto come “una piccola sorpresa” a fine giornata.
 
 ## Materiali
 
