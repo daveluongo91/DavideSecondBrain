@@ -1099,3 +1099,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-16] query | Registrazione progetto Battesimo_3min in CapCut
 - Chiusa regolarmente l'app, salvato backup dell'indice e registrata una copia separata del progetto da 180 secondi, senza sovrascrivere gli altri progetti.
 - CapCut riaperto sulla schermata principale; nuova voce confermata nell'indice. Il limite di cattura desktop persiste, quindi apertura della timeline non confermata e richiesto un clic manuale sul progetto.
+
+## [2026-10-16] query | Correzioni CapCut nella copia v2
+- Creato e registrato Battesimo_3min_v2 a 25 fps e 180 secondi, preservando i 60 tagli, audio, colore e versione precedente.
+- Applicate le modifiche richieste a velocita, zoom, porzioni sorgente e chiusura. Stabilizzazione, rampa e fade video sono in copie elaborate; dettagli e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).
+- Controlli automatici passati e nove media derivati verificati. App riaperta; apertura della timeline v2 e render nativo non confermati.
