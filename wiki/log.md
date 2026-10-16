@@ -1334,3 +1334,8 @@ Registro cronologico append-only delle modifiche principali.
 - Richiesta: progetto CapCut Desktop modificabile di 180 secondi, nell'ordine vestizione, cerimonia, ristorante, con audio pertinente.
 - CapCut risulta installato. Avvio tramite Computer Use fermo alla finestra Environment testing di VEDetector; cattura della finestra fallita due volte per timeout. Editor non accessibile e nessun progetto creato.
 - Prossima azione: apertura manuale di CapCut fino alla schermata editor, poi nuova verifica del controllo desktop. I file sorgenti restano disponibili e non occorre ricaricarli.
+
+## [2026-10-16] query | CapCut aperto manualmente, controllo non disponibile
+- L'utente comunica di aver creato il progetto vuoto. Computer Use rileva ora la finestra CapCut.exe 9.0.0.3858.
+- Due catture della finestra falliscono per timeout anche dopo attivazione e nuova selezione. Lettura accessibilita disponibile, ma espone soltanto finestre generiche, senza timeline o comandi utilizzabili.
+- Nessuna clip visionata o importata; nessun montaggio eseguito. Serve ripristinare la cattura desktop prima di poter verificare e modificare il progetto.
