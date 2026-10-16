@@ -61,3 +61,11 @@ Aggiunti un titolo iniziale su due righe con data ricavata dai metadati delle cl
 Il lavoro parte dalla v2 corrente salvata dall'utente, che contiene una seconda traccia video con sette segmenti. Backup eseguito prima delle modifiche. Confronto verificato: le sei tracce e tutti i materiali preesistenti rimangono identici; aggiunta soltanto una traccia testo con due segmenti. Frame rate 25 fps e durata 180 secondi invariati.
 
 Aggiornati il progetto locale e una copia ZIP separata con titoli nella cartella outputs. Nessun file privato del cliente o testo identificativo pubblicato nel Second Brain. Il controllo visivo dentro CapCut resta non disponibile.
+
+## Versione Integrale, 16 ottobre 2026
+
+Su richiesta dell'utente preparato e registrato un progetto separato Battesimo_Integrale a 25 fps. Durata 46:14:05, pari a 2.774,20 secondi e 69.355 fotogrammi. Importati tutti i 242 originali; 241 in timeline in ordine cronologico e a velocita naturale. Una ripresa interamente tecnica del soffitto resta solo nei Media. Rimossi 218,12 secondi fra assestamenti, abbassamenti e ripresa tecnica.
+
+Audio originale disattivato su tutti i segmenti. I tre WAV vengono riprodotti integralmente e ripetuti nelle rispettive fasi, come scelto dall'utente: 18 istanze con incroci brevi e copertura continua. Le ultime ripetizioni sono accorciate alle giunzioni; ogni brano ha almeno un passaggio completo. Livello colore corrente della v2 copiato con materiali identici ed esteso a tutta la durata.
+
+Revisione tramite campioni iniziali, centrali e finali di tutte le clip, controllo degli estremi conservati e analisi del movimento; non una visione continua di tutto il girato. Verificati media presenti, intervalli, continuita, mute e colore. Registrazione con backup dell'indice dopo chiusura dell'app da parte dell'utente; confronto conferma i due progetti precedenti invariati. Apertura e riproduzione native non confermate per il limite di cattura desktop. Nessun media o dato identificativo del cliente pubblicato nella wiki.
