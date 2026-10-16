@@ -1348,3 +1348,8 @@ Registro cronologico append-only delle modifiche principali.
 - Screenshot utente conferma progetto vuoto 1016 (1). File JSON locali leggibili, durata zero e nessuna traccia.
 - Verificata estrazione di un fotogramma di C0002.MP4 usando ffmpeg gia installato con CapCut. Non equivale alla visione completa delle clip.
 - Chiesto inserimento manuale della sola C0002.MP4 in timeline per leggere lo schema effettivamente salvato da questa versione e valutare un progetto modificabile senza automazione visiva.
+
+## [2026-10-16] query | File premontaggio CapCut di tre minuti
+- Creato [workflow e stato verifiche](workflows/capcut-premontaggio-locale.md): 242 clip campionate, selezione di 60 segmenti, tre WAV, durata esatta di 180 secondi a 50 fps.
+- Consegnabili preparati localmente: progetto e ZIP, anteprima MP4, CSV tagli e rapporto. Anteprima decodificata con 9.000 fotogrammi e senza errori video; apertura del progetto nativo in CapCut non ancora verificata.
+- L'utente chiede di lasciare CapCut aperto e preparare soltanto i file: nessuna registrazione del nuovo progetto o modifica all'app.

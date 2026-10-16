@@ -59,6 +59,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Lancio workshop](workflows/workshop-launch.md) — Processo replicabile per progettare, vendere e chiudere un workshop fotografico. _(active)_
 - [Musica Audiio per video di battesimo](workflows/audiio-musica-battesimo.md) — Selezione di circa dieci brani tramite Hans per vestizione, chiesa e ricevimento, da completare dopo accesso Audiio. _(planned)_
 - [Pipeline contenuti](workflows/content-pipeline.md) — Processo dal concept alla pubblicazione e all'apprendimento editoriale. _(active)_
+- [Premontaggio locale CapCut e verifica del progetto](workflows/capcut-premontaggio-locale.md) — Preparazione di una timeline locale da sorgenti cronologici, distinguendo provini, anteprima separata e apertura verificata in CapCut. _(reference)_
 - [Workflow di post-produzione](workflows/photo-processing.md) — Struttura per documentare elaborazioni fotografiche complesse e renderle ripetibili. _(active)_
 
 ## Persone
