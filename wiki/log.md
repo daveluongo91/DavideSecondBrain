@@ -1362,3 +1362,8 @@ Registro cronologico append-only delle modifiche principali.
 - Creato e registrato Battesimo_3min_v2 a 25 fps e 180 secondi, preservando i 60 tagli, audio, colore e versione precedente.
 - Applicate le modifiche richieste a velocita, zoom, porzioni sorgente e chiusura. Stabilizzazione, rampa e fade video sono in copie elaborate; dettagli e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).
 - Controlli automatici passati e nove media derivati verificati. App riaperta; apertura della timeline v2 e render nativo non confermati.
+
+## [2026-10-16] query | Titoli iniziali e finali nella v2 corrente
+- Aggiunti due testi nativi in Georgia Italic avorio, con data letta dai metadati.
+- Backup e confronto della versione corrente: tutte le tracce e i materiali preesistenti invariati, incluse le aggiunte video dell'utente. Durata e 25 fps preservati.
+- Aggiornati progetto e copia ZIP con titoli; [workflow](workflows/capcut-premontaggio-locale.md) aggiornato senza dati identificativi del cliente.

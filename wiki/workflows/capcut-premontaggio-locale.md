@@ -53,3 +53,11 @@ Applicati 18 rallentamenti nativi al 50%, zoom nativo dal 100% al 105% su C31, n
 Stabilizzazione richiesta su sette clip calcolata con libvidstab in due passaggi, su copie Full HD a 50 fps, con crop compensativo del 4%. Rampa continua 100%-50% di C103 e fade video di C237 calcolati in altre due copie: questi effetti sono incorporati nei media, non modificabili come curva o stabilizzazione native. I sorgenti originali rimangono disponibili. Fade audio finale di 2 secondi conservato.
 
 Verificati riferimenti, intervalli sorgente, fotogrammi delle nove copie e nero pieno sull'ultimo campione visibile di C237. Progetto e ZIP, CSV correzioni, rapporto e istruzioni consegnati nella cartella outputs. Indice CapCut salvato prima della registrazione della v2; app riaperta. Apertura e render della v2 dentro CapCut restano da confermare per il limite del controllo desktop.
+
+## Titoli nella v2 corrente, 16 ottobre 2026
+
+Aggiunti un titolo iniziale su due righe con data ricavata dai metadati delle clip e la scritta finale fin. Scelti Georgia Italic e avorio, con ombra discreta. Testi nativi modificabili: intro 0-4,8 secondi, finale 178-180 secondi. Nessun prolungamento del video.
+
+Il lavoro parte dalla v2 corrente salvata dall'utente, che contiene una seconda traccia video con sette segmenti. Backup eseguito prima delle modifiche. Confronto verificato: le sei tracce e tutti i materiali preesistenti rimangono identici; aggiunta soltanto una traccia testo con due segmenti. Frame rate 25 fps e durata 180 secondi invariati.
+
+Aggiornati il progetto locale e una copia ZIP separata con titoli nella cartella outputs. Nessun file privato del cliente o testo identificativo pubblicato nel Second Brain. Il controllo visivo dentro CapCut resta non disponibile.
