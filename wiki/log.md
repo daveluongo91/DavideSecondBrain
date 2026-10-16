@@ -1328,3 +1328,9 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente domanda se un'estensione con modelli Claude può essere configurata su DaVinci. Nome dell'estensione ancora sconosciuto.
 - Documentazione ufficiale OpenAI conferma integrazioni tramite MCP; questo non prova compatibilità di una specifica estensione con Resolve. Documentazione scripting locale non trovata nel percorso standard. Nessuna configurazione o installazione eseguita.
 
+
+## [2026-10-16] query | Verifica accesso montaggio CapCut
+- Cartella di lavoro accessibile: inventariate 242 clip MP4 e tre WAV denominati Vestizione, Cerimonia e Ristorante. Contenuto delle riprese e degli audio non visionato o ascoltato.
+- Richiesta: progetto CapCut Desktop modificabile di 180 secondi, nell'ordine vestizione, cerimonia, ristorante, con audio pertinente.
+- CapCut risulta installato. Avvio tramite Computer Use fermo alla finestra Environment testing di VEDetector; cattura della finestra fallita due volte per timeout. Editor non accessibile e nessun progetto creato.
+- Prossima azione: apertura manuale di CapCut fino alla schermata editor, poi nuova verifica del controllo desktop. I file sorgenti restano disponibili e non occorre ricaricarli.
