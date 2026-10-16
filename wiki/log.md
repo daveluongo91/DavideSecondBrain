@@ -1367,3 +1367,7 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiunti due testi nativi in Georgia Italic avorio, con data letta dai metadati.
 - Backup e confronto della versione corrente: tutte le tracce e i materiali preesistenti invariati, incluse le aggiunte video dell'utente. Durata e 25 fps preservati.
 - Aggiornati progetto e copia ZIP con titoli; [workflow](workflows/capcut-premontaggio-locale.md) aggiornato senza dati identificativi del cliente.
+
+## [2026-10-16] query | Progetto CapCut Integrale
+- Creato e registrato un progetto separato a 25 fps, 46:14:05, con 241 clip ripulite e un originale tecnico conservato nei Media.
+- Musica completa ripetuta nelle rispettive fasi, audio originale disattivato, livello colore della v2 preservato. Versioni precedenti verificate invariate; dettagli e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).
