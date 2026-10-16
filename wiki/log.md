@@ -1376,3 +1376,6 @@ Registro cronologico append-only delle modifiche principali.
 - Concordato lavoro in due step: prima singolo strumentale Audiio con download Personal Project richiesto, poi progetto CapCut lungo quanto il brano.
 - Brief: occhio della sposa, hyperzoom, ricordi alternati dei due protagonisti in bianco e nero con halation, nero e ritorno all'occhio; vestizioni alternate, cerimonia e festa, culmine sui fuochi FPV, bacio e dissolvenza al bianco con testo film. Colore teal and orange caldo.
 - Inventario iniziale: 179 video, tre FPV. Nessuna identificazione visiva dei momenti chiave ancora eseguita. Browser non avviabile dopo un ripristino: nessun brano selezionato, licenziato o scaricato. Brief completo conservato localmente, senza pubblicare media o nomi dei clienti.
+
+## [2026-10-16] query | Nuovo tentativo accesso Audiio
+- Scheda account aperta dall utente; riprovato accesso con sessione browser ripristinata. Errore locale persistente: failed to write kernel assets, percorso non trovato. Nessun brano ascoltato, scaricato o licenziato.
