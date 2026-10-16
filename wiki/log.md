@@ -1339,3 +1339,7 @@ Registro cronologico append-only delle modifiche principali.
 - L'utente comunica di aver creato il progetto vuoto. Computer Use rileva ora la finestra CapCut.exe 9.0.0.3858.
 - Due catture della finestra falliscono per timeout anche dopo attivazione e nuova selezione. Lettura accessibilita disponibile, ma espone soltanto finestre generiche, senza timeline o comandi utilizzabili.
 - Nessuna clip visionata o importata; nessun montaggio eseguito. Serve ripristinare la cattura desktop prima di poter verificare e modificare il progetto.
+
+## [2026-10-16] query | Nuovo tentativo controllo CapCut
+- Su richiesta ripetuta, finestra CapCut nuovamente rilevata e attivata. Entrambe le nuove catture falliscono: FrameArrived timed out e window capture timed out.
+- Nessuna modifica al progetto e nessuna visione delle clip. Il limite del collegamento desktop persiste.
