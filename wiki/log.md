@@ -1113,3 +1113,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-16] query | Progetto CapCut Integrale
 - Creato e registrato un progetto separato a 25 fps, 46:14:05, con 241 clip ripulite e un originale tecnico conservato nei Media.
 - Musica completa ripetuta nelle rispettive fasi, audio originale disattivato, livello colore della v2 preservato. Versioni precedenti verificate invariate; dettagli e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).
+
+## [2026-10-16] query | Brief nuovo film matrimonio e ricerca Audiio
+- Concordato lavoro in due step: prima singolo strumentale Audiio con download Personal Project richiesto, poi progetto CapCut lungo quanto il brano.
+- Brief: occhio della sposa, hyperzoom, ricordi alternati dei due protagonisti in bianco e nero con halation, nero e ritorno all'occhio; vestizioni alternate, cerimonia e festa, culmine sui fuochi FPV, bacio e dissolvenza al bianco con testo film. Colore teal and orange caldo.
+- Inventario iniziale: 179 video, tre FPV. Nessuna identificazione visiva dei momenti chiave ancora eseguita. Browser non avviabile dopo un ripristino: nessun brano selezionato, licenziato o scaricato. Brief completo conservato localmente, senza pubblicare media o nomi dei clienti.
