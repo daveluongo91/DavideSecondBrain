@@ -37,3 +37,9 @@ Quando l'utente chiude CapCut e chiede di proseguire, registrare una copia separ
 Collegamenti: [Software](../gear/software.md), [Post-produzione](photo-processing.md).
 
 Fonte: richiesta e verifiche locali nella chat del 16 ottobre 2026; file di progetto e rapporto consegnati nella cartella outputs della chat.
+
+## Registrazione del progetto, 16 ottobre 2026
+
+Su successiva richiesta esplicita di apertura, CapCut è stato chiuso regolarmente con i comandi dell'app. Copiata la cartella separata Battesimo_3min e aggiunta una voce all'indice locale: 180.000.000 microsecondi, 17 progetti totali. Backup dell'indice conservato nel percorso work/capcut-backup/20261016-104608 della chat.
+
+CapCut riaperto; la nuova finestra usa la versione 9.6.0.4097. Accessibilità conferma HomeWindow, mentre la cattura restituisce ancora FrameArrived timed out. La registrazione è confermata anche leggendo l'indice dopo l'avvio. Apertura della timeline e riproduzione ancora non confermate: l'utente deve selezionare Battesimo_3min dalla schermata progetti.

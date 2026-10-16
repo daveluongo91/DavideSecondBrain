@@ -1353,3 +1353,7 @@ Registro cronologico append-only delle modifiche principali.
 - Creato [workflow e stato verifiche](workflows/capcut-premontaggio-locale.md): 242 clip campionate, selezione di 60 segmenti, tre WAV, durata esatta di 180 secondi a 50 fps.
 - Consegnabili preparati localmente: progetto e ZIP, anteprima MP4, CSV tagli e rapporto. Anteprima decodificata con 9.000 fotogrammi e senza errori video; apertura del progetto nativo in CapCut non ancora verificata.
 - L'utente chiede di lasciare CapCut aperto e preparare soltanto i file: nessuna registrazione del nuovo progetto o modifica all'app.
+
+## [2026-10-16] query | Registrazione progetto Battesimo_3min in CapCut
+- Chiusa regolarmente l'app, salvato backup dell'indice e registrata una copia separata del progetto da 180 secondi, senza sovrascrivere gli altri progetti.
+- CapCut riaperto sulla schermata principale; nuova voce confermata nell'indice. Il limite di cattura desktop persiste, quindi apertura della timeline non confermata e richiesto un clic manuale sul progetto.
