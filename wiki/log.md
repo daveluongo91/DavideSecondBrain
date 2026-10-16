@@ -1125,3 +1125,6 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-16] query | Film matrimonio CapCut sul brano fornito
 - Preparati progetto separato a 25 fps, 225 secondi e 67 segmenti, con ricordi alternati, occhio, fuochi sul culmine e finale bianco con film.
 - Anteprima decodificata senza errori: 5.625 fotogrammi. Trattamenti incorporati nelle copie; tagli e testo nativi, originali disponibili. Metodo e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).
+
+## [2026-10-16] query | Registrazione film matrimonio in CapCut
+- Registrato il progetto separato dopo conferma di chiusura dell app. Backup dell indice conservato localmente; tutti i media presenti e tutti i progetti precedenti verificati invariati. Apertura e riproduzione della timeline non ancora confermate.
