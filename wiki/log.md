@@ -1090,3 +1090,8 @@ Registro cronologico append-only delle modifiche principali.
 - La degustazione resta riservata ed è presentata soltanto come “una piccola sorpresa”. Allineate le pagine IT ed EN senza intervenire su moduli e pagamenti.
 - Aperta e verificata nel browser la pagina locale canonica `Conero_2026/`: il nuovo programma è visibile e gli asset della pagina vengono caricati correttamente.
 - Pubblicate su Aruba le tre pagine Conero aggiornate con backup automatico: canonica IT, copia workshop IT e versione EN. I file online coincidono con quelli locali, gli URL normali restituiscono HTTP 200 con il nuovo programma e la cache HTML è `no-store`. Aggiornato anche `SitoDave-Release` al commit `270ae85`.
+
+## [2026-10-16] query | File premontaggio CapCut di tre minuti
+- Creato [workflow e stato verifiche](workflows/capcut-premontaggio-locale.md): 242 clip campionate, selezione di 60 segmenti, tre WAV, durata esatta di 180 secondi a 50 fps.
+- Consegnabili preparati localmente: progetto e ZIP, anteprima MP4, CSV tagli e rapporto. Anteprima decodificata con 9.000 fotogrammi e senza errori video; apertura del progetto nativo in CapCut non ancora verificata.
+- L'utente chiede di lasciare CapCut aperto e preparare soltanto i file: nessuna registrazione del nuovo progetto o modifica all'app.
