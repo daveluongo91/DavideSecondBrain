@@ -1343,3 +1343,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-16] query | Nuovo tentativo controllo CapCut
 - Su richiesta ripetuta, finestra CapCut nuovamente rilevata e attivata. Entrambe le nuove catture falliscono: FrameArrived timed out e window capture timed out.
 - Nessuna modifica al progetto e nessuna visione delle clip. Il limite del collegamento desktop persiste.
+
+## [2026-10-16] query | Screenshot editor e accesso file progetto
+- Screenshot utente conferma progetto vuoto 1016 (1). File JSON locali leggibili, durata zero e nessuna traccia.
+- Verificata estrazione di un fotogramma di C0002.MP4 usando ffmpeg gia installato con CapCut. Non equivale alla visione completa delle clip.
+- Chiesto inserimento manuale della sola C0002.MP4 in timeline per leggere lo schema effettivamente salvato da questa versione e valutare un progetto modificabile senza automazione visiva.
