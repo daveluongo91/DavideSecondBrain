@@ -1121,3 +1121,7 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-10-16] query | Nuovo tentativo accesso Audiio
 - Scheda account aperta dall utente; riprovato accesso con sessione browser ripristinata. Errore locale persistente: failed to write kernel assets, percorso non trovato. Nessun brano ascoltato, scaricato o licenziato.
+
+## [2026-10-16] query | Film matrimonio CapCut sul brano fornito
+- Preparati progetto separato a 25 fps, 225 secondi e 67 segmenti, con ricordi alternati, occhio, fuochi sul culmine e finale bianco con film.
+- Anteprima decodificata senza errori: 5.625 fotogrammi. Trattamenti incorporati nelle copie; tagli e testo nativi, originali disponibili. Metodo e limiti nel [workflow](workflows/capcut-premontaggio-locale.md).

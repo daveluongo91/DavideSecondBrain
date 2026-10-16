@@ -69,3 +69,13 @@ Su richiesta dell'utente preparato e registrato un progetto separato Battesimo_I
 Audio originale disattivato su tutti i segmenti. I tre WAV vengono riprodotti integralmente e ripetuti nelle rispettive fasi, come scelto dall'utente: 18 istanze con incroci brevi e copertura continua. Le ultime ripetizioni sono accorciate alle giunzioni; ogni brano ha almeno un passaggio completo. Livello colore corrente della v2 copiato con materiali identici ed esteso a tutta la durata.
 
 Revisione tramite campioni iniziali, centrali e finali di tutte le clip, controllo degli estremi conservati e analisi del movimento; non una visione continua di tutto il girato. Verificati media presenti, intervalli, continuita, mute e colore. Registrazione con backup dell'indice dopo chiusura dell'app da parte dell'utente; confronto conferma i due progetti precedenti invariati. Apertura e riproduzione native non confermate per il limite di cattura desktop. Nessun media o dato identificativo del cliente pubblicato nella wiki.
+
+## Film matrimonio con apertura nell'occhio, 16 ottobre 2026
+
+L'utente ha fornito il WAV Remember This di EVOE. Preparato un progetto separato Full HD a 25 fps, durata esatta 225 secondi, 5.625 fotogrammi e 67 segmenti. Ispezionati provini dei 179 originali, piu campioni ravvicinati di occhi, baci, torta e FPV. Nessuna visione continua o ascolto integrale dichiarati; licenza del WAV fornito non verificata nell'account.
+
+Sequenza: apertura occhi e hyperzoom nell'iride, dieci ricordi in bianco e nero alternando i protagonisti con alone sulle alte luci, nero, ritorno all'occhio e zoom out. Vestizioni alternate, cerimonia, ricevimento, festa e fuochi FPV. La piena apertura dei fuochi e allineata all'ultimo culmine intorno a 173 secondi. Coda intima, bacio, dissolvenza al bianco e titolo nativo film.
+
+Tagli e titolo sono modificabili nativamente; normalizzazione, color calda teal and orange, ricordi e movimenti dell'iride sono incorporati in copie distinte. Tutti gli originali sono disponibili nei Media e il CSV conserva la relazione con i sorgenti. Gli originali non sono modificati. Brano intero senza tagli o ripetizioni, volume 85%, nessun audio delle clip.
+
+Anteprima esterna decodificata senza errori: 5.625 fotogrammi. Controllati provini di tutte le 67 copie, neutralita del bianco e nero, fotogramma dei fuochi e chiusura. Consegnati progetto, ZIP, anteprima, CSV e limiti nelle istruzioni. Registrazione locale in attesa della chiusura di CapCut richiesta all utente. Apertura e riproduzione native non confermate. Nessun media o nome dei clienti pubblicato nel Second Brain.
