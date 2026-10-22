@@ -2,7 +2,7 @@
 title: Ripristino moduli email del sito
 type: project-log
 status: completed
-updated: 2026-09-17
+updated: 2026-10-22
 summary: Ripristino e collaudo SMTP dei moduli pubblici, comprese le scelte dei destinatari per Minorca e Lapponia.
 tags:
   - website
@@ -26,6 +26,18 @@ Il percorso sorgente verificato del sito è `L:\Sito_Dave_Opt`. La variante `L:\
 È stato eseguito anche un test mirato sui destinatari selezionabili nelle pagine Minorca e Lapponia, in italiano e inglese. Minorca indirizza correttamente le richieste a Davide, Atelier dei Viaggi o Loris; Lapponia permette di scegliere tra Davide e il tour operator. Gli invii reali sono stati accettati dal server SMTP per tutti i destinatari. Una prova duplicata sulla variante inglese di Minorca è stata fermata correttamente dal limite antispam dopo cinque richieste ravvicinate; lo stesso destinatario era già stato verificato tramite la pagina italiana.
 
 Le quattro pagine pubbliche espongono le opzioni previste. Gli endpoint accettano soltanto le chiavi dei destinatari definite sul server e rispondono con HTTP 400 quando viene fornito un destinatario arbitrario.
+
+## Aggiornamento 22 ottobre 2026
+
+Il modulo Azzorre risultava bloccato prima dell'esecuzione con HTTP 403: la cartella API non era inclusa nell'allowlist Apache. Lo stesso difetto era presente nella nuova pagina Islanda. L'allowlist è stata estesa soltanto ai due percorsi pubblici necessari.
+
+Il vecchio endpoint Azzorre usava inoltre `mail()` e restituiva un messaggio positivo anche quando la consegna falliva. Ora usa il trasporto SMTP condiviso, accetta JSON come gli altri moduli, applica un limite per indirizzo IP e risponde con errore quando il server non accetta il messaggio.
+
+Sono state inviate due richieste reali marcate come test tecnico, una verso il recapito di Davide e una verso il referente del tour operator. Entrambe hanno ricevuto HTTP 200 e conferma di accettazione SMTP. Non erano richieste cliente e non contenevano dati di pagamento.
+
+Nello stesso rilascio sono stati aggiornati title e meta description, canonical e hreflang delle nuove pagine, oltre alla sitemap. Azzorre, Islanda, Minorca in italiano e inglese e The Project risultano ora presenti nella sitemap. Il controllo finale ha confrontato 29 file pubblici con la copia locale tramite SHA-256, senza differenze. La cache Aruba è stata svuotata dopo la pubblicazione.
+
+Commit del sito: `80c18f6a2829f7a257eac32131ee2f2b1a655771`.
 
 ## Verifica della pubblicazione
 
