@@ -1139,3 +1139,10 @@ Registro cronologico append-only delle modifiche principali.
 - Riepilogo dettagliato consegnato privatamente a Davide; termini commerciali e dati di prenotazione esclusi dalla wiki pubblicabile.
 - Nessuna email inviata; nessuna modifica al tracker esterno.
 
+## [2026-10-22] operation | Correzione moduli viaggi e aggiornamento SEO
+- Rimossa la dicitura commerciale contestata dai badge e dalle note pubbliche dei viaggi; verifica estesa ai workshop attivi.
+- Ripristinati gli endpoint email Azzorre e Islanda tramite allowlist Apache mirata. Azzorre usa ora il trasporto SMTP condiviso e fallisce in modo esplicito se la consegna non viene accettata.
+- Due email di collaudo marcate come test sono state accettate dal server, una per Davide e una per il referente del tour operator.
+- Aggiornati title, meta description, canonical, hreflang e sitemap delle pagine pubbliche interessate. JSON-LD e sitemap XML validati.
+- Pubblicazione Aruba verificata confrontando 29 file locali e remoti con SHA-256; cache svuotata. Commit sito `80c18f6` su `origin/master`.
+
