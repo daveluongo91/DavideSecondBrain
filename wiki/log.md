@@ -1390,3 +1390,10 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-10-16] query | Rimozione color dal film corrente
 - Ripristinati i sorgenti senza la color dell'agente su 52 segmenti, preservando esattamente le due riprese iniziali colorate dall'utente, i loro livelli, il bianco e nero e tutte le altre modifiche.
 - Backup e nuova copia ZIP; confronto dei tempi e delle altre tracce passato, durata invariata. Dettagli nel [workflow](workflows/capcut-premontaggio-locale.md).
+
+## [2026-10-22] query | Verifica collaborazioni Islanda
+- Verificati i thread scaricati in Thunderbird relativi alle due collaborazioni richieste. La lettura delle risposte comprende le citazioni delle email inviate.
+- Il tracking del 26 agosto e precedente alle conferme successive e non descrive lo stato attuale.
+- Riepilogo dettagliato consegnato privatamente a Davide; termini commerciali e dati di prenotazione esclusi dalla wiki pubblicabile.
+- Nessuna email inviata. Nessuna modifica al tracker esterno.
+
