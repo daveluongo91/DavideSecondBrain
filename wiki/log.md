@@ -1,5 +1,12 @@
 # Log
 
+## [2026-10-22] fix / website | CTA viaggi e collaudo completo moduli email
+
+- Resi generici i pulsanti esterni di Azzorre e Islanda; la scelta Davide/Eleonora resta nel form. Lapponia era già coerente e Minorca non è stata modificata.
+- Eseguiti invii reali marcati come test tecnico su tutti gli endpoint email pubblici. Tutti hanno risposto HTTP 200 tranne l'alias Canfaito/Conero, bloccato da un BOM UTF-8 nel file PHP condiviso.
+- Rimosso il BOM nella copia locale. La verifica pubblica del fix resta subordinata alla pubblicazione esplicita dei tre file corretti.
+- Commit locale sito: `6de8d59b9bcac9ef533b479b3ec713e7d9524016`.
+
 ## [2026-09-30] fix / backend | SiteManager locale operativo sulla porta 8000
 
 - Allineati FastAPI, `.env.example`, documentazione e SiteManager sulla porta 8000 e sull'API same-origin `/api/sitemanager`.

@@ -42,3 +42,11 @@ Commit del sito: `80c18f6a2829f7a257eac32131ee2f2b1a655771`.
 ## Verifica della pubblicazione
 
 Il controllo successivo del sito pubblico ha confrontato i file principali con `L:\Sito_Dave_Opt`: home italiana e inglese, JavaScript, CSS, Blog, Gear, One-to-One, Lapponia, Minorca, workshop, robots e sitemap corrispondono alla copia operativa. L'unica differenza binaria rilevata era dovuta alle terminazioni di riga trasformate dal server e non modificava il contenuto. Tutte le 32 URL presenti nella sitemap hanno risposto con HTTP 200; i file di configurazione e i dati privati controllati hanno risposto con HTTP 403. Non è stato necessario ripubblicare il sito.
+
+## Verifica del 22 ottobre 2026 — tutti i moduli email
+
+Sono stati eseguiti invii reali marcati `TEST TECNICO` usando `fangoman91@gmail.com` come indirizzo per la risposta. Gli endpoint generale, Conero, Foreste Casentinesi, Azzorre, Islanda, Lapponia e Minorca IT/EN hanno risposto HTTP 200 con accettazione del messaggio. Il vecchio alias Canfaito/Conero ha invece restituito HTTP 500: la causa era il BOM UTF-8 prima di `<?php` in `Canfaito_Conero_2026/api/common.php`, incompatibile con `declare(strict_types=1)`. Il BOM è stato rimosso nella copia locale; il collaudo pubblico definitivo richiede la pubblicazione del file corretto.
+
+Nelle pagine Azzorre e Islanda i pulsanti esterni non nominano più il referente: distinguono soltanto tra informazioni sul viaggio e informazioni fotografiche. Nel form rimane la scelta esplicita tra Davide ed Eleonora. Lapponia era già coerente. Minorca non è stata modificata, come richiesto.
+
+Commit locale del sito: `6de8d59b9bcac9ef533b479b3ec713e7d9524016`.
