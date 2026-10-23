@@ -1153,3 +1153,10 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornati title, meta description, canonical, hreflang e sitemap delle pagine pubbliche interessate. JSON-LD e sitemap XML validati.
 - Pubblicazione Aruba verificata confrontando 29 file locali e remoti con SHA-256; cache svuotata. Commit sito `80c18f6` su `origin/master`.
 
+## [2026-10-23] operation | Bonifica vecchia pagina Canfaito
+- Eliminata in locale e su Aruba la struttura ritirata `Canfaito_Conero_2026`, insieme ai due alias HTML italiano e inglese. Rimossa anche la copia locale non produttiva.
+- Conservata la landing attiva `Conero_2026`, comprese le risorse condivise e gli identificatori interni necessari al suo funzionamento.
+- Rimossa dalla configurazione Apache l'autorizzazione all'esecuzione della vecchia API. I redirect storici sono rimasti attivi.
+- Verifica live: Conero IT ed EN rispondono HTTP 200; i tre vecchi URL rispondono 301 verso Conero; la vecchia API risponde 403. Cache HiSpeed Aruba svuotata.
+- Commit sito `2572080` pubblicato su `origin/master`.
+

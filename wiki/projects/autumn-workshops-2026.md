@@ -2,7 +2,7 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-10-13
+updated: 2026-10-23
 summary: Landing Conero e Foreste Casentinesi online con fotografie reali, API locali, PayPal live e moduli email collaudati.
 tags:
   - workshops
@@ -27,6 +27,8 @@ Le landing canoniche sono online su `/Conero_2026/` e `/Foreste_Casentinesi_2026
 Ogni pagina usa la propria API per posti, richieste email e PayPal. Il 28 settembre 2026 i loader PayPal live, la disponibilità e la validazione server sono risultati operativi. Due email reali di collaudo, una per pagina, sono state accettate dal server e indirizzate a `info@davideluongo.it`. Il test non ha creato né addebitato pagamenti.
 
 SEO aggiornata con title e description specifici, canonical, hreflang IT/EN, Open Graph, Twitter Card, dati strutturati `EducationEvent` e sitemap. Cache Aruba HiSpeed svuotata dopo il rilascio.
+
+Il 23 ottobre 2026 sono state eliminate la vecchia cartella pubblica `Canfaito_Conero_2026`, le due pagine alias `canfaito-2026.html` e la copia locale non produttiva. La landing attiva resta `Conero_2026/`; CSS, JavaScript e identificatori interni ancora condivisi sono stati conservati. I vecchi URL mantengono redirect 301 verso Conero e la vecchia API risponde 403. Cache Aruba svuotata. Commit sito: `2572080`.
 
 ## Risultato osservabile
 
