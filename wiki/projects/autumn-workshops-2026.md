@@ -2,7 +2,7 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-10-13
+updated: 2026-10-23
 summary: Due landing autonome per Riviera del Conero 2026 e Foreste Casentinesi 2026 con fotografie reali a proporzioni native, collegate al backend condiviso di SitoDave.
 tags:
   - workshops
@@ -44,6 +44,7 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
   - Programma rifinito sulla base del confronto con Manuel: sabato mattina Sentiero del Lupo e Due Sorelle viste dall'alto, con soste fotografiche libere nel bosco; rientro e tramonto allo Scoglio della Vela; domenica alba alla Seggiola del Papa e lungo il Passetto.
   - La degustazione non viene anticipata nella pagina pubblica: è indicata soltanto come “una piccola sorpresa” a fine giornata.
   - Pubblicazione del programma aggiornata il 13 ottobre 2026 su Aruba: pagina canonica IT, copia `workshops_2026` e versione EN sostituite con backup automatico dei file precedenti. Verifica HTTP 200 e confronto SHA-256 superato sui tre file; cache HTML configurata `no-store` e URL normali già aggiornati. Commit GitHub sito: `270ae85`.
+  - Il 23 ottobre 2026 sono state eliminate la vecchia cartella pubblica `Canfaito_Conero_2026`, le due pagine alias `canfaito-2026.html` e la copia locale non produttiva. La landing attiva resta `Conero_2026/`; CSS, JavaScript e identificatori interni ancora condivisi sono stati conservati. I vecchi URL mantengono redirect 301 verso Conero e la vecchia API risponde 403. Cache Aruba svuotata. Commit sito: `2572080`.
 
 - **Foreste Casentinesi 2026**:
   - Landing autonoma attiva in `Foreste_Casentinesi_2026/` e `workshops_2026/foreste-casentinesi-2026.html` (e versione EN).
