@@ -7,6 +7,7 @@
 - La data di fine è inclusiva: la campagna si disattiva alle 00:00 del giorno successivo secondo l'ora italiana. Se il backend non risponde, la versione HTTP non riattiva campagne tramite fallback.
 - Rimossi i file del vecchio pannello `admin/`; le vecchie rotte restano come redirect compatibile verso `/SiteManager/`.
 - Validati URL HTTPS, eventi di tracciamento, JavaScript e regressioni backend: 68 test superati. Modifica mantenuta solo in locale, senza pubblicazione su Aruba.
+- Il player Instagram del popup richiede ora l'avvio automatico silenzioso e viene caricato subito; resta soggetto alle regole di autoplay applicate dal browser e dal player Instagram.
 
 ## [2026-10-22] fix / website | CTA viaggi e collaudo completo moduli email
 
