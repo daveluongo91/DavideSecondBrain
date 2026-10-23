@@ -1427,3 +1427,10 @@ Registro cronologico append-only delle modifiche principali.
 - Verifica live: Conero IT ed EN rispondono HTTP 200; i tre vecchi URL rispondono 301 verso Conero; la vecchia API risponde 403. Cache HiSpeed Aruba svuotata.
 - Commit sito `2572080` pubblicato su `origin/master`.
 
+## [2026-10-23] operation | Pubblicazione home con ADV Maven Talon Lights
+- Pubblicati su Aruba `index.html` e `adv-popup.js` dalla copia operativa `L:\Sito_Dave_Opt`; conservato il backup remoto `index~1.html`.
+- La home richiama lo script con versione `adv-popup.js?v=20261023-2`; le risposte live applicano direttive `no-cache`/`no-store` per ridurre il rischio di servire la versione precedente.
+- Verifica live completata: home e script rispondono HTTP 200, il popup Maven Talon Lights compare nel DOM e gli SHA-256 remoti coincidono con i file locali.
+- Il popup pubblico usa un fallback statico con scadenza 13 novembre 2026 perché Aruba Easy Linux non esegue il backend FastAPI. Il conteggio click e chiusure resta disponibile solo nell'ambiente locale finché non verrà pubblicato un backend compatibile.
+- Commit locale del sito: `31ed13a`.
+
