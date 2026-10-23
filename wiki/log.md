@@ -1,6 +1,19 @@
 # Log
 
-## [2026-10-23] feature / website | ADV terze parti locale e popup Maven Talon Lights
+## [2026-10-23] feature / sitemanager | Report Settimanale PDF Visite & Statistiche via Email
+
+- **Generatore Report PDF Vettoriale**:
+  - Creato servizio `backend/app/services/pdf_report_service.py` basato su ReportLab, con design Dark/Cyan coerente con la dashboard di SiteManager.
+  - Include metriche settimanali: Visitatori Unici, Visualizzazioni Totali, Top Source, % Mobile, tabella sorgenti di traffico (Google, Instagram, YouTube, Diretto), Top Pages e sezione monitoraggio ADV terze parti (click e chiusure con conteggi reali).
+- **Automazione & Scheduler**:
+  - Integrato job schedulato in APScheduler (`cutoff_service.py`) per l'invio automatico via Aruba SMTP ogni **Lunedì alle ore 08:00** (fuso orario Europe/Rome).
+  - Destinatario predefinito configurato su email admin/recovery con allegato PDF.
+- **Interfaccia Utente SiteManager**:
+  - Aggiunti i pulsanti `"📄 Scarica PDF"` e `"✉️ Invia Email"` nella scheda Insights di SiteManager per scaricare il documento al volo o testare l'invio con 1 clic.
+  - Implementati endpoint protetti: `GET /api/sitemanager/reports/weekly-insights/download` e `POST /api/sitemanager/reports/weekly-insights/send-now`.
+- **Test Suite**:
+  - Creato test `tests/test_weekly_report.py` superato con successo.
+
 
 - Aggiunta alla home locale una scheda popup per il video Maven Talon Lights con link affiliato dichiarato e Kickstarter attivo fino al 13 novembre 2026.
 - SiteManager ora dispone della sezione `ADV terze parti`: creazione campagne, data di fine, attivazione manuale e conteggio di visualizzazioni, click e chiusure dirette.
