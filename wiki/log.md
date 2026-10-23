@@ -1,5 +1,14 @@
 # Log
 
+## [2026-10-23] feature / website | ADV terze parti locale e popup Maven Talon Lights
+
+- Aggiunta alla home locale una scheda popup per il video Maven Talon Lights con link affiliato dichiarato e Kickstarter attivo fino al 13 novembre 2026.
+- SiteManager ora dispone della sezione `ADV terze parti`: creazione campagne, data di fine, attivazione manuale e conteggio di visualizzazioni, click e chiusure dirette.
+- La data di fine è inclusiva: la campagna si disattiva alle 00:00 del giorno successivo secondo l'ora italiana. Se il backend non risponde, la versione HTTP non riattiva campagne tramite fallback.
+- Rimossi i file del vecchio pannello `admin/`; le vecchie rotte restano come redirect compatibile verso `/SiteManager/`.
+- Validati URL HTTPS, eventi di tracciamento, JavaScript e regressioni backend: 68 test superati. Modifica mantenuta solo in locale, senza pubblicazione su Aruba.
+- Il player Instagram del popup richiede ora l'avvio automatico silenzioso e viene caricato subito; resta soggetto alle regole di autoplay applicate dal browser e dal player Instagram.
+
 ## [2026-10-22] fix / website | CTA viaggi e collaudo completo moduli email
 
 - Resi generici i pulsanti esterni di Azzorre e Islanda; la scelta Davide/Eleonora resta nel form. Lapponia era già coerente e Minorca non è stata modificata.
