@@ -1484,4 +1484,5 @@ Registro cronologico append-only delle modifiche principali.
 - Verificati gli endpoint pubblici previsti: `/SiteManager/`, `/api/health` e `/api/admin/health` rispondono 404. Il backend non è quindi attivo sul dominio.
 - Il servizio Aruba adatto è separato dall'hosting condiviso: Cloud VPS Linux oppure Application Platform Cloud, entrambi capaci di eseguire Python. L'attivazione comporta un nuovo servizio e una decisione economica dell'utente; nessun acquisto è stato eseguito.
 - La pubblicazione del solo frontend amministrativo è stata esclusa perché produrrebbe un pannello visibile ma privo di API operative.
+- Ricontrollo successivo: l'Area Clienti continua a mostrare un solo servizio attivo, Hosting Easy Linux. Il deploy operativo di SiteManager resta sospeso fino all'attivazione di un ambiente Python/ASGI compatibile.
 
