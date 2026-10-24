@@ -1461,3 +1461,13 @@ Registro cronologico append-only delle modifiche principali.
 - Prima di estendere il pannello: test end-to-end dei flussi critici, webhook PayPal idempotenti e riconciliabili, coda affidabile per email/report, audit consultabile e procedure di ripristino provate.
 - Evoluzioni utili successive: calendario operativo workshop, gestione rimborsi e anomalie, ruoli separati, dashboard conversioni rispettosa del consenso e pubblicazione contenuti con anteprima, approvazione e rollback.
 
+## [2026-10-24] backend / sitemanager | Integrazione operativa locale
+- Unificata l'autenticazione di SiteManager con sessioni persistenti e OTP condiviso; il token del pannello resta nella sessione del browser e non nello spazio persistente.
+- Aggiunta una coda email persistente con deduplicazione, tentativi automatici e stato consultabile. Anche il report settimanale passa dalla coda.
+- I webhook PayPal verificati vengono registrati in modo idempotente e riconciliati con prenotazione, importo e valuta; le anomalie restano visibili senza segnare il pagamento come riuscito.
+- Aggiunta una dashboard operativa con posti, saldi, email fallite, anomalie di pagamento, lavori falliti e ADV in scadenza.
+- Gli annullamenti ripristinano i posti una sola volta. Le richieste di rimborso sono tracciate, ma nessun rimborso viene eseguito automaticamente.
+- Introdotti ruoli con permessi specifici, pubblicazione e ritiro programmati dei contenuti, diagnostica protetta di database, spazio disco, backup, email e pagamenti.
+- Creato un controllo di rilascio ripetibile. Esito finale: JavaScript valido e 81 test backend superati; resta un solo avviso di deprecazione proveniente da una dipendenza di test.
+- Lavoro solo locale, nessuna pubblicazione su Aruba e nessuna operazione finanziaria reale. Stato di ripresa salvato in `_project_state/backend-integration`; comando previsto: `riprendi`.
+
