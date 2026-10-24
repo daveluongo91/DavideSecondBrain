@@ -1455,3 +1455,9 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiunta una configurazione pytest che limita la raccolta alla cartella test ed evita le directory di stato protette.
 - Backend lasciato esclusivamente locale; nessuna modifica pubblicata su Aruba. Commit sito `0cef04f`.
 
+## [2026-10-24] planning / backend | Priorità evolutive
+- Prima priorità: unificare SiteManager con l'autenticazione amministrativa già persistente, eliminando token e OTP conservati soltanto in memoria e la duplicazione tra `/api/sitemanager` e `/api/admin`.
+- Seconda priorità: scegliere un ambiente capace di eseguire FastAPI in modo continuo, con HTTPS, database gestito, backup fuori macchina, monitoraggio e staging; Aruba Easy Linux resta adatto al frontend/PHP ma non al processo ASGI attuale.
+- Prima di estendere il pannello: test end-to-end dei flussi critici, webhook PayPal idempotenti e riconciliabili, coda affidabile per email/report, audit consultabile e procedure di ripristino provate.
+- Evoluzioni utili successive: calendario operativo workshop, gestione rimborsi e anomalie, ruoli separati, dashboard conversioni rispettosa del consenso e pubblicazione contenuti con anteprima, approvazione e rollback.
+
