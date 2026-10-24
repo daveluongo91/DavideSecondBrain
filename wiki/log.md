@@ -1479,3 +1479,9 @@ Registro cronologico append-only delle modifiche principali.
 - Verifica finale: JavaScript valido, resa nel browser corretta, database integro e 81 test su 81 superati. Commit sito `1f59d2e`, pubblicato su `origin/master`.
 - Il pannello resta operativo in locale. Il deploy online richiede un servizio Python/ASGI persistente; il piano Aruba Easy Linux ospita il sito statico ma non può tenere in esecuzione FastAPI/Uvicorn.
 
+## [2026-10-24] hosting | Verifica ambiente per SiteManager online
+- Controllato direttamente il pannello Aruba: sull'account del dominio risulta un solo servizio, Hosting Easy Linux con PHP, senza VPS o Cloud Server associati.
+- Verificati gli endpoint pubblici previsti: `/SiteManager/`, `/api/health` e `/api/admin/health` rispondono 404. Il backend non è quindi attivo sul dominio.
+- Il servizio Aruba adatto è separato dall'hosting condiviso: Cloud VPS Linux oppure Application Platform Cloud, entrambi capaci di eseguire Python. L'attivazione comporta un nuovo servizio e una decisione economica dell'utente; nessun acquisto è stato eseguito.
+- La pubblicazione del solo frontend amministrativo è stata esclusa perché produrrebbe un pannello visibile ma privo di API operative.
+
