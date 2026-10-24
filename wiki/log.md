@@ -1447,3 +1447,11 @@ Registro cronologico append-only delle modifiche principali.
 - Il popup pubblico usa un fallback statico con scadenza 13 novembre 2026 perché Aruba Easy Linux non esegue il backend FastAPI. Il conteggio click e chiusure resta disponibile solo nell'ambiente locale finché non verrà pubblicato un backend compatibile.
 - Commit locale del sito: `31ed13a`.
 
+## [2026-10-24] backend / sitemanager | Collaudo e hardening locale
+- Eseguita la suite completa del backend: 70 test superati. Verificati anche avvio Uvicorn, health check, login, sessione protetta, workshop gestiti e ADV.
+- Le password SiteManager nuove usano Argon2id; il vecchio hash viene migrato dopo un accesso valido. Aggiunti blocco temporaneo dopo tentativi falliti, requisiti password coerenti nel frontend, invalidazione delle altre sessioni dopo il cambio password e limite alla richiesta ripetuta di OTP.
+- In produzione non viene più creato automaticamente un amministratore con password nota: l'inizializzazione richiede una credenziale configurata oppure un utente già presente.
+- Ripulito il mount della vecchia pagina Canfaito, disattivato il log SQL verboso di default e corretto il timestamp UTC del log email.
+- Aggiunta una configurazione pytest che limita la raccolta alla cartella test ed evita le directory di stato protette.
+- Backend lasciato esclusivamente locale; nessuna modifica pubblicata su Aruba. Commit sito `0cef04f`.
+
