@@ -1471,3 +1471,11 @@ Registro cronologico append-only delle modifiche principali.
 - Creato un controllo di rilascio ripetibile. Esito finale: JavaScript valido e 81 test backend superati; resta un solo avviso di deprecazione proveniente da una dipendenza di test.
 - Lavoro solo locale, nessuna pubblicazione su Aruba e nessuna operazione finanziaria reale. Stato di ripresa salvato in `_project_state/backend-integration`; comando previsto: `riprendi`.
 
+## [2026-10-24] backend / sitemanager | Comandi grafici e collaudo finale locale
+- Collegata l'interfaccia SiteManager alle funzioni già presenti nel backend: salute del sistema, riconciliazione PayPal, richieste di rimborso, coda email, pubblicazioni programmate e gestione ruoli.
+- Il login SiteManager imposta ora la sessione amministrativa HttpOnly e il token CSRF usati dagli endpoint protetti. I contenuti mostrati nel pannello vengono costruiti come nodi testuali, senza inserire HTML proveniente dai dati.
+- Sincronizzato il catalogo reale delle pagine con il sistema di programmazione senza sovrascrivere file o stati già gestiti. Corretti inoltre endpoint e conteggi dei workshop.
+- Bonificati i dati fittizi lasciati dai vecchi test. Le prove ora usano una password temporanea, ripristinano sempre l'hash operativo e cancellano le proprie righe.
+- Verifica finale: JavaScript valido, resa nel browser corretta, database integro e 81 test su 81 superati. Commit sito `1f59d2e`, pubblicato su `origin/master`.
+- Il pannello resta operativo in locale. Il deploy online richiede un servizio Python/ASGI persistente; il piano Aruba Easy Linux ospita il sito statico ma non può tenere in esecuzione FastAPI/Uvicorn.
+
