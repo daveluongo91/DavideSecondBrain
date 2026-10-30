@@ -1501,3 +1501,9 @@ Registro cronologico append-only delle modifiche principali.
 - Creazione riuscita; verifica indipendente getScheduledPosts: ID 410999582, UUID -3371656872743646805; 2026-10-30T18:30:00 Europe/Rome; facebook PENDING, instagram PENDING; entrambi type REEL, autoPublish true, draft false, video e videoThumbnailUrl presenti.
 - Stato verificato: programmazione confermata per entrambe le piattaforme. Pubblicazione effettiva futura, non ancora verificabile alle 10:52.
 - [Calendario Metricool](https://app.metricool.com/planner/calendar?blogId=7511050&userId=5847477). Evidenza visiva conservata negli output della chat corrente.
+
+## [2026-10-30] operation | Collaboratore Instagram per reel TM Panel
+- Su richiesta di Davide aggiunto loris_ferrini_photography come collaboratore Instagram del reel TM Panel.
+- Aggiornamento Metricool riuscito; rilettura indipendente conferma instagramData.collaborators con username corretto e deleted false. Nuovo ID 411002051, UUID invariato -3371656872743646805.
+- Confermati caption invariata, video e copertina conservati; Instagram e Facebook PENDING, pubblicazione automatica il 30 ottobre 2026 alle 18:30 Europe/Rome.
+- Configurazione del collaboratore salvata in Metricool; accettazione dell'invito da parte di Loris non verificata.
