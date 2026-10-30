@@ -1494,3 +1494,10 @@ Registro cronologico append-only delle modifiche principali.
 - Esito: NON programmato. Il connettore ha respinto il percorso locale del video; la preparazione web contiene i due formati Reel e la caption, ma il caricamento Chrome richiede che l'utente abiliti Allow access to file URLs nell'estensione ChatGPT.
 - Ripresa: caricare video e copertina, impostare 18:30, confermare Programma e rileggere il calendario/API per verificare entrambi i provider, media e copertina. Nessuna pubblicazione da dichiarare completata senza tale verifica.
 - Collegamento: [Pipeline contenuti](workflows/content-pipeline.md).
+
+## [2026-10-30] operation | Reel TM Panel programmato e verificato
+- Superato il blocco caricamento Chrome dopo intervento dell'utente. L'originale 2160x3840 eccede il limite di larghezza Instagram mostrato da Metricool; creata copia H.264 1080x1920 a 30 fps, durata originale 53,75 secondi e audio AAC copiato senza ricodifica. Originale intatto. L'editor web non terminava l'elaborazione, quindi usata conversione locale.
+- Caricata Thumbnail Reels.png come miniatura condivisa. Caption approvata, menzioni e cinque hashtag presenti.
+- Creazione riuscita; verifica indipendente getScheduledPosts: ID 410999582, UUID -3371656872743646805; 2026-10-30T18:30:00 Europe/Rome; facebook PENDING, instagram PENDING; entrambi type REEL, autoPublish true, draft false, video e videoThumbnailUrl presenti.
+- Stato verificato: programmazione confermata per entrambe le piattaforme. Pubblicazione effettiva futura, non ancora verificabile alle 10:52.
+- [Calendario Metricool](https://app.metricool.com/planner/calendar?blogId=7511050&userId=5847477). Evidenza visiva conservata negli output della chat corrente.
