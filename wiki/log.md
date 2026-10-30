@@ -1486,3 +1486,11 @@ Registro cronologico append-only delle modifiche principali.
 - La pubblicazione del solo frontend amministrativo è stata esclusa perché produrrebbe un pannello visibile ma privo di API operative.
 - Ricontrollo successivo: l'Area Clienti continua a mostrare un solo servizio attivo, Hosting Easy Linux. Il deploy operativo di SiteManager resta sospeso fino all'attivazione di un ambiente Python/ASGI compatibile.
 
+
+## [2026-10-30] operation | Reel TM Panel: programmazione da completare
+- Richiesta autorizzata: Reel Instagram e Facebook, 30 ottobre 2026 ore 18:30 Europe/Rome; video `101_TMPanel(1).mp4`, cover `Thumbnail Reels.png`, caption approvata nella chat Gestione Metricool Social.
+- Menzioni: @gasparesilverii e @tonalitymasks. Hashtag: #tmpanel #photoshopitalia #postproduzionefotografica #fotografiapaesaggistica #luminositymasks.
+- Account verificati tramite Metricool: brand DaveLuongo.ph (7511050), Instagram davepics_91 e pagina Facebook 109551627247823. L'utente ha confermato l'account Google proprietario per l'accesso.
+- Esito: NON programmato. Il connettore ha respinto il percorso locale del video; la preparazione web contiene i due formati Reel e la caption, ma il caricamento Chrome richiede che l'utente abiliti Allow access to file URLs nell'estensione ChatGPT.
+- Ripresa: caricare video e copertina, impostare 18:30, confermare Programma e rileggere il calendario/API per verificare entrambi i provider, media e copertina. Nessuna pubblicazione da dichiarare completata senza tale verifica.
+- Collegamento: [Pipeline contenuti](workflows/content-pipeline.md).
