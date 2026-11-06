@@ -28,3 +28,11 @@ La password iniziale è stata generata sul VPS, usata una volta per creare l'amm
 Il sottodominio `sitemanager.davideluongo.it` non ha ancora un record DNS. Il backend risponde già sull'IP del VPS con Host header corretto, ma non è ancora dichiarabile pubblico: mancano record A, certificato TLS, verifica HTTPS e collaudo del login dall'esterno. PayPal resta in sandbox; SMTP e WhatsApp non sono configurati.
 
 Nel pannello Aruba è ora presente il record A `sitemanager` verso `195.231.64.27`, con TTL di un'ora. I controlli immediati sui name server autoritativi Aruba e sul resolver pubblico `1.1.1.1` restituiscono ancora `NXDOMAIN`: la propagazione è in attesa. Certbot non è stato eseguito finché il record non risulta pubblicamente risolvibile.
+
+## Audit sicurezza del VPS
+
+Il controllo in sola lettura conferma UFW attivo con policy predefinita `deny`, porte pubbliche limitate a SSH e Nginx, FastAPI in ascolto soltanto su `127.0.0.1:8000`, Fail2ban attivo, aggiornamenti automatici attivi e servizio SiteManager non privilegiato con protezioni systemd. Ambiente, database e credenziali temporanee hanno permessi restrittivi.
+
+Resta una correzione necessaria: SSH permette ancora `root` e autenticazione con password. Fail2ban registra migliaia di tentativi e centinaia di ban, quindi prima della chiusura del lavoro vanno creati e verificati un utente amministrativo dedicato e una seconda sessione a chiave; soltanto dopo si potranno disabilitare password e login SSH diretto di root senza rischio di lockout.
+
+Sul sito pubblico principale risultano HSTS, CSP e protezione anti-frame; `wp-login.php` e `xmlrpc.php` rispondono 403 e `wp-json/` risponde 404. Questo controllo esterno non equivale a un penetration test, ma non ha mostrato le consuete superfici WordPress esposte.
