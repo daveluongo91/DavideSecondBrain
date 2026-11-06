@@ -1515,3 +1515,9 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiunte le due schede alla pagina Gear con collegamenti locali verificati. La versione inglese non è stata inventata: il relativo comando resta disattivato in attesa della traduzione.
 - Verificati parsing HTML, asset locali, collegamenti Gear e resa delle due pagine nel browser locale. Nessuna pubblicazione online e nessun commit del sito eseguiti: il materiale resta in revisione in `L:\Sito_Dave_Opt`.
 - Nella griglia Gear sono state create due versioni scontornate e verticali, con elemento frontale in alto e baionetta in basso. Negli articoli sono state invece mantenute le fotografie originali con fondo bianco, come richiesto durante la revisione. Riferimenti HTML e dimensioni intrinseche verificati nell'anteprima locale.
+
+## [2026-11-06] sito / viaggi | Revisione quota Azzorre 2027
+- Aggiornata localmente la pagina Azzorre secondo l'Opzione 2 con colazione: €2.925 a persona per 8 partecipanti più Davide. La variante indicativa per 4 partecipanti paganti, con quinta persona sul divano letto, è riportata nella nota a €3.040.
+- Chiarito in hero, riepilogo, quota, JSON-LD e sezione voli che sono inclusi soltanto i voli interni SATA. Il volo da e per l'Italia e i relativi servizi accessori restano acquistabili a parte.
+- Aggiornate le inclusioni: colazioni a São Miguel e Pico, mezzo da 9 posti, coperture del veicolo, guidatore aggiuntivo, oneri aeroportuali ed escursione condivisa whale & dolphin watching a São Miguel.
+- Corretto il programma spostando il whale & dolphin watching da Pico a São Miguel. Verificati HTML, assenza dei vecchi prezzi e resa nel browser locale. Nessuna pubblicazione online eseguita.
