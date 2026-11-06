@@ -21,4 +21,8 @@ Il gate finale locale ha superato 84 test, il controllo JavaScript e il controll
 
 Dal commit è stato generato anche l'archivio temporaneo di rilascio `sitemanager-f69ccd0.tar.gz`: 723 voci, 130.689.795 byte, SHA-256 `7E6F7F230994DF4A7B533347513F58C8984C153829973DB0A38454856FF3BAE8`. Non contiene `.env`, database o dati runtime; sotto `private/` include soltanto il file protettivo `.htaccess`.
 
-Il backend non è ancora pubblicato. Restano da verificare accesso SSH con chiave dal PC, DNS del sottodominio, segreti di produzione, certificato TLS e collaudo live. PayPal resta in sandbox.
+Il 6 novembre è stata verificata la chiave SSH dal PC e installata sul VPS Aruba la release `3ac73c8`. Il servizio FastAPI gira come utente non privilegiato `sitemanager`, parte con systemd, ascolta solo su `127.0.0.1:8000` e viene esposto da Nginx. Il database persistente si trova fuori dalla release. Health check di produzione e routing Nginx con Host header sono riusciti.
+
+La password iniziale è stata generata sul VPS, usata una volta per creare l'amministratore e rimossa dall'ambiente del servizio. La copia temporanea è leggibile solo da `root` e va eliminata dopo il primo cambio password. Nessun segreto è stato scritto nel repository o nel Second Brain.
+
+Il sottodominio `sitemanager.davideluongo.it` non ha ancora un record DNS. Il backend risponde già sull'IP del VPS con Host header corretto, ma non è ancora dichiarabile pubblico: mancano record A, certificato TLS, verifica HTTPS e collaudo del login dall'esterno. PayPal resta in sandbox; SMTP e WhatsApp non sono configurati.
