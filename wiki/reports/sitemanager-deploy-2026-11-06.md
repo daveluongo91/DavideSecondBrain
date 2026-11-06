@@ -26,3 +26,5 @@ Il 6 novembre è stata verificata la chiave SSH dal PC e installata sul VPS Arub
 La password iniziale è stata generata sul VPS, usata una volta per creare l'amministratore e rimossa dall'ambiente del servizio. La copia temporanea è leggibile solo da `root` e va eliminata dopo il primo cambio password. Nessun segreto è stato scritto nel repository o nel Second Brain.
 
 Il sottodominio `sitemanager.davideluongo.it` non ha ancora un record DNS. Il backend risponde già sull'IP del VPS con Host header corretto, ma non è ancora dichiarabile pubblico: mancano record A, certificato TLS, verifica HTTPS e collaudo del login dall'esterno. PayPal resta in sandbox; SMTP e WhatsApp non sono configurati.
+
+Il pannello Aruba del dominio è stato aperto nella sessione autenticata per predisporre il record A. In questa fase non è stata ancora salvata alcuna modifica DNS.
