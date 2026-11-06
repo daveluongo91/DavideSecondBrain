@@ -2,8 +2,8 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-09-03
-summary: Pubblicazione da copia locale; backend amministrativo rinviato a una chat dedicata, funzioni pubbliche da collaudare separatamente.
+updated: 2026-11-06
+summary: Frontend pubblico attivo; SiteManager collaudato in locale e predisposto per un VPS dedicato, deploy live ancora da completare.
 tags:
   - website
   - conversion
@@ -11,6 +11,14 @@ tags:
 ---
 
 # Ricostruzione sito web
+
+## Stato SiteManager al 6 novembre 2026
+
+L'integrazione grafica locale è stata collaudata con un database temporaneo: login, workshop, operatività, insights, gestione pagine, ADV e controllo backend rispondono correttamente. Il test browser ha permesso di correggere un errore della tabella ADV non rilevato dai test API. La suite completa passa 84 test.
+
+Il repository contiene ora i modelli di deploy per il VPS Ubuntu: processo FastAPI su `127.0.0.1`, Nginx pubblico, servizio systemd eseguito da utente non privilegiato e database persistente fuori dalla directory di release. Commit sito: `f69ccd0`.
+
+Il deploy non è ancora operativo. Prima di indicare un URL pubblico devono essere verificati accesso SSH con chiave, DNS, HTTPS, segreti di produzione, login e flussi amministrativi sul server. PayPal resta in sandbox e non va portato live senza un collaudo separato.
 
 ## Stato corrente: audit del 2 settembre 2026
 
