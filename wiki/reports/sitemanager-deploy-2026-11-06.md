@@ -27,4 +27,4 @@ La password iniziale è stata generata sul VPS, usata una volta per creare l'amm
 
 Il sottodominio `sitemanager.davideluongo.it` non ha ancora un record DNS. Il backend risponde già sull'IP del VPS con Host header corretto, ma non è ancora dichiarabile pubblico: mancano record A, certificato TLS, verifica HTTPS e collaudo del login dall'esterno. PayPal resta in sandbox; SMTP e WhatsApp non sono configurati.
 
-Il pannello Aruba del dominio è stato aperto nella sessione autenticata per predisporre il record A. In questa fase non è stata ancora salvata alcuna modifica DNS.
+Nel pannello Aruba è ora presente il record A `sitemanager` verso `195.231.64.27`, con TTL di un'ora. I controlli immediati sui name server autoritativi Aruba e sul resolver pubblico `1.1.1.1` restituiscono ancora `NXDOMAIN`: la propagazione è in attesa. Certbot non è stato eseguito finché il record non risulta pubblicamente risolvibile.
