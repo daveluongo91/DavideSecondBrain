@@ -37,4 +37,6 @@ L'hardening SSH è stato completato con procedura anti-lockout. È stato creato 
 
 È stato inoltre eliminato un vecchio listener SSH, rimasto attivo dal 30 ottobre con la configurazione precedente. Il collaudo conclusivo conferma: accesso a chiave riuscito, password rifiutata e root rifiutato. Fail2ban usa ora quattro tentativi in dieci minuti, ban iniziale di un'ora e durata incrementale fino a una settimana. Nginx non espone più la versione. Gli aggiornamenti disponibili non soggetti a phasing sono stati installati; il sistema non ha richiesto un riavvio.
 
+Le credenziali iniziali di `sudo` e SiteManager sono state trasferite senza mostrarne il contenuto nella cartella `.ssh` del PC, dove i permessi Windows le limitano all'utente, a `SYSTEM` e agli amministratori locali. Le copie originali e temporanee sono state eliminate dal VPS e la loro assenza è stata verificata. Dopo la chiusura della sessione root, un nuovo accesso come `sitemgradmin` ha confermato attivi SSH, Fail2ban, Nginx e SiteManager, con health check `production` riuscito.
+
 Sul sito pubblico principale risultano HSTS, CSP e protezione anti-frame; `wp-login.php` e `xmlrpc.php` rispondono 403 e `wp-json/` risponde 404. Questo controllo esterno non equivale a un penetration test, ma non ha mostrato le consuete superfici WordPress esposte.
