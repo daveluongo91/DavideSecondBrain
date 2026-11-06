@@ -19,6 +19,8 @@ Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repos
 
 Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
 
+Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 13–14 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). La home locale IT/EN mostra le date e usa un unico pulsante finale per aprire il modulo informazioni; nessuna modifica è stata pubblicata online.
+
 ## Aggiornamento storico del 28 settembre 2026
 
 Conero (7–8 novembre) e Foreste Casentinesi (28–29 novembre) sono pubblicati con landing IT/EN, fotografie reali, disponibilità posti, moduli email e checkout PayPal di produzione. Il server ha accettato due email di collaudo indirizzate a `info@davideluongo.it`; i loader PayPal e la validazione server sono risultati attivi senza eseguire un acquisto.

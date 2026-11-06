@@ -1,5 +1,11 @@
 # Log
 
+## [2026-11-06] website | Calendario workshop nazionali 2027 in home
+
+- Sostituito localmente il banner generico dei workshop 2027 nelle home IT/EN con Cinque Terre (13–14 marzo), Val d’Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto), ricavati da `CALENDARIO_EXCEL_2027.xlsx`.
+- Per ogni meta è riportata la formula “in collaborazione con Mauro Boccali”; il nome collega al profilo Instagram `mauro.boccali.ph`.
+- La CTA finale apre il modulo informazioni con un oggetto dedicato. Verificati in browser contenuti, link e apertura del modulo. Nessuna pubblicazione e nessun commit del sito eseguiti.
+
 ## [2026-11-06] website | Ritiro completo del workshop Conero
 
 - Rimossi dal sito locale e dal repository la landing `Conero_2026`, le copie IT/EN e standalone, gli asset dedicati, le card home, le voci sitemap e dati pubblici, il routing, le API specifiche e i riferimenti in SiteManager, analytics, seed e test.
