@@ -1,5 +1,12 @@
 # Log
 
+## [2026-11-06] gear / website | Test SIGMA 35mm F1.4 DG II Art completo IT/EN
+
+- Sostituiti i tre placeholder dell’articolo con i sample reali `A7R00155-Edit`, `DSC00037-Edit` e `Cigno_35mm_Casa`; gli originali sono rimasti intatti e le copie web sono state ridimensionate a 2048 px sul lato lungo, senza didascalie.
+- Creata la versione inglese completa del test e collegato il selettore lingua. Aggiunta anche la scheda del 35mm alla pagina Gear inglese.
+- Ottimizzati title, description, canonical, hreflang IT/EN, Open Graph, Twitter Card, dati strutturati BlogPosting, testi alternativi e sitemap.
+- Verificati in locale dimensioni delle immagini, XML, JSON-LD, gerarchia H1, percorsi e resa delle pagine IT/EN nel browser. Nessuna pubblicazione e nessun commit del sito eseguiti.
+
 ## [2026-11-06] website | Calendario workshop nazionali 2027 in home
 
 - Sostituito localmente il banner generico dei workshop 2027 nelle home IT/EN con Cinque Terre (13–14 marzo), Val d’Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto), ricavati da `CALENDARIO_EXCEL_2027.xlsx`.
