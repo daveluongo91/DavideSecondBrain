@@ -1,6 +1,9 @@
 ---
 title: SiteManager - collaudo locale e preparazione VPS
 type: report
+status: active
+updated: 2026-11-06
+summary: SiteManager è operativo sul VPS e raggiungibile via HTTP; DNS propagato, HTTPS e collaudo pubblico del login restano da completare.
 date: 2026-11-06
 tags:
   - website
@@ -10,6 +13,14 @@ tags:
 ---
 
 # SiteManager: collaudo locale e preparazione VPS
+
+## Verifica serale del 6 novembre 2026
+
+Il record A `sitemanager.davideluongo.it` è propagato e risolve correttamente verso `195.231.64.27`. L'endpoint pubblico `http://sitemanager.davideluongo.it/api/health` risponde HTTP 200 con ambiente `production`.
+
+Il controllo SSH in sola lettura conferma attivi e abilitati `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici. Il servizio gira come utente non privilegiato `sitemanager`, usa `/srv/sitemanager/current` e FastAPI ascolta esclusivamente su `127.0.0.1:8000`; le sole porte pubbliche rilevate sono SSH e HTTP.
+
+La replica applicativa è quindi funzionante, ma il servizio non è ancora pronto per un utilizzo reale: la porta 443 rifiuta la connessione e il certificato TLS non risulta installato. Prima di proseguire con login e configurazioni sensibili vanno emessi il certificato, attivato HTTPS in Nginx e verificati redirect HTTP→HTTPS e login dall'esterno.
 
 SiteManager è stato collaudato con un database temporaneo isolato. Login, workshop, operatività, insights, gestione pagine, ADV e controllo backend hanno caricato correttamente le rispettive API.
 

@@ -18,6 +18,8 @@ Il workshop Riviera del Conero è stato rimosso dalla copia locale e dal reposit
 
 ## Stato SiteManager al 6 novembre 2026
 
+Verifica serale: il DNS `sitemanager.davideluongo.it` è propagato e l'health check pubblico HTTP risponde in ambiente `production`. Servizio applicativo, Nginx, Fail2ban e aggiornamenti automatici sono attivi e abilitati. HTTPS non è ancora configurato: la porta 443 rifiuta la connessione e manca il certificato TLS. La replica è funzionante, ma login e dati sensibili non vanno usati finché non sono stati completati certificato, redirect HTTPS e collaudo esterno.
+
 L'integrazione grafica locale è stata collaudata con un database temporaneo: login, workshop, operatività, insights, gestione pagine, ADV e controllo backend rispondono correttamente. Il test browser ha permesso di correggere un errore della tabella ADV non rilevato dai test API. La suite completa passa 84 test.
 
 Il repository contiene i modelli di deploy per il VPS Ubuntu. La release `3ac73c8` è installata sul server: processo FastAPI su `127.0.0.1`, Nginx davanti, servizio systemd eseguito da utente non privilegiato e database persistente fuori dalla directory di release. Health check e routing locale sul VPS sono riusciti.
