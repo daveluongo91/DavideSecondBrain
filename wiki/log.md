@@ -1507,3 +1507,10 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornamento Metricool riuscito; rilettura indipendente conferma instagramData.collaborators con username corretto e deleted false. Nuovo ID 411002051, UUID invariato -3371656872743646805.
 - Confermati caption invariata, video e copertina conservati; Instagram e Facebook PENDING, pubblicazione automatica il 30 ottobre 2026 alle 18:30 Europe/Rome.
 - Configurazione del collaboratore salvata in Metricool; accettazione dell'invito da parte di Loris non verificata.
+
+## [2026-11-06] sito / gear | Articoli SIGMA 85mm F1.2 e 35mm F1.4 II
+- Preparati in locale due nuovi articoli, costruiti sul formato del test SIGMA 24-70mm e sui relativi script video: `test-sigma-85mm-f1-2-art.html` e `test-sigma-35mm-f1-4-ii-art.html`.
+- Titoli e H1 riportano la dicitura richiesta `(AAmbassador)`. I testi mantengono un tono diretto, tecnico e personale, senza presentare come definitive prove ancora iniziali.
+- Integrate le quattro fotografie prodotto fornite. In ciascun articolo restano tre placeholder espliciti per i futuri sample fotografici.
+- Aggiunte le due schede alla pagina Gear con collegamenti locali verificati. La versione inglese non è stata inventata: il relativo comando resta disattivato in attesa della traduzione.
+- Verificati parsing HTML, asset locali, collegamenti Gear e resa delle due pagine nel browser locale. Nessuna pubblicazione online e nessun commit del sito eseguiti: il materiale resta in revisione in `L:\Sito_Dave_Opt`.
