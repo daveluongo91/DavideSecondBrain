@@ -1541,3 +1541,7 @@ Registro cronologico append-only delle modifiche principali.
 - Chiarito in hero, riepilogo, quota, JSON-LD e sezione voli che sono inclusi soltanto i voli interni SATA. Il volo da e per l'Italia e i relativi servizi accessori restano acquistabili a parte.
 - Aggiornate le inclusioni: colazioni a São Miguel e Pico, mezzo da 9 posti, coperture del veicolo, guidatore aggiuntivo, oneri aeroportuali ed escursione condivisa whale & dolphin watching a São Miguel.
 - Corretto il programma spostando il whale & dolphin watching da Pico a São Miguel. Verificati HTML, assenza dei vecchi prezzi e resa nel browser locale. Nessuna pubblicazione online eseguita.
+
+## [2026-11-06] decision | Avvio plugin Photoshop UXP
+- Creata [scheda progetto](projects/photoshop-uxp-plugin.md).
+- Letta la chat originale: funzione ancora da scegliere con Davide. Successivamente MVP, interfaccia, codice, test e packaging.

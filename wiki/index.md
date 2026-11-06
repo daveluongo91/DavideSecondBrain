@@ -29,6 +29,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 - [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca dall'1 al 5 giugno 2027, pubblicato sul sito con quota di 849 euro e prenotazione gestita da Atelier dei Viaggi. _(published)_
 - [Nivolet 2026](projects/nivolet-2026.md) — Workshop fotografico al Colle del Nivolet previsto per l'8 e 9 agosto 2026; periodo concluso, retrospettiva da registrare. _(archived)_
 - [Outreach Islanda 2026](projects/outreach-islanda-2026.md) — Tracking delle proposte hosted stay e autonoleggio per il viaggio fotografico in Islanda tra novembre e dicembre 2026. _(active)_
+- [Plugin Photoshop UXP](projects/photoshop-uxp-plugin.md) — Progettazione condivisa di un plugin Photoshop UXP; funzione da definire con Davide. _(planned)_
 - [Recensioni Google del sito e aggiornamento mensile](projects/website-google-reviews-automation-2026-09-25.md) — Link pubblico corretto, recensioni centralizzate in JSON e controllo mensile delle nuove recensioni Google. _(active)_
 - [Ricostruzione sito web](projects/website-rebuild.md) — Frontend pubblico attivo; SiteManager installato sul VPS e sano dietro Nginx, in attesa di DNS, HTTPS e collaudo pubblico. _(active)_
 - [Ripristino moduli email del sito](projects/website-mail-forms-repair-2026-09-17.md) — Ripristino e collaudo SMTP dei moduli pubblici, comprese le scelte dei destinatari per Minorca e Lapponia. _(completed)_
