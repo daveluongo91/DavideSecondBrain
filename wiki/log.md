@@ -1,5 +1,12 @@
 # Log
 
+## [2026-11-06] website | Ritiro completo del workshop Conero
+
+- Rimossi dal sito locale e dal repository la landing `Conero_2026`, le copie IT/EN e standalone, gli asset dedicati, le card home, le voci sitemap e dati pubblici, il routing, le API specifiche e i riferimenti in SiteManager, analytics, seed e test.
+- Conservati i record storici di iscrizioni e pagamenti e il report presenze privato: non sono dipendenze pubbliche e restano necessari per tracciabilità amministrativa.
+- Verificati JSON, XML e JavaScript; le tre vecchie URL locali rispondono 404, le home IT/EN restano raggiungibili e la suite completa passa 81 test.
+- Commit del sito `1a12709` pubblicato su GitHub. Nessuna modifica eseguita sul sito online Aruba.
+
 ## [2026-10-23] feature / sitemanager | Report Settimanale PDF Visite & Statistiche via Email
 
 - **Generatore Report PDF Vettoriale**:

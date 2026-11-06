@@ -2,8 +2,8 @@
 title: Workshop autunnali 2026
 type: project
 status: active
-updated: 2026-10-23
-summary: Due landing autonome per Riviera del Conero 2026 e Foreste Casentinesi 2026 con fotografie reali a proporzioni native, collegate al backend condiviso di SitoDave.
+updated: 2026-11-06
+summary: Foreste Casentinesi resta nel catalogo locale; la landing Riviera del Conero e tutte le dipendenze operative sono state ritirate conservando i dati storici privati.
 tags:
   - workshops
   - website
@@ -13,6 +13,14 @@ tags:
 
 # Workshop autunnali 2026
 
+## Stato attuale (6 novembre 2026)
+
+Riviera del Conero è stata ritirata integralmente dalla copia locale e dal repository `SitoDave-Release` con commit `1a12709`. Rimossi pagina canonica, copie IT/EN e standalone, asset esclusivi, card delle home, sitemap, dati pubblici, routing, API dedicate, riferimenti SiteManager, analytics, seed e test non più validi. Le vecchie URL restituiscono 404 nel server locale.
+
+Non sono stati eliminati i record storici di iscrizioni o pagamenti né il report privato `private/reports/workshops/conero_2026_partecipanti.xlsx`. Questa operazione non ha modificato il sito online su Aruba.
+
+Foreste Casentinesi resta l'unica landing workshop nazionale 2026 presente nel catalogo locale. La suite completa del sito passa 81 test.
+
 ## Obiettivo
 
 Completare e rifinire le due landing page autonome per gli appuntamenti autunnali 2026, collegate all'infrastruttura backend e dotate di materiale fotografico reale ad alto impatto:
@@ -20,7 +28,7 @@ Completare e rifinire le due landing page autonome per gli appuntamenti autunnal
 - **Riviera del Conero 2026** (7–8 novembre 2026): focus esclusivo sulla costa del Conero (La Vela, Le Due Sorelle con sentiero panoramico di 45 min a piedi, La Seggiola del Papa al Passetto).
 - **Foreste Casentinesi 2026** (28–29 novembre 2026): boschi maturi, sentiero nella nebbia, foliage, cascate e dettagli del sottobosco primordiale.
 
-## Stato Attuale (28 Settembre 2026)
+## Stato storico (28 settembre 2026)
 
 ### Pubblicazione e collaudo live
 

@@ -12,6 +12,10 @@ tags:
 
 # Ricostruzione sito web
 
+## Ritiro Conero del 6 novembre 2026
+
+Il workshop Riviera del Conero è stato rimosso dalla copia locale e dal repository con commit `1a12709`: landing, copie, asset esclusivi e dipendenze operative frontend/backend non fanno più parte della release. Lo storico privato di iscrizioni, pagamenti e presenze è stato conservato. Verifica locale: 81 test superati e vecchie URL Conero in 404. Nessuna pubblicazione su Aruba eseguita in questa operazione; i riferimenti successivi a Conero descrivono fasi storiche del progetto.
+
 ## Stato SiteManager al 6 novembre 2026
 
 L'integrazione grafica locale è stata collaudata con un database temporaneo: login, workshop, operatività, insights, gestione pagine, ADV e controllo backend rispondono correttamente. Il test browser ha permesso di correggere un errore della tabella ADV non rilevato dai test API. La suite completa passa 84 test.

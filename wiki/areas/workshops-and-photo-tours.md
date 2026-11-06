@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-09-28
+updated: 2026-11-06
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -13,7 +13,13 @@ tags:
 
 # Workshop e photo tour
 
-## Aggiornamento 28 settembre 2026
+## Aggiornamento 6 novembre 2026
+
+Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione non è stata pubblicata su Aruba in questa operazione.
+
+Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
+
+## Aggiornamento storico del 28 settembre 2026
 
 Conero (7–8 novembre) e Foreste Casentinesi (28–29 novembre) sono pubblicati con landing IT/EN, fotografie reali, disponibilità posti, moduli email e checkout PayPal di produzione. Il server ha accettato due email di collaudo indirizzate a `info@davideluongo.it`; i loader PayPal e la validazione server sono risultati attivi senza eseguire un acquisto.
 
@@ -29,10 +35,10 @@ Esperienze fotografiche gestite in piccoli gruppi o sessioni individuali, basate
 
 L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici** (Estero), disposti in ordine cronologico dalla data attuale:
 
-### 🇮🇹 Workshop Nazionali 2026 (Attivi)
+### 🇮🇹 Calendario Workshop Nazionali 2026 (storico)
 1. **Workshop Friuli — Laghi e Cascate** (10-11 Ottobre 2026): Fontanon di Goriuda, Laghi di Fusine e alba alle sorgenti di Zelenci; quota €350, caparra €50, massimo 8 partecipanti e 3 posti mostrati come disponibili. Non è prevista una sessione notturna ufficiale; l'astrofotografia resta un'opportunità fuori programma se meteo e gruppo lo consentono (*Iscrizioni aperte*).
 2. **Workshop Dardagna — Cascate dell'Appennino** (24-25 Ottobre 2026): pagina autonoma pubblicata su `https://www.davideluongo.it/Dardagna_2026/`, quota €350, caparra €50, massimo 8 partecipanti e docenza di Davide Luongo e Manuel Linari (*Iscrizioni aperte*).
-3. **Workshop Riviera del Conero** (7-8 Novembre 2026): La Vela, Due Sorelle e Passetto. Pagina pubblicata su `https://www.davideluongo.it/Conero_2026/`, quota €350 e caparra €50 (*Iscrizioni aperte*).
+3. **Workshop Riviera del Conero** (7-8 Novembre 2026): ritirato dal progetto locale e dal repository il 6 novembre 2026. La precedente pagina era pubblicata su `https://www.davideluongo.it/Conero_2026/`.
 4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): boschi, corsi d'acqua e scene di fine autunno. Pagina pubblicata su `https://www.davideluongo.it/Foreste_Casentinesi_2026/`, quota €350 e caparra €50 (*Iscrizioni aperte*).
 
 Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta collegata in attesa della retrospettiva. Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi dall'offerta attiva.
@@ -73,5 +79,5 @@ Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 - [Workflow di lancio workshop](../workflows/workshop-launch.md)
 - URL Friuli confermato: `https://www.davideluongo.it/Friuli_2026/`.
 - URL Dardagna confermato: `https://www.davideluongo.it/Dardagna_2026/`.
-- URL Conero confermato: `https://www.davideluongo.it/Conero_2026/`.
+- URL storico Conero: `https://www.davideluongo.it/Conero_2026/`; pagina ritirata localmente il 6 novembre 2026, pubblicazione online non modificata in questa operazione.
 - URL Foreste Casentinesi confermato: `https://www.davideluongo.it/Foreste_Casentinesi_2026/`.
