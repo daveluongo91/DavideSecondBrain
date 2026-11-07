@@ -1567,3 +1567,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Ripresa della prova di rollback Astro Sky Blender
 - Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreground.tif attiva senza dialoghi. Il rollback si avvia rilanciando lo script QA.
+
+## [2026-11-07] checkpoint | Rollback Astro Sky Blender in Photoshop
+- Rollback Photoshop 2025 verificato sugli ID dei livelli di primo livello. Errore iniettato dopo STARLESS e risultato Original top-level IDs intact: true. Prossimo passo: Build on a test copy e verifica dei livelli.

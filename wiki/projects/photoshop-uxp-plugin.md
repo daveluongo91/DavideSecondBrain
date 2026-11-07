@@ -49,3 +49,5 @@ Tentativo del 7 novembre 2026. foreground.tif aperto in Photoshop in RGB/16 e di
 7 novembre 2026. Analyze only riuscito in Photoshop 2025 sulla fixture RGB/16: 34 corrispondenze, Similarity, traslazione (−54, −34) px e RMS 0,00004879 px. Rilevati 86.836 pixel di cielo; campionamento H-alpha utilizzabile. Prossima prova: errore iniettato e rollback.
 
 Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreground.tif attiva senza dialoghi. Il rollback si avvia rilanciando lo script QA.
+
+Rollback Photoshop 2025 verificato sugli ID dei livelli di primo livello. Errore iniettato dopo STARLESS e risultato Original top-level IDs intact: true. Prossimo passo: Build on a test copy e verifica dei livelli.
