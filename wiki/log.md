@@ -1585,3 +1585,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Proposta per input astro flessibili
 - Proposta per input flessibili: H-alpha e Starsoft opzionali e omessi se assenti. Base obbligatoria STARLESS o cielo completo. Nel caso separato registrare da star.tif, nel caso completo dalle stelle dello stesso file. Solo STARLESS richiede geometria gia registrata o allineamento manuale. Solo stelle separate richiedono una base. Il file base alimenta Sky Replacement. La 0.2.1 richiede ancora quattro TIFF.
+
+## [2026-11-07] checkpoint | Modalità blue hour e TIFF opzionali
+- Preview 0.3.0: registrazione stellare disattivabile per foreground blue hour. Il plugin salta il rilevamento e usa le coordinate originali con controllo di copertura. Base starless.tif o sky.tif, componenti aggiuntivi opzionali. Dieci test locali passati; collaudo Photoshop aperto.

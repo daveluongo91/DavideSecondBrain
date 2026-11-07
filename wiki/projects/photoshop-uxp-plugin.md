@@ -61,3 +61,5 @@ Il file da fornire a Sky Replacement è starless.tif della stessa cartella dei q
 Sequenza concordata: importare starless.tif in Sky Replacement per ottenere maschera e fusione native. Poi registrare star.tif sulle stelle del foreground originale, calcolare Similarity o Affine e applicare la stessa trasformazione ai quattro TIFF, STARLESS incluso. Il plugin inserisce il cielo registrato nel gruppo nativo. Flusso completo da verificare in Photoshop.
 
 Proposta per input flessibili: H-alpha e Starsoft opzionali e omessi se assenti. Base obbligatoria STARLESS o cielo completo. Nel caso separato registrare da star.tif, nel caso completo dalle stelle dello stesso file. Solo STARLESS richiede geometria gia registrata o allineamento manuale. Solo stelle separate richiedono una base. Il file base alimenta Sky Replacement. La 0.2.1 richiede ancora quattro TIFF.
+
+Preview 0.3.0: registrazione stellare disattivabile per foreground blue hour. Il plugin salta il rilevamento e usa le coordinate originali con controllo di copertura. Base starless.tif o sky.tif, componenti aggiuntivi opzionali. Dieci test locali passati; collaudo Photoshop aperto.
