@@ -57,3 +57,5 @@ Photoshop 2025 ha completato il compositing della 0.1.0. Davide conferma il grup
 Davide richiede Sky Replacement nativo come gruppo padre di ASTRO SKY BLENDER. Preview 0.2.0 implementa il flusso guidato: eseguire Edit > Sky Replacement con Output to New Layers, selezionare il livello cielo e usare Blend into Sky Replacement. Il plugin riusa la maschera nativa, integra il gruppo astro e nasconde il cielo di riferimento. Prova Photoshop ancora aperta.
 
 Il file da fornire a Sky Replacement è starless.tif della stessa cartella dei quattro TIFF. La 0.2.1 lo indica nel pannello, nello script QA e nel collaudo. Importare e selezionare STARLESS nel dialogo nativo prima di Output to New Layers. Importazione manuale nella preview, integrazione Photoshop da collaudare.
+
+Sequenza concordata: importare starless.tif in Sky Replacement per ottenere maschera e fusione native. Poi registrare star.tif sulle stelle del foreground originale, calcolare Similarity o Affine e applicare la stessa trasformazione ai quattro TIFF, STARLESS incluso. Il plugin inserisce il cielo registrato nel gruppo nativo. Flusso completo da verificare in Photoshop.

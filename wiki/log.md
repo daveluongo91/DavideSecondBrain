@@ -1579,3 +1579,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | STARLESS come sorgente di Sky Replacement
 - Il file da fornire a Sky Replacement è starless.tif della stessa cartella dei quattro TIFF. La 0.2.1 lo indica nel pannello, nello script QA e nel collaudo. Importare e selezionare STARLESS nel dialogo nativo prima di Output to New Layers. Importazione manuale nella preview, integrazione Photoshop da collaudare.
+
+## [2026-11-07] checkpoint | Registrazione dello STARLESS dopo Sky Replacement
+- Sequenza concordata: importare starless.tif in Sky Replacement per ottenere maschera e fusione native. Poi registrare star.tif sulle stelle del foreground originale, calcolare Similarity o Affine e applicare la stessa trasformazione ai quattro TIFF, STARLESS incluso. Il plugin inserisce il cielo registrato nel gruppo nativo. Flusso completo da verificare in Photoshop.
