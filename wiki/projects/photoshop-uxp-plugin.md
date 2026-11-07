@@ -63,3 +63,5 @@ Sequenza concordata: importare starless.tif in Sky Replacement per ottenere masc
 Proposta per input flessibili: H-alpha e Starsoft opzionali e omessi se assenti. Base obbligatoria STARLESS o cielo completo. Nel caso separato registrare da star.tif, nel caso completo dalle stelle dello stesso file. Solo STARLESS richiede geometria gia registrata o allineamento manuale. Solo stelle separate richiedono una base. Il file base alimenta Sky Replacement. La 0.2.1 richiede ancora quattro TIFF.
 
 Preview 0.3.0: registrazione stellare disattivabile per foreground blue hour. Il plugin salta il rilevamento e usa le coordinate originali con controllo di copertura. Base starless.tif o sky.tif, componenti aggiuntivi opzionali. Dieci test locali passati; collaudo Photoshop aperto.
+
+Preview 0.3.1: pannello Photoshop ridisegnato con la mascotte originale fornita da Davide. Tre passaggi per file, allineamento e fusione. Gli indicatori mostrano i TIFF caricati. Anteprima browser e integrità CCX controllate; dieci test locali passati. Resa dei controlli Adobe in Photoshop da verificare.

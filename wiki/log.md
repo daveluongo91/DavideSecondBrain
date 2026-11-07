@@ -1588,3 +1588,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Modalità blue hour e TIFF opzionali
 - Preview 0.3.0: registrazione stellare disattivabile per foreground blue hour. Il plugin salta il rilevamento e usa le coordinate originali con controllo di copertura. Base starless.tif o sky.tif, componenti aggiuntivi opzionali. Dieci test locali passati; collaudo Photoshop aperto.
+
+## [2026-11-07] checkpoint | Pannello Astro Sky Blender con mascotte
+- Preview 0.3.1: pannello Photoshop ridisegnato con la mascotte originale fornita da Davide. Tre passaggi per file, allineamento e fusione. Gli indicatori mostrano i TIFF caricati. Anteprima browser e integrità CCX controllate; dieci test locali passati. Resa dei controlli Adobe in Photoshop da verificare.
