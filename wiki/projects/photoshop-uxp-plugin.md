@@ -41,3 +41,5 @@ UXP Manifest 5, registrazione JS interna con Similarity e Affine, una matrice pe
 - [Software fotografico](../gear/software.md) e [Astrofotografia ambientata](../knowledge/astrophotography.md).
 
 Data di revisione: alla prossima prova su Photoshop.
+
+Tentativo del 7 novembre 2026. Photoshop 2025 aperto e finestra Apri raggiunta. La cattura della finestra è scaduta e il controllo remoto non ha potuto inserire il percorso. In attesa di caricare foreground.tif e lo script QA nell'app.

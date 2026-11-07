@@ -1555,3 +1555,6 @@ Registro cronologico append-only delle modifiche principali.
 - Aggiornata la [scheda progetto](projects/photoshop-uxp-plugin.md) dalla baseline v0.6.1 e dall'Implementation Plan v1.0.
 - Preview UXP impacchettata con lo strumento Adobe; nove test del motore passati. Installazione Creative Cloud e prove Photoshop ancora aperte.
 - Prossimo passo: prova della fixture 16 bit, rollback e verifica numerica di H-alpha in Photoshop.
+
+## [2026-11-07] checkpoint | Collaudo Astro Sky Blender in Photoshop
+- Tentativo del 7 novembre 2026. Photoshop 2025 aperto e finestra Apri raggiunta. La cattura della finestra è scaduta e il controllo remoto non ha potuto inserire il percorso. In attesa di caricare foreground.tif e lo script QA nell'app.
