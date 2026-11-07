@@ -53,3 +53,5 @@ Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreg
 Rollback Photoshop 2025 verificato sugli ID dei livelli di primo livello. Errore iniettato dopo STARLESS e risultato Original top-level IDs intact: true. Prossimo passo: Build on a test copy e verifica dei livelli.
 
 Photoshop 2025 ha completato il compositing della 0.1.0. Davide conferma il gruppo e richiede per H-alpha Screen, solo R in Advanced Blending, opacità e riempimento 100% e Blend Clipped Layers as Group attivo. La 0.1.1 imposta e verifica solo R via Photoshop. Da confermare in Layer Style sulla fixture.
+
+Davide richiede Sky Replacement nativo come gruppo padre di ASTRO SKY BLENDER. Preview 0.2.0 implementa il flusso guidato: eseguire Edit > Sky Replacement con Output to New Layers, selezionare il livello cielo e usare Blend into Sky Replacement. Il plugin riusa la maschera nativa, integra il gruppo astro e nasconde il cielo di riferimento. Prova Photoshop ancora aperta.

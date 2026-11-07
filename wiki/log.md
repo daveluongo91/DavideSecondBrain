@@ -1573,3 +1573,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Compositing e Layer Style H-alpha
 - Photoshop 2025 ha completato il compositing della 0.1.0. Davide conferma il gruppo e richiede per H-alpha Screen, solo R in Advanced Blending, opacità e riempimento 100% e Blend Clipped Layers as Group attivo. La 0.1.1 imposta e verifica solo R via Photoshop. Da confermare in Layer Style sulla fixture.
+
+## [2026-11-07] checkpoint | Sky Replacement nativo per Astro Sky Blender
+- Davide richiede Sky Replacement nativo come gruppo padre di ASTRO SKY BLENDER. Preview 0.2.0 implementa il flusso guidato: eseguire Edit > Sky Replacement con Output to New Layers, selezionare il livello cielo e usare Blend into Sky Replacement. Il plugin riusa la maschera nativa, integra il gruppo astro e nasconde il cielo di riferimento. Prova Photoshop ancora aperta.
