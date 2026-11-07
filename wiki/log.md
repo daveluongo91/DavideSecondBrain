@@ -1582,3 +1582,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Registrazione dello STARLESS dopo Sky Replacement
 - Sequenza concordata: importare starless.tif in Sky Replacement per ottenere maschera e fusione native. Poi registrare star.tif sulle stelle del foreground originale, calcolare Similarity o Affine e applicare la stessa trasformazione ai quattro TIFF, STARLESS incluso. Il plugin inserisce il cielo registrato nel gruppo nativo. Flusso completo da verificare in Photoshop.
+
+## [2026-11-07] checkpoint | Proposta per input astro flessibili
+- Proposta per input flessibili: H-alpha e Starsoft opzionali e omessi se assenti. Base obbligatoria STARLESS o cielo completo. Nel caso separato registrare da star.tif, nel caso completo dalle stelle dello stesso file. Solo STARLESS richiede geometria gia registrata o allineamento manuale. Solo stelle separate richiedono una base. Il file base alimenta Sky Replacement. La 0.2.1 richiede ancora quattro TIFF.
