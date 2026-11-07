@@ -47,3 +47,5 @@ Tentativo del 7 novembre 2026. Photoshop 2025 aperto e finestra Apri raggiunta. 
 Tentativo del 7 novembre 2026. foreground.tif aperto in Photoshop in RGB/16 e dialogo Astro Sky Blender QA visibile. I pulsanti non sono esposti al controllo remoto. Analisi e rollback in attesa della prova.
 
 7 novembre 2026. Analyze only riuscito in Photoshop 2025 sulla fixture RGB/16: 34 corrispondenze, Similarity, traslazione (−54, −34) px e RMS 0,00004879 px. Rilevati 86.836 pixel di cielo; campionamento H-alpha utilizzabile. Prossima prova: errore iniettato e rollback.
+
+Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreground.tif attiva senza dialoghi. Il rollback si avvia rilanciando lo script QA.

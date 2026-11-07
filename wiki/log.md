@@ -1564,3 +1564,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Analisi Astro Sky Blender in Photoshop
 - 7 novembre 2026. Analyze only riuscito in Photoshop 2025 sulla fixture RGB/16: 34 corrispondenze, Similarity, traslazione (−54, −34) px e RMS 0,00004879 px. Rilevati 86.836 pixel di cielo; campionamento H-alpha utilizzabile. Prossima prova: errore iniettato e rollback.
+
+## [2026-11-07] checkpoint | Ripresa della prova di rollback Astro Sky Blender
+- Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreground.tif attiva senza dialoghi. Il rollback si avvia rilanciando lo script QA.
