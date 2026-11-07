@@ -1561,3 +1561,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Collaudo Astro Sky Blender in Photoshop
 - Tentativo del 7 novembre 2026. foreground.tif aperto in Photoshop in RGB/16 e dialogo Astro Sky Blender QA visibile. I pulsanti non sono esposti al controllo remoto. Analisi e rollback in attesa della prova.
+
+## [2026-11-07] checkpoint | Analisi Astro Sky Blender in Photoshop
+- 7 novembre 2026. Analyze only riuscito in Photoshop 2025 sulla fixture RGB/16: 34 corrispondenze, Similarity, traslazione (−54, −34) px e RMS 0,00004879 px. Rilevati 86.836 pixel di cielo; campionamento H-alpha utilizzabile. Prossima prova: errore iniettato e rollback.
