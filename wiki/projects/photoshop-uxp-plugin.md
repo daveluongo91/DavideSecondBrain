@@ -1,33 +1,43 @@
 ---
-title: Plugin Photoshop UXP
+title: Astro Sky Blender
 type: project
-status: planned
-updated: 2026-11-06
-summary: Progettazione condivisa di un plugin Photoshop UXP; funzione da definire con Davide.
+status: active
+updated: 2026-11-07
+summary: Plugin Photoshop UXP per il compositing astronomico; preview 0.1.0 generata, collaudo Photoshop aperto.
 tags:
   - photoshop
   - uxp
+  - astrophotography
 ---
 
-# Plugin Photoshop UXP
+# Astro Sky Blender
 
 ## Obiettivo e stato
-Creare insieme a Davide un plugin Adobe Photoshop con UXP. La chat originale contiene soltanto l’idea iniziale: nessuna funzione ancora scelta.
+
+Sostituire il cielo di un foreground già postprodotto con quattro TIFF astronomici a 16 bit, allineati tramite le stelle del foreground. Il PSD conserva lo snapshot e i livelli originali; il gruppo cielo resta modificabile. Baseline funzionale v0.6.1, Implementation Plan v1.0.
+
+Preview 0.1.0 prodotta con il packager Adobe. Nove test del motore passati; sulla fixture TIFF sono state ritrovate 34 stelle comuni e la traslazione nota. Archivio verificato. M0 resta aperta fino alla prova dentro Photoshop; Creative Cloud non ha ancora installato la preview in una prova verificata.
 
 ## Prossimo risultato osservabile
-Una descrizione concreta della funzione: operazione attuale, input e risultato desiderato.
+
+Caricare il CCX o eseguire lo script QA in Photoshop e salvare la diagnostica della fixture con versione host, Similarity, numero di stelle, RMS ed esito del rollback.
 
 ## Prossime azioni
-Chiedere quale funzione implementare. Poi definire MVP, interfaccia e codice, con test in Photoshop e packaging.
+
+Eseguire Analyze e il test di rollback su copia, quindi verificare maschera di gruppo, curve e profondità. Misurare i canali con H-alpha acceso/spento e l'effetto della maschera nera Starsoft. Ripetere dal pannello installato e passare a fotografie reali.
 
 ## Dipendenze e rischi
-Versione di Photoshop e strumenti di sviluppo da verificare dopo la scelta della funzione. Compatibilità delle API da controllare nella documentazione Adobe; fattibilità non ancora valutata.
+
+Photoshop e Creative Cloud Desktop per la prova di installazione. Select Sky e i descrittori delle curve devono essere confermati in host. Vanno misurati memoria e tempi sui panorami; geometrie non lineari restano fuori scope. L'asset grafico approvato è ancora da recuperare.
 
 ## Decisioni collegate
-UXP richiesto dall’utente. Nessuna decisione sulla funzione.
+
+UXP Manifest 5, registrazione JS interna con Similarity e Affine, una matrice per quattro TIFF, rollback tramite cronologia. Dettagli nel [registro decisioni del progetto](https://github.com/daveluongo91/astro-sky-blender/blob/main/DECISIONS.md).
 
 ## Materiale e fonti
-- Chat di origine: Creare plugin Photoshop, ID 6aee2727-7328-83ed-bb89-6f08b3b51015, letta il 2026-11-06.
-- [Software fotografico](../gear/software.md)
 
-Data di revisione: 2026-11-06, da riprendere alla risposta di Davide.
+- [Repository privato](https://github.com/daveluongo91/astro-sky-blender), [codice della preview](https://github.com/daveluongo91/astro-sky-blender/commit/2aa47696cca191b31452cb571117e445f93610b9).
+- [Specifica v0.6.1](https://github.com/daveluongo91/astro-sky-blender/blob/main/docs/SPEC-v0.6.1.md), [stato](https://github.com/daveluongo91/astro-sky-blender/blob/main/STATUS.md), [come riprendere](https://github.com/daveluongo91/astro-sky-blender/blob/main/docs/RESUME.md).
+- [Software fotografico](../gear/software.md) e [Astrofotografia ambientata](../knowledge/astrophotography.md).
+
+Data di revisione: alla prossima prova su Photoshop.

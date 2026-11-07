@@ -2,7 +2,7 @@
 title: Progetti
 type: dashboard
 status: active
-updated: 2026-08-19
+updated: 2026-11-07
 summary: Vista sintetica dei progetti attivi e pianificati.
 tags:
   - dashboard
@@ -18,6 +18,7 @@ tags:
 | [Second Brain](../projects/second-brain.md) | Attivo | Manutenzione su `main` e revisione settimanale delle informazioni operative |
 | [YouTube](../projects/youtube-launch.md) | Attivo | Pubblicazione e apprendimento dai primi video |
 | [Sito web](../projects/website-rebuild.md) | Attivo | Frontend, backend/CMS, email e PayPal verificati come sistema unico |
+| [Astro Sky Blender](../projects/photoshop-uxp-plugin.md) | Preview di sviluppo | Prova UXP su TIFF sintetici e verifica installazione CCX |
 
 ## Pianificati
 

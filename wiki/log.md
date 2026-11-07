@@ -1550,3 +1550,8 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-11-06] decision | Avvio plugin Photoshop UXP
 - Creata [scheda progetto](projects/photoshop-uxp-plugin.md).
 - Letta la chat originale: funzione ancora da scegliere con Davide. Successivamente MVP, interfaccia, codice, test e packaging.
+
+## [2026-11-07] checkpoint | Astro Sky Blender 0.1.0
+- Aggiornata la [scheda progetto](projects/photoshop-uxp-plugin.md) dalla baseline v0.6.1 e dall'Implementation Plan v1.0.
+- Preview UXP impacchettata con lo strumento Adobe; nove test del motore passati. Installazione Creative Cloud e prove Photoshop ancora aperte.
+- Prossimo passo: prova della fixture 16 bit, rollback e verifica numerica di H-alpha in Photoshop.
