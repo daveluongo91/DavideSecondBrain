@@ -43,3 +43,5 @@ UXP Manifest 5, registrazione JS interna con Similarity e Affine, una matrice pe
 Data di revisione: alla prossima prova su Photoshop.
 
 Tentativo del 7 novembre 2026. Photoshop 2025 aperto e finestra Apri raggiunta. La cattura della finestra è scaduta e il controllo remoto non ha potuto inserire il percorso. In attesa di caricare foreground.tif e lo script QA nell'app.
+
+Tentativo del 7 novembre 2026. foreground.tif aperto in Photoshop in RGB/16 e dialogo Astro Sky Blender QA visibile. I pulsanti non sono esposti al controllo remoto. Analisi e rollback in attesa della prova.
