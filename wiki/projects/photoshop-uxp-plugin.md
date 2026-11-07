@@ -51,3 +51,5 @@ Tentativo del 7 novembre 2026. foreground.tif aperto in Photoshop in RGB/16 e di
 Il pulsante OK chiude il riepilogo di Analyze only. Verificata la finestra foreground.tif attiva senza dialoghi. Il rollback si avvia rilanciando lo script QA.
 
 Rollback Photoshop 2025 verificato sugli ID dei livelli di primo livello. Errore iniettato dopo STARLESS e risultato Original top-level IDs intact: true. Prossimo passo: Build on a test copy e verifica dei livelli.
+
+Photoshop 2025 ha completato il compositing della 0.1.0. Davide conferma il gruppo e richiede per H-alpha Screen, solo R in Advanced Blending, opacità e riempimento 100% e Blend Clipped Layers as Group attivo. La 0.1.1 imposta e verifica solo R via Photoshop. Da confermare in Layer Style sulla fixture.

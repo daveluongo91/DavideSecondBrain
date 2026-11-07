@@ -1570,3 +1570,6 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Rollback Astro Sky Blender in Photoshop
 - Rollback Photoshop 2025 verificato sugli ID dei livelli di primo livello. Errore iniettato dopo STARLESS e risultato Original top-level IDs intact: true. Prossimo passo: Build on a test copy e verifica dei livelli.
+
+## [2026-11-07] checkpoint | Compositing e Layer Style H-alpha
+- Photoshop 2025 ha completato il compositing della 0.1.0. Davide conferma il gruppo e richiede per H-alpha Screen, solo R in Advanced Blending, opacità e riempimento 100% e Blend Clipped Layers as Group attivo. La 0.1.1 imposta e verifica solo R via Photoshop. Da confermare in Layer Style sulla fixture.
