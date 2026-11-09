@@ -1,5 +1,11 @@
 # Log
 
+## [2026-11-09] hosting | Verifica replica VPS SiteManager
+
+- Confermata la risoluzione DNS di `sitemanager.davideluongo.it` verso `195.231.64.27` e la raggiungibilità pubblica dell’health check HTTP, che risponde `200` in ambiente `production` con versione `3.0.0`.
+- Il controllo SSH in sola lettura conferma `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici attivi e abilitati; anche l’API FastAPI locale sul VPS risponde correttamente.
+- La replica è operativa e la configurazione può riprendere dal punto raggiunto. HTTPS resta incompleto: la porta `443` rifiuta la connessione, quindi certificato TLS e redirect HTTP→HTTPS sono il prossimo gate prima di usare login o dati sensibili.
+
 ## [2026-11-06] website | Correzione dicitura Ambassador
 
 - Corretto il refuso `AAmbassador` in `Ambassador` nelle schede Gear IT/EN e nei titoli, H1, metadata social e dati strutturati degli articoli SIGMA 35mm e 85mm.
