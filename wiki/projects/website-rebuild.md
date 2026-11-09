@@ -2,8 +2,8 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-11-06
-summary: Frontend pubblico attivo; SiteManager installato sul VPS e sano dietro Nginx, in attesa di DNS, HTTPS e collaudo pubblico.
+updated: 2026-11-09
+summary: Frontend pubblico attivo; SiteManager operativo sul VPS dietro Nginx con DNS, HTTPS e rinnovo automatico verificati.
 tags:
   - website
   - conversion
@@ -11,6 +11,12 @@ tags:
 ---
 
 # Ricostruzione sito web
+
+## HTTPS SiteManager del 9 novembre 2026
+
+Il certificato Let’s Encrypt per `sitemanager.davideluongo.it` è stato emesso e installato tramite Certbot. Nginx reindirizza ora HTTP verso HTTPS, la porta 443 è raggiungibile e l’health check pubblico risponde in ambiente `production`. Il certificato scade il 7 febbraio 2027; timer e simulazione del rinnovo automatico risultano funzionanti.
+
+La pagina di login SiteManager è stata aperta e verificata via HTTPS nel browser. `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici restano attivi e abilitati. È stata conservata sul VPS una copia della configurazione Nginx precedente all’attivazione TLS.
 
 ## Ritiro Conero del 6 novembre 2026
 
@@ -24,7 +30,7 @@ L'integrazione grafica locale è stata collaudata con un database temporaneo: lo
 
 Il repository contiene i modelli di deploy per il VPS Ubuntu. La release `3ac73c8` è installata sul server: processo FastAPI su `127.0.0.1`, Nginx davanti, servizio systemd eseguito da utente non privilegiato e database persistente fuori dalla directory di release. Health check e routing locale sul VPS sono riusciti.
 
-Il deploy non è ancora pubblico perché `sitemanager.davideluongo.it` non ha un record DNS. Restano da aggiungere il record A verso il VPS, emettere il certificato TLS e collaudare login e flussi amministrativi dall'esterno. PayPal resta in sandbox e non va portato live senza un collaudo separato; SMTP e WhatsApp non sono configurati.
+Il deploy è pubblico tramite `https://sitemanager.davideluongo.it/`. DNS, certificato TLS, redirect HTTPS e pagina di login sono stati verificati. PayPal resta in sandbox e non va portato live senza un collaudo separato; SMTP e WhatsApp non sono configurati.
 
 ## Stato corrente: audit del 2 settembre 2026
 

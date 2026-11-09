@@ -2,8 +2,8 @@
 title: SiteManager - collaudo locale e preparazione VPS
 type: report
 status: active
-updated: 2026-11-06
-summary: SiteManager è operativo sul VPS e raggiungibile via HTTP; DNS propagato, HTTPS e collaudo pubblico del login restano da completare.
+updated: 2026-11-09
+summary: SiteManager è operativo sul VPS con DNS, HTTPS, redirect e rinnovo automatico del certificato verificati.
 date: 2026-11-06
 tags:
   - website
@@ -13,6 +13,12 @@ tags:
 ---
 
 # SiteManager: collaudo locale e preparazione VPS
+
+## Attivazione HTTPS del 9 novembre 2026
+
+Emesso e installato con Certbot il certificato Let’s Encrypt per `sitemanager.davideluongo.it`, con scadenza 7 febbraio 2027. Nginx reindirizza HTTP verso HTTPS e la porta 443 risponde pubblicamente. L’endpoint `https://sitemanager.davideluongo.it/api/health` restituisce stato `ok`, versione `3.0.0` e ambiente `production`.
+
+La configurazione Nginx è stata salvata prima della modifica e validata dopo l’installazione. Il timer Certbot è abilitato e la simulazione `renew --dry-run` è terminata con successo. La pagina di login SiteManager è stata verificata nel browser tramite HTTPS; i servizi `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici restano attivi.
 
 ## Verifica serale del 6 novembre 2026
 

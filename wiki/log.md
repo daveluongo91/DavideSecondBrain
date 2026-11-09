@@ -1,5 +1,11 @@
 # Log
 
+## [2026-11-09] hosting / security | HTTPS operativo su SiteManager
+
+- Emesso e installato il certificato Let’s Encrypt per `sitemanager.davideluongo.it`, con scadenza 7 febbraio 2027; conservata una copia della configurazione Nginx precedente.
+- Attivati e verificati redirect HTTP→HTTPS, porta 443, health check di produzione e apertura della pagina di login nel browser.
+- Timer di rinnovo Certbot abilitato e simulazione del rinnovo conclusa con successo. Nginx, SiteManager, Fail2ban e aggiornamenti automatici restano attivi.
+
 ## [2026-11-09] hosting | Verifica replica VPS SiteManager
 
 - Confermata la risoluzione DNS di `sitemanager.davideluongo.it` verso `195.231.64.27` e la raggiungibilità pubblica dell’health check HTTP, che risponde `200` in ambiente `production` con versione `3.0.0`.
