@@ -1603,3 +1603,8 @@ Registro cronologico append-only delle modifiche principali.
 
 ## [2026-11-07] checkpoint | Pannello Astro Sky Blender con mascotte
 - Preview 0.3.1: pannello Photoshop ridisegnato con la mascotte originale fornita da Davide. Tre passaggi per file, allineamento e fusione. Gli indicatori mostrano i TIFF caricati. Anteprima browser e integrità CCX controllate; dieci test locali passati. Resa dei controlli Adobe in Photoshop da verificare.
+
+## [2026-11-09] review | Reel ironico sulla post-produzione
+
+- Esaminato l'export verticale `102_Post(1).mp4` (72,54 s) tramite fotogrammi e sottotitoli. Hook in auto nei primi due secondi, lavorazione fino a circa 1:01, foto a pieno schermo intorno a 1:01–1:03, battuta sul minuto al ritorno in camera e chiusura sull'idea di risultato. Timing della voce e mix audio non valutati.
+- Proposta di montaggio da provare: conservare il ritorno in bianco e nero per «se velocizzi il video», comprimere il timelapse a 12–18 secondi scegliendo trasformazioni visibili, riprendere la foto finita sotto l'ultima frase per dare un riferimento concreto al risultato immaginato. Nessun intervento sul video.
