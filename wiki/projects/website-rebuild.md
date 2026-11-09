@@ -18,7 +18,7 @@ Il certificato Let’s Encrypt per `sitemanager.davideluongo.it` è stato emesso
 
 La pagina di login SiteManager è stata aperta e verificata via HTTPS nel browser. `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici restano attivi e abilitati. È stata conservata sul VPS una copia della configurazione Nginx precedente all’attivazione TLS.
 
-La release applicativa corrente verificata il 9 novembre è `1d6cd93`. Include il frontend SiteManager aggiornato, la gestione corretta dell'errore di consegna OTP e ReportLab per i report PDF. Il commit successivo `a13edea`, con `EHLO` esplicito e oggetto OTP privo del codice, è su GitHub ma non ancora attivato sul VPS perché le chiavi SSH locali vengono rifiutate. La credenziale SMTP presente sul server non autentica la casella Aruba: finché non viene sostituita, la richiesta OTP risponde correttamente con errore e non crea una challenge utilizzabile.
+La release applicativa corrente verificata il 9 novembre è `5e5842d`. Include il frontend SiteManager aggiornato, ReportLab per i report PDF, la gestione corretta degli errori SMTP e il recupero completo della password tramite OTP email. Il recapito di recupero non viene mostrato nel pannello o nelle risposte API di SiteManager. Una prova reale ha restituito HTTP 200, il server SMTP Aruba ha accettato il messaggio e la casella di recupero lo ha ricevuto. Il ripristino della password invalida tutte le sessioni precedenti.
 
 Dettagli tecnici e controlli: [Report deploy SiteManager](../reports/sitemanager-deploy-2026-11-06.md).
 

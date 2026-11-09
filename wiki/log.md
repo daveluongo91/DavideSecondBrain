@@ -1,5 +1,13 @@
 # Log
 
+## [2026-11-09] backend / security | Recupero password SiteManager via email
+
+- Aggiunto alla pagina di accesso un flusso separato `Recupera password`: invio OTP, verifica del codice, scelta e conferma della nuova password. Il recapito non compare nella pagina né nelle risposte API usate da SiteManager.
+- Dopo il ripristino vengono invalidate tutte le sessioni amministrative precedenti. Password e codici restano memorizzati solo come hash; il codice OTP ha validità di dieci minuti e viene consumato dopo l'uso.
+- Pubblicata sul VPS la release atomica `5e5842d`. Health check `/api/health` HTTP 200, servizio attivo, interfaccia e JavaScript pubblici aggiornati.
+- Eseguita una richiesta OTP reale: API HTTP 200, SMTP Aruba ha accettato il messaggio e la casella di recupero lo ha ricevuto. Il recapito e il codice non sono stati riportati nella documentazione.
+- Bonificati dal log della release attiva i codici OTP storici che in precedenza erano comparsi nell'oggetto delle email. Test SiteManager: 6 superati; commit sito `5e5842d` pubblicato su GitHub.
+
 ## [2026-11-09] release / website | Aggiornamento pubblico selettivo
 
 - Pubblicate su Aruba le home IT/EN con il calendario nazionale 2027, la pagina Azzorre aggiornata e il test SIGMA 35mm F1.4 DG II Art in italiano e inglese, compresi schede Gear, immagini web e sitemap.
