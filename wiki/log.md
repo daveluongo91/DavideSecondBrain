@@ -1,5 +1,12 @@
 # Log
 
+## [2026-11-09] deployment | Release SiteManager 1a12709 pronta al cambio produzione
+
+- Rieseguita la suite completa con directory temporanea isolata: 81 test superati; sintassi JavaScript e diff validi.
+- Confrontata la release VPS `3ac73c8` con il repository: il server non include ancora il ritiro Conero presente nel commit pulito `1a12709`.
+- Creato e verificato l’archivio della sola revisione Git `1a12709`, escludendo le modifiche locali non committate; checksum SHA-256 coincidente tra PC e VPS. La release è stata estratta e compilata in una directory separata.
+- Creato un backup SQLite consistente e protetto prima del deploy. Il cambio atomico con rollback automatico è pronto ma non ancora eseguito: richiede conferma esplicita perché riavvia il servizio di produzione per pochi secondi.
+
 ## [2026-11-09] hosting / security | HTTPS operativo su SiteManager
 
 - Emesso e installato il certificato Let’s Encrypt per `sitemanager.davideluongo.it`, con scadenza 7 febbraio 2027; conservata una copia della configurazione Nginx precedente.
