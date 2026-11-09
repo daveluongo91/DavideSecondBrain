@@ -1616,3 +1616,8 @@ Registro cronologico append-only delle modifiche principali.
 
 - Esaminato l'export verticale `102_Post(1).mp4` (72,54 s) tramite fotogrammi e sottotitoli. Hook in auto nei primi due secondi, lavorazione fino a circa 1:01, foto a pieno schermo intorno a 1:01–1:03, battuta sul minuto al ritorno in camera e chiusura sull'idea di risultato. Timing della voce e mix audio non valutati.
 - Proposta di montaggio da provare: conservare il ritorno in bianco e nero per «se velocizzi il video», comprimere il timelapse a 12–18 secondi scegliendo trasformazioni visibili, riprendere la foto finita sotto l'ultima frase per dare un riferimento concreto al risultato immaginato. Nessun intervento sul video.
+
+## [2026-11-09] checkpoint | Proposta di serate per circoli fotografici
+
+- Recuperati testo concordato e 45 recapiti dalla chat «Thread serio avviato». Preparate 39 email principali per Pavia e Milano e 6 riserve separate, con un destinatario per messaggio. Proposta gratuita in presenza o online, a scelta tra «Inseguendo la luce» e un incontro tecnico. Officina Fotografica di Paderno Dugnano esclusa dalla lista di partenza.
+- Aggiunte due cartelle locali al profilo Thunderbird e preparato un archivio EML con i principali in gruppi da cinque. Il trasferimento nella cartella Bozze dell'account resta da fare. Invio manuale a cura di Davide. Nessun messaggio spedito.
