@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-11-06
+updated: 2026-11-09
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -15,11 +15,11 @@ tags:
 
 ## Aggiornamento 6 novembre 2026
 
-Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager il 9 novembre con la release `0152a34`.
+Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager e sullo spazio web Aruba il 9 novembre. Le tre vecchie URL pubbliche restituiscono ora 404.
 
 Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
 
-Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 13–14 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). La home locale IT/EN mostra le date e usa un unico pulsante finale per aprire il modulo informazioni; nessuna modifica è stata pubblicata online.
+Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 13–14 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). Le home pubbliche IT/EN mostrano le date e usano un unico pulsante finale per aprire il modulo informazioni.
 
 ## Aggiornamento storico del 28 settembre 2026
 
@@ -81,5 +81,5 @@ Offerta individuale personalizzata fruibile sia da remoto sia sul campo:
 - [Workflow di lancio workshop](../workflows/workshop-launch.md)
 - URL Friuli confermato: `https://www.davideluongo.it/Friuli_2026/`.
 - URL Dardagna confermato: `https://www.davideluongo.it/Dardagna_2026/`.
-- URL storico Conero: `https://www.davideluongo.it/Conero_2026/`; pagina ritirata localmente il 6 novembre 2026, pubblicazione online non modificata in questa operazione.
+- URL storico Conero: `https://www.davideluongo.it/Conero_2026/`; pagina ritirata localmente e online, con risposta 404 verificata il 9 novembre 2026.
 - URL Foreste Casentinesi confermato: `https://www.davideluongo.it/Foreste_Casentinesi_2026/`.

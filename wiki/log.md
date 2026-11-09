@@ -1,5 +1,19 @@
 # Log
 
+## [2026-11-09] release / website | Aggiornamento pubblico selettivo
+
+- Pubblicate su Aruba le home IT/EN con il calendario nazionale 2027, la pagina Azzorre aggiornata e il test SIGMA 35mm F1.4 DG II Art in italiano e inglese, compresi schede Gear, immagini web e sitemap.
+- L'articolo SIGMA 85mm F1.2 Art e la relativa scheda sono rimasti esclusivamente locali e non risultano raggiungibili online.
+- Rimossi dal server la landing Conero, le copie IT/EN e le dipendenze dedicate. Le vecchie URL `Conero_2026` e `workshops_2026/conero-2026.html` rispondono 404.
+- Cancellata la cache Aruba HiSpeed e verificati i contenuti pubblici nel browser. Commit del sito `a13edea` pubblicato su GitHub.
+
+## [2026-11-09] backend | Correzione consegna OTP SiteManager
+
+- L'interfaccia mostra soltanto il messaggio verde `OTP inviato` dopo una consegna riuscita e non espone più l'indirizzo destinatario.
+- Il backend cancella la challenge e restituisce errore quando l'invio SMTP fallisce, evitando il precedente falso esito positivo. L'oggetto email non contiene più il codice OTP, così il codice non finisce nei log.
+- Aggiunta la dipendenza ReportLab richiesta dai report PDF e corretta la negoziazione SMTP Aruba con `EHLO` e autenticazione PLAIN su TLS.
+- I test mirati passano 7 su 7. La credenziale SMTP configurata sul VPS viene rifiutata da Aruba con errore 535: l'invio reale resta bloccato finché non viene impostata la password corrente della casella. L'ultimo hardening è su GitHub nel commit `a13edea`; il VPS resta sulla release precedente funzionante finché non viene ripristinato l'accesso SSH.
+
 ## [2026-11-09] deployment | SiteManager 0152a34 operativo in produzione
 
 - Rieseguita la suite completa con directory temporanea isolata: 81 test superati; sintassi JavaScript e diff validi.
