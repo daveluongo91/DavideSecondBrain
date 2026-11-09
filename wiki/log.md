@@ -1621,3 +1621,7 @@ Registro cronologico append-only delle modifiche principali.
 
 - Recuperati testo concordato e 45 recapiti dalla chat «Thread serio avviato». Preparate 39 email principali per Pavia e Milano e 6 riserve separate, con un destinatario per messaggio. Proposta gratuita in presenza o online, a scelta tra «Inseguendo la luce» e un incontro tecnico. Officina Fotografica di Paderno Dugnano esclusa dalla lista di partenza.
 - Aggiunte due cartelle locali al profilo Thunderbird e preparato un archivio EML con i principali in gruppi da cinque. Il trasferimento nella cartella Bozze dell'account resta da fare. Invio manuale a cura di Davide. Nessun messaggio spedito.
+
+## [2026-11-09] checkpoint | Bozze dei circoli caricate in Thunderbird
+
+- Verificati i 39 messaggi principali nella cartella Bozze di info@davideluongo.it. Il passaggio intermedio da un altro account e stato corretto e quella cartella Bozze e tornata a zero. I sei recapiti alternativi restano nella cartella locale RISERVA. Nessuna email inviata.
