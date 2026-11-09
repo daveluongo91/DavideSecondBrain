@@ -15,7 +15,7 @@ tags:
 
 ## Aggiornamento 6 novembre 2026
 
-Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione non è stata pubblicata su Aruba in questa operazione.
+Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager il 9 novembre con la release `0152a34`.
 
 Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
 

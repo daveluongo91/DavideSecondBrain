@@ -18,9 +18,13 @@ Il certificato Let’s Encrypt per `sitemanager.davideluongo.it` è stato emesso
 
 La pagina di login SiteManager è stata aperta e verificata via HTTPS nel browser. `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici restano attivi e abilitati. È stata conservata sul VPS una copia della configurazione Nginx precedente all’attivazione TLS.
 
+La release applicativa corrente è `0152a34`. Il collaudo autenticato finale ha superato 14 controlli su 14 e comprende anche il logout reale: la sessione viene invalidata sul server, non soltanto rimossa dal browser. Il commit è su GitHub; le modifiche locali non ancora committate sono rimaste fuori dal pacchetto di produzione.
+
+Dettagli tecnici e controlli: [Report deploy SiteManager](../reports/sitemanager-deploy-2026-11-06.md).
+
 ## Ritiro Conero del 6 novembre 2026
 
-Il workshop Riviera del Conero è stato rimosso dalla copia locale e dal repository con commit `1a12709`: landing, copie, asset esclusivi e dipendenze operative frontend/backend non fanno più parte della release. Lo storico privato di iscrizioni, pagamenti e presenze è stato conservato. Verifica locale: 81 test superati e vecchie URL Conero in 404. Nessuna pubblicazione su Aruba eseguita in questa operazione; i riferimenti successivi a Conero descrivono fasi storiche del progetto.
+Il workshop Riviera del Conero è stato rimosso dalla copia locale e dal repository con commit `1a12709`: landing, copie, asset esclusivi e dipendenze operative frontend/backend non fanno più parte della release. Lo storico privato di iscrizioni, pagamenti e presenze è stato conservato. Verifica locale: 81 test superati e vecchie URL Conero in 404. La rimozione è stata portata in produzione il 9 novembre con la release `0152a34`; i riferimenti successivi a Conero descrivono fasi storiche del progetto.
 
 ## Stato SiteManager al 6 novembre 2026
 

@@ -14,6 +14,16 @@ tags:
 
 # SiteManager: collaudo locale e preparazione VPS
 
+## Release operativa del 9 novembre 2026
+
+La release `0152a34` è attiva in `/srv/sitemanager/current`. È stata costruita dal commit Git, senza includere i file locali ancora in revisione, e pubblicata con cambio atomico e rollback automatico. Prima del passaggio è stato creato un backup SQLite consistente in `/srv/sitemanager/shared/backups/pre-release-1a12709.db`; la release precedente resta disponibile per un eventuale ritorno manuale.
+
+Il primo passaggio ha portato online il ritiro completo di Conero. Il collaudo successivo ha individuato un difetto nel logout del frontend: il browser nascondeva il pannello, ma la sessione server restava valida. La correzione chiama ora l'endpoint amministrativo di logout con token CSRF e cancella comunque lo stato locale se il backend non è raggiungibile.
+
+Il controllo autenticato finale ha superato 14 verifiche su 14: login, profilo, operatività, workshop, insights, pagine, ADV, salute del sistema, riconciliazione PayPal, richieste di rimborso, coda email, utenti, logout e rifiuto della sessione invalidata. La pagina di accesso è stata aperta via HTTPS nel browser. HTTP restituisce 301, HTTPS 200 e HSTS è presente. `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici sono attivi.
+
+URL operativo: `https://sitemanager.davideluongo.it/SiteManager/`. Le credenziali iniziali non sono riportate nella documentazione: restano in un file protetto nella cartella locale `.ssh`. Il commit `0152a34` è stato pubblicato nel repository `SitoDave-Release`.
+
 ## Attivazione HTTPS del 9 novembre 2026
 
 Emesso e installato con Certbot il certificato Let’s Encrypt per `sitemanager.davideluongo.it`, con scadenza 7 febbraio 2027. Nginx reindirizza HTTP verso HTTPS e la porta 443 risponde pubblicamente. L’endpoint `https://sitemanager.davideluongo.it/api/health` restituisce stato `ok`, versione `3.0.0` e ambiente `production`.
@@ -26,7 +36,7 @@ Il record A `sitemanager.davideluongo.it` è propagato e risolve correttamente v
 
 Il controllo SSH in sola lettura conferma attivi e abilitati `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici. Il servizio gira come utente non privilegiato `sitemanager`, usa `/srv/sitemanager/current` e FastAPI ascolta esclusivamente su `127.0.0.1:8000`; le sole porte pubbliche rilevate sono SSH e HTTP.
 
-La replica applicativa è quindi funzionante, ma il servizio non è ancora pronto per un utilizzo reale: la porta 443 rifiuta la connessione e il certificato TLS non risulta installato. Prima di proseguire con login e configurazioni sensibili vanno emessi il certificato, attivato HTTPS in Nginx e verificati redirect HTTP→HTTPS e login dall'esterno.
+Questa era la condizione rilevata la sera del 6 novembre. HTTPS e il collaudo esterno sono stati completati il 9 novembre, come descritto sopra.
 
 SiteManager è stato collaudato con un database temporaneo isolato. Login, workshop, operatività, insights, gestione pagine, ADV e controllo backend hanno caricato correttamente le rispettive API.
 

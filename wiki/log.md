@@ -1,11 +1,12 @@
 # Log
 
-## [2026-11-09] deployment | Release SiteManager 1a12709 pronta al cambio produzione
+## [2026-11-09] deployment | SiteManager 0152a34 operativo in produzione
 
 - Rieseguita la suite completa con directory temporanea isolata: 81 test superati; sintassi JavaScript e diff validi.
-- Confrontata la release VPS `3ac73c8` con il repository: il server non include ancora il ritiro Conero presente nel commit pulito `1a12709`.
-- Creato e verificato l’archivio della sola revisione Git `1a12709`, escludendo le modifiche locali non committate; checksum SHA-256 coincidente tra PC e VPS. La release è stata estratta e compilata in una directory separata.
-- Creato un backup SQLite consistente e protetto prima del deploy. Il cambio atomico con rollback automatico è pronto ma non ancora eseguito: richiede conferma esplicita perché riavvia il servizio di produzione per pochi secondi.
+- Pubblicata prima la release pulita `1a12709`, che ritira Conero senza includere le modifiche locali ancora in revisione. Il database SQLite è stato salvato con un backup consistente e protetto; il cambio atomico dispone di rollback automatico.
+- Durante il collaudo è emerso che il pulsante di uscita puliva il browser ma non invalidava la sessione sul server. Corretto il flusso con chiamata protetta da CSRF a `/api/admin/auth/logout`, commit del sito `0152a34`.
+- Attivata la release `0152a34`. Il collaudo autenticato finale ha superato 14 controlli su 14: login, operatività, workshop, insights, pagine, ADV, salute del sistema, riconciliazione pagamenti, rimborsi, coda email, utenti, logout e invalidazione della sessione.
+- Verificati pagina di login in browser, HTTP 301 verso HTTPS, risposta HTTPS 200, HSTS, assenza di Conero e servizi SiteManager, Nginx, Fail2ban e aggiornamenti automatici attivi. Il commit è stato pubblicato su GitHub.
 
 ## [2026-11-09] hosting / security | HTTPS operativo su SiteManager
 
