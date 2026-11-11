@@ -1653,3 +1653,4 @@ Registro cronologico append-only delle modifiche principali.
 - Selezionate tre fotografie tra i quattro file consegnati: ritratto del cane per stacco e transizione del fuoco, fotocamera sul tavolo per la separazione dei piani, dettaglio architettonico per resa delle texture e contrasto.
 - Create copie JPEG per il web con lato lungo di 2048 px, lasciando intatti gli originali. I file sono stati inseriti nell'articolo locale `blog/test-sigma-85mm-f1-2-art.html` senza didascalie.
 - Il riquadro della prova sulle stelle resta volutamente vuoto: nessuna delle fotografie consegnate documenta quella prova. L'articolo rimane locale e non pubblicato.
+- Revisione successiva: `FPL00047` e stata inserita nel riquadro rimasto libero con taglio quadrato 2048 x 2048 px; la fotografia accanto al cane e stata ricavata in rapporto 3:2 a 2048 x 1365 px. Controllata la resa nel browser locale. Nessuna pubblicazione.
