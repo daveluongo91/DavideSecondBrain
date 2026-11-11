@@ -1654,3 +1654,9 @@ Registro cronologico append-only delle modifiche principali.
 - Create copie JPEG per il web con lato lungo di 2048 px, lasciando intatti gli originali. I file sono stati inseriti nell'articolo locale `blog/test-sigma-85mm-f1-2-art.html` senza didascalie.
 - Il riquadro della prova sulle stelle resta volutamente vuoto: nessuna delle fotografie consegnate documenta quella prova. L'articolo rimane locale e non pubblicato.
 - Revisione successiva: `FPL00047` e stata inserita nel riquadro rimasto libero con taglio quadrato 2048 x 2048 px. I due sample affiancati, cane e fotocamera, sono stati uniformati in verticale nel rapporto 2:3 a 1365 x 2048 px. Controllata la resa nel browser locale. Nessuna pubblicazione.
+
+## [2026-11-11] release | Pubblicazione articolo SIGMA 85mm F1.2
+
+- Pubblicato `blog/test-sigma-85mm-f1-2-art.html` su davideluongo.it con i sample approvati, i due affiancati uniformati in rapporto 2:3 e il crop quadrato. Verificato dal vivo il caricamento di tutte le immagini.
+- Aggiornati online la pagina Gear, `data/articles.json` e `sitemap.xml`. Il rilascio del sito corrisponde al commit `3b8e0f6` del repository SitoDave-Release; Aruba ha conservato copie di backup dei file sovrascritti.
+- Collaudato SiteManager in produzione: `/api/health` risponde 200 con versione 3.0.0; setup-status, contenuti e workshop pubblici rispondono correttamente; le API amministrative rifiutano le richieste anonime con 401. Frontend produttivo e locale risultano allineati. Nessun deploy del backend eseguito, perche non mancavano componenti.
