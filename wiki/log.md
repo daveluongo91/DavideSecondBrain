@@ -1647,3 +1647,9 @@ Registro cronologico append-only delle modifiche principali.
 ## [2026-11-09] checkpoint | Bozze dei circoli caricate in Thunderbird
 
 - Verificati i 39 messaggi principali nella cartella Bozze di info@davideluongo.it. Il passaggio intermedio da un altro account e stato corretto e quella cartella Bozze e tornata a zero. I sei recapiti alternativi restano nella cartella locale RISERVA. Nessuna email inviata.
+
+## [2026-11-11] update | Sample per l'articolo SIGMA 85mm F1.2
+
+- Selezionate tre fotografie tra i quattro file consegnati: ritratto del cane per stacco e transizione del fuoco, fotocamera sul tavolo per la separazione dei piani, dettaglio architettonico per resa delle texture e contrasto.
+- Create copie JPEG per il web con lato lungo di 2048 px, lasciando intatti gli originali. I file sono stati inseriti nell'articolo locale `blog/test-sigma-85mm-f1-2-art.html` senza didascalie.
+- Il riquadro della prova sulle stelle resta volutamente vuoto: nessuna delle fotografie consegnate documenta quella prova. L'articolo rimane locale e non pubblicato.
