@@ -25,6 +25,9 @@ Una collaborazione funziona quando il prodotto entra in una storia o in un proce
 
 ## Registro outreach al 13 novembre 2026
 
+[Campagna collaborazioni 2027](../projects/campagna-collaborazioni-2027.md)
+
+
 | Contatto | Stato | Fonte |
 |---|---|---|
 | Alpargali | Davide ha desistito per condizioni troppo restrittive. | Davide |

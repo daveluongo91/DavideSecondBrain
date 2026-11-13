@@ -1,5 +1,9 @@
 # Log
 
+## [2026-11-13] pianificazione | Campagna collaborazioni 2027
+
+- Creato il [piano outreach 2027](projects/campagna-collaborazioni-2027.md) con proposte ambassador, finestre per i viaggi e priorità basate sul registro.
+
 ## [2026-11-13] aggiornamento | Registro outreach brand
 
 - Aggiornata la pagina [Partnership](areas/partnerships.md) con gli esiti comunicati da Davide, il dubbio su GRAYL e Savotta e i limiti della verifica Thunderbird.

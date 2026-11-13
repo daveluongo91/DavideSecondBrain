@@ -25,6 +25,7 @@ Catalogo generato automaticamente da `python scripts/rebuild_index.py`.
 
 - [Astro Sky Blender](projects/photoshop-uxp-plugin.md) — Plugin Photoshop UXP per il compositing astronomico; preview 0.1.0 generata, collaudo Photoshop aperto. _(active)_
 - [Bonifica cache dopo la pubblicazione del sito](projects/website-production-cache-fix-2026-09-07.md) — Registro della correzione della cache del sito dopo la pubblicazione del 7 settembre 2026. _(completed)_
+- [Campagna collaborazioni 2027](projects/campagna-collaborazioni-2027.md) — Piano di outreach per workshop e viaggi fotografici 2027, a partire dalle partnership esistenti. _(planned)_
 - [Collaudo mobile completo del sito pubblico](projects/website-full-mobile-production-pass-2026-09-07.md) — Registro del collaudo mobile del sito pubblico eseguito il 7 settembre 2026. _(completed)_
 - [Lancio YouTube](projects/youtube-launch.md) — Costruzione di un canale YouTube lungo, umano e focalizzato sull'esperienza fotografica. _(active)_
 - [Minorca Photo Experience 2027](projects/minorca-2027.md) — Photo tour a Minorca dall'1 al 5 giugno 2027, pubblicato sul sito con quota di 849 euro e prenotazione gestita da Atelier dei Viaggi. _(published)_
