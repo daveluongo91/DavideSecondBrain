@@ -2,7 +2,7 @@
 title: Partnership
 type: area
 status: active
-updated: 2026-08-27
+updated: 2026-11-13
 summary: Area dedicata a collaborazioni, ambassador program e contenuti sponsorizzati.
 tags:
   - partnerships
@@ -22,6 +22,26 @@ Una collaborazione funziona quando il prodotto entra in una storia o in un proce
 - [Vanguard](../organizations/vanguard.md)
 - [RCE Foto](../organizations/rce-foto.md)
 - [Maven Filters](../organizations/maven-filters.md)
+
+## Registro outreach al 13 novembre 2026
+
+| Contatto | Stato | Fonte |
+|---|---|---|
+| Alpargali | Davide ha desistito per condizioni troppo restrittive. | Davide |
+| GRAYL e Savotta | Uno è rimasto senza risposta, l'altro ha rifiutato via Instagram. Attribuzione da confermare. Per GRAYL è documentato un precedente rinvio al contatto PR. | Davide e storico sotto |
+| INWILD / J Sport | Ghosting dopo un primo riscontro via Instagram. | Davide e storico sotto |
+| Ricoh, Trexo e DWARFLAB | Rifiuto del brand. | Davide |
+| ZWO | Ghosting dopo precedenti risposte. Ultimo sollecito senza risposta. | Davide |
+| AgfaPhoto | Proposta rifiutata da Davide perché fuori target. | Davide |
+| iOptron | Collaborazione conclusa. | Davide |
+| Hasselblad/Fowa, Fujifilm, Viltrox e Arsenal | Ghosting storico per i contatti del 2025 riportati come senza risposta. | Registro storico citato in chat e indicazione di Davide |
+| Leofoto | Escluso dalla lista attiva. | Davide |
+| Battery charging bay e Potensic | Progetti AhaCreator, fuori dall'outreach diretto. | Davide |
+| CHUWI, Sunway/Sunwayfoto e Buchan | Invio, follow-up e risposta da verificare. | Ricerca parziale in Thunderbird |
+| iFootage | Invio, follow-up e risposta da verificare. Trovata una ricevuta automatica di ticket del 20 aprile 2026. | Ricerca parziale in Thunderbird |
+| 7Artisans | Invio, follow-up e risposta da verificare. È emerso uno scambio con Gruppo TFS da chiarire. | Ricerca parziale in Thunderbird |
+
+La Posta inviata dell'account professionale non era visibile in Thunderbird. Le ricerche indicizzate del 13 novembre non bastano a stabilire gli esiti dei cinque contatti ancora da verificare.
 
 ## Stato contatti al 26 agosto 2026
 
@@ -45,7 +65,7 @@ BrightinStar ha approvato l'account GoAffPro il 14 marzo 2024. Una vendita è pr
 
 Vanguard ha comunicato €26,55 di commissioni per il 2023 su due ordini e €12,98 per il 2024 su un ordine. Le commissioni sono state convertite in credito prodotto raddoppiato: €53,10 più €25,96, per un totale di €79,06 usato per lo zaino VEO SELECT 39RBM. Nel 2025 nessun ordine ha usato il codice; dal gennaio 2026 il codice è `DAVIPRO2026`. Il foglio Google personale conferma inoltre i link `https://mavenfilters.com/aff/171/`, `https://hy-filter.com/?aff=18` e il referral BrightinStar `https://brightinstar.com/?ref=uOuUPua8fS9XId`.
 
-### Prossime azioni
+### Prossime azioni annotate nello storico
 
 1. Attendere la risposta SIRUI e rivedere la bozza PGYTECH sullo zaino prima dell'invio.
 2. Proporre a ORICO un secondo progetto, partendo dal video MG7 già completato.

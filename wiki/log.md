@@ -1,5 +1,9 @@
 # Log
 
+## [2026-11-13] aggiornamento | Registro outreach brand
+
+- Aggiornata la pagina [Partnership](areas/partnerships.md) con gli esiti comunicati da Davide, il dubbio su GRAYL e Savotta e i limiti della verifica Thunderbird.
+
 ## [2026-11-09] backend / security | Recupero password SiteManager via email
 
 - Aggiunto alla pagina di accesso un flusso separato `Recupera password`: invio OTP, verifica del codice, scelta e conferma della nuova password. Il recapito non compare nella pagina né nelle risposte API usate da SiteManager.
