@@ -1676,3 +1676,10 @@ Registro cronologico append-only delle modifiche principali.
 - Il catalogo Page Manager restituisce ora, per ogni entita, le versioni IT/EN realmente presenti e lo stato `complete` o `incomplete`. Il pannello mostra link separati e segnala le traduzioni mancanti invece di esporre un solo URL italiano.
 - Restano da tradurre, e sono ora dichiarate mancanti dal backend, le pagine EN di Azzorre 2027, Islanda 2027, The Project e l'articolo SIGMA 85mm F1.2. Foreste Casentinesi usa correttamente il percorso inglese dedicato.
 - Verifica locale: 86 test backend/frontend passati, sintassi JavaScript e JSON valide, controllo nel browser su Home EN, Gear EN, One-to-One EN, Travel & Hospitality EN e Thank You EN. Nessuna pubblicazione eseguita.
+
+## [2026-11-15] release | Pubblicazione allineamento italiano e inglese
+
+- Pubblicato su Aruba il commit sito `8bf964f`. Sono ora online le versioni inglesi di Azzorre 2027, Islanda 2027, The Project e dell'articolo SIGMA 85mm F1.2, insieme agli aggiornamenti di Blog, Gear, dati articoli e sitemap bilingue.
+- Prima del rilascio la suite completa ha chiuso con 87 test superati; validati anche JavaScript, JSON e XML. Dopo la pubblicazione sono state controllate senza bypass le quattro nuove pagine, le pagine Blog e Gear italiane e inglesi e la sitemap.
+- La cache dinamica Aruba è stata cancellata dal pannello e il pannello ha confermato l'operazione.
+- SiteManager continua a rispondere in produzione: `/api/health` restituisce HTTP 200, versione 3.0.0 e ambiente `production`; una richiesta anonima al catalogo amministrativo restituisce correttamente 401. Il deploy del backend non è stato eseguito perché le chiavi SSH disponibili sul PC sono state rifiutate dal VPS. La release backend verificata resta quindi quella già attiva, senza dichiarare allineato il nuovo codice locale.
