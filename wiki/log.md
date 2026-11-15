@@ -1668,3 +1668,11 @@ Registro cronologico append-only delle modifiche principali.
 - Pubblicato `blog/test-sigma-85mm-f1-2-art.html` su davideluongo.it con i sample approvati, i due affiancati uniformati in rapporto 2:3 e il crop quadrato. Verificato dal vivo il caricamento di tutte le immagini.
 - Aggiornati online la pagina Gear, `data/articles.json` e `sitemap.xml`. Il rilascio del sito corrisponde al commit `3b8e0f6` del repository SitoDave-Release; Aruba ha conservato copie di backup dei file sovrascritti.
 - Collaudato SiteManager in produzione: `/api/health` risponde 200 con versione 3.0.0; setup-status, contenuti e workshop pubblici rispondono correttamente; le API amministrative rifiutano le richieste anonime con 401. Frontend produttivo e locale risultano allineati. Nessun deploy del backend eseguito, perche non mancavano componenti.
+
+## [2026-11-15] update | Allineamento locale IT/EN e SiteManager
+
+- Uniformati gli endpoint usati dai moduli informazioni e dai pagamenti One-to-One: le pagine italiane e inglesi chiamano ora le route FastAPI condivise `/api/send-info-email`, `/api/create-paypal-order` e `/api/capture-paypal-order`, senza percorsi relativi che finivano sotto `/en/api`.
+- Corretti il caricamento del footer di Minorca EN e i residui italiani visibili nelle pagine inglesi Home, Gear, One-to-One, Travel & Hospitality, Thank You e in due articoli SIGMA.
+- Il catalogo Page Manager restituisce ora, per ogni entita, le versioni IT/EN realmente presenti e lo stato `complete` o `incomplete`. Il pannello mostra link separati e segnala le traduzioni mancanti invece di esporre un solo URL italiano.
+- Restano da tradurre, e sono ora dichiarate mancanti dal backend, le pagine EN di Azzorre 2027, Islanda 2027, The Project e l'articolo SIGMA 85mm F1.2. Foreste Casentinesi usa correttamente il percorso inglese dedicato.
+- Verifica locale: 86 test backend/frontend passati, sintassi JavaScript e JSON valide, controllo nel browser su Home EN, Gear EN, One-to-One EN, Travel & Hospitality EN e Thank You EN. Nessuna pubblicazione eseguita.
