@@ -1683,3 +1683,11 @@ Registro cronologico append-only delle modifiche principali.
 - Prima del rilascio la suite completa ha chiuso con 87 test superati; validati anche JavaScript, JSON e XML. Dopo la pubblicazione sono state controllate senza bypass le quattro nuove pagine, le pagine Blog e Gear italiane e inglesi e la sitemap.
 - La cache dinamica Aruba è stata cancellata dal pannello e il pannello ha confermato l'operazione.
 - SiteManager continua a rispondere in produzione: `/api/health` restituisce HTTP 200, versione 3.0.0 e ambiente `production`; una richiesta anonima al catalogo amministrativo restituisce correttamente 401. Il deploy del backend non è stato eseguito perché le chiavi SSH disponibili sul PC sono state rifiutate dal VPS. La release backend verificata resta quindi quella già attiva, senza dichiarare allineato il nuovo codice locale.
+
+## [2026-11-20] update | ADV Vanguard, Azzorre e calendario 2027
+
+- Integrata localmente una nuova ADV Vanguard Black Friday con video nativo, codice `DAVIRPO2026`, collegamento alla pagina ufficiale Vanguard, chiusura manuale e pianificazione dal 20 novembre al 1° dicembre 2026. Il frontend e SiteManager gestiscono anche attivazione, disattivazione, scadenza e conteggi; la suite era arrivata a 88 test superati prima degli ultimi aggiornamenti editoriali.
+- Aggiornata la pagina Azzorre IT/EN con date 27 giugno–10 luglio 2027, tre isole confermate (São Miguel, Pico e Terceira), quota €3.350 e gruppo di 4 partecipanti più Davide. Allineati programma, home, dati strutturati, catalogo contenuti e Page Manager.
+- Spostato il workshop Cinque Terre dal 13–14 marzo al 20–21 marzo 2027 nelle home IT/EN e nelle note operative correnti. Le righe storiche precedenti nel log restano invariate.
+- Ottimizzato il caricamento della hero nelle home IT/EN: il vecchio poster AI è stato sostituito dal primo fotogramma reale del timelapse (54 KB), precaricato insieme al video. La pagina locale è stata riaperta in Chrome per la revisione.
+- Le modifiche editoriali e il pacchetto completo non sono ancora stati pubblicati online, in attesa dell'approvazione finale di Davide.

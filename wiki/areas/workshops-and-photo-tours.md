@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-11-09
+updated: 2026-11-20
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -19,7 +19,7 @@ Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repos
 
 Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
 
-Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 13–14 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). Le home pubbliche IT/EN mostrano le date e usano un unico pulsante finale per aprire il modulo informazioni.
+Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 20–21 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). Le home IT/EN locali mostrano le date e usano un unico pulsante finale per aprire il modulo informazioni. L'aggiornamento del 20 novembre non è ancora pubblicato.
 
 ## Aggiornamento storico del 28 settembre 2026
 
@@ -48,10 +48,10 @@ Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta colleg
 ### ✈️ Viaggi Fotografici 2027 (Anteprima)
 1. **Photo Tour Lapponia** (Gennaio 2027): Caccia all'Aurora Boreale e paesaggi innevati artici.
 2. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (29 maggio-3 giugno 2027, date di lavoro): Faraglioni, fari e cieli bui in Riserva Starlight UNESCO (*Lista d'Attesa*). Durata commerciale da confermare.
-3. **Photo Tour Azzorre** (Luglio 2027): Vulcani, crateri azzurri, scogliere a picco e cieli atlantici.
+3. **Photo Tour Azzorre** (27 giugno–10 luglio 2027): itinerario confermato su São Miguel, Pico e Terceira, quota €3.350 a persona e gruppo di 4 partecipanti più Davide. La pagina locale riporta 14 giorni / 13 notti, voli interni e programma dettagliato; il volo dall'Italia resta acquistabile a parte. Aggiornamento non ancora pubblicato.
 4. **Photo Tour Islanda** (Ottobre 2027): Cascate imponenti, spiagge di sabbia nera, ghiacciai e Aurore Boreali.
 
-*(Nota: Le schede dei viaggi 2027 sono attualmente generiche in attesa della definizione dei dettagli operativi con le agenzie di viaggio partner).*
+*(Nota: alcune schede dei viaggi 2027 restano generiche; Azzorre ha già date, isole, quota e programma confermati in locale).*
 
 ## Formazione & Mentorship One-to-One
 

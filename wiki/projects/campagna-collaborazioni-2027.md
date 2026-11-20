@@ -2,7 +2,7 @@
 title: Campagna collaborazioni 2027
 type: project
 status: planned
-updated: 2026-11-13
+updated: 2026-11-20
 summary: Piano di outreach per workshop e viaggi fotografici 2027, a partire dalle partnership esistenti.
 tags:
   - partnerships
@@ -16,7 +16,7 @@ L'obiettivo è costruire due proposte. La prima copre i workshop italiani e part
 
 ## Workshop italiani
 
-Cinque Terre (13–14 marzo), Val d'Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto), con Mauro Boccali. Presentare il calendario in un unico incontro con ciascun partner e concentrare le riprese su una tappa per brand.
+Cinque Terre (20–21 marzo), Val d'Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto), con Mauro Boccali. Presentare il calendario in un unico incontro con ciascun partner e concentrare le riprese su una tappa per brand.
 
 | Partner | Richiesta | Contenuto proponibile |
 |---|---|---|
