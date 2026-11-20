@@ -1691,3 +1691,10 @@ Registro cronologico append-only delle modifiche principali.
 - Spostato il workshop Cinque Terre dal 13–14 marzo al 20–21 marzo 2027 nelle home IT/EN e nelle note operative correnti. Le righe storiche precedenti nel log restano invariate.
 - Ottimizzato il caricamento della hero nelle home IT/EN: il vecchio poster AI è stato sostituito dal primo fotogramma reale del timelapse (54 KB), precaricato insieme al video. La pagina locale è stata riaperta in Chrome per la revisione.
 - Le modifiche editoriali e il pacchetto completo non sono ancora stati pubblicati online, in attesa dell'approvazione finale di Davide.
+
+## [2026-11-20] fix | Partita IVA nei footer
+
+- Verificata sul documento Aruba Fatturazione Elettronica la Partita IVA corretta di Davide Luongo: `IT03024030185`.
+- Sostituito il precedente numero errato in tutte le pagine italiane e inglesi e nel template backend. Aggiunto il prefisso `IT` anche ai footer che riportavano soltanto il numero.
+- Controllati 44 file HTML con footer: tutti riportano `IT03024030185` e nessuno conserva il vecchio valore. Suite completa: 88 test superati.
+- Modifica registrata nel repository, non ancora pubblicata su Aruba.
