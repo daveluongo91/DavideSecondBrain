@@ -1698,3 +1698,11 @@ Registro cronologico append-only delle modifiche principali.
 - Sostituito il precedente numero errato in tutte le pagine italiane e inglesi e nel template backend. Aggiunto il prefisso `IT` anche ai footer che riportavano soltanto il numero.
 - Controllati 44 file HTML con footer: tutti riportano `IT03024030185` e nessuno conserva il vecchio valore. Suite completa: 88 test superati.
 - Modifica registrata nel repository, non ancora pubblicata su Aruba.
+
+## [2026-11-23] release | Pubblicazione frontend e backend `8eb2319`
+
+- Installata sul VPS la release backend `8eb2319` in `/srv/sitemanager/releases/8eb2319`. Prima del cambio release è stato salvato il database in `/srv/sitemanager/shared/backups/pre-8eb2319-20261120-182517`; la release precedente resta disponibile in `/srv/sitemanager/releases/5e5842d`.
+- Verificati in produzione `sitemanager` e Nginx attivi. `/api/health` risponde HTTP 200 con versione 3.0.0 e ambiente `production`; l'endpoint pubblico ADV restituisce Vanguard Black Friday attiva, codice `DAVIRPO2026`, video nativo e scadenza 1° dicembre 2026.
+- Ruotata la credenziale amministrativa del VPS dopo il deploy; il nuovo valore è conservato soltanto nel file protetto locale dedicato e non viene riportato nel Second Brain.
+- Pubblicato su Aruba il frontend del commit `8eb2319` con sovrascrittura dei file esistenti. Online risultano la nuova home italiana, Azzorre 2027 a €3.350 per 4 partecipanti più Davide, Cinque Terre 20–21 marzo 2027, il video Vanguard e la Partita IVA `IT03024030185`.
+- La cache dinamica HiSpeed è stata cancellata dal pannello Aruba, che ha confermato l'operazione. Controlli HTTPS: home IT, home EN, Azzorre, video ADV, script ADV e API pubblica rispondono HTTP 200.

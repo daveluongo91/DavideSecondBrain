@@ -2,7 +2,7 @@
 title: Ricostruzione sito web
 type: project
 status: active
-updated: 2026-11-09
+updated: 2026-11-23
 summary: Frontend pubblico attivo; SiteManager operativo sul VPS dietro Nginx con DNS, HTTPS e rinnovo automatico verificati.
 tags:
   - website
@@ -18,7 +18,7 @@ Il certificato Let’s Encrypt per `sitemanager.davideluongo.it` è stato emesso
 
 La pagina di login SiteManager è stata aperta e verificata via HTTPS nel browser. `sitemanager`, Nginx, Fail2ban e aggiornamenti automatici restano attivi e abilitati. È stata conservata sul VPS una copia della configurazione Nginx precedente all’attivazione TLS.
 
-La release applicativa corrente verificata il 9 novembre è `5e5842d`. Include il frontend SiteManager aggiornato, ReportLab per i report PDF, la gestione corretta degli errori SMTP e il recupero completo della password tramite OTP email. Il recapito di recupero non viene mostrato nel pannello o nelle risposte API di SiteManager. Una prova reale ha restituito HTTP 200, il server SMTP Aruba ha accettato il messaggio e la casella di recupero lo ha ricevuto. Il ripristino della password invalida tutte le sessioni precedenti.
+La release applicativa corrente verificata il 23 novembre è `8eb2319`. Il backend è installato in `/srv/sitemanager/releases/8eb2319`, con database persistente e backup precedente al rilascio in `/srv/sitemanager/shared/backups/pre-8eb2319-20261120-182517`. SiteManager e Nginx risultano attivi; `/api/health` risponde HTTP 200 con versione 3.0.0 e ambiente `production`. L'ADV Vanguard attiva è restituita dall'API pubblica con date 20 novembre–1 dicembre 2026. Le credenziali amministrative del VPS sono state ruotate dopo il deploy e non sono riportate nella documentazione.
 
 Dettagli tecnici e controlli: [Report deploy SiteManager](../reports/sitemanager-deploy-2026-11-06.md).
 
