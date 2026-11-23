@@ -1706,3 +1706,4 @@ Registro cronologico append-only delle modifiche principali.
 - Ruotata la credenziale amministrativa del VPS dopo il deploy; il nuovo valore è conservato soltanto nel file protetto locale dedicato e non viene riportato nel Second Brain.
 - Pubblicato su Aruba il frontend del commit `8eb2319` con sovrascrittura dei file esistenti. Online risultano la nuova home italiana, Azzorre 2027 a €3.350 per 4 partecipanti più Davide, Cinque Terre 20–21 marzo 2027, il video Vanguard e la Partita IVA `IT03024030185`.
 - La cache dinamica HiSpeed è stata cancellata dal pannello Aruba, che ha confermato l'operazione. Controlli HTTPS: home IT, home EN, Azzorre, video ADV, script ADV e API pubblica rispondono HTTP 200.
+- Rimossi dal File Manager l'archivio di rilascio e la cartella temporanea generata durante l'estrazione. La radice pubblica conserva soltanto i file attivi e i backup Aruba già esistenti.
