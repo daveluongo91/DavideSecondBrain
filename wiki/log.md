@@ -1707,3 +1707,12 @@ Registro cronologico append-only delle modifiche principali.
 - Pubblicato su Aruba il frontend del commit `8eb2319` con sovrascrittura dei file esistenti. Online risultano la nuova home italiana, Azzorre 2027 a €3.350 per 4 partecipanti più Davide, Cinque Terre 20–21 marzo 2027, il video Vanguard e la Partita IVA `IT03024030185`.
 - La cache dinamica HiSpeed è stata cancellata dal pannello Aruba, che ha confermato l'operazione. Controlli HTTPS: home IT, home EN, Azzorre, video ADV, script ADV e API pubblica rispondono HTTP 200.
 - Rimossi dal File Manager l'archivio di rilascio e la cartella temporanea generata durante l'estrazione. La radice pubblica conserva soltanto i file attivi e i backup Aruba già esistenti.
+
+## [2026-11-23] feature / sito locale | Portfolio Wedding bilingue e collegamento dalla homepage
+
+- Selezionate 10 fotografie dal matrimonio di Marica e Gianluca in `M:\MatrimonioMaricaGian`, evitando duplicati della stessa scena tra colore e bianco e nero: 6 immagini a colori e 4 in bianco e nero.
+- Esportate copie web con lato lungo massimo 2048 px in `assets/wedding/`; gli originali non sono stati modificati.
+- Create le pagine locali `wedding.html` e `en/wedding.html`, con racconto editoriale, galleria responsive, metadati SEO bilingui e CTA verso il modulo informazioni esistente. Nessun prezzo o pacchetto è indicato.
+- La card Wedding nelle home IT/EN non è più `Coming Soon`: immagine, titolo e pulsante portano alla pagina dedicata. Come copertina è stato usato il ritratto orizzontale degli sposi a bordo piscina.
+- Verifica locale eseguita su desktop e viewport mobile: 10 immagini caricate, nessun overflow orizzontale, versione inglese senza residui italiani, CTA collegata al soggetto `Servizio Fotografico Wedding`. I 7 test mirati di parità bilingue e asset di rilascio risultano superati.
+- Il solo errore console osservato in locale proviene da CookieYes, che rifiuta l'host `127.0.0.1`; non riguarda il codice della pagina. Nessuna pubblicazione su Aruba eseguita.
