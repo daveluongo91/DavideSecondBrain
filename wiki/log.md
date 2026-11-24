@@ -1716,3 +1716,12 @@ Registro cronologico append-only delle modifiche principali.
 - La card Wedding nelle home IT/EN non è più `Coming Soon`: immagine, titolo e pulsante portano alla pagina dedicata. Come copertina è stato usato il ritratto orizzontale degli sposi a bordo piscina.
 - Verifica locale eseguita su desktop e viewport mobile: 10 immagini caricate, nessun overflow orizzontale, versione inglese senza residui italiani, CTA collegata al soggetto `Servizio Fotografico Wedding`. I 7 test mirati di parità bilingue e asset di rilascio risultano superati.
 - Il solo errore console osservato in locale proviene da CookieYes, che rifiuta l'host `127.0.0.1`; non riguarda il codice della pagina. Nessuna pubblicazione su Aruba eseguita.
+
+## [2026-11-24] release | Pubblicazione portfolio Wedding bilingue
+
+- Pubblicate su Aruba le pagine `wedding.html` e `en/wedding.html`, le 10 fotografie ottimizzate e le card Wedding aggiornate nelle home italiana e inglese.
+- Prima della sovrascrittura sono state create copie di backup delle due home nel File Manager Aruba. Il pacchetto pubblicato ha SHA-256 `1D2A8468834DD97436B44A56F7C89785C56F81A7B67C7E41E8A64E391887E5AA`.
+- Corretta e pubblicata anche la traduzione del modulo informazioni nella pagina Wedding inglese, mantenendo nascosto l'indirizzo destinatario nel testo introduttivo.
+- La cache dinamica HiSpeed è stata cancellata e il pannello Aruba ha confermato l'operazione.
+- Verifica live senza parametri di bypass: entrambe le home espongono tre collegamenti alla rispettiva pagina Wedding; le pagine Wedding IT/EN caricano 10 immagini e il modulo inglese mostra titolo, testo e campi tradotti. I 7 test mirati di parità bilingue e asset risultano superati.
+- Commit sito: `db62ec4` per il portfolio e `e11ef88` per la correzione finale del modulo inglese.
