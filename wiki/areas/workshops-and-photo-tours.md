@@ -13,6 +13,12 @@ tags:
 
 # Workshop e photo tour
 
+## Calendario 2027 Rev.A in preparazione
+
+La revisione del calendario porta a nove i workshop italiani. Lerici e Tellaro (27–28 febbraio), Dardagna e Lago Santo (10–11 aprile), Piemonte (4–5 settembre), Alpi (25–26 settembre), Dardagna e Doccione (16–17 ottobre) e Friuli (12–14 novembre) sono in collaborazione con Manuel Linari. Cinque Terre (20–21 marzo), Val d’Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto) sono in collaborazione con Mauro Boccali.
+
+In locale sono state predisposte le landing italiane con quattro segnaposto fotografici per evento, il carosello sulle due home e le bozze nel catalogo SiteManager. Restano da completare l’integrazione PayPal e la verifica dei media e delle entità prima della bonifica. Questa revisione è ancora locale.
+
 ## Stato operativo di novembre 2026
 
 Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager e sullo spazio web Aruba il 9 novembre. Le tre vecchie URL pubbliche restituiscono ora 404.
