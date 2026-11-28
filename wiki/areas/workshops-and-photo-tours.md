@@ -15,6 +15,8 @@ tags:
 
 ## Calendario 2027 Rev.A in preparazione
 
+Audit del database locale in sola lettura: individuati cinque workshop di prova creati dai test dei pagamenti e due schede 2026 ritirate ancora segnate come attive (Conero e Friuli). Nessuna delle sette ha prenotazioni collegate nel database esaminato. Prima della rimozione vanno controllati anche gli altri riferimenti. I test amministrativi dei pagamenti ora usano un database in memoria e SiteManager conteggia le bozze 2027 tra i workshop. Verifica locale: 11 test superati.
+
 Ultimo avanzamento locale: i moduli caricano l’SDK PayPal alla richiesta di pagamento usando il client ID pubblico del backend, coerente con il suo ambiente sandbox o live. Il flusso rimane chiuso nelle bozze. Rimossi altri 20 media versionati senza riferimenti nelle cartelle pubbliche Foreste e Minorca IT/EN. Verificati sintassi JavaScript e 13 test mirati. Restano il collaudo con configurazione sandbox e il controllo delle entità runtime.
 
 La revisione del calendario porta a nove i workshop italiani. Lerici e Tellaro (27–28 febbraio), Dardagna e Lago Santo (10–11 aprile), Piemonte (4–5 settembre), Alpi (25–26 settembre), Dardagna e Doccione (16–17 ottobre) e Friuli (12–14 novembre) sono in collaborazione con Manuel Linari. Cinque Terre (20–21 marzo), Val d’Orcia (7–9 maggio) e Rocca Calascio (31 luglio–1 agosto) sono in collaborazione con Mauro Boccali.
