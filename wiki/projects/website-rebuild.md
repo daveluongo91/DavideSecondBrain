@@ -196,6 +196,12 @@ Un test end-to-end controllato su hosting HTTPS che verifichi pagamento, webhook
 
 ## Decisioni collegate
 
+### Rilasci di novembre 2026
+
+- Il rilascio `8eb2319` del 23 novembre comprende frontend Aruba e backend SiteManager sul VPS. Il log documenta le verifiche di produzione e il recupero password via email con recapito riservato.
+- Dal 24 novembre il portfolio Wedding è online in [italiano](https://www.davideluongo.it/wedding.html) e [inglese](https://www.davideluongo.it/en/wedding.html). Immagine, titolo e pulsante delle card puntano al reportage dalle rispettive home. La galleria contiene dieci fotografie e il modulo inglese è stato tradotto nel commit `e11ef88`.
+- Il ritiro di Conero è documentato nel log operativo. Le annotazioni precedenti sulla landing Conero e sul recupero WhatsApp descrivono fasi storiche del progetto.
+
 - FastAPI è il backend supportato; `server.py` resta un riferimento di migrazione.
 - Le cartelle `*_Prod` restano pacchetti autonomi; Canfaito & Conero e Foreste Casentinesi hanno una copia versionata nel repository per tracciarne l'evoluzione senza includere database o segreti.
 - Credenziali, database, backup e file privati non vengono versionati.

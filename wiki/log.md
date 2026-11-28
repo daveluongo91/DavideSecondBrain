@@ -1725,3 +1725,8 @@ Registro cronologico append-only delle modifiche principali.
 - La cache dinamica HiSpeed è stata cancellata e il pannello Aruba ha confermato l'operazione.
 - Verifica live senza parametri di bypass: entrambe le home espongono tre collegamenti alla rispettiva pagina Wedding; le pagine Wedding IT/EN caricano 10 immagini e il modulo inglese mostra titolo, testo e campi tradotti. I 7 test mirati di parità bilingue e asset risultano superati.
 - Commit sito: `db62ec4` per il portfolio e `e11ef88` per la correzione finale del modulo inglese.
+
+## [2026-11-28] docs | Verifica retroattiva sito e Second Brain
+
+- Confrontati il registro e le schede operative con la cronologia del sito fino a `e11ef88`. Il registro copre già il ritiro di Conero, il recupero password via email, gli articoli SIGMA, i rilasci bilingui, l’ADV Vanguard, la partita IVA e il portfolio Wedding.
+- Aggiornate le schede operative con la pubblicazione di Azzorre e del calendario 2027 e con i riferimenti alle pagine Wedding. Gli stati di pubblicazione derivano dalle verifiche registrate durante i rilasci.

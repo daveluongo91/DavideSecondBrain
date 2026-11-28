@@ -2,7 +2,7 @@
 title: Workshop e photo tour
 type: area
 status: active
-updated: 2026-11-20
+updated: 2026-11-28
 summary: Area che raccoglie l'offerta formativa, i workshop sul campo, i photo tour e la mentorship One-to-One.
 tags:
   - workshops
@@ -13,13 +13,13 @@ tags:
 
 # Workshop e photo tour
 
-## Aggiornamento 6 novembre 2026
+## Stato operativo di novembre 2026
 
 Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager e sullo spazio web Aruba il 9 novembre. Le tre vecchie URL pubbliche restituiscono ora 404.
 
 Tra i workshop nazionali 2026 resta nel catalogo locale soltanto Foreste Casentinesi (28–29 novembre).
 
-Il calendario italiano 2027, ricavato dal workbook operativo, comprende tre appuntamenti: Cinque Terre il 20–21 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). Le home IT/EN locali mostrano le date e usano un unico pulsante finale per aprire il modulo informazioni. L'aggiornamento del 20 novembre non è ancora pubblicato.
+Il calendario italiano 2027 comprende Cinque Terre il 20–21 marzo, Val d’Orcia il 7–9 maggio e Rocca Calascio dal 31 luglio al 1° agosto. Tutti sono indicati in collaborazione con [Mauro Boccali](https://www.instagram.com/mauro.boccali.ph/). Le home IT/EN mostrano le date e usano un unico pulsante finale per aprire il modulo informazioni. L’aggiornamento è stato pubblicato su Aruba il 23 novembre con il rilascio `8eb2319`.
 
 ## Aggiornamento storico del 28 settembre 2026
 
@@ -43,15 +43,14 @@ L'offerta è suddivisa in **Workshop Nazionali** (Italia) e **Viaggi Fotografici
 3. **Workshop Riviera del Conero** (7-8 Novembre 2026): ritirato dal progetto locale e dal repository il 6 novembre 2026. La precedente pagina era pubblicata su `https://www.davideluongo.it/Conero_2026/`.
 4. **Workshop Foreste Casentinesi** (28-29 Novembre 2026): boschi, corsi d'acqua e scene di fine autunno. Pagina pubblicata su `https://www.davideluongo.it/Foreste_Casentinesi_2026/`, quota €350 e caparra €50 (*Iscrizioni aperte*).
 
-Il periodo del workshop al Colle del Nivolet è concluso; la scheda resta collegata in attesa della retrospettiva. Cinque Terre, Val d'Orcia e Alpi & Dolomiti sono stati rimossi dall'offerta attiva.
+Il periodo del workshop al Colle del Nivolet è concluso. Cinque Terre e Val d’Orcia figurano nel calendario 2027 pubblicato sulle home.
 
 ### ✈️ Viaggi Fotografici 2027 (Anteprima)
 1. **Photo Tour Lapponia** (Gennaio 2027): Caccia all'Aurora Boreale e paesaggi innevati artici.
 2. **[Minorca Photo Tour 2027](../projects/minorca-2027.md)** (29 maggio-3 giugno 2027, date di lavoro): Faraglioni, fari e cieli bui in Riserva Starlight UNESCO (*Lista d'Attesa*). Durata commerciale da confermare.
-3. **Photo Tour Azzorre** (27 giugno–10 luglio 2027): itinerario confermato su São Miguel, Pico e Terceira, quota €3.350 a persona e gruppo di 4 partecipanti più Davide. La pagina locale riporta 14 giorni / 13 notti, voli interni e programma dettagliato; il volo dall'Italia resta acquistabile a parte. Aggiornamento non ancora pubblicato.
+3. **Photo Tour Azzorre** (27 giugno–10 luglio 2027): São Miguel, Pico e Terceira, €3.350 a persona e gruppo di 4 partecipanti più Davide. Il programma prevede 14 giorni e 13 notti con voli interni inclusi. Il volo dall’Italia si acquista a parte. Aggiornamento pubblicato su Aruba il 23 novembre con il rilascio `8eb2319`.
 4. **Photo Tour Islanda** (Ottobre 2027): Cascate imponenti, spiagge di sabbia nera, ghiacciai e Aurore Boreali.
 
-*(Nota: alcune schede dei viaggi 2027 restano generiche; Azzorre ha già date, isole, quota e programma confermati in locale).*
 
 ## Formazione & Mentorship One-to-One
 
