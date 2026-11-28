@@ -19,6 +19,8 @@ La revisione del calendario porta a nove i workshop italiani. Lerici e Tellaro (
 
 In locale sono state predisposte le landing italiane con quattro segnaposto fotografici per evento, il carosello sulle due home e le bozze nel catalogo SiteManager. Restano da completare l’integrazione PayPal e la verifica dei media e delle entità prima della bonifica. Questa revisione è ancora locale.
 
+Il checkout locale usa gli endpoint PayPal condivisi e l’identificativo della singola pagina. Per aprire le prenotazioni servono quota, caparra e posti approvati, configurazione dei workshop nel database, SDK configurato e collaudo sandbox. La prima passata di bonifica ha rimosso quattro copie JPG senza riferimenti sotto `assets/`. Il controllo delle altre cartelle e delle entità resta aperto.
+
 ## Stato operativo di novembre 2026
 
 Il workshop Riviera del Conero è stato ritirato dal progetto locale e dal repository del sito. Sono state eliminate landing canonica, copie IT/EN e standalone, asset dedicati, card home, sitemap, configurazioni operative del backend, riferimenti SiteManager, analytics e seed. I record storici di iscrizioni e pagamenti e il report presenze privato sono stati conservati. La rimozione è stata pubblicata sul VPS SiteManager e sullo spazio web Aruba il 9 novembre. Le tre vecchie URL pubbliche restituiscono ora 404.
